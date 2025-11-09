@@ -1,0 +1,64 @@
+name: Update BMS Tables
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-tables:
+    name: Update BMS Tables
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install GitHub CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install gh
+
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache cargo build
+        uses: Swatinem/rust-cache@v2
+        with:
+          cache-on-failure: true
+          workspaces: |
+            . -> target
+
+      - name: Build
+        run: cargo build --release
+
+      - name: Run
+        run: cargo run --release
+      
+      - name: Update Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: warnings
+          path: warnings.log
+      
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.AUTOMERGE_TOKEN }}
+          commit-message: Update BMS Tables
+          title: Update BMS Tables
+          body: |
+            Update BMS Tables
+          branch: update-tables
+          labels: |
+            automated
+            update-tables
+
+      - name: Merge Pull Request
+        env:
+          GITHUB_TOKEN: ${{ secrets.AUTOMERGE_TOKEN }}
+        run: |
+          gh pr merge --auto --merge ${{ steps.create-pull-request.outputs.pull-request-number }}
