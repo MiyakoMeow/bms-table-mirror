@@ -8,7 +8,10 @@ use std::{
     path::{Path, PathBuf},
 };
 
-use bms_table::fetch::reqwest::{fetch_table_full, fetch_table_index_full, make_lenient_client};
+use bms_table::{
+    BmsTableIndexItem,
+    fetch::reqwest::{fetch_table_full, fetch_table_index_full, make_lenient_client},
+};
 use log::{info, warn};
 use url::Url;
 
@@ -37,10 +40,9 @@ async fn main() -> anyhow::Result<()> {
     for idx_url in &config.table_index_url {
         info!("Fetching table index from: {}", idx_url);
         let (indexes, _original_json) = fetch_table_index_full(&client, idx_url.as_str()).await?;
-        for item in indexes {
-            let url_str = item.url.to_string();
+        for BmsTableIndexItem { name, url, .. } in indexes {
+            let url_str = url.to_string();
             if let Ok(url) = Url::parse(&url_str) {
-                let name = url.host_str().unwrap_or("unknown").to_string();
                 index_map.insert(url.clone(), TableIndex { name, url });
             } else {
                 warn!("Invalid URL in fetched index: {}", url_str);
