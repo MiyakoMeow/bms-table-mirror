@@ -1,0 +1,25 @@
+{
+  "name" : "Remilgym",
+  "symbol": "(╯°□°）╯︵ ┻━┻",
+  "level_order" : [
+    "BPM TEST",
+    "50Kg",
+    "100Kg",
+    "200Kg",
+    "300Kg",
+    "400Kg",
+    "500Kg",
+    "600Kg",
+    "700Kg",
+    "800Kg",
+    "900Kg",
+    "1000Kg",
+    "1100Kg",
+    "1200Kg",
+    "1300Kg",
+    "OVER",
+    "GMK",
+    "Sub"
+  ],
+  "data_url" : "data.json"
+}
