@@ -1,17 +1,75 @@
-use std::{fs, path::PathBuf};
+use std::{fs, io::Write, path::PathBuf, sync::Mutex};
 
 use bms_table::fetch::reqwest::{fetch_table_full, fetch_table_index_full};
+use log::{info, warn};
+
+struct DualLogger {
+    inner: env_logger::Logger,
+    warn_file: Option<Mutex<fs::File>>, // 仅记录 warn 级别到文件
+}
+
+impl log::Log for DualLogger {
+    fn enabled(&self, metadata: &log::Metadata) -> bool {
+        self.inner.enabled(metadata)
+    }
+
+    fn log(&self, record: &log::Record) {
+        if self.enabled(record.metadata()) {
+            // 保持原有行为：输出到控制台（由 env_logger 处理）
+            self.inner.log(record);
+
+            // 额外写入：将 warn 级别日志导出到根目录 warnings.log
+            if record.level() == log::Level::Warn
+                && let Some(f) = &self.warn_file
+                && let Ok(mut file) = f.lock()
+            {
+                let _ = writeln!(file, "[WARN] {} - {}", record.target(), record.args());
+            }
+        }
+    }
+
+    fn flush(&self) {
+        self.inner.flush();
+        if let Some(f) = &self.warn_file
+            && let Ok(mut file) = f.lock()
+        {
+            let _ = file.flush();
+        }
+    }
+}
+
+fn init_logger() {
+    let inner =
+        env_logger::Builder::from_env(env_logger::Env::default().default_filter_or("info")).build();
+
+    // 打开根目录下的 warnings.log（失败不影响控制台日志）
+    let warn_file = fs::OpenOptions::new()
+        .create(true)
+        .append(true)
+        .open("warnings.log")
+        .ok()
+        .map(Mutex::new);
+
+    let dual = DualLogger { inner, warn_file };
+    let _ = log::set_boxed_logger(Box::new(dual));
+    // 放开最大级别，具体过滤由 inner.enabled 控制
+    log::set_max_level(log::LevelFilter::Trace);
+}
 
 const TABLE_INDEX_URL: &str = "https://script.google.com/macros/s/AKfycbzaQbcI9UZDcDlSHHl2NHilhmePrNrwxRdOFkmIXsfnbfksKKmAB3V65WZ8jPWU-7E/exec?table=tablelist";
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    println!("Fetching table index from: {}", TABLE_INDEX_URL);
+    init_logger();
+    info!("Fetching table index from: {}", TABLE_INDEX_URL);
     let (indexes, original_json) = fetch_table_index_full(TABLE_INDEX_URL).await?;
 
     // Save original index JSON
     fs::write("table_original.json", &original_json)?;
-    println!("Saved original index JSON to table_original.json ({} bytes)", original_json.len());
+    info!(
+        "Saved original index JSON to table_original.json ({} bytes)",
+        original_json.len()
+    );
 
     // Prepare base output directory
     let base_dir = PathBuf::from("tables");
@@ -26,20 +84,28 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         join_set.spawn(async move {
             if let Err(e) = fetch_and_save_table(&url, &out_dir).await {
-                eprintln!("Failed to fetch '{}' from {}: {}", out_dir.display(), url, e);
+                warn!(
+                    "Failed to fetch '{}' from {}: {}",
+                    out_dir.display(),
+                    url,
+                    e
+                );
             } else {
-                println!("Saved table '{}'", out_dir.display());
+                info!("Saved table '{}'", out_dir.display());
             }
         });
     }
 
     while let Some(_res) = join_set.join_next().await {}
 
-    println!("All tasks finished.");
+    info!("All tasks finished.");
     Ok(())
 }
 
-async fn fetch_and_save_table(web_url: &str, out_dir: &PathBuf) -> Result<(), Box<dyn std::error::Error>> {
+async fn fetch_and_save_table(
+    web_url: &str,
+    out_dir: &PathBuf,
+) -> Result<(), Box<dyn std::error::Error>> {
     fs::create_dir_all(out_dir)?;
 
     let (_table, raw) = fetch_table_full(web_url).await?;
