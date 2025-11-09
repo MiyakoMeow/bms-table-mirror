@@ -19,7 +19,7 @@ use crate::config::{TableConfig, load_table_config};
 use crate::{filesystem::sanitize_filename, logger::init_logger};
 
 #[derive(Clone)]
-struct TableIndex {
+struct TableEntry {
     name: String,
     url: Url,
 }
@@ -31,8 +31,8 @@ async fn main() -> anyhow::Result<()> {
     // Load configuration from tables.toml
     let config: TableConfig = load_table_config("tables.toml")?;
 
-    // Build BTreeMap<Url, TableIndex>
-    let mut index_map: BTreeMap<Url, TableIndex> = BTreeMap::new();
+    // Build BTreeMap<Url, TableEntry>
+    let mut index_map: BTreeMap<Url, TableEntry> = BTreeMap::new();
 
     let client = make_lenient_client()?;
 
@@ -43,7 +43,7 @@ async fn main() -> anyhow::Result<()> {
         for BmsTableIndexItem { name, url, .. } in indexes {
             let url_str = url.to_string();
             if let Ok(url) = Url::parse(&url_str) {
-                index_map.insert(url.clone(), TableIndex { name, url });
+                index_map.insert(url.clone(), TableEntry { name, url });
             } else {
                 warn!("Invalid URL in fetched index: {}", url_str);
             }
@@ -55,7 +55,7 @@ async fn main() -> anyhow::Result<()> {
         let name = url.host_str().unwrap_or("unknown").to_string();
         index_map.insert(
             url.clone(),
-            TableIndex {
+            TableEntry {
                 name,
                 url: url.clone(),
             },
@@ -87,7 +87,7 @@ async fn main() -> anyhow::Result<()> {
 
 fn spawn_fetch(
     join_set: &mut tokio::task::JoinSet<()>,
-    index: TableIndex,
+    index: TableEntry,
     base_dir: &Path,
 ) -> anyhow::Result<()> {
     let url = index.url.to_string();
