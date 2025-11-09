@@ -10,9 +10,7 @@ pub struct TableConfig {
     pub disable_table_url: Vec<Url>,
 }
 
-pub fn load_table_config<P: AsRef<Path>>(
-    path: P,
-) -> Result<TableConfig, Box<dyn std::error::Error>> {
+pub fn load_table_config<P: AsRef<Path>>(path: P) -> anyhow::Result<TableConfig> {
     let content = fs::read_to_string(path)?;
     let cfg: TableConfig = toml::from_str(&content)?;
     Ok(cfg)

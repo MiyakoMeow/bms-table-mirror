@@ -7,7 +7,7 @@ homepage = "https://github.com/MiyakoMeow/bms-table-mirror"
 description = ""
 
 [dependencies]
-bms-table = "0.6"
+bms-table = "0.7"
 reqwest = "0.12"
 tokio = { version = "1", features = ["rt-multi-thread", "macros", "fs"] }
 
@@ -16,3 +16,4 @@ log = "0.4"
 url = "2"
 serde = { version = "1", features = ["derive"] }
 toml = "0.9"
+anyhow = "1"

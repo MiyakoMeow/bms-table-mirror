@@ -8,7 +8,7 @@ use std::{
     path::{Path, PathBuf},
 };
 
-use bms_table::fetch::reqwest::{fetch_table_full, fetch_table_index_full};
+use bms_table::fetch::reqwest::{fetch_table_full, fetch_table_index_full, make_lenient_client};
 use log::{info, warn};
 use url::Url;
 
@@ -22,7 +22,7 @@ struct TableIndex {
 }
 
 #[tokio::main]
-async fn main() -> Result<(), Box<dyn std::error::Error>> {
+async fn main() -> anyhow::Result<()> {
     init_logger();
 
     // Load configuration from tables.toml
@@ -31,10 +31,12 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Build BTreeMap<Url, TableIndex>
     let mut index_map: BTreeMap<Url, TableIndex> = BTreeMap::new();
 
+    let client = make_lenient_client()?;
+
     // Fetch and merge indexes from configured index endpoints
     for idx_url in &config.table_index_url {
         info!("Fetching table index from: {}", idx_url);
-        let (indexes, _original_json) = fetch_table_index_full(idx_url.as_str()).await?;
+        let (indexes, _original_json) = fetch_table_index_full(&client, idx_url.as_str()).await?;
         for item in indexes {
             let url_str = item.url.to_string();
             if let Ok(url) = Url::parse(&url_str) {
@@ -72,7 +74,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Fetch each table concurrently based on built map
     let mut join_set = tokio::task::JoinSet::new();
     for (_url, idx) in index_map {
-        spawn_fetch(&mut join_set, idx, base_dir);
+        spawn_fetch(&mut join_set, idx, base_dir)?;
     }
 
     while let Some(_res) = join_set.join_next().await {}
@@ -81,27 +83,36 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     Ok(())
 }
 
-fn spawn_fetch(join_set: &mut tokio::task::JoinSet<()>, index: TableIndex, base_dir: &Path) {
+fn spawn_fetch(
+    join_set: &mut tokio::task::JoinSet<()>,
+    index: TableIndex,
+    base_dir: &Path,
+) -> anyhow::Result<()> {
     let url = index.url.to_string();
     let name = index.name;
     // JoinSet 需要 'static future，捕获一个拥有所有权的 PathBuf
     let base_dir_owned = base_dir.to_path_buf();
 
+    let client = make_lenient_client()?;
+
     join_set.spawn(async move {
-        if let Err(e) = fetch_and_save_table(&url, base_dir_owned.as_path()).await {
+        if let Err(e) = fetch_and_save_table(&client, &url, base_dir_owned.as_path()).await {
             warn!("Failed to fetch {} from {}: {}", name, url, e);
         } else {
             info!("Saved table {} from {}", name, url);
         }
     });
+
+    Ok(())
 }
 
 async fn fetch_and_save_table(
+    client: &reqwest::Client,
     web_url: &str,
     base_dir: &Path,
-) -> Result<(), Box<dyn std::error::Error>> {
+) -> anyhow::Result<()> {
     // 先获取表数据与原始JSON，再创建目录与写入
-    let (table, raw) = fetch_table_full(web_url).await?;
+    let (table, raw) = fetch_table_full(client, web_url).await?;
 
     // 使用 BmsTableHeader 的 name 作为目录名（经 sanitize）
     let dir_name = sanitize_filename(&table.header.name);
