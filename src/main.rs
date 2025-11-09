@@ -37,9 +37,9 @@ async fn main() -> anyhow::Result<()> {
     let client = make_lenient_client()?;
 
     // Fetch and merge indexes from configured index endpoints
-    for idx_url in &config.table_index_url {
-        info!("Fetching table index from: {}", idx_url);
-        let (indexes, _original_json) = fetch_table_index_full(&client, idx_url.as_str()).await?;
+    for idx in &config.table_index {
+        info!("Fetching table index from: {} ({})", idx.url, idx.name);
+        let (indexes, _original_json) = fetch_table_index_full(&client, idx.url.as_str()).await?;
         for BmsTableIndexItem { name, url, .. } in indexes {
             let url_str = url.to_string();
             if let Ok(url) = Url::parse(&url_str) {
