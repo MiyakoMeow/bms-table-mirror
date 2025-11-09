@@ -1,0 +1,542 @@
+[
+  {
+    "level": "-1",
+    "title": "Beachside Pixel [ANOTHER7]",
+    "artist": "E",
+    "md5": "58b853c049822d5440661137041d41a7",
+    "bpm": "166",
+    "notes": "964",
+    "comment": "初BMS制作"
+  },
+  {
+    "level": "-1",
+    "title": "Colored [rainbow]",
+    "artist": "Yamajet obj:EGRET.",
+    "md5": "a6769cd4c4d5bc85ffd929962109c3f1",
+    "bpm": "130",
+    "notes": "1407",
+    "comment": "sl5相当のハネ譜面"
+  },
+  {
+    "level": "-1",
+    "title": "Pandanus [Another]",
+    "artist": "OctP (obj:EGRET.)",
+    "md5": "e037a00db5b060cc0b309eb762f37a2a",
+    "bpm": "100 - 200",
+    "notes": "1409",
+    "comment": "OctPさんのBMS同梱譜面　☆12（★1未満）想定"
+  },
+  {
+    "level": "-1",
+    "title": "藍より青い憧憬 [yearning]",
+    "artist": "Jun Kuroda feat.mirto obj:EGRET.",
+    "md5": "b72f2a365ea928e3f84319a97d02693e",
+    "bpm": "182",
+    "notes": "1859",
+    "comment": "初差分。sl11くらいの乱打"
+  },
+  {
+    "level": "-1",
+    "title": "路上のタテジン -Shou+rt Mix-",
+    "artist": "tarolabo vo：小宮真央 obj：E",
+    "md5": "7e63e680012577e7f32574d5a3d1effa",
+    "bpm": "120 - 155",
+    "notes": "1844",
+    "comment": "タテタテタテタテジンジン"
+  },
+  {
+    "level": "0",
+    "title": "Indira [EX]",
+    "artist": "Lollipop obj:EGRET.",
+    "md5": "85d1089882b7b0ce4689beb3e91614f1",
+    "bpm": "84",
+    "notes": "3035",
+    "comment": "同時押しマン"
+  },
+  {
+    "level": "0",
+    "title": "Malvertiz [VT]",
+    "artist": "Ju_E obj:E",
+    "md5": "6eca65ef805876f8821828723b262ea6",
+    "bpm": "140",
+    "notes": "2048",
+    "comment": "縦5 縦連打"
+  },
+  {
+    "level": "0",
+    "title": "ZETABYTE [EXABYTE]\r",
+    "artist": "Ras obj:E",
+    "md5": "db5c42a48fca19251f4d44e2dc347348",
+    "bpm": "155",
+    "notes": "3058",
+    "comment": "乱打練習"
+  },
+  {
+    "level": "0",
+    "title": "鵬程千世 [EGRET7]",
+    "artist": "天宵明月 feat. darkxixin obj:EGRET. BGA: AnD / 詞: 桟馬常",
+    "md5": "069b702efa6fe07bb528f78a664cc10f",
+    "bpm": "67-135",
+    "notes": "2053",
+    "comment": "ガチ押しが多め"
+  },
+  {
+    "level": "1",
+    "title": "Falling in LOVE [I'm into you.]",
+    "artist": "SOMON obj:EGRET.",
+    "md5": "c72d16ca5d3435b7bf39831ee658a07c",
+    "bpm": "130",
+    "notes": "2370",
+    "comment": "縦連混じりの乱打"
+  },
+  {
+    "level": "1",
+    "title": "Flowing [silence]",
+    "artist": "ohon obj:EGRET.",
+    "md5": "f2610769269ad2a65e3d15c61c99c89f",
+    "bpm": "130",
+    "notes": "2324",
+    "comment": "自分のガチ押しリハビリ用に作った"
+  },
+  {
+    "level": "1",
+    "title": "Luminance [Lovesick]",
+    "artist": "litmus* ft. 橘ルミ obj:EGRET.",
+    "md5": "4cccb944fa722f7f63ca741b17f8a2c5",
+    "bpm": "175",
+    "notes": "3546",
+    "comment": "st1 ルミルミルミナンス"
+  },
+  {
+    "level": "1",
+    "title": "Neo Side [Run Away]\r",
+    "artist": "Harunao, Kanna obj:E BGI: LiZiO\r",
+    "md5": "ebf75354a4bd0f8bfb8d1702a4a67bb6",
+    "bpm": "180",
+    "notes": "3435",
+    "comment": "st1 同時押し練習"
+  },
+  {
+    "level": "1",
+    "title": "R.I.P My Pudding! [フィジカル横プリン式]",
+    "artist": "MiKaDo feat.GUMI obj:EGRET.",
+    "md5": "ded1c8b0ebe574a443670e768d4912c5",
+    "bpm": "166",
+    "notes": "3758",
+    "comment": "✡20 Let'sフィジ横"
+  },
+  {
+    "level": "1",
+    "title": "SMOOTH TRACK [EXTRA]",
+    "artist": "roop obj:EGRET.",
+    "md5": "87a88f848751adc0726981994b48c859",
+    "bpm": "180",
+    "notes": "2061",
+    "comment": "st1 roop fan boy"
+  },
+  {
+    "level": "2",
+    "title": "Asphalt Crack [Acrobatic Chart]",
+    "artist": "∀S∀ obj:E\r",
+    "md5": "dc6a23b1626ccacdcdd87fddfe4e2f71",
+    "bpm": "157",
+    "notes": "2176",
+    "comment": "アクロバティック譜面"
+  },
+  {
+    "level": "2",
+    "title": "Echo [Enter]",
+    "artist": "wheatfox bga:wheatfox obj:E",
+    "md5": "c35c319ec131192996f0f4be4229bbd3",
+    "bpm": "190",
+    "notes": "3272",
+    "comment": "4-1、3-2乱打"
+  },
+  {
+    "level": "2",
+    "title": "Faraway Sky (All I C Is U) [Fly Away]",
+    "artist": "Kyuzo Sameura obj:E",
+    "md5": "934ce1581be01ad8d9649388e7bb09a6",
+    "bpm": "174",
+    "notes": "3325",
+    "comment": "5-1,4-2乱打メイン"
+  },
+  {
+    "level": "2",
+    "title": "Moonrise [silence]",
+    "artist": "inxisiv obj:EGRET.",
+    "md5": "6a7b5eb681d3096f3f0699e660535b91",
+    "bpm": "120",
+    "notes": "2239",
+    "comment": "ガチ押し　ズレ"
+  },
+  {
+    "level": "2",
+    "title": "Nightwalker [Wakingpath]",
+    "artist": "tomo3_chan BGA: tomo3_chan obj:E",
+    "md5": "d0379436de4c973fdc986cc6b7525523",
+    "bpm": "128",
+    "notes": "2800",
+    "comment": "ガチ押しと指押し"
+  },
+  {
+    "level": "2",
+    "title": "Sampling Satan [EX]",
+    "artist": "roop obj:EGRET.",
+    "md5": "643c91096f35d0622ca3446b6562865f",
+    "bpm": "200",
+    "notes": "2887",
+    "comment": "st3 同時押しの練習"
+  },
+  {
+    "level": "2",
+    "title": "Sea Breeze Memory [沖縄]",
+    "artist": "Concordia(Aeris+Cervesia) feat.ヒトトリ obj:E BGA : sunrise films",
+    "md5": "858409f173e5cf15813f56f7fdf69d05",
+    "bpm": "132",
+    "notes": "3564",
+    "comment": "全押しが混ざる乱打・縦連"
+  },
+  {
+    "level": "2",
+    "title": "藍天 [霹靂]",
+    "artist": "薄荷堂 龍 (obj:白鷺)",
+    "md5": "a11ec1185fb1c3281350ba3cdc08dd06",
+    "bpm": "178",
+    "notes": "2779",
+    "comment": "乱打"
+  },
+  {
+    "level": "3",
+    "title": "HELIOS [Training]",
+    "artist": "DOT96 obj:E",
+    "md5": "f167357a0646f6e9a369f0ad724db0c1",
+    "bpm": "145",
+    "notes": "2909",
+    "comment": "微縦トレーニング　曲改変有り"
+  },
+  {
+    "level": "3",
+    "title": "RAT ATTACK [藍鼠]",
+    "artist": "U-ske feat. MIE obj:E",
+    "md5": "17321caeb31b7ede238a11d3c0cb68c9",
+    "bpm": "138",
+    "notes": "2813",
+    "comment": "鼠鼠鼠鼠鼠鼠鼠"
+  },
+  {
+    "level": "3",
+    "title": "SHINKA [EP]",
+    "artist": "atmbzk (movie : Landscaper obj:E)",
+    "md5": "c97e9dd720a6b9eedc70760d8cbc22b5",
+    "bpm": "124",
+    "notes": "3691",
+    "comment": "ガチ押し・連打"
+  },
+  {
+    "level": "3",
+    "title": "Summerland [沖縄]",
+    "artist": "Lime obj:E",
+    "md5": "a058b068bc83c336dfec1918f83611d8",
+    "bpm": "138",
+    "notes": "2611",
+    "comment": "指ガチ練習"
+  },
+  {
+    "level": "3",
+    "title": "熱帯夜の祭り [EX]",
+    "artist": "Pica X M2U (obj:EGRET.) Movie:PressVisualer",
+    "md5": "72f2cf64d3679bde268e943bceedcd32",
+    "bpm": "100",
+    "notes": "3667",
+    "comment": "「BOF:ET 差分企画」 提出譜面  The 同時押し"
+  },
+  {
+    "level": "3",
+    "title": "妄想製造傘下 [EGRET7]",
+    "artist": "ふなうお obj:EGRET. Additional sound source:MIST",
+    "md5": "ee404209ccb8d2b2b645174251a28f41",
+    "bpm": "230",
+    "notes": "3232",
+    "comment": "高速の同時押し・乱打　追加音源あり"
+  },
+  {
+    "level": "4",
+    "title": "BATHALA [vaca]",
+    "artist": "NicDroid obj:E",
+    "md5": "d136785054e8ad18e58c2350ca44562f",
+    "bpm": "145",
+    "notes": "2532",
+    "comment": "vaca"
+  },
+  {
+    "level": "4",
+    "title": "Echo [Esc]",
+    "artist": "wheatfox bga:wheatfox obj:E",
+    "md5": "b799cea6825be135bfeb8f4e7d86e867",
+    "bpm": "190",
+    "notes": "3853",
+    "comment": "5-1、4-2、3-3乱打"
+  },
+  {
+    "level": "4",
+    "title": "Falling in LOVE [You're special to me...]",
+    "artist": "SOMON obj:EGRET.",
+    "md5": "66e996d348123b13b231b2b01847e3f8",
+    "bpm": "130",
+    "notes": "2937",
+    "comment": "st5 The ガチ押し"
+  },
+  {
+    "level": "4",
+    "title": "Mondsucht & Missetat's [Forbidden Fusion]",
+    "artist": "mentos Vs. DJ ARASHI obj:IBARAGI_YOSHIMI vs E",
+    "md5": "e8493f5134878889a7c39da9615e6c19",
+    "bpm": "180",
+    "notes": "3518",
+    "comment": "IBARAGI_YOSHIMI様との合作差分"
+  },
+  {
+    "level": "4",
+    "title": "SHINKA [SEP]",
+    "artist": "atmbzk (movie : Landscaper obj:E)",
+    "md5": "1abacd6559d0d0702073136df5cb15d1",
+    "bpm": "124",
+    "notes": "4129",
+    "comment": "ガチ押し・連打"
+  },
+  {
+    "level": "4",
+    "title": "Unwelcome School (tettere- nekomix) [動いてないのに 動いてないのに あっついついついついついついよ]",
+    "artist": "ねこみりん feat.桃雛なの obj:え Illust:なか",
+    "md5": "adb72a4fbdee7a6373351cf536c8cf3e",
+    "bpm": "176",
+    "notes": "3114",
+    "comment": "動いてないのに 動いてないのに あっついついついついついついよ"
+  },
+  {
+    "level": "5",
+    "title": "Door Nock [Aberrant Delay]",
+    "artist": "BilliumMoto obj:EGRET.",
+    "md5": "4df77b9badd74e9207b469b3948072f3",
+    "bpm": "136",
+    "notes": "3148",
+    "comment": "✡26 異常なディレイ 低TOTAL"
+  },
+  {
+    "level": "5",
+    "title": "Kakuriyo Dancehall [life]",
+    "artist": "Reku Mochizuki obj:EGRET.",
+    "md5": "3d52d8d819c96798d2a629879f20410b",
+    "bpm": "132",
+    "notes": "2548",
+    "comment": "dy2 人生"
+  },
+  {
+    "level": "5",
+    "title": "Nightwalker [Lifewalker]",
+    "artist": "tomo3_chan BGA: tomo3_chan obj:E",
+    "md5": "ec91286eb7277236a730fe1098e47a8f",
+    "bpm": "128",
+    "notes": "3356",
+    "comment": "ガチ押し"
+  },
+  {
+    "level": "5",
+    "title": "Sea Breeze Memory [Summer Life]",
+    "artist": "Concordia(Aeris+Cervesia) feat.ヒトトリ obj:E BGA : sunrise films",
+    "md5": "d733ec18be313b097ba3d82e81359379",
+    "bpm": "132",
+    "notes": "4532",
+    "comment": "サマーガチ押し"
+  },
+  {
+    "level": "5",
+    "title": "Well, things happen [Have a nice day!]",
+    "artist": "COMPOSER 2 / VISUALIZER 2 (obj:EGRET.)",
+    "md5": "d479084d48a793aef52faf0d853bb222",
+    "bpm": "134",
+    "notes": "2424",
+    "comment": "ズレ　総合力"
+  },
+  {
+    "level": "5",
+    "title": "しんきろうのビーチ [DOMO MASTER]",
+    "artist": "Yosk! (原曲:石川淳) obj:E",
+    "md5": "5278d53b410ff2b508ce21d790576a4d",
+    "bpm": "111",
+    "notes": "4422",
+    "comment": "どーもくんリスペクト差分"
+  },
+  {
+    "level": "5",
+    "title": "はっぱ [ははははっっっっぱぱぱぱ]",
+    "artist": "KOMATUNA1108 (obj:EEEEGGGGRRRREEEETTTT....)",
+    "md5": "044ccdd0a8217ef1153da833d576f362",
+    "bpm": "100",
+    "notes": "1798",
+    "comment": "ははははっっっっぱぱぱぱ"
+  },
+  {
+    "level": "???",
+    "title": "Beachside Pixel [INSANE7]",
+    "artist": "E",
+    "md5": "e6ff7c04407e5f17b171ea334a2da9b6",
+    "bpm": "166",
+    "notes": "1374",
+    "comment": "気分だけでも沖縄に。そういうものに私はなりたい。"
+  },
+  {
+    "level": "???",
+    "title": "CAR SEX HOT NIGHT [スクラえち・裏]",
+    "artist": "taqumi obj:EGRET.",
+    "md5": "70a5ea9ad9fea6030dbba1aba66952ae",
+    "bpm": "128",
+    "notes": "1244",
+    "comment": "ベリハ判定"
+  },
+  {
+    "level": "???",
+    "title": "How to make 音ゲ～曲! [ラス殺し!]",
+    "artist": "F Rabbeat / BMS: Nakaiankow BGA by もうり / obj:EGRET!",
+    "md5": "dc8cf8f5899bcbf42ce531806ae33475",
+    "bpm": "185",
+    "notes": "564",
+    "comment": "☆4（大嘘）"
+  },
+  {
+    "level": "???",
+    "title": "Moonscape [Moonrenda]",
+    "artist": "syatten obj:EGRET.",
+    "md5": "2885473c0f1ddf3734e3fcda2ea70bb8",
+    "bpm": "138",
+    "notes": "2516",
+    "comment": "縦99  MELON CRASH提出差分"
+  },
+  {
+    "level": "???",
+    "title": "メスガキウォッチ10秒チャレンジ",
+    "artist": "ストップウォッチのお兄さん",
+    "md5": "942062c14b98ac5b87157eb607276562",
+    "bpm": "\t35 - 2147483535",
+    "notes": "1",
+    "comment": "負けちゃえ～"
+  },
+  {
+    "level": "???",
+    "title": "路上のタテジン-Shou+rt Mix- [全認識]",
+    "artist": "tarolabo vo：小宮真央 obj：日本縦連打連合会",
+    "md5": "d8f560ecbd551004a3acaa530dc7c060",
+    "bpm": "120 - 155\t",
+    "notes": "3409",
+    "comment": "全認識"
+  },
+  {
+    "level": "???",
+    "title": "豁ｻ縺ｫ縺溘￥縺ｪ縺 [縺斐▲縺ｩ]",
+    "artist": "縺輔°縺阪??縺帙▽縲?縺ｾ縺医□",
+    "md5": "ce10635e3da53935412b232fd4a734ac",
+    "bpm": "72-144",
+    "notes": "931",
+    "comment": "fr8 繧ｸ繝｣繝ｪ縺悟､壹ａ"
+  },
+  {
+    "level": "皿-1",
+    "title": "all flow [7KEYS SCR]",
+    "artist": "Mix Master M. (obj:EGRET.)",
+    "md5": "4fb0a38a254675ce1d81601a3289a648",
+    "bpm": "82",
+    "notes": "571",
+    "comment": "SB0 ☆9想定"
+  },
+  {
+    "level": "皿-1",
+    "title": "Aloof Wolf [SCR cut-up]",
+    "artist": "idzuchi obj:EGRET.",
+    "md5": "6b314b6591c8860de5104876470d4ee5",
+    "bpm": "168",
+    "notes": "1921",
+    "comment": "SB4"
+  },
+  {
+    "level": "皿-1",
+    "title": "CAR SEX HOT NIGHT [スクラえち]",
+    "artist": "taqumi obj:EGRET.",
+    "md5": "d85e3e81ebd15c213bc3326acbb25991",
+    "bpm": "128",
+    "notes": "1530",
+    "comment": "SB4　えちリスペクト　声皿"
+  },
+  {
+    "level": "皿-1",
+    "title": "CAR SEX HOT NIGHT [上下運動]",
+    "artist": "taqumi obj:EGRET.",
+    "md5": "42d558490d86c6085c84de88359c677e",
+    "bpm": "128",
+    "notes": "1094",
+    "comment": "SB2　声皿　鍵盤少なめ"
+  },
+  {
+    "level": "皿-1",
+    "title": "Ponder [Turn]",
+    "artist": "paraneumann obj:EGRET.",
+    "md5": "c515898ed8ce86279b8047bdeb368924",
+    "bpm": "150",
+    "notes": "1618",
+    "comment": "SB5　連皿"
+  },
+  {
+    "level": "皿-1",
+    "title": "Verre [Transparent]",
+    "artist": "TAK / ke (obj:EGRET.)",
+    "md5": "f25ab6a9344e0dcb15c2589972e1cf98",
+    "bpm": "122",
+    "notes": "659",
+    "comment": "SB4 HARD判定 Total120"
+  },
+  {
+    "level": "皿-1",
+    "title": "ボクはスクラッチ名人 [7keys SCR]",
+    "artist": "DJ ボクッ娘 obj:イグレッ娘",
+    "md5": "db50d6fe0394ec0ab5fbea073333ffd4",
+    "bpm": "110",
+    "notes": "320",
+    "comment": "SB-1　☆8位?  ｴｯﾍﾝｴｯﾍﾝｴｯﾍﾝﾍﾝ"
+  },
+  {
+    "level": "皿3",
+    "title": "Burnt Mocha [もちゃ]",
+    "artist": "litmus* obj:EGRET.",
+    "md5": "bacfc9c2aec59d14a7ea33dce2509817",
+    "bpm": "145",
+    "notes": "2158",
+    "comment": "SB9 もちゃ"
+  },
+  {
+    "level": "皿3",
+    "title": "Ponder [Scramble]",
+    "artist": "paraneumann obj:EGRET.",
+    "md5": "ef33f925221e97f875a41d1cf76141af",
+    "bpm": "150",
+    "notes": "2420",
+    "comment": "SB9　連皿 鍵盤多め"
+  },
+  {
+    "level": "皿3",
+    "title": "w = addict [Turntablism]",
+    "artist": "ああああ obj:EGRET.",
+    "md5": "967cd9bf08be896e08f0a9c68e93c71b",
+    "bpm": "192",
+    "notes": "1939",
+    "comment": "SB9 / ✡25"
+  },
+  {
+    "level": "皿5",
+    "title": "Lumber Rumble Revolver [Scramble]",
+    "artist": "MA$AKI obj:EGRET.",
+    "md5": "1a0f8f04477d10129fa79426e9b9c7b9",
+    "bpm": "106 - 852",
+    "notes": "3454",
+    "comment": "SB11 / ✡26"
+  }
+]

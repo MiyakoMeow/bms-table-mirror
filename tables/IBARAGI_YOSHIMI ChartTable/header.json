@@ -1,0 +1,23 @@
+{"name" : "IBARAGI_YOSHIMI ChartTable","symbol" : "IY","data_url" : "data.json","level_order" : [],
+"course":[
+{"name":"IY_ChartDAN Tier4","constraint":["grade_mirror","gauge_lr2",""],"md5": ["5349409d61f8152d2181db284350f16e","76f4c15d879032764c01ee3b53ed78f7","95469902364aac0159a7a6043797106e","4895a2ce76c7427194a82fdb25bf2e24"]},
+{"name":"IY_ChartDAN Tier5","constraint":["grade_mirror","gauge_lr2",""],"md5": ["ca940b97a58fe92d84ab25e038bb6016","48794bd7a0b2208fa289fea1184bcc45","e659cdd1f7f1def49618450699e59186","1f242dd0b156f08e5e461461a5a1ad8e"]},
+{"name":"IY_ChartDAN Tier6","constraint":["grade_mirror","gauge_lr2",""],"md5": ["33d7ff4c61c0849dcf2b83eecb01c6fe","3d45cbd1106042e7e9a0fa8ab24d42af","618c2abe7a7a8d52e5fdcdfab43a30ff","e0576954b7eb9af15bed8e01b19c15f7"]},
+{"name":"IY_ChartDAN Tier7","constraint":["grade_mirror","gauge_lr2",""],"md5": ["3cd27433beb5190f51e13f74d2d6412c","bd93c31b4e396edff358e314331dea4e","b0c4669c7819ce4e6dbbdad23f7b5da0","b246d1e77cee81b294c4d9bd120ac0b2"]},
+{"name":"IY_ChartDAN Tier8","constraint":["grade_mirror","gauge_lr2",""],"md5": ["be10fcccd4cc09cbadcd4bde3ef9ba96","ac32238aeeea2c01bda2d3f797c71e58","57472d9db5bc4df7da1671af69bb2b8c","18c58a17968b1c9fe1986f89ee3a0112"]},
+{"name":"IY_ChartDAN Tier9","constraint":["grade_mirror","gauge_lr2",""],"md5": ["88eabe13b8fdf0d3c2854f02a5496bb6","a3ed88fa646234da9bec2dfef8390b0d","7591c3dbcc6420aad83c5a08a43d1133","8dadbfb32786d063c714888992b991ca"]},
+{"name":"IY_ChartDAN Tier10","constraint":["grade_mirror","gauge_lr2",""],"md5": ["1341151d56a3dd917f99e10910f7aa50","affd0da32702ffc148c5d77c41a6cf83","df3a580e6cdef7e8d88b55cd5a0f6d77","b881c715bcf00534e70aac2254c89dac"]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+]}

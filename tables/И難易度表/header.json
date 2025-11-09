@@ -1,0 +1,40 @@
+{
+  "name": "И難易度表",
+  "symbol": "И",
+  "level_order": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "99"
+  ],
+  "data_url": "data.json",
+  "compat_prefix": "И",
+  "course": [
+    [
+      {
+        "name": "OPPAN PARKSU STYLE",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
+          { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
+        ],
+        "md5": [
+          "d413c5717ac1a88838392b8a3231fe2e",
+          "94b7577cbb11b9205653b694ff8012e9",
+          "b1f6eba3617d87275ff6d42c1fa3493a",
+          "d86b85e332e24bad3d5cc85c0cdfd677"
+        ]
+      }
+    ]
+  ]
+}

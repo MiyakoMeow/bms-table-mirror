@@ -1,0 +1,21 @@
+
+
+
+
+
+{"name" : "Criyajuh差分難易度表","symbol" : "cj","data_url" : "data.json","level_order" : [-2,-1,0,1,2,3,4,5,6,7,8,9,10,11,12],
+"course":[
+{"name":"Criyajuh Skill Simulator Beta cj0","constraint":["grade_mirror","gauge_lr2","ln",""],"md5": ["12634c287fad18de8b313a461cf54d75","5dbf369fec466db35ed244dce282ccc2","45b37cca7683450bd371813714e3295d","e46d331a9b4319c140356dddcb095cc2"]},
+{"name":"Criyajuh Skill Simulator Beta cj1","constraint":["grade_mirror","gauge_lr2","ln",""],"md5": ["e01266f1fb0a298e64dba2af3a7c50be","36ab5ed627a30cf4d68389b56d52b95d","3f7be5390f67be42438c7228f9aedf6d","dcd384858359d47f850835d0fdeb38e8"]},
+{"name":"Criyajuh Skill Simulator Beta cj2","constraint":["grade_mirror","gauge_lr2","ln",""],"md5": ["b5936f9504a2d34dad726695059c7846","6431ed9391e6d42bebce9e7d698f1c14","31ad3e62e6f2af690e9f41a0f1b34f59","2ed44b7dbd4dfed3149996d1cd08a3f6"]},
+{"name":"Criyajuh Skill Simulator Beta cj3","constraint":["grade_mirror","gauge_lr2","ln",""],"md5": ["29cb02ce647c46424aef35835f33536a","28e76e3ea95b669605c5554e2e2f53b9","393bbd35de055992c24f5e69eb8ea221","61968950b9aeb39c6ce2576c75884243"]},
+{"name":"Criyajuh Skill Simulator Beta cj4","constraint":["grade_mirror","gauge_lr2","ln",""],"md5": ["e794158282441a59741dea753c10d07c","47d114b990bc5bb23655484dde36b6d6","a9fb4f24fb5426a6ce0d23eb3721315c","c6f6fb8c69d91c94aaa28d25dd2cab46"]},
+{"name":"Criyajuh Skill Simulator Beta cj5","constraint":["grade_mirror","gauge_lr2","ln",""],"md5": ["bffa4a716a5ffc86f852e80ee6a556af","9964eaa82cef8bc187768c3230758751","57e79ef8ab6f5d88255c539ece74be66","840481288f15b9b3c7ae6d5d00a61a27"]},
+{"name":"Criyajuh Skill Simulator Beta cj6","constraint":["grade_mirror","gauge_lr2","ln",""],"md5": ["c103102d0ddb18751dc90b0ef4982ca7","04964ada8963377eeedfe8446c08c94b","5746bb34554bed4bb1e17acefb9f0420","5a5cb7566f6415c9a8aeaa496df03f00"]},
+{"name":"Criyajuh Skill Simulator Beta cj7","constraint":["grade_mirror","gauge_lr2","ln",""],"md5": ["d88855509c11dde731b722194d96421a","226e0a06a6ce460eeec594308e4cc3f7","94193c71e931032508f88d824a22bfc3","20a8958c1659f907e8307e34633cd36b"]},
+{"name":"Criyajuh Skill Simulator Beta cj8","constraint":["grade_mirror","gauge_lr2","ln",""],"md5": ["2355780fef426145e88742863b5f9d50","01a9d8a3dc281b26adf59387b9dc9b4d","d4d4a74d311cc2c5a464bcb7feb2b287","2ad0b5b815ee76bc3ca877969943835d"]},
+{"name":"Criyajuh Skill Simulator Beta cj9","constraint":["grade_mirror","gauge_lr2","ln",""],"md5": ["0c3c92c49d2056de2a9a84c305ece58a","c320a2bc423bf99d4e9e3beb44dd19c3","db7bef5d450a0cfdf6003adfff605df1","c42e3b655263a75549f73d3d3dcd69a6"]},
+{"name":"Criyajuh Skill Simulator Beta cj10","constraint":["grade_mirror","gauge_lr2","ln",""],"md5": ["c6070052b664ab136d2ef49b0a4816cb","6f8540419b0fadfec0879d7170c2dcf6","0c3030870d8d39d232d3d9eb7fb08637","850dcc95175111fd6343d6197a1f46c2"]},
+{"name":"Criyajuh Skill Simulator Beta cj11","constraint":["grade_mirror","gauge_lr2","ln",""],"md5": ["a0374d816bce0b8e41e2eb13ec12cf72","2b972683ce713e29f189b6232759944c","befa6517288f64ad123d427ece742c01","ec83fcbf5b477534eda9825c5c7eb37c"]},
+{"name":"Criyajuh Skill Simulator Beta cj12","constraint":["grade_mirror","gauge_lr2","ln",""],"md5": ["529f1471ce32c84f87f5181218478a40","d79fd1f421f9873d82bff32dd0cafdba","03480daa04e605a9d6a2ce625b0f9d19","2193d511397a4c81cfae94cc669ff21b"]}
+]}

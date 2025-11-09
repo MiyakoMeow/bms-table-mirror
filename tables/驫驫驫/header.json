@@ -1,0 +1,29 @@
+{
+  "name": "驫驫驫",
+  "symbol": "驫",
+  "data_url": "data.json",
+  "level_order": [ "子馬", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, "ptdr", "鬼", "小狐", "中狐", "大狐", "○五鍵", "○B", "○N", "○H", "●1", "●2", "●3", "●4", "●5", "●6", "●7", "●8", "●9", "●10", "●11", "●12", "●13", "●14", "●15", "●鬼", "●は・・・" ],
+  "course": [
+    {
+      "name": "驫驫驫の挑戦状　十段",
+      "constraint": [ "grade_mirror", "gauge_lr2", "" ],
+      "md5": [ "942bb391d7d5b92613a7bfa0c28fa559", "c6c05ae91aac9acc846204b26d52f65b", "6098566aba586ac9479acb600bf9de6b", "2ad82afbc1dbe977808b4d5c4ae0a921" ]
+    },
+    {
+      "name": "驫驫驫の挑戦状　皆伝",
+      "constraint": [ "grade_mirror", "gauge_lr2", "" ],
+      "md5": [ "8447f2e6d4697f9ef444a7f52d093455", "5467f0d78e4ab0e6edefd7b6ddabea64", "a3031b26cb948dcb6726a73a5ebe5794", "f02718ebefb6b6a385961131f9ae3008" ]
+    },
+    {
+      "name": "驫驫驫の挑戦状　OverJoy",
+      "constraint": [ "grade_mirror", "gauge_lr2", "" ],
+      "md5": [ "24d9d293e51b73693d5adc6d213ed46e", "bef55d1ada7acc26d01ca425483f8e0e", "24c646d17f5bfb624ac8053d2c5801f8", "75f0b48eb2c5135dba4df5bd71f62360" ]
+    },
+    {
+      "name": "驫驫驫の挑戦状　ManOWar",
+      "constraint": [ "grade_mirror", "gauge_lr2", "" ],
+      "md5": [ "7391b8acd1911d8cc8009879e803577f", "a98bb3ded844c32b46743ae24245156c", "f6f263192fef8d6cdd00fe4016176561", "06181e70ffb1d6143633eaefe4db0945" ]
+    }
+  ],
+  "compat_prefix": "驫"
+}

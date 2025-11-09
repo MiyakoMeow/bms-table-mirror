@@ -1,0 +1,138 @@
+{
+  "name": "Luminous",
+  "symbol": "ln",
+  "compat_prefix": "ln",
+  "data_url": "data.json",
+  "course": [
+    {
+      "name": "Luminous Grade Course 2023 (β2) ln0",
+      "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+      "md5": [
+        "8da889f636810cf63cec6ba238017292",
+        "0d3b881238f39904a478b31d6a7da976",
+        "cdadab9545b7a1e26fd61a0dc0f02a50",
+        "6e4f570726479d6be8b93b45448b7fd6"
+      ]
+    },
+    {
+      "name": "Luminous Grade Course 2023 (β2) ln1",
+      "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+      "md5": [
+        "164cbc09e145052f2ba1e220b7294521",
+        "4d4f7fa03a4684b032da08a127486ad3",
+        "63532f179a598acf496155be0c8707ad",
+        "da9cb6f0ce51e1d3afe746d78dc86918"
+      ]
+    },
+    {
+      "name": "Luminous Grade Course 2023 (β2) ln4",
+      "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+      "md5": [
+        "b8e73c428edd165e8f35039816598516",
+        "0cf5afd094fd95c8bc1daac16f4e8bef",
+        "497e68e73e4a6c78523110267b7e1aa9",
+        "7a6d4d3e864c1f75b0357836854942e1"
+      ]
+    },
+    {
+      "name": "Luminous Grade Course 2023 (β2) ln9",
+      "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+      "md5": [
+        "5946688d90624914e8df49f1ef2d5f82",
+        "5c5ec9357193f9799afe4df66ab7cfae",
+        "22a17f3823f93c8df7f6ecce937c5886",
+        "1f8acb255621fd820617a7ede837fbca"
+      ]
+    },
+    {
+      "name": "Luminous Grade Course 2023 (β2) ln10",
+      "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+      "md5": [
+        "f3d7b08b2a6b5c1f117d094f7e9ab88f",
+        "c1d4a4c12b3706fbf9129ce6cc7acf09",
+        "1aa40095f5f42a654c08a2767587abc2",
+        "46baff2c3393838296966236cc18afc4"
+      ]
+    },
+    {
+      "name": "Luminous Grade Course 2023 (β3) ln2",
+      "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+      "md5": [
+        "b088031efaee67e14dfca9a6d32d0cd6",
+        "bf8d2337ad6de171c4fcf05e5b16cbcc",
+        "0bf1a814102763ed8bd241b13cb9a883",
+        "1e7415b4a45509be19f34e7126ee7f0e"
+      ]
+    },
+    {
+      "name": "Luminous Grade Course 2023 (β3) ln3",
+      "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+      "md5": [
+        "9abbb43f7fb4787ee98975551b3cd12e",
+        "dd19caf045f4a7843a80a0c3800b8d34",
+        "778692a0cea0fea854fb22e1b5624f00",
+        "f55df08809b8ed6ff34262164b4856f2"
+      ]
+    },
+    {
+      "name": "Luminous Grade Course 2023 (β3) ln5",
+      "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+      "md5": [
+        "e572e41bbe28dd935eb2ca1f786626f5",
+        "8db020479f929a257ad400f74dd6818a",
+        "f4495e02dbba32d2b11e52e0ab5af513",
+        "5f6c199fce2f2e9ccbed274013e9dbde"
+      ]
+    },
+    {
+      "name": "Luminous Grade Course 2023 (β3) ln6",
+      "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+      "md5": [
+        "36a41a826166fb64563b212d728aef08",
+        "17ee302c35989cc5bce187c0c555e36b",
+        "295bee7607c7c4c7b32726a6aa972ff7",
+        "4cc0e5b9096f2ff44b4a596db94a5e27"
+      ]
+    },
+    {
+      "name": "Luminous Grade Course 2023 (β3) ln7",
+      "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+      "md5": [
+        "09919ec75776db2ac9a98a8e320520dc",
+        "e56fcbb0f528975a21744ce56b3a2b0a",
+        "12254dd93edd2acd05762ff9d45aa2b4",
+        "fb129018f385f62d76ed5bab1f5ea459"
+      ]
+    },
+    {
+      "name": "Luminous Grade Course 2023 (β3) ln8",
+      "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+      "md5": [
+        "b7f2fc96a3dd79e5788ba041693cdce7",
+        "b847e55e619cf5ceb5f722da3b97111f",
+        "73ed9f88d79572e7d25ab0706a99e216",
+        "7e532c5ec4c5f883ca0cd22c866d830b"
+      ]
+    },
+    {
+      "name": "Luminous Grade Course 2023 (β3) ln11",
+      "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+      "md5": [
+        "bc6ee0a85435ece0e0b9a2f5420a4f0d",
+        "aced386e013716e4936895ffc279d218",
+        "b8f85ab49942d5897385e21311b6acfa",
+        "f28ddf6d4e393724cbc07e0f780aabed"
+      ]
+    },
+    {
+      "name": "Luminous Grade Course 2023 (β3) ln12",
+      "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+      "md5": [
+        "72db3de9fada7724795c1a13d70a6bb7",
+        "6b993ce9d8e12f6ada74bc6bda0dfbd5",
+        "93b86571c0f8ba0da678c26cd9a8c9cb",
+        "d9666c51352211449833e1f120ca6617"
+      ]
+    }
+  ]
+}
