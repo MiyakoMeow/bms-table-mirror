@@ -30,22 +30,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Fetch each table concurrently
     let mut join_set = tokio::task::JoinSet::new();
     for item in indexes {
-        let name = sanitize_filename(&item.name);
-        let out_dir = base_dir.join(name);
-        let url = item.url.to_string();
-
-        join_set.spawn(async move {
-            if let Err(e) = fetch_and_save_table(&url, &out_dir).await {
-                warn!(
-                    "Failed to fetch '{}' from {}: {}",
-                    out_dir.display(),
-                    url,
-                    e
-                );
-            } else {
-                info!("Saved table '{}'", out_dir.display());
-            }
-        });
+        deal_with_index(&mut join_set, item, &base_dir);
     }
 
     while let Some(_res) = join_set.join_next().await {}
@@ -54,18 +39,45 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     Ok(())
 }
 
+fn deal_with_index(
+    join_set: &mut tokio::task::JoinSet<()>,
+    index: bms_table::BmsTableIndexItem,
+    base_dir: &PathBuf,
+) {
+    let name = sanitize_filename(&index.name);
+    let out_dir = base_dir.join(name);
+    let url = index.url.to_string();
+
+    join_set.spawn(async move {
+        if let Err(e) = fetch_and_save_table(&url, &out_dir).await {
+            warn!(
+                "Failed to fetch '{}' from {}: {}",
+                out_dir.display(),
+                url,
+                e
+            );
+        } else {
+            info!("Saved table '{}'", out_dir.display());
+        }
+    });
+}
+
 async fn fetch_and_save_table(
     web_url: &str,
     out_dir: &PathBuf,
 ) -> Result<(), Box<dyn std::error::Error>> {
+    // 先获取表数据与原始JSON，再创建目录与写入
+    let (table, raw) = fetch_table_full(web_url).await?;
+
+    // 使用 BmsTableHeader 的 data_url 字段，直接用 String::replace 将其替换为 "data.json"
+    let patched_header = raw.header_raw.replace(&table.header.data_url, "data.json");
+
+    // 在成功获取后再创建目录与写入文件
     fs::create_dir_all(out_dir)?;
-
-    let (_table, raw) = fetch_table_full(web_url).await?;
-
     let header_path = out_dir.join("header.json");
     let data_path = out_dir.join("data.json");
 
-    fs::write(&header_path, raw.header_raw)?;
+    fs::write(&header_path, patched_header)?;
     fs::write(&data_path, raw.data_raw)?;
 
     Ok(())
