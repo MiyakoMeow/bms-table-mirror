@@ -1,39 +1,78 @@
+mod config;
 mod filesystem;
 mod logger;
 
 use std::{
+    collections::BTreeMap,
     fs,
     path::{Path, PathBuf},
 };
 
 use bms_table::fetch::reqwest::{fetch_table_full, fetch_table_index_full};
 use log::{info, warn};
+use url::Url;
 
+use crate::config::{TableConfig, load_table_config};
 use crate::{filesystem::sanitize_filename, logger::init_logger};
 
-const TABLE_INDEX_URL: &str = "https://script.google.com/macros/s/AKfycbzaQbcI9UZDcDlSHHl2NHilhmePrNrwxRdOFkmIXsfnbfksKKmAB3V65WZ8jPWU-7E/exec?table=tablelist";
+#[derive(Clone)]
+struct TableIndex {
+    name: String,
+    url: Url,
+}
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     init_logger();
-    info!("Fetching table index from: {}", TABLE_INDEX_URL);
-    let (indexes, original_json) = fetch_table_index_full(TABLE_INDEX_URL).await?;
 
-    // Save original index JSON
-    fs::write("table_original.json", &original_json)?;
-    info!(
-        "Saved original index JSON to table_original.json ({} bytes)",
-        original_json.len()
-    );
+    // Load configuration from tables.toml
+    let config: TableConfig = load_table_config("tables.toml")?;
+
+    // Build BTreeMap<Url, TableIndex>
+    let mut index_map: BTreeMap<Url, TableIndex> = BTreeMap::new();
+
+    // Fetch and merge indexes from configured index endpoints
+    for idx_url in &config.table_index_url {
+        info!("Fetching table index from: {}", idx_url);
+        let (indexes, _original_json) = fetch_table_index_full(idx_url.as_str()).await?;
+        for item in indexes {
+            let url_str = item.url.to_string();
+            if let Ok(url) = Url::parse(&url_str) {
+                let name = url.host_str().unwrap_or("unknown").to_string();
+                index_map.insert(url.clone(), TableIndex { name, url });
+            } else {
+                warn!("Invalid URL in fetched index: {}", url_str);
+            }
+        }
+    }
+
+    // Add extra table URLs with default name from domain
+    for url in &config.add_table_url {
+        let name = url.host_str().unwrap_or("unknown").to_string();
+        index_map.insert(
+            url.clone(),
+            TableIndex {
+                name,
+                url: url.clone(),
+            },
+        );
+    }
+
+    // Disable specified table URLs
+    for url in &config.disable_table_url {
+        if index_map.remove(url).is_some() {
+            info!("Disabled table: {}", url);
+        }
+    }
 
     // Prepare base output directory
     let base_dir = Path::new("tables");
     fs::create_dir_all(base_dir)?;
 
-    // Fetch each table concurrently
+    // Fetch each table concurrently based on built map
     let mut join_set = tokio::task::JoinSet::new();
-    for item in indexes {
-        deal_with_index(&mut join_set, item, base_dir);
+    for (_url, idx) in index_map {
+        spawn_fetch(&mut join_set, idx, base_dir);
     }
 
     while let Some(_res) = join_set.join_next().await {}
@@ -42,20 +81,17 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     Ok(())
 }
 
-fn deal_with_index(
-    join_set: &mut tokio::task::JoinSet<()>,
-    index: bms_table::BmsTableIndexItem,
-    base_dir: &Path,
-) {
+fn spawn_fetch(join_set: &mut tokio::task::JoinSet<()>, index: TableIndex, base_dir: &Path) {
     let url = index.url.to_string();
+    let name = index.name;
     // JoinSet 需要 'static future，捕获一个拥有所有权的 PathBuf
     let base_dir_owned = base_dir.to_path_buf();
 
     join_set.spawn(async move {
         if let Err(e) = fetch_and_save_table(&url, base_dir_owned.as_path()).await {
-            warn!("Failed to fetch {} from {}: {}", index.name, url, e);
+            warn!("Failed to fetch {} from {}: {}", name, url, e);
         } else {
-            info!("Saved table {} from {}", index.name, url);
+            info!("Saved table {} from {}", name, url);
         }
     });
 }
