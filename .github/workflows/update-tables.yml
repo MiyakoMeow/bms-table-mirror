@@ -48,10 +48,10 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.AUTOMERGE_TOKEN }}
-          commit-message: Update BMS Tables
-          title: Update BMS Tables
+          commit-message: "automated: Update BMS Tables"
+          title: "automated: Update BMS Tables"
           body: |
-            Update BMS Tables
+            Auto Update BMS Tables
           branch: update-tables
           labels: |
             automated
@@ -61,4 +61,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.AUTOMERGE_TOKEN }}
         run: |
-          gh pr merge --auto --merge ${{ steps.create-pull-request.outputs.pull-request-number }}
+          gh pr merge --auto --squash ${{ steps.create-pull-request.outputs.pull-request-number }}
