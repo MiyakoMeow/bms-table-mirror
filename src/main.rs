@@ -34,12 +34,16 @@ async fn main() -> anyhow::Result<()> {
     // Build BTreeMap<Url, TableEntry>
     let mut index_map: BTreeMap<Url, TableEntry> = BTreeMap::new();
 
+    // Prepare index output directory
+    let index_dir = Path::new("indexes");
+    fs::create_dir_all(index_dir)?;
+
     let client = make_lenient_client()?;
 
     // Fetch and merge indexes from configured index endpoints
     for idx in &config.table_index {
-        info!("Fetching table index from: {} ({})", idx.url, idx.name);
-        let (indexes, _original_json) = fetch_table_index_full(&client, idx.url.as_str()).await?;
+        info!("Fetching table index from: {} ({})", idx.name, idx.url);
+        let (indexes, original_json) = fetch_table_index_full(&client, idx.url.as_str()).await?;
         for BmsTableIndexItem { name, url, .. } in indexes {
             let url_str = url.to_string();
             if let Ok(url) = Url::parse(&url_str) {
@@ -48,6 +52,9 @@ async fn main() -> anyhow::Result<()> {
                 warn!("Invalid URL in fetched index: {}", url_str);
             }
         }
+        // Write index json file
+        let index_file_path = index_dir.join(format!("{}.json", idx.name));
+        fs::write(index_file_path, original_json)?;
     }
 
     // Add extra table URLs with default name from domain
