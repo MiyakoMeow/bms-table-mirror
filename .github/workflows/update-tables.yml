@@ -45,6 +45,7 @@ jobs:
           path: warnings.log
       
       - name: Create Pull Request
+        id: create-pull-request
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.AUTOMERGE_TOKEN }}
@@ -58,6 +59,7 @@ jobs:
             update-tables
 
       - name: Merge Pull Request
+        if: steps.create-pull-request.outputs.pull-request-operation == 'created'
         env:
           GITHUB_TOKEN: ${{ secrets.AUTOMERGE_TOKEN }}
         run: |
