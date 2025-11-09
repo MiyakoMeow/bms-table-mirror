@@ -1,0 +1,23 @@
+{"name" : "ポテチャグjoy","symbol" : "pt","data_url" : "data.json",
+"course":[
+{"name":"ポテチャグjoy認定試験 初級","constraint":["grade_random","gauge_lr2","ln",""],"md5": ["d200750f4b4e331eee0de2d1496e2921","f8557c88092ac95e58280bb476888fad","93937361aa4b87b6aa31272511211f5f","37163eed7b2dede8b67115a7b71f3342"]},
+{"name":"ポテチャグjoy認定試験 中級","constraint":["grade_random","gauge_lr2","ln",""],"md5": ["cabb4c9e687aa2175a7b1f880bdac8b1","25cc4978e4e2dccf5aaac85df7329dc1","d380a13f4ec3abf71bd5295deccc2f8c","7b576c17375689ca2c98342a52efcbd4"]},
+{"name":"ポテチャグjoy認定試験 上級","constraint":["grade_random","gauge_lr2","ln",""],"md5": ["f2bdcff337e01e741c293a0843684a6c","05add19c1c613a77f8bca9e5e041c0c5","812e19efe6ee87456e4b601336d29ec5","11aa108618b56cbf5bbd26b54d43e4e8"]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]}

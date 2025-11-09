@@ -1,0 +1,12 @@
+{
+"name" : "fukojoy",
+"symbol" : "f",
+"data_url" : "data.json",
+"course" :
+  [
+{"name":"EXPERT COURSE Lv.1","constraint":["grade_random","gauge_lr2",""],"md5": ["b10384a6973f3572c8219f3ac2011aba","7d77d0d78016cc99088a39f5506ce416","87fdc849fb93ade41cdbb8956cee46a0","2af37ac8096e58659f14d6af115591fa"]},
+{"name":"EXPERT COURSE Lv.2","constraint":["grade_random","gauge_lr2",""],"md5": ["6a02d80b5261f3b73a0df2263d674912","846346b51e39713b22247f03c2ffdea8","f20e53dcd35562b04c504928d73caf6e","9a0207231db33e28853776c9f86eb5dd"]},
+{"name":"EXPERT COURSE Lv.3","constraint":["grade_random","gauge_lr2",""],"md5": ["b9f4b8e9a9ed752dd82d55783a787315","8fd6aa79eb5aded7ef781c4c774d98fd","d3d3d08067a47805d093c6fc48762e1c","3d460b72527d59879b9c7a78f8504289"]},
+{"name":"EXPERT COURSE Lv.4","constraint":["grade_random","gauge_lr2",""],"md5": ["7bd98bf6bfecc16e440ba4fe4302829c","3c377ec541f5154546575af1777c99a4","e79f933ddae3293aaa621a6aa4ebaa0d","3b2c57ea210b0758c459b343eb39707a"]}
+  ]
+}

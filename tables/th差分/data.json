@@ -1,0 +1,562 @@
+[
+  {
+    "level": "0",
+    "title": "PHAZE UPPER [HONEZT]",
+    "artist": "Reku Mochizuki",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=174&event=137",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/05725.zip",
+    "md5": "aba51fecec92154987d239d502509e59",
+    "comment": "[sl0] 乱打",
+    "comment2": "中速乱打入門"
+  },
+  {
+    "level": "0",
+    "title": "自強號 -到衛星-",
+    "artist": "痛男次郎",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=395&event=88",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02738.zip",
+    "md5": "c904c416b6e5cc133a84a0f80b38f5c3",
+    "comment": "[sl0] 乱打、同時",
+    "comment2": "-Satellite-差分への鎮魂歌"
+  },
+  {
+    "level": "1",
+    "title": "Berry Go!! [Esteem and Love]",
+    "artist": "Freezer feat. 妃苺",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=23&event=116",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/00998.zip",
+    "md5": "d2d922aa6bcaeed61087d434b330c30e",
+    "comment": "[sl1, ▼1] 乱打、皿複合",
+    "comment2": "★1.5 同梱Aを強化"
+  },
+  {
+    "level": "1",
+    "title": "On And On!! [First Intention]",
+    "artist": "ETIA. feat. Jenga",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=6&event=123",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02285.zip",
+    "md5": "09e00598ac9c723c456ac5470a9648b0",
+    "comment": "[▼1] 乱打、同時、ディレイ",
+    "comment2": "同梱Aと大体同じ"
+  },
+  {
+    "level": "1",
+    "title": "PUPA [Path]",
+    "artist": "モリモリあつし",
+    "url": "https://dropbox.bms.ms/u/37251493/PUPA.zip",
+    "url_diff": "https://darksabun.github.io/event/bcel/sabun/AF_th.zip",
+    "md5": "81e79651371acfb5346c1290d1bb673b",
+    "comment": "[sl1] 乱打",
+    "comment2": "発狂入門"
+  },
+  {
+    "level": "2",
+    "title": "Fractal [7EX]",
+    "artist": "SHIKI",
+    "url": "https://web.archive.org/web/20210718121836/http://shiki2.sakura.ne.jp/shiki_fractal_bms_ogg.zip",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/04813.zip",
+    "md5": "aafb8d12d46ea5cf9feb978f9850ce3d",
+    "comment": "乱打、ディレイ",
+    "comment2": "ピアノをディレイさせたかった"
+  },
+  {
+    "level": "2",
+    "title": "Indignant Divinity [Under the Law]",
+    "artist": "flashygoodness",
+    "url": "https://www.dropbox.com/s/cjy7a5kfplb2k2u/Indignant%20Divinity.zip",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/00892.zip",
+    "md5": "e22894c41801a0c91805b28b042c4c78",
+    "comment": "乱打、ディレイ",
+    "comment2": "隣接と皿とLN縛り"
+  },
+  {
+    "level": "2",
+    "title": "Promised Prayer [Prudence]",
+    "artist": "nmk",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=38&event=129",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/04459.zip",
+    "md5": "d77ce799f034a81b7d1a61b1de7e12de",
+    "comment": "乱打、短LN、微縦",
+    "comment2": "1+7でキックを表したかった"
+  },
+  {
+    "level": "2",
+    "title": "Victory Sense [Peace]",
+    "artist": "KAH",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=219&event=133",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/04774.zip",
+    "md5": "e22ba7ec6ac16a9467fff7a42ac9a020",
+    "comment": "乱打、皿複合",
+    "comment2": "某Sense2018差分のLNリスペクト"
+  },
+  {
+    "level": "3",
+    "title": "Bosh [Another+]",
+    "artist": "YUKIYANAGI",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=7&event=115",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/00726.zip",
+    "md5": "4c97ff465578ff5e92041a1c649ffafe",
+    "comment": "乱打、微縦、皿",
+    "comment2": "連打と皿を通って乱打に戻るやつ"
+  },
+  {
+    "level": "3",
+    "title": "Drift TAXI [7k =3]",
+    "artist": "∀S∀",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=27&event=126",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/03123.zip",
+    "md5": "64b7883c9a473906845ac59ea93427ae",
+    "comment": "乱打、局所難",
+    "comment2": "ハイテック譜面"
+  },
+  {
+    "level": "3",
+    "title": "Twilight Observer [Another+]",
+    "artist": "void",
+    "url": "https://venue.bmssearch.net/vfpq02/25",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/01370.zip",
+    "md5": "473db12a91972ab16c3ea9b21e245a5d",
+    "comment": "[sl3] 乱打",
+    "comment2": "低速乱打 キー音分身多め"
+  },
+  {
+    "level": "4",
+    "title": "Carriage Pony? [横デカホース]",
+    "artist": "freesia",
+    "url": "https://venue.bmssearch.net/bmstukuru2022/11",
+    "url_diff": "https://stellabms.xyz/upload/6353",
+    "md5": "44de9bec873ee6af8d220658be36ac9c",
+    "comment": "同時押し",
+    "comment2": "6個押しの練習"
+  },
+  {
+    "level": "4",
+    "title": "バンバード ～Piano Version～ [sunny]",
+    "artist": "mozell",
+    "url": "https://ux.getuploader.com/BMS_share/",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/00754.zip",
+    "md5": "7959bf2189b1c16849d1cb4f0c819bfb",
+    "comment": "[sl4] ズレ、乱打",
+    "comment2": "ズレまくり"
+  },
+  {
+    "level": "5",
+    "title": "Replunge [7KEYS ANOTHER++]",
+    "artist": "nora2r feat. カラフル・サウンズ・ポート",
+    "url": "https://web.archive.org/web/20190802103513/http://nextreflection.net/music/2r_replunge/2r_replunge.zip",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/00477.zip",
+    "md5": "1b46379fbee9be40fb68dce72abb52b0",
+    "comment": "[sl5] 同時押し、乱打",
+    "comment2": "同時が濃い乱打"
+  },
+  {
+    "level": "5",
+    "title": "Unleash the Shouts [Uncouth]",
+    "artist": "anubasu-anubasu feat.kei_iwata",
+    "url": "https://www.dropbox.com/s/10qq3bb4a5qg4oh/anubasu-anubasu_feat_kei_iwata_-_Unleash_The_Shout_OGG.rar?dl=1",
+    "url_diff": "https://darksabun.github.io/event/bcel/sabun/A4a_th.zip",
+    "md5": "30ff3a5cf9b6602ce0e388084e86022f",
+    "comment": "[sl5] 連打、同時押し",
+    "comment2": "3連打"
+  },
+  {
+    "level": "6",
+    "title": "line:theta [ln:th]",
+    "artist": "nitro",
+    "url": "https://dl.dropboxusercontent.com/s/1wbit5p08wqyxmm/%5Bline%EF%BC%9Atheta%5D%20%28by%20nitro%29.rar",
+    "url_diff": "https://darksabun.github.io/event/bcel/sabun/A4b_th.zip",
+    "md5": "4d98845af92a474508dc3cc8e954a42c",
+    "comment": "[▼10, ln12] 乱打、短LN",
+    "comment2": "皿なし短LN芸あり"
+  },
+  {
+    "level": "6",
+    "title": "Qualia [Quantia]",
+    "artist": "Junk",
+    "url": "https://web.archive.org/web/20161001063700/https://dl.dropboxusercontent.com/u/93651732/bms/junk_qualia.rar",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02646.zip",
+    "md5": "1ab0ea1a6d3d28f7b4ce2ad366edc38d",
+    "comment": "[sl6] 5-1乱打",
+    "comment2": "5-1乱打練習"
+  },
+  {
+    "level": "7",
+    "title": "energy night [JOY]",
+    "artist": "KAH",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=57&event=116",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/01055.zip",
+    "md5": "489ddffa0c8d458530d93da6b0354cae",
+    "comment": "[sl7] 乱打、皿複合 ※SUZUKAZEΛ氏の[ZOI]を改変",
+    "comment2": "勝手強化+皿マイルド化"
+  },
+  {
+    "level": "7",
+    "title": "帰る場所探してるピカイヤの遺伝子 [ANOTHER+]",
+    "artist": "しらいし",
+    "url": "https://bms.wrigglebug.xyz/download/%E5%B8%B0%E3%82%8B%E5%A0%B4%E6%89%80%E6%8E%A2%E3%81%97%E3%81%A6%E3%82%8B%E3%83%94%E3%82%AB%E3%82%A4%E3%83%A4%E3%81%AE%E9%81%BA%E4%BC%9D%E5%AD%90.7z",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/00367.zip",
+    "md5": "7b8f7741c8225cbaf06eda6248931dca",
+    "comment": "乱打、軸",
+    "comment2": "yumetherっぽさを意識"
+  },
+  {
+    "level": "8",
+    "title": "Orfevre -Expert-",
+    "artist": "SHIKI",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=276&event=123",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02541.zip",
+    "md5": "b31d63e8f79e8655fc461a9202a6f93c",
+    "comment": "[sl8] 4-2乱打",
+    "comment2": "昔っぽい乱打譜面"
+  },
+  {
+    "level": "9",
+    "title": "Berry Go!! [Perfect Goodness]",
+    "artist": "Freezer feat. 妃苺",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=23&event=116",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/01175.zip",
+    "md5": "0a0c7a435f781fe6afe1152f71980af2",
+    "comment": "[✡15] 乱打、皿複合",
+    "comment2": "★1.5な方を強化 "
+  },
+  {
+    "level": "9",
+    "title": "Fatal Pulse [Hyperpnea]",
+    "artist": "Basso",
+    "url": "https://dropbox.bms.ms/u/95913775/files/Fatal_Pulse.rar",
+    "url_diff": "https://darksabun.github.io/event/renewal/sabun/14_Fatal_Pulse_th.zip",
+    "md5": "0a7556dd67ac8c0d236c35452844e3d8",
+    "comment": "[sl9] 乱打、微縦",
+    "comment2": "★14の譜面を現代化　正直作り直したい"
+  },
+  {
+    "level": "10",
+    "title": "Affection [Appreciation]",
+    "artist": "Xacla feat. Kate Lesing",
+    "url": "https://www.mediafire.com/file/ggy0zvn5i87ke64/Xacla-Affection_ogg.zip/file",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02611.zip",
+    "md5": "e7df53f94805d0d2a1976855eaded1c4",
+    "comment": "[sl10] 4-2乱打",
+    "comment2": "感謝譜面という概念をsl帯に輸入"
+  },
+  {
+    "level": "10",
+    "title": "Canon (blazing summer mix) [Hanon]",
+    "artist": "上杉うた with 星明",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=6&event=54",
+    "url_diff": "https://stellabms.xyz/upload/5514",
+    "md5": "5c265d92d25f34b230074b912527b3a3",
+    "comment": "[sl10] 5-1乱打",
+    "comment2": "ステップアップ系5-1乱打練習"
+  },
+  {
+    "level": "10",
+    "title": "Magical Love Words [マジカル横認識]",
+    "artist": "源屋 feat.ユスラ",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=86&event=36",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02657.zip",
+    "md5": "e18550050e4ee6008798111d4a63e81a",
+    "comment": "[sl10] 5-1乱打",
+    "comment2": "休みあり5-1乱打練習"
+  },
+  {
+    "level": "11",
+    "title": "Chocomint Mille-feuille [Jammed]",
+    "artist": "NASA",
+    "url": "https://venue.bmssearch.net/bmsshuin2/41",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/03178.zip",
+    "md5": "4c286f9ab3ef84375afd508a5f084115",
+    "comment": "[sl11] ディレイ、乱打",
+    "comment2": "連打を崩す練習"
+  },
+  {
+    "level": "11",
+    "title": "Maxi [Addiction]",
+    "artist": "Nizikawa",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=14&event=110",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/00779.zip",
+    "md5": "a7a55ad937e00986c3be5d0e9d6e8279",
+    "comment": "乱打、皿複合",
+    "comment2": "音に合った打鍵リズムにしたかった"
+  },
+  {
+    "level": "11",
+    "title": "SUNRISE OCEAN [Thalassa]",
+    "artist": "shimizushi",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=80&event=146",
+    "url_diff": "https://stellabms.xyz/upload/5893",
+    "md5": "c37da30234276e9dc956a8f17bd9431b",
+    "comment": "[sl11, ✡16] 微縦",
+    "comment2": "★15Endymionリスペクト"
+  },
+  {
+    "level": "11",
+    "title": "T [raining]",
+    "artist": "7olzo",
+    "url": "https://venue.bmssearch.net/ondanre2/10",
+    "url_diff": "https://stellabms.xyz/upload/6280",
+    "md5": "0cbec8a8f1989c852e8027bba23aea69",
+    "comment": "4-2,3-3,5-1乱打",
+    "comment2": "不規則に偏った乱打"
+  },
+  {
+    "level": "12",
+    "title": "3NDL355×F3V3R×TiM3 -3XTR3M3-",
+    "artist": "MYUKKE.",
+    "url": "https://bms.wrigglebug.xyz/download/3NDL355%C3%97F3V3R%C3%97TiM3.7z",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/00972.zip",
+    "md5": "38efa06e750359fbad5906d302b66f32",
+    "comment": "皿、微縦、3-3乱打 ",
+    "comment2": "皿と縦連と乱打 お気に入り"
+  },
+  {
+    "level": "12",
+    "title": "Forgotten Sky [GOT]",
+    "artist": "KaKi",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=8&event=115",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/00712.zip",
+    "md5": "375a371c042f8dcc19a107e9d0a56fb2",
+    "comment": "[▼18] 微縦、ガチ押し",
+    "comment2": "微縦寄りガチ押し"
+  },
+  {
+    "level": "12",
+    "title": "Magical Love Words [フィジカル横認識]",
+    "artist": "源屋 feat.ユスラ",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=86&event=36",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02657.zip",
+    "md5": "407c8e043a446c9dc99fc1ca97eb2fb5",
+    "comment": "[sl12, ✡18] 5-1乱打、体力",
+    "comment2": "休みなし5-1乱打練習"
+  },
+  {
+    "level": "12",
+    "title": "ting ting [belong]",
+    "artist": "陳 正平",
+    "url": "https://onedrive.live.com/?id=863934608D908CD0%21105&cid=863934608D908CD0",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02764.zip",
+    "md5": "6a3762ad91ec89392dda8554360f66c1",
+    "comment": "[sl12] 4-2乱打",
+    "comment2": "4-2乱打の練習"
+  },
+  {
+    "level": "θ0",
+    "title": "JUMMER (LASER PSY REMIX) [3X]",
+    "artist": "momo★yama",
+    "url": "https://drive.google.com/file/d/1OlAXQ4YwnkkAm8CUDKILecLZfsnc5B_r/view",
+    "url_diff": "https://stellabms.xyz/upload/5476",
+    "md5": "9d91479c3d8f740f420001a62d673f01",
+    "comment": "[st0] 3-3乱打",
+    "comment2": "軸が徐々に増える"
+  },
+  {
+    "level": "θ0",
+    "title": "NULCTRL [NUL]",
+    "artist": "Silentroom",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=261&event=123",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02516.zip",
+    "md5": "e823e17e95b9f6b6ff4f7dbee5a1301c",
+    "comment": "[st0] ガチ押し",
+    "comment2": "無音ノーツたくさんガチ押し"
+  },
+  {
+    "level": "θ0",
+    "title": "神仙・竜巻返し ～ Black Whirlwind",
+    "artist": "おみー",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=38&event=119",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02542.zip",
+    "md5": "839c2fb4b6c0edf0c092257fc0dfa8d8",
+    "comment": "4-2,3-3乱打",
+    "comment2": "4-2乱打メインで時々3-3,5-1"
+  },
+  {
+    "level": "θ1",
+    "title": "ABYSSAL // COSMOS [Aerolith]",
+    "artist": "C.miler vs Juka_Box",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=16&event=146",
+    "url_diff": "https://stellabms.xyz/upload/5339",
+    "md5": "22deef090d0bfd66582c30cc47e208b5",
+    "comment": "短LN、微縦、乱打",
+    "comment2": "短LN人格と微連打人格で合作"
+  },
+  {
+    "level": "θ1",
+    "title": "WE ARE HARDCORE [ARE YOU READY?]",
+    "artist": "lixound mov:Ratif",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=307&event=123",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02457.zip",
+    "md5": "cf6201d2d84cd20628320ccaba9de49e",
+    "comment": "[st1] 4-2,5-1乱打",
+    "comment2": "4-2乱打入門"
+  },
+  {
+    "level": "θ2",
+    "title": "Sparks Hit My Head [ShortCircuit]",
+    "artist": "Sho Fish",
+    "url": "https://venue.bmssearch.net/3/67",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/00888.zip",
+    "md5": "8c1680c5ad18ba2a1391e6b01de94ff7",
+    "comment": "[st2] 乱打、微縦、局所難",
+    "comment2": "アトラクション性を意識"
+  },
+  {
+    "level": "θ2",
+    "title": "Unshakable -Zen-",
+    "artist": "RiraN",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=192&event=110",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/00791.zip",
+    "md5": "96c017e393898a99000ecbd2c3ae80ac",
+    "comment": "[st2] 全押し、ガチ押し",
+    "comment2": "st4 axsに衝撃を受けて模倣"
+  },
+  {
+    "level": "θ2",
+    "title": "ミライトコネクト [ANTH33]",
+    "artist": "Sound piercer & ginkiha (feat.柚子花 & NeLiME)",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=414&event=137",
+    "url_diff": "https://stellabms.xyz/upload/5650",
+    "md5": "e73bd44bae2f6db52ed5541490438c99",
+    "comment": "[st2] 3-3乱打",
+    "comment2": "3-3乱打練習"
+  },
+  {
+    "level": "θ2",
+    "title": "点、線、面、立体 [Pentachoron]",
+    "artist": "sound piercer",
+    "url": "https://k-bms.com/party_pabat/party.jsp?board_num=1&num=49&ckattempt=1",
+    "url_diff": "https://stellabms.xyz/upload/5433",
+    "md5": "aff7dbfe688668b00a1c20800d9d10b8",
+    "comment": "[st2] ガチ押し",
+    "comment2": "6-2、5-3、4-4"
+  },
+  {
+    "level": "θ3",
+    "title": "NightTheater [FishLife]",
+    "artist": "わかどり",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=18&event=133",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/04829.zip",
+    "md5": "c9ffe8fa9d5000b3f5a734216487270c",
+    "comment": "[st3, ▼23] 全押し、微縦",
+    "comment2": "全押し系連打複合2"
+  },
+  {
+    "level": "θ3",
+    "title": "TEN [平衡点]",
+    "artist": "2X",
+    "url": "http://dl.dropbox.com/s/esdofbda23knp9w/TEN.zip?dl=1",
+    "url_diff": "https://stellabms.xyz/upload/6320",
+    "md5": "83c026c2bd512eea3c7c7737ccd5a684",
+    "comment": "連打、微縦、ガチ押し  ※でっていう99氏の[特異点]を改変",
+    "comment2": "勝手強化 元譜面の中盤以外を強化"
+  },
+  {
+    "level": "θ4",
+    "title": "Blooming Jump! [Maneuver]",
+    "artist": "卯月",
+    "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=5&event=109",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/01594.zip",
+    "md5": "161d264c8c0b2c554ddf382713d5dc68",
+    "comment": "[st4] 4-2,3-3,5-1乱打",
+    "comment2": "4-2乱打メインで時々3-3,5-1"
+  },
+  {
+    "level": "θ4",
+    "title": "Crimson Liar(\"Sadistic girl\" Mix) -Nightmare-",
+    "artist": "Satsuki Akatsuka × Sakura Shinohara",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=458&event=110",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/00599.zip",
+    "md5": "04e3d569f934712e5511ddd69983d49c",
+    "comment": "[st4] 微縦、乱打、局所難",
+    "comment2": "同梱G4M譜面を強化"
+  },
+  {
+    "level": "θ5",
+    "title": "Bluesky cat [Teardrop]",
+    "artist": "asahi33",
+    "url": "https://bms.wrigglebug.xyz/download/Bluesky%20cat.7z",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02089.zip",
+    "md5": "c051d2844291e0f4f64ea26351627d51",
+    "comment": "連打、ガチ押し",
+    "comment2": "縦強めのガチ押し"
+  },
+  {
+    "level": "θ5",
+    "title": "炎の内藤 [大助]",
+    "artist": "ABOxxx respect ２個",
+    "url": "https://drive.google.com/uc?id=1Lq1DbhLT29OxLPsevtGY2Bs-zRWqGQFH&export=download",
+    "url_diff": "https://stellabms.xyz/upload/5387",
+    "md5": "1ffe616efd1fac2f001ba93a0b8434ce",
+    "comment": "微縦、ガチ押し",
+    "comment2": "3-3 連打複合"
+  },
+  {
+    "level": "θ5",
+    "title": "点、線、面、立体 [Hexachoron]",
+    "artist": "sound piercer",
+    "url": "https://k-bms.com/party_pabat/party.jsp?board_num=1&num=49&ckattempt=1",
+    "url_diff": "https://stellabms.xyz/upload/5434",
+    "md5": "663b7829418b2edbdf9b9c16d30435f9",
+    "comment": "[st5] ガチ押し",
+    "comment2": "7-3、6-2、5-5"
+  },
+  {
+    "level": "θ6",
+    "title": "Tartaros [Gaia]",
+    "artist": "yuki.",
+    "url": "https://bms.wrigglebug.xyz/download/Tartaros.7z",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/00764.zip",
+    "md5": "3d886b1243b55e78e659959ae139cdee",
+    "comment": "乱打、ディレイ",
+    "comment2": "おそらくディレイだけ難しい"
+  },
+  {
+    "level": "θ6",
+    "title": "少女が夢見た約束の明星 [Faith]",
+    "artist": "nmk feat.かなえゆめ",
+    "url": "https://venue.bmssearch.net/ondanre2/13",
+    "url_diff": "https://stellabms.xyz/upload/6189",
+    "md5": "aec93512b5a53658e1e2f4b4b4924bdb",
+    "comment": "[✡25] 連打、ガチ押し",
+    "comment2": "勢い重視の微連打ラッシュ"
+  },
+  {
+    "level": "θ7",
+    "title": "Fly Again (bms edit) [mechanic]",
+    "artist": "Junk feat.Salita",
+    "url": "https://web.archive.org/web/20161001063742/https://dl.dropboxusercontent.com/u/93651732/bms/flyagain_ogg.rar",
+    "url_diff": "https://stellabms.xyz/upload/6252",
+    "md5": "c24e531451ba9c09e78356199c17398a",
+    "comment": "ガチ押し ※ガチ押しロボ氏の[robo]を改変",
+    "comment2": "勝手弱化 元譜面の緩急リスペクト"
+  },
+  {
+    "level": "θ7",
+    "title": "逃げるな！マスター -「指ガチ」って何ですか？-",
+    "artist": "litmus* ft. 初音ミク&重音テト&可不",
+    "url": "https://9domu46i.com/yuruyuru/phase25.html",
+    "url_diff": "https://stellabms.xyz/upload/6242",
+    "md5": "971f88f3793bdc0bcc877c9d48616e3a",
+    "comment": "微縦  ※IBARAGI_YOSHIMI氏の-これは「乱打」です-を改変",
+    "comment2": "勝手強化 元譜面の緩急リスペクト"
+  },
+  {
+    "level": "?",
+    "title": "Electric Emotion [Ecstacy]",
+    "artist": "nmk feat.橘花音",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=181&event=123",
+    "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02680.zip",
+    "md5": "5c1ece573563b8b43e5b3352ad9c5df4",
+    "comment": "1Pガチ割れ",
+    "comment2": "1P正規専用"
+  },
+  {
+    "level": "?",
+    "title": "Palette Lab [Pretty Length]",
+    "artist": "かんざきしおん",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=33&event=140",
+    "url_diff": "https://stellabms.xyz/upload/2593",
+    "md5": "22bb8fc96b6c9a432724e1b8918827b7",
+    "comment": "[ln12] 連打、短LN",
+    "comment2": "Colourな音を短LNで表現したかった"
+  }
+]

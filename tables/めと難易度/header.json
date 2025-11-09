@@ -1,0 +1,6 @@
+{
+"name" : "めと難易度",
+"symbol" : "め",
+"data_url" : "data.json",
+"level_order" : [8,9,10,11,12,13]
+}

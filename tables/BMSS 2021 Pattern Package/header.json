@@ -1,0 +1,13 @@
+{
+  "name": "BMSS 2021 Pattern Package",
+  "symbol": "+",
+  "level_order": [
+    "7KEYS",
+    "14KEYS",
+    "5KEYS"
+  ],
+  "folder_order": [
+    ""
+  ],
+  "data_url": "data.json"
+}

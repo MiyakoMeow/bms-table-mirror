@@ -1,0 +1,393 @@
+{
+  "name": "5KEYS AERY",
+  "symbol": "⑤",
+  "course": [
+    [
+      {
+        "name": "[5KEYS AERY] 段位認定 1_DAN / ver.24",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          {
+            "name": "bronzemedal",
+            "missrate": 7.5,
+            "scorerate": 0.0
+          },
+          {
+            "name": "silvermedal",
+            "missrate": 5.0,
+            "scorerate": 70.0
+          },
+          {
+            "name": "goldmedal",
+            "missrate": 2.5,
+            "scorerate": 85.0
+          }
+        ],
+        "md5": [
+          "092d4c4597d78fde5bde5e79583e2a21",
+          "285b4d42a2feb17a8de615c5732f75cc",
+          "586eecf05016b61b3a737087da4b53f7",
+          "4c35df45e9853650bb11139089db0241"
+        ]
+      },
+      {
+        "name": "[5KEYS AERY] 段位認定 2_DAN / ver.24",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          {
+            "name": "bronzemedal",
+            "missrate": 7.5,
+            "scorerate": 0.0
+          },
+          {
+            "name": "silvermedal",
+            "missrate": 5.0,
+            "scorerate": 70.0
+          },
+          {
+            "name": "goldmedal",
+            "missrate": 2.5,
+            "scorerate": 85.0
+          }
+        ],
+        "md5": [
+          "779c5cee43891cf6516ebd9a5e73b648",
+          "b7c62a473c739085f2b85ad19c8f6fb0",
+          "7384c7487c47149f5ee9b6bcbd6f9491",
+          "959614f4dd366638ab6f617e3b87fc6c"
+        ]
+      },
+      {
+        "name": "[5KEYS AERY] 段位認定 3_DAN / ver.24",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          {
+            "name": "bronzemedal",
+            "missrate": 7.5,
+            "scorerate": 0.0
+          },
+          {
+            "name": "silvermedal",
+            "missrate": 5.0,
+            "scorerate": 70.0
+          },
+          {
+            "name": "goldmedal",
+            "missrate": 2.5,
+            "scorerate": 85.0
+          }
+        ],
+        "md5": [
+          "8a7d1acf1f4baa2160cece323197550d",
+          "1f6828e9c46f3646c7c8fe3a3885c045",
+          "632ad8cdfedf4ddec8bcbfc387b7e690",
+          "363945fb89b936aaa5f2e74df6cff924"
+        ]
+      },
+      {
+        "name": "[5KEYS AERY] 段位認定 4_DAN / ver.24",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          {
+            "name": "bronzemedal",
+            "missrate": 7.5,
+            "scorerate": 0.0
+          },
+          {
+            "name": "silvermedal",
+            "missrate": 5.0,
+            "scorerate": 70.0
+          },
+          {
+            "name": "goldmedal",
+            "missrate": 2.5,
+            "scorerate": 85.0
+          }
+        ],
+        "md5": [
+          "2e374d1b6e04db7b77c02fc4c7f01da3",
+          "0ef415fe32c7b4643762425f7d9080b2",
+          "84f5aa52e5ca6753b8766bd38509cf88",
+          "9dd3f8494dbf2610a12c8fb06e675eba"
+        ]
+      },
+      {
+        "name": "[5KEYS AERY] 段位認定 5_DAN / ver.24",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          {
+            "name": "bronzemedal",
+            "missrate": 7.5,
+            "scorerate": 0.0
+          },
+          {
+            "name": "silvermedal",
+            "missrate": 5.0,
+            "scorerate": 70.0
+          },
+          {
+            "name": "goldmedal",
+            "missrate": 2.5,
+            "scorerate": 85.0
+          }
+        ],
+        "md5": [
+          "199aa09741df8c57f75c1a68c5f7c660",
+          "8e26da57d0bebdf8691cda660c8ce771",
+          "7f6e2b3e8bb2d013566b59c4f6b1b11f",
+          "008de2c8277e04c8a3274dfab0b3f86b"
+        ]
+      },
+      {
+        "name": "[5KEYS AERY] 段位認定 6_DAN / ver.24",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          {
+            "name": "bronzemedal",
+            "missrate": 7.5,
+            "scorerate": 0.0
+          },
+          {
+            "name": "silvermedal",
+            "missrate": 5.0,
+            "scorerate": 70.0
+          },
+          {
+            "name": "goldmedal",
+            "missrate": 2.5,
+            "scorerate": 85.0
+          }
+        ],
+        "md5": [
+          "448ee2bf92651eaf45a79c98eb7630c8",
+          "fc87e6e4b76e9883844e45328d6deca5",
+          "9c1d3541043e001547363d1539395aee",
+          "5f49f59a42d6b5241293fef257ad0165"
+        ]
+      },
+      {
+        "name": "[5KEYS AERY] 段位認定 7_DAN / ver.24",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          {
+            "name": "bronzemedal",
+            "missrate": 7.5,
+            "scorerate": 0.0
+          },
+          {
+            "name": "silvermedal",
+            "missrate": 5.0,
+            "scorerate": 70.0
+          },
+          {
+            "name": "goldmedal",
+            "missrate": 2.5,
+            "scorerate": 85.0
+          }
+        ],
+        "md5": [
+          "45a6c24e6e05496975b6bf8e247976bb",
+          "0eb90124ce909c57643d2ab782e6ad2f",
+          "312bbaf65a12cc6953d7b8835b40d2bf",
+          "04138a82e311f4c0619a59e73b8274b6"
+        ]
+      },
+      {
+        "name": "[5KEYS AERY] 段位認定 8_DAN / ver.24",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          {
+            "name": "bronzemedal",
+            "missrate": 7.5,
+            "scorerate": 0.0
+          },
+          {
+            "name": "silvermedal",
+            "missrate": 5.0,
+            "scorerate": 70.0
+          },
+          {
+            "name": "goldmedal",
+            "missrate": 2.5,
+            "scorerate": 85.0
+          }
+        ],
+        "md5": [
+          "ea4c20ea8770bf106f3e619339a7d29f",
+          "011b5b10874d806991feb0c477942c9c",
+          "a340ad6acd84023d22eb5576d5816384",
+          "a08272dc4fffda4f3a7bcee3c02c0f8a"
+        ]
+      },
+      {
+        "name": "[5KEYS AERY] 段位認定 9_DAN / ver.24",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          {
+            "name": "bronzemedal",
+            "missrate": 7.5,
+            "scorerate": 0.0
+          },
+          {
+            "name": "silvermedal",
+            "missrate": 5.0,
+            "scorerate": 70.0
+          },
+          {
+            "name": "goldmedal",
+            "missrate": 2.5,
+            "scorerate": 85.0
+          }
+        ],
+        "md5": [
+          "d954040a6a94a78d82309e037aa6a4fd",
+          "92e87e37dc27498a746ee5b95e5bee2e",
+          "204e522a8a1450d28baa489fb1738409",
+          "68d70074bd6ab2d921df9c0afcbc1b0b"
+        ]
+      },
+      {
+        "name": "[5KEYS AERY] 段位認定 10_DAN / ver.24",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          {
+            "name": "bronzemedal",
+            "missrate": 7.5,
+            "scorerate": 0.0
+          },
+          {
+            "name": "silvermedal",
+            "missrate": 5.0,
+            "scorerate": 70.0
+          },
+          {
+            "name": "goldmedal",
+            "missrate": 2.5,
+            "scorerate": 85.0
+          }
+        ],
+        "md5": [
+          "ded28f8d4dda2947ea4638f374bee967",
+          "4180f8fab3ad583a31b24b8d6cad2cab",
+          "41d5a80fb2d73df1dedeff4f20d63e41",
+          "5571fdd440253f1ab63ce9f0941f15b3"
+        ]
+      },
+      {
+        "name": "[5KEYS AERY] 段位認定 皆伝 / ver.24",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          {
+            "name": "bronzemedal",
+            "missrate": 7.5,
+            "scorerate": 0.0
+          },
+          {
+            "name": "silvermedal",
+            "missrate": 5.0,
+            "scorerate": 70.0
+          },
+          {
+            "name": "goldmedal",
+            "missrate": 2.5,
+            "scorerate": 85.0
+          }
+        ],
+        "md5": [
+          "95f14007516fc382c36d44aedfcbb1cb",
+          "43eb214cfb65388b11933d3902043b77",
+          "4789bd0c9b22a03462d59df1baf111db",
+          "71a29e4cc396881b11c389879874598c"
+        ]
+      },
+      {
+        "name": "[5KEYS AERY] 段位認定 GORILLA / ver.24",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          {
+            "name": "bronzemedal",
+            "missrate": 7.5,
+            "scorerate": 0.0
+          },
+          {
+            "name": "silvermedal",
+            "missrate": 5.0,
+            "scorerate": 70.0
+          },
+          {
+            "name": "goldmedal",
+            "missrate": 2.5,
+            "scorerate": 85.0
+          }
+        ],
+        "md5": [
+          "e66a509dcbb4ae2e0aa28e5b713291d4",
+          "7108a3a73795a5da5fb9df03d0c2b09d",
+          "2868c70113edd0c8f0f6d138924bcd27",
+          "20aad85c9812c6e3b7bc3633fc72b1c9"
+        ]
+      },
+      {
+        "name": "[5KEYS AERY] 段位認定 OVERJOY / ver.24",
+        "constraint": ["grade_mirror", "gauge_lr2", "ln"],
+        "trophy": [
+          {
+            "name": "bronzemedal",
+            "missrate": 7.5,
+            "scorerate": 0.0
+          },
+          {
+            "name": "silvermedal",
+            "missrate": 5.0,
+            "scorerate": 70.0
+          },
+          {
+            "name": "goldmedal",
+            "missrate": 2.5,
+            "scorerate": 85.0
+          }
+        ],
+        "md5": [
+          "fc24589ee1d0b183e1505fc3118ad482",
+          "753069bd564a0c9d671642bd6902c17a",
+          "94f9b80ee6758dd3091557cd7e2d1746",
+          "4dc9f4fc359de07faf5e6f1b0e5c68f4"
+        ]
+      }
+    ]
+  ],
+  "level_order": [
+    "LEVEL 1",
+    "LEVEL 2",
+    "LEVEL 3",
+    "LEVEL 4",
+    "LEVEL 5",
+    "LEVEL 6",
+    "LEVEL 7",
+    "LEVEL 8",
+    "LEVEL 9",
+    "LEVEL 10",
+    "LEVEL 11",
+    "LEVEL 12",
+    "LEVEL 13",
+    "LEVEL 14",
+    "LEVEL 15",
+    "LEVEL 16",
+    "LEVEL 17",
+    "LEVEL 18",
+    "LEVEL 19",
+    "LEVEL 20",
+    "LEVEL DUMMY",
+    "OLD CHARTS"
+  ],
+  "folder_order": [],
+  "folder_sort_key": "",
+  "folder_sort_ascending": true,
+  "entry_type": "",
+  "data_url": "data.json",
+  "compat_prefix": "",
+  "last_update": "2024-05-04",
+  "editor_name": "BeMusicSeeker",
+  "editor_version": "0.3.5.6",
+  "output_date": "2024-05-04"
+}
