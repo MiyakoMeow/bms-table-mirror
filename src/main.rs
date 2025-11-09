@@ -18,12 +18,6 @@ use url::Url;
 use crate::config::{TableConfig, load_table_config};
 use crate::{filesystem::sanitize_filename, logger::init_logger};
 
-#[derive(Clone)]
-struct TableEntry {
-    name: String,
-    url: Url,
-}
-
 #[tokio::main]
 async fn main() -> anyhow::Result<()> {
     init_logger();
@@ -31,8 +25,8 @@ async fn main() -> anyhow::Result<()> {
     // Load configuration from tables.toml
     let config: TableConfig = load_table_config("tables.toml")?;
 
-    // Build BTreeMap<Url, TableEntry>
-    let mut index_map: BTreeMap<Url, TableEntry> = BTreeMap::new();
+    // Build BTreeMap<Url, BmsTableIndexItem>
+    let mut index_map: BTreeMap<Url, BmsTableIndexItem> = BTreeMap::new();
 
     // Prepare index output directory
     let index_dir = Path::new("indexes");
@@ -44,10 +38,10 @@ async fn main() -> anyhow::Result<()> {
     for idx in &config.table_index {
         info!("Fetching table index from: {} ({})", idx.name, idx.url);
         let (indexes, original_json) = fetch_table_index_full(&client, idx.url.as_str()).await?;
-        for BmsTableIndexItem { name, url, .. } in indexes {
-            let url_str = url.to_string();
+        for item in indexes {
+            let url_str = item.url.to_string();
             if let Ok(url) = Url::parse(&url_str) {
-                index_map.insert(url.clone(), TableEntry { name, url });
+                index_map.insert(url.clone(), item);
             } else {
                 warn!("Invalid URL in fetched index: {}", url_str);
             }
@@ -60,13 +54,18 @@ async fn main() -> anyhow::Result<()> {
     // Add extra table URLs with default name from domain
     for url in &config.add_table_url {
         let name = url.host_str().unwrap_or("unknown").to_string();
-        index_map.insert(
-            url.clone(),
-            TableEntry {
-                name,
-                url: url.clone(),
-            },
-        );
+        // 手动构建 BmsTableIndexItem，symbol 使用 "-"
+        let item = BmsTableIndexItem {
+            name,
+            url: url.clone(),
+            symbol: "-".to_string(),
+            extra: Default::default(),
+        };
+        if let Ok(k) = Url::parse(item.url.as_ref()) {
+            index_map.insert(k, item);
+        } else {
+            warn!("Invalid URL in add_table_url: {}", url);
+        }
     }
 
     // Disable specified table URLs
@@ -94,18 +93,19 @@ async fn main() -> anyhow::Result<()> {
 
 fn spawn_fetch(
     join_set: &mut tokio::task::JoinSet<()>,
-    index: TableEntry,
+    index: BmsTableIndexItem,
     base_dir: &Path,
 ) -> anyhow::Result<()> {
     let url = index.url.to_string();
-    let name = index.name;
+    let name = index.name.clone();
     // JoinSet 需要 'static future，捕获一个拥有所有权的 PathBuf
     let base_dir_owned = base_dir.to_path_buf();
 
     let client = make_lenient_client()?;
 
     join_set.spawn(async move {
-        if let Err(e) = fetch_and_save_table(&client, &url, base_dir_owned.as_path()).await {
+        let idx = index;
+        if let Err(e) = fetch_and_save_table(&client, idx, base_dir_owned.as_path()).await {
             warn!("Failed to fetch {} from {}: {}", name, url, e);
         } else {
             info!("Saved table {} from {}", name, url);
@@ -117,11 +117,11 @@ fn spawn_fetch(
 
 async fn fetch_and_save_table(
     client: &reqwest::Client,
-    web_url: &str,
+    mut index: BmsTableIndexItem,
     base_dir: &Path,
 ) -> anyhow::Result<()> {
     // 先获取表数据与原始JSON，再创建目录与写入
-    let (table, raw) = fetch_table_full(client, web_url).await?;
+    let (table, raw) = fetch_table_full(client, index.url.as_str()).await?;
 
     // 使用 BmsTableHeader 的 name 作为目录名（经 sanitize）
     let dir_name = sanitize_filename(&table.header.name);
@@ -137,6 +137,15 @@ async fn fetch_and_save_table(
 
     fs::write(&header_path, patched_header)?;
     fs::write(&data_path, raw.data_raw)?;
+
+    // 向index同步实际获取的难度表信息
+    index.name = table.header.name;
+    index.symbol = table.header.symbol;
+
+    // 写入index
+    let info_path: PathBuf = out_dir.join("info.json");
+    let info_data = serde_json::to_string_pretty(&index)?;
+    fs::write(&info_path, info_data)?;
 
     Ok(())
 }
