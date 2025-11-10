@@ -87,7 +87,13 @@ pub fn write_json_if_changed(path: &Path, new_content: &str) -> anyhow::Result<(
     let new_parsed = serde_json::from_str::<Value>(new_content);
     match (old_parsed, new_parsed) {
         // 如果旧文件和新文件解析后对象相等，则不写入
-        (Ok(old_val), Ok(new_val)) if old_val == new_val => {}
+        (Ok(mut old_val), Ok(mut new_val)) => {
+            old_val.sort_all_objects();
+            new_val.sort_all_objects();
+            if old_val != new_val {
+                fs::write(path, new_content)?;
+            }
+        }
         // 旧文件不相等、解析失败或无法比较，直接替换
         _ => {
             fs::write(path, new_content)?;
