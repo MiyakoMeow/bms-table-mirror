@@ -31,29 +31,29 @@ async fn main() -> Result<()> {
     let config: TableConfig = load_table_config("tables.toml").await?;
 
     // Build BTreeMap<Url, BmsTableInfo>
-    let mut index_map: BTreeMap<Url, BmsTableInfo> = BTreeMap::new();
+    let mut table_info_map: BTreeMap<Url, BmsTableInfo> = BTreeMap::new();
 
     // Prepare index output directory
-    let index_dir = Path::new("indexes");
-    fs::create_dir_all(index_dir).await?;
+    let lists_dir = Path::new("lists");
+    fs::create_dir_all(lists_dir).await?;
 
     let client = make_lenient_client()?;
 
     // Fetch and merge indexes from configured index endpoints
-    for idx in &config.table_index {
+    for idx in &config.table_list {
         info!("Fetching table index from: {} ({})", idx.name, idx.url);
-        let (indexes, original_json) = fetch_table_list_full(&client, idx.url.as_str()).await?;
-        for item in indexes {
-            let url_str = item.url.to_string();
-            if let Ok(url) = Url::parse(&url_str) {
-                index_map.insert(url.clone(), item);
-            } else {
+        let (infos, original_json) = fetch_table_list_full(&client, idx.url.as_str()).await?;
+        for info in infos {
+            let url_str = info.url.to_string();
+            let Ok(url) = Url::parse(&url_str) else {
                 warn!("Invalid URL in fetched index: {}", url_str);
-            }
+                continue;
+            };
+            table_info_map.insert(url.clone(), info);
         }
         // Write index json file
-        let index_file_path = index_dir.join(format!("{}.json", idx.name));
-        fs::write(index_file_path, original_json).await?;
+        let list_file_path = lists_dir.join(format!("{}.json", idx.name));
+        fs::write(list_file_path, original_json).await?;
     }
 
     // Add extra table URLs with default name from domain
@@ -66,16 +66,16 @@ async fn main() -> Result<()> {
             symbol: "-".to_string(),
             extra: Default::default(),
         };
-        if let Ok(k) = Url::parse(item.url.as_ref()) {
-            index_map.insert(k, item);
-        } else {
+        let Ok(k) = Url::parse(item.url.as_ref()) else {
             warn!("Invalid URL in add_table_url: {}", url);
-        }
+            continue;
+        };
+        table_info_map.insert(k, item);
     }
 
     // Disable specified table URLs
     for url in &config.disable_table_url {
-        if index_map.remove(url).is_some() {
+        if table_info_map.remove(url).is_some() {
             info!("Disabled table: {}", url);
         }
     }
@@ -86,8 +86,8 @@ async fn main() -> Result<()> {
 
     // Fetch each table concurrently based on built map
     let mut join_set = tokio::task::JoinSet::new();
-    for (_url, idx) in index_map {
-        spawn_fetch(&mut join_set, idx, base_dir)?;
+    for info in table_info_map.into_values() {
+        spawn_fetch(&mut join_set, info, base_dir)?;
     }
 
     while let Some(_res) = join_set.join_next().await {}
@@ -98,18 +98,18 @@ async fn main() -> Result<()> {
 
 fn spawn_fetch(
     join_set: &mut tokio::task::JoinSet<()>,
-    index: BmsTableInfo,
+    info: BmsTableInfo,
     base_dir: &Path,
 ) -> Result<()> {
-    let url = index.url.to_string();
-    let name = index.name.clone();
+    let url = info.url.to_string();
+    let name = info.name.clone();
     // JoinSet 需要 'static future，捕获一个拥有所有权的 PathBuf
     let base_dir_owned = base_dir.to_path_buf();
 
     let client = make_lenient_client()?;
 
     join_set.spawn(async move {
-        let idx = index;
+        let idx = info;
         if let Err(e) = fetch_and_save_table(&client, idx, base_dir_owned.as_path()).await {
             warn!("Failed to fetch {} from {}: {}", name, url, e);
         } else {
@@ -122,7 +122,7 @@ fn spawn_fetch(
 
 async fn fetch_and_save_table(
     client: &reqwest::Client,
-    mut index: BmsTableInfo,
+    mut info: BmsTableInfo,
     base_dir: &Path,
 ) -> Result<()> {
     // 先获取表数据与原始JSON，再创建目录与写入
@@ -132,7 +132,7 @@ async fn fetch_and_save_table(
             header_raw,
             data_raw,
         },
-    ) = fetch_table_full(client, index.url.as_str()).await?;
+    ) = fetch_table_full(client, info.url.as_str()).await?;
 
     // 使用 BmsTableHeader 的 name 作为目录名（经 sanitize）
     let dir_name = sanitize_filename(&header.name);
@@ -151,12 +151,12 @@ async fn fetch_and_save_table(
     write_json_if_changed(&data_path, &data_raw).await?;
 
     // 向index同步实际获取的难度表信息
-    index.name = header.name;
-    index.symbol = header.symbol;
+    info.name = header.name;
+    info.symbol = header.symbol;
 
     // 写入index
     let info_path: PathBuf = out_dir.join("info.json");
-    let info_data = serde_json::to_string_pretty(&index)?;
+    let info_data = serde_json::to_string_pretty(&info)?;
     write_json_if_changed(&info_path, &info_data).await?;
 
     Ok(())

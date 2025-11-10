@@ -3,14 +3,14 @@ use std::path::Path;
 use url::Url;
 
 #[derive(Debug, Deserialize)]
-pub struct TableIndexSource {
+pub struct TableListSource {
     pub name: String,
     pub url: Url,
 }
 
 #[derive(Debug, Deserialize)]
 pub struct TableConfig {
-    pub table_index: Vec<TableIndexSource>,
+    pub table_list: Vec<TableListSource>,
     pub add_table_url: Vec<Url>,
     pub disable_table_url: Vec<Url>,
 }

@@ -1,18 +1,18 @@
 # 配置表来源列表
-# - table_index: 远程索引接口（返回表列表）的对象数组，每项包含 name 与 url
-# - add_table_url: 额外直接添加的表页面地址数组（无需索引）
-# - disable_table_url: 需要禁用的表页面地址数组（从最终列表中移除）
+# - table_list: 远程表列表接口（返回表列表）的对象数组，每项包含 name 与 url
+# - add_table_url: 额外直接添加的表页面地址数组（无需表列表）
+# - disable_table_url: 需要禁用的表页面地址数组（从最终表列表中移除）
 
-table_index = [
+table_list = [
   { name = "DARKSABUN", url = "https://script.google.com/macros/s/AKfycbzaQbcI9UZDcDlSHHl2NHilhmePrNrwxRdOFkmIXsfnbfksKKmAB3V65WZ8jPWU-7E/exec?table=tablelist" },
 ]
 
 add_table_url = [
-  # 在此添加表页 URL，例如：
+  # 在此添加难度表 URL，例如：
   # "https://example.com/my-bms-table"
 ]
 
 disable_table_url = [
-  # 在此禁用某些表页 URL，例如：
+  # 在此禁用某些难度表 URL，例如：
   # "https://example.com/old-table"
 ]
