@@ -32,33 +32,81 @@ def make_md_link(label: str, url: str) -> str:
 def generate_md(
     rows: List[Dict[str, Any]], proxy_maps_by_label: Dict[str, Dict[str, str]]
 ) -> str:
-    lines = []
-    # Header (Chinese column names as requested)
-    lines.append("| 标记 | 难度表名称 | 原链接 | 仓库链接 | 代理链接 |")
-    lines.append("| --- | --- | --- | --- | --- |")
+    # Group rows by tag_order > tag1 > tag2
+    def _to_int(val: Any) -> Any:
+        try:
+            return int(str(val).strip())
+        except Exception:
+            return None
 
+    groups: Dict[str, Dict[str, Dict[str, List[Dict[str, Any]]]]] = {}
     for item in rows:
-        symbol_cell = escape_md_cell(to_str(item.get("symbol", "")))
-        name_raw = to_str(item.get("name", ""))
-        name_cell = escape_md_cell(name_raw)
+        tag_order_raw = item.get("tag_order")
+        tag_order_key = to_str(tag_order_raw) if tag_order_raw is not None else "N/A"
+        tag1 = to_str(item.get("tag1", "")).strip() or "未分类"
+        tag2 = to_str(item.get("tag2", "")).strip() or "未分类"
+        groups.setdefault(tag_order_key, {}).setdefault(tag1, {}).setdefault(
+            tag2, []
+        ).append(item)
 
-        url_ori = to_str(item.get("url_ori", ""))
-        url_repo = to_str(item.get("url", ""))
-        # Build proxy links labeled by their xxx derived from filename
-        proxy_links: List[str] = []
-        for label, name_to_url in sorted(proxy_maps_by_label.items()):
-            u = to_str(name_to_url.get(name_raw, ""))
-            if u:
-                proxy_links.append(make_md_link(label, u))
+    # Sort tag_order keys: numeric first (ascending), then non-numeric
+    def _sort_tag_order_keys(keys: List[str]) -> List[str]:
+        def _key(k: str):
+            i = _to_int(k)
+            return (
+                (0, i if i is not None else 0, str(k))
+                if i is not None
+                else (1, float("inf"), str(k))
+            )
 
-        # Use markdown link syntax to avoid displaying long URLs directly
-        ori_link = make_md_link("原", url_ori)
-        repo_link = make_md_link("仓库", url_repo)
-        proxy_link = " ".join(proxy_links) if proxy_links else ""
+        return sorted(keys, key=_key)
 
-        lines.append(
-            f"| {symbol_cell} | {name_cell} | {ori_link} | {repo_link} | {proxy_link} |"
-        )
+    lines: List[str] = []
+    # Top-level title
+    lines.append("# BMS难度表镜像")
+    lines.append("")
+
+    for tag_order in _sort_tag_order_keys(list(groups.keys())):
+        tag1_map = groups[tag_order]
+        for tag1 in sorted(tag1_map.keys(), key=lambda s: (s == "未分类", s)):
+            lines.append(f"## {tag_order} - {tag1}")
+            lines.append("")
+
+            tag2_map = tag1_map[tag1]
+            for tag2 in sorted(tag2_map.keys(), key=lambda s: (s == "未分类", s)):
+                lines.append(f"### {tag2}")
+                lines.append("")
+
+                # Table header for each group
+                lines.append("| 标记 | 难度表名称 | 原链接 | 仓库链接 | 代理链接 |")
+                lines.append("| --- | --- | --- | --- | --- |")
+
+                for item in tag2_map[tag2]:
+                    symbol_cell = escape_md_cell(to_str(item.get("symbol", "")))
+                    name_raw = to_str(item.get("name", ""))
+                    name_cell = escape_md_cell(name_raw)
+
+                    url_ori = to_str(item.get("url_ori", ""))
+                    url_repo = to_str(item.get("url", ""))
+
+                    # Build proxy links labeled by their xxx derived from filename
+                    proxy_links: List[str] = []
+                    for label, name_to_url in sorted(proxy_maps_by_label.items()):
+                        u = to_str(name_to_url.get(name_raw, ""))
+                        if u:
+                            proxy_links.append(make_md_link(label, u))
+
+                    # Use markdown link syntax to avoid displaying long URLs directly
+                    ori_link = make_md_link("原", url_ori)
+                    repo_link = make_md_link("仓库", url_repo)
+                    proxy_link = " ".join(proxy_links) if proxy_links else ""
+
+                    lines.append(
+                        f"| {symbol_cell} | {name_cell} | {ori_link} | {repo_link} | {proxy_link} |"
+                    )
+
+                # Blank line between groups
+                lines.append("")
 
     return "\n".join(lines) + "\n"
 
