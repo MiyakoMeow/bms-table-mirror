@@ -2,10 +2,10 @@
   "name": "PMSデータベース(Lv1~45)",
   "symbol": "PLv",
   "url": "https://pmsdifficulty.xxxxxxxx.jp/PMSdifficulty.html",
+  "comment": "",
   "date": "",
   "state": "",
-  "comment": "",
+  "tag1": "PMS",
   "tag2": "General",
-  "tag_order": "3",
-  "tag1": "PMS"
+  "tag_order": "3"
 }
