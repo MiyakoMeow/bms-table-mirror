@@ -9,7 +9,7 @@ use std::{
 };
 
 use bms_table::{
-    BmsTableInfo,
+    BmsTable, BmsTableInfo, BmsTableRaw,
     fetch::reqwest::{fetch_table_full, fetch_table_list_full, make_lenient_client},
 };
 use log::{info, warn};
@@ -121,26 +121,32 @@ async fn fetch_and_save_table(
     base_dir: &Path,
 ) -> anyhow::Result<()> {
     // 先获取表数据与原始JSON，再创建目录与写入
-    let (table, raw) = fetch_table_full(client, index.url.as_str()).await?;
+    let (
+        BmsTable { header, data: _ },
+        BmsTableRaw {
+            header_raw,
+            data_raw,
+        },
+    ) = fetch_table_full(client, index.url.as_str()).await?;
 
     // 使用 BmsTableHeader 的 name 作为目录名（经 sanitize）
-    let dir_name = sanitize_filename(&table.header.name);
+    let dir_name = sanitize_filename(&header.name);
     let out_dir = base_dir.join(dir_name);
 
     // 使用 BmsTableHeader 的 data_url 字段，直接用 String::replace 将其替换为 "data.json"
-    let patched_header = raw.header_raw.replace(&table.header.data_url, "data.json");
+    let patched_header = header_raw.replace(&header.data_url, "data.json");
 
     // 在成功获取后再创建目录与写入文件
     fs::create_dir_all(&out_dir)?;
     let header_path: PathBuf = out_dir.join("header.json");
-    let data_path: PathBuf = out_dir.join("data.json");
+    let data_path = out_dir.join("data.json");
 
     fs::write(&header_path, patched_header)?;
-    fs::write(&data_path, raw.data_raw)?;
+    fs::write(&data_path, data_raw)?;
 
     // 向index同步实际获取的难度表信息
-    index.name = table.header.name;
-    index.symbol = table.header.symbol;
+    index.name = header.name;
+    index.symbol = header.symbol;
 
     // 写入index
     let info_path: PathBuf = out_dir.join("info.json");
