@@ -63,6 +63,38 @@ pub fn sanitize_filename(name: &str) -> String {
     }
 }
 
+/// 递归排序 serde_json::Value：
+/// - 遇到数组：先对每个元素递归处理并调用 sort_all_objects，然后按字符串表示排序；
+/// - 遇到对象：先递归处理其值并调用 sort_all_objects，最后对当前对象执行 sort_all_objects；
+/// - 其他类型：不处理。
+pub fn deep_sort_json_value(value: &mut serde_json::Value) {
+    use serde_json::Value;
+
+    match value {
+        Value::Array(arr) => {
+            for item in arr.iter_mut() {
+                deep_sort_json_value(item);
+                item.sort_all_objects();
+            }
+            // 数组元素排序，确保比较稳定
+            arr.sort_by_key(|a| a.to_string());
+            // 数组本身不需要再 sort_all_objects，但顶层为数组时保证其内部对象已排序
+        }
+        Value::Object(map) => {
+            for val in map.values_mut() {
+                deep_sort_json_value(val);
+                val.sort_all_objects();
+            }
+            // 对当前对象执行排序，确保键顺序稳定
+            value.sort_all_objects();
+        }
+        _ => {
+            // 对当前对象执行排序，确保键顺序稳定
+            value.sort_all_objects();
+        }
+    }
+}
+
 /// 仅在需要时写入 JSON 文件：
 /// - 文件不存在；或
 /// - 旧文件解析失败；或
@@ -92,15 +124,9 @@ pub async fn write_json_if_changed(path: &Path, new_content: &str) -> anyhow::Re
         return Ok(());
     };
 
-    // 解析成功，排序后比较是否不同
-    old_val.sort_all_objects();
-    new_val.sort_all_objects();
-    if let Some(array) = old_val.as_array_mut() {
-        array.sort_by(|a, b| a.to_string().cmp(&b.to_string()));
-    }
-    if let Some(array) = new_val.as_array_mut() {
-        array.sort_by(|a, b| a.to_string().cmp(&b.to_string()));
-    }
+    // 解析成功，进行递归排序后比较是否不同
+    deep_sort_json_value(&mut old_val);
+    deep_sort_json_value(&mut new_val);
 
     // 排序后比较是否不同
     if old_val != new_val {
