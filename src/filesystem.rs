@@ -96,10 +96,10 @@ pub async fn write_json_if_changed(path: &Path, new_content: &str) -> anyhow::Re
     old_val.sort_all_objects();
     new_val.sort_all_objects();
     if let Some(array) = old_val.as_array_mut() {
-        array.sort_by(|a, b| a.as_str().cmp(&b.as_str()));
+        array.sort_by(|a, b| a.to_string().cmp(&b.to_string()));
     }
     if let Some(array) = new_val.as_array_mut() {
-        array.sort_by(|a, b| a.as_str().cmp(&b.as_str()));
+        array.sort_by(|a, b| a.to_string().cmp(&b.to_string()));
     }
 
     // 排序后比较是否不同
