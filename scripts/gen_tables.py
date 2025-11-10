@@ -4,6 +4,7 @@ import sys
 import subprocess
 import re
 from pathlib import Path
+from urllib.parse import quote
 
 repo_root = Path(__file__).resolve().parent.parent
 tables_dir = repo_root / "tables"
@@ -78,7 +79,9 @@ def generate_tables_json():
                 obj = json.loads(text)
 
                 if owner and repo:
-                    raw_url = f"{base_raw}/{owner}/{repo}/{branch}/tables/{child.name}/header.json"
+                    # 对目录名进行 URL 转义，避免空格与特殊字符
+                    encoded_child = quote(child.name, safe="-._~")
+                    raw_url = f"{base_raw}/{owner}/{repo}/{branch}/tables/{encoded_child}/header.json"
                     obj["url"] = raw_url
                 else:
                     # 获取不到仓库信息时保留原字段并提醒
