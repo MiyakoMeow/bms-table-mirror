@@ -74,7 +74,6 @@ pub fn deep_sort_json_value(value: &mut serde_json::Value) {
         Value::Array(arr) => {
             for item in arr.iter_mut() {
                 deep_sort_json_value(item);
-                item.sort_all_objects();
             }
             // 数组元素排序，确保比较稳定
             arr.sort_by_key(|a| a.to_string());
@@ -83,7 +82,6 @@ pub fn deep_sort_json_value(value: &mut serde_json::Value) {
         Value::Object(map) => {
             for val in map.values_mut() {
                 deep_sort_json_value(val);
-                val.sort_all_objects();
             }
             // 对当前对象执行排序，确保键顺序稳定
             value.sort_all_objects();
