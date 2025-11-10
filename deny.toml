@@ -70,6 +70,7 @@ feature-depth = 1
 # A list of advisory IDs to ignore. Note that ignored advisories will still
 # output a note when they are encountered.
 ignore = [
+    { id = "RUSTSEC-2025-0057", reason = "Transitive via scraper/selectors -> fxhash; upstream migration to rustc-hash pending; no safe upgrade available currently." },
     #"RUSTSEC-0000-0000",
     #{ id = "RUSTSEC-0000-0000", reason = "you can specify a reason the advisory is ignored" },
     #"a-crate-that-is-yanked@0.1.1", # you can also ignore yanked crate versions if you wish
@@ -89,9 +90,16 @@ ignore = [
 # See https://spdx.org/licenses/ for list of possible licenses
 # [possible values: any SPDX 3.11 short identifier (+ optional exception)].
 allow = [
-    #"MIT",
-    #"Apache-2.0",
-    #"Apache-2.0 WITH LLVM-exception",
+    "MIT",
+    "Apache-2.0",
+    "BSD-3-Clause",
+    "BSD-2-Clause",
+    "ISC",
+    "MPL-2.0",
+    "Unlicense",
+    "Zlib",
+    "Unicode-3.0",
+    "Unicode-DFS-2016",
 ]
 # The confidence threshold for detecting a license from license text.
 # The higher the value, the more closely the license text must be to the
