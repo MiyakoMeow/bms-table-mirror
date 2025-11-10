@@ -85,19 +85,26 @@ pub async fn write_json_if_changed(path: &Path, new_content: &str) -> anyhow::Re
     // 解析json
     let old_parsed = serde_json::from_str::<Value>(&old_str);
     let new_parsed = serde_json::from_str::<Value>(new_content);
-    match (old_parsed, new_parsed) {
-        // 如果旧文件和新文件解析后对象相等，则不写入
-        (Ok(mut old_val), Ok(mut new_val)) => {
-            old_val.sort_all_objects();
-            new_val.sort_all_objects();
-            if old_val != new_val {
-                fs::write(path, new_content).await?;
-            }
-        }
-        // 旧文件不相等、解析失败或无法比较，直接替换
-        _ => {
-            fs::write(path, new_content).await?;
-        }
+
+    // 解析失败，直接写入新文件
+    let (Ok(mut old_val), Ok(mut new_val)) = (old_parsed, new_parsed) else {
+        fs::write(path, new_content).await?;
+        return Ok(());
+    };
+
+    // 解析成功，排序后比较是否不同
+    old_val.sort_all_objects();
+    new_val.sort_all_objects();
+    if let Some(array) = old_val.as_array_mut() {
+        array.sort_by(|a, b| a.as_str().cmp(&b.as_str()));
+    }
+    if let Some(array) = new_val.as_array_mut() {
+        array.sort_by(|a, b| a.as_str().cmp(&b.as_str()));
+    }
+
+    // 排序后比较是否不同
+    if old_val != new_val {
+        fs::write(path, new_content).await?;
     }
     Ok(())
 }
