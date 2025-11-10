@@ -2,10 +2,10 @@
   "name": "BMSかん字ドリル 2年生",
   "symbol": "仝",
   "url": "https://venue.bmssearch.net/bmskanji2/bmstable/header.json",
-  "tag1": "EVENT",
-  "state": "",
-  "tag2": "BMS Event",
+  "comment": "",
   "date": "Mon Aug 29 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "tag_order": "4",
-  "comment": ""
+  "state": "",
+  "tag1": "EVENT",
+  "tag2": "BMS Event",
+  "tag_order": "4"
 }

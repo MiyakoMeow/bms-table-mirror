@@ -2,10 +2,10 @@
   "name": "obj.XYZ",
   "symbol": "X",
   "url": "https://xxyz.github.io/objxyz/",
-  "tag2": "Self-made Chart Only",
-  "date": "",
-  "tag_order": "1",
-  "tag1": "SP",
   "comment": "URL Changed",
-  "state": ""
+  "date": "",
+  "state": "",
+  "tag1": "SP",
+  "tag2": "Self-made Chart Only",
+  "tag_order": "1"
 }

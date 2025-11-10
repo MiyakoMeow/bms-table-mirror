@@ -2,10 +2,10 @@
   "name": "DP Stella (Voting)",
   "symbol": "DPst",
   "url": "https://stellabms.xyz/dpst/table_vote.html",
-  "tag2": "General",
+  "comment": "Stella 2.0",
   "date": "Sun Jun 22 2025 00:00:00 GMT+0900 (Japan Standard Time)",
   "state": "",
-  "tag_order": "2",
   "tag1": "DP",
-  "comment": "Stella 2.0"
+  "tag2": "General",
+  "tag_order": "2"
 }

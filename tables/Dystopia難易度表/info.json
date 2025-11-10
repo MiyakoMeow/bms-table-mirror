@@ -2,10 +2,10 @@
   "name": "Dystopia難易度表",
   "symbol": "dy",
   "url": "https://monibms.github.io/Dystopia/dystopia.html",
+  "comment": "",
+  "date": "Fri Feb 11 2022 00:00:00 GMT+0900 (Japan Standard Time)",
   "state": "",
   "tag1": "SP",
-  "comment": "",
-  "tag_order": "1",
-  "date": "Fri Feb 11 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "tag2": "Personal"
+  "tag2": "Personal",
+  "tag_order": "1"
 }

@@ -2,10 +2,10 @@
   "name": "DP Satellite Sub",
   "symbol": "DPsl",
   "url": "https://stellabms.xyz/dp/table_sub.html",
-  "tag2": "General",
+  "comment": "Stella 2.0",
+  "date": "Sun Jun 22 2025 00:00:00 GMT+0900 (Japan Standard Time)",
   "state": "",
   "tag1": "DP",
-  "tag_order": "2",
-  "date": "Sun Jun 22 2025 00:00:00 GMT+0900 (Japan Standard Time)",
-  "comment": "Stella 2.0"
+  "tag2": "General",
+  "tag_order": "2"
 }

@@ -2,10 +2,10 @@
   "name": "Stella EASY",
   "symbol": "E-st",
   "url": "https://notmichaelchen.github.io/stella-table-extensions/stella-easy.html",
+  "comment": "maintained by <a href=\"https://x.com/dewero4\">dewero</a>",
   "date": "Thu Jun 24 2021 00:00:00 GMT+0900 (Japan Standard Time)",
   "state": "",
-  "tag_order": "1",
-  "comment": "maintained by <a href=\"https://x.com/dewero4\">dewero</a>",
   "tag1": "SP",
-  "tag2": "Personal"
+  "tag2": "Personal",
+  "tag_order": "1"
 }

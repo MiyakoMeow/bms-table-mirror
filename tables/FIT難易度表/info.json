@@ -2,10 +2,10 @@
   "name": "FIT難易度表",
   "symbol": "FIT",
   "url": "https://shimi9999.github.io/FITtable/",
-  "date": "Fri Jul 30 2021 00:00:00 GMT+0900 (Japan Standard Time)",
-  "tag1": "SP",
-  "tag_order": "1",
   "comment": "",
+  "date": "Fri Jul 30 2021 00:00:00 GMT+0900 (Japan Standard Time)",
   "state": "",
-  "tag2": "Personal"
+  "tag1": "SP",
+  "tag2": "Personal",
+  "tag_order": "1"
 }

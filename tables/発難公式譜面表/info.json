@@ -2,10 +2,10 @@
   "name": "発難公式譜面表",
   "symbol": "公",
   "url": "http://roma11.site44.com/nanidohyo/indifofficial.html",
-  "tag_order": "1",
-  "tag1": "SP",
   "comment": "",
   "date": "",
   "state": "",
-  "tag2": "Personal"
+  "tag1": "SP",
+  "tag2": "Personal",
+  "tag_order": "1"
 }

@@ -2,10 +2,10 @@
   "name": "tinniturjoy",
   "symbol": "🟢",
   "url": "https://kerocomino.github.io/tinnitus/",
-  "tag2": "Personal",
+  "comment": "",
   "date": "Mon Jan 08 2024 00:00:00 GMT+0900 (Japan Standard Time)",
-  "tag1": "SP",
-  "tag_order": "1",
   "state": "",
-  "comment": ""
+  "tag1": "SP",
+  "tag2": "Personal",
+  "tag_order": "1"
 }

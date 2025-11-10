@@ -2,10 +2,10 @@
   "name": "イベント同梱のLN譜面をプレイする",
   "symbol": "¶イベ",
   "url": "http://kickbass.web.fc2.com/LNkatappasi/event/table.html",
-  "tag1": "SP",
-  "tag_order": "1",
   "comment": "",
-  "tag2": "Personal",
   "date": "",
-  "state": ""
+  "state": "",
+  "tag1": "SP",
+  "tag2": "Personal",
+  "tag_order": "1"
 }

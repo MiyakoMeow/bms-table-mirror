@@ -2,10 +2,10 @@
   "name": "quad難易度表",
   "symbol": "q",
   "url": "http://quad.ninja-web.net/table.html",
-  "state": "",
-  "tag2": "Self-made Chart Only",
+  "comment": "",
   "date": "",
+  "state": "",
   "tag1": "SP",
-  "tag_order": "1",
-  "comment": ""
+  "tag2": "Self-made Chart Only",
+  "tag_order": "1"
 }

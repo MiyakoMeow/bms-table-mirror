@@ -2,10 +2,10 @@
   "name": "DPBMS黒難易度表(発狂)",
   "symbol": "黒",
   "url": "http://dpbmschart.web.fc2.com/insane-chart/insane_chart.html",
-  "tag_order": "2",
-  "tag2": "General",
-  "tag1": "DP",
   "comment": "",
+  "date": "",
   "state": "",
-  "date": ""
+  "tag1": "DP",
+  "tag2": "General",
+  "tag_order": "2"
 }

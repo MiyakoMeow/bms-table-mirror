@@ -2,10 +2,10 @@
   "name": "通常難易度表",
   "symbol": "☆",
   "url": "https://darksabun.club/table/archive/normal1/",
-  "tag1": "SP",
-  "tag_order": "1",
-  "state": "",
-  "tag2": "General",
+  "comment": "Converted by Ribbit",
   "date": "",
-  "comment": "Converted by Ribbit"
+  "state": "",
+  "tag1": "SP",
+  "tag2": "General",
+  "tag_order": "1"
 }

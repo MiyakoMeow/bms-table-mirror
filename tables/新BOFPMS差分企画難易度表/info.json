@@ -3,9 +3,9 @@
   "symbol": "POF",
   "url": "https://pmsdifficulty.xxxxxxxx.jp/BOFPMS.html",
   "comment": "",
-  "tag1": "EVENT",
   "date": "Wed Feb 08 2023 00:00:00 GMT+0900 (Japan Standard Time)",
+  "state": "",
+  "tag1": "EVENT",
   "tag2": "Chart Event",
-  "tag_order": "4",
-  "state": ""
+  "tag_order": "4"
 }

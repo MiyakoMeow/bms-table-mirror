@@ -2,10 +2,10 @@
   "name": "第三期Overjoy隔離",
   "symbol": "★★隔離",
   "url": "http://rattoto10.jounin.jp/table_overjoy_kakuri.html",
-  "tag_order": "1",
-  "state": "",
-  "date": "Sat Apr 01 2023 00:00:00 GMT+0900 (Japan Standard Time)",
   "comment": "",
+  "date": "Sat Apr 01 2023 00:00:00 GMT+0900 (Japan Standard Time)",
+  "state": "",
   "tag1": "SP",
-  "tag2": "General"
+  "tag2": "General",
+  "tag_order": "1"
 }

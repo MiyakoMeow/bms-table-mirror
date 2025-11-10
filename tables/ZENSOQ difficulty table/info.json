@@ -2,10 +2,10 @@
   "name": "ZENSOQ difficulty table",
   "symbol": "Z",
   "url": "https://bms.hexlataia.xyz/tables/mirror/ZENSOQ/table.html",
-  "tag_order": "1",
-  "date": "",
   "comment": "SP ONLY, Unable to download charts",
+  "date": "",
   "state": "",
+  "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag1": "SP"
+  "tag_order": "1"
 }

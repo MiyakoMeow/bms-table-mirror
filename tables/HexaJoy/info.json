@@ -2,10 +2,10 @@
   "name": "HexaJoy",
   "symbol": "六",
   "url": "https://bms.hexlataia.xyz/tables/hexajoy.html",
+  "comment": "",
   "date": "",
   "state": "",
   "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "1",
-  "comment": ""
+  "tag_order": "1"
 }

@@ -2,10 +2,10 @@
   "name": "LindBlum難易度表",
   "symbol": "Я",
   "url": "http://lllindblum.web.fc2.com/lindblum.html",
-  "tag_order": "1",
-  "state": "",
-  "date": "",
   "comment": "",
+  "date": "",
+  "state": "",
   "tag1": "SP",
-  "tag2": "Self-made Chart Only"
+  "tag2": "Self-made Chart Only",
+  "tag_order": "1"
 }

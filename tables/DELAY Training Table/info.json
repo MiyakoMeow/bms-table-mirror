@@ -2,10 +2,10 @@
   "name": "DELAY Training Table",
   "symbol": "速い",
   "url": "https://kamikaze12345.github.io/github.io/delaytrainingtable/table.html",
-  "tag1": "SP",
-  "tag_order": "1",
   "comment": "",
-  "state": "",
   "date": "Tue Jun 07 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "tag2": "Personal"
+  "state": "",
+  "tag1": "SP",
+  "tag2": "Personal",
+  "tag_order": "1"
 }

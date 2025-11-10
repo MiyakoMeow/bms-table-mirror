@@ -2,10 +2,10 @@
   "name": "Scramble難易度表",
   "symbol": "SB",
   "url": "https://egret9.github.io/Scramble/",
+  "comment": "",
+  "date": "Mon Aug 01 2022 00:00:00 GMT+0900 (Japan Standard Time)",
+  "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1",
-  "comment": "",
-  "state": "",
-  "date": "Mon Aug 01 2022 00:00:00 GMT+0900 (Japan Standard Time)"
+  "tag_order": "1"
 }

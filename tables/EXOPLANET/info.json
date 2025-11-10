@@ -2,10 +2,10 @@
   "name": "EXOPLANET",
   "symbol": "fr",
   "url": "https://stellabms.xyz/fr/table.html",
-  "tag1": "SP",
+  "comment": "deprecated",
   "date": "Sun May 15 2022 00:00:00 GMT+0900 (Japan Standard Time)",
   "state": "",
+  "tag1": "SP",
   "tag2": "General",
-  "tag_order": "1",
-  "comment": "deprecated"
+  "tag_order": "1"
 }

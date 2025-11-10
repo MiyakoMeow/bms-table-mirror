@@ -2,10 +2,10 @@
   "name": "Singularity難易度表",
   "symbol": "Ф",
   "url": "https://snote.web.fc2.com/tokuiten.html",
-  "date": "Mon Jan 18 2021 00:00:00 GMT+0900 (Japan Standard Time)",
   "comment": "",
-  "tag2": "Personal",
-  "tag_order": "1",
+  "date": "Mon Jan 18 2021 00:00:00 GMT+0900 (Japan Standard Time)",
   "state": "",
-  "tag1": "SP"
+  "tag1": "SP",
+  "tag2": "Personal",
+  "tag_order": "1"
 }

@@ -2,10 +2,10 @@
   "name": "霧中の蒼鳥 - PMS差分難易度表",
   "symbol": "Lv",
   "url": "https://mistyblue.info/pms_chart.php",
-  "tag2": "Self-made Chart Only",
-  "tag_order": "3",
+  "comment": "URL Changed",
   "date": "Thu Jan 06 2022 00:00:00 GMT+0900 (Japan Standard Time)",
   "state": "",
   "tag1": "PMS",
-  "comment": "URL Changed"
+  "tag2": "Self-made Chart Only",
+  "tag_order": "3"
 }

@@ -2,10 +2,10 @@
   "name": "ネタBMS難易度表",
   "symbol": "ｗｗ",
   "url": "https://darksabun.club/table/archive/neta/",
-  "tag_order": "1",
-  "date": "",
   "comment": "Converted by Ribbit",
-  "tag1": "SP",
+  "date": "",
   "state": "",
-  "tag2": "Personal"
+  "tag1": "SP",
+  "tag2": "Personal",
+  "tag_order": "1"
 }

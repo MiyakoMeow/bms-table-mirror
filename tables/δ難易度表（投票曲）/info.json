@@ -4,8 +4,8 @@
   "url": "https://deltabms.yaruki0.net/table/data/vote_head.json",
   "comment": "",
   "date": "",
-  "tag2": "General",
+  "state": "",
   "tag1": "DP",
-  "tag_order": "2",
-  "state": ""
+  "tag2": "General",
+  "tag_order": "2"
 }

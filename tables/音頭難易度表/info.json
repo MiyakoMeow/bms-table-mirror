@@ -2,10 +2,10 @@
   "name": "音頭難易度表",
   "symbol": "℃",
   "url": "https://darksabun.club/table/archive/ondo/",
-  "date": "",
-  "tag_order": "1",
-  "tag2": "Personal",
   "comment": "Converted by Ribbit",
+  "date": "",
   "state": "",
-  "tag1": "SP"
+  "tag1": "SP",
+  "tag2": "Personal",
+  "tag_order": "1"
 }

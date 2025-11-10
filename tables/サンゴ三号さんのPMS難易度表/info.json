@@ -2,10 +2,10 @@
   "name": "サンゴ三号さんのPMS難易度表",
   "symbol": "Lv.",
   "url": "https://35353.wa-sanbon.com/table.html",
-  "tag_order": "3",
-  "tag1": "PMS",
   "comment": "",
-  "tag2": "Personal",
+  "date": "Wed Jan 19 2022 00:00:00 GMT+0900 (Japan Standard Time)",
   "state": "",
-  "date": "Wed Jan 19 2022 00:00:00 GMT+0900 (Japan Standard Time)"
+  "tag1": "PMS",
+  "tag2": "Personal",
+  "tag_order": "3"
 }
