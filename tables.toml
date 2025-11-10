@@ -15,4 +15,5 @@ add_table_url = [
 disable_table_url = [
   # 在此禁用某些难度表 URL，例如：
   # "https://example.com/old-table"
+  "https://pmsdifficulty.xxxxxxxx.jp/subtable/randomselect/randomselect.html",
 ]
