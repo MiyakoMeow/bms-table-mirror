@@ -3,8 +3,30 @@ name: Rust
 on:
   push:
     branches: [main]
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - 'examples/**'
+      - 'build.rs'
+      - 'Cargo.toml'
+      - 'Cargo.lock'
+      - 'deny.toml'
+      - '.cargo/**'
+      - 'rustfmt.toml'
+      - 'clippy.toml'
   pull_request:
     branches: [main]
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - 'examples/**'
+      - 'build.rs'
+      - 'Cargo.toml'
+      - 'Cargo.lock'
+      - 'deny.toml'
+      - '.cargo/**'
+      - 'rustfmt.toml'
+      - 'clippy.toml'
 
 env:
   CARGO_TERM_COLOR: always
