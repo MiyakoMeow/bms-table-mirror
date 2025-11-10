@@ -2,10 +2,10 @@
   "name": "DP Stella",
   "symbol": "DPst",
   "url": "https://stellabms.xyz/dpst/table.html",
-  "tag_order": "2",
   "comment": "Stella 2.0",
+  "date": "Sun Jun 22 2025 00:00:00 GMT+0900 (Japan Standard Time)",
   "state": "",
   "tag1": "DP",
-  "date": "Sun Jun 22 2025 00:00:00 GMT+0900 (Japan Standard Time)",
-  "tag2": "General"
+  "tag2": "General",
+  "tag_order": "2"
 }

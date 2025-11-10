@@ -2,10 +2,10 @@
   "name": "旧アプロダ表",
   "symbol": "旧ろだ",
   "url": "https://bms.hexlataia.xyz/tables/olduploader.html",
-  "tag_order": "5",
+  "comment": "Converted by Hex",
   "date": "",
+  "state": "",
   "tag1": "etc",
   "tag2": "Uploader",
-  "comment": "Converted by Hex",
-  "state": ""
+  "tag_order": "5"
 }

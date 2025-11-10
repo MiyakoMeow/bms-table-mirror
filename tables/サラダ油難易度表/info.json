@@ -2,10 +2,10 @@
   "name": "サラダ油難易度表",
   "symbol": "油",
   "url": "https://darksabun.club/table/archive/saladabura/",
-  "tag_order": "1",
-  "state": "",
-  "date": "",
   "comment": "Converted by Ribbit",
+  "date": "",
+  "state": "",
+  "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag1": "SP"
+  "tag_order": "1"
 }

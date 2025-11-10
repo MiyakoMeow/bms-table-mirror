@@ -2,10 +2,10 @@
   "name": "po",
   "symbol": "po",
   "url": "https://darksabun.club/table/archive/posabun/",
-  "tag_order": "1",
-  "date": "",
   "comment": "Converted by Ribbit",
+  "date": "",
   "state": "",
   "tag1": "SP",
-  "tag2": "Self-made Chart Only"
+  "tag2": "Self-made Chart Only",
+  "tag_order": "1"
 }

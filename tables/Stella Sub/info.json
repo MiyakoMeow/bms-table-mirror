@@ -2,10 +2,10 @@
   "name": "Stella Sub",
   "symbol": "st",
   "url": "https://stellabms.xyz/st/table_sub.html",
+  "comment": "Stella 2.0",
+  "date": "Sun Jun 22 2025 00:00:00 GMT+0900 (Japan Standard Time)",
+  "state": "",
   "tag1": "SP",
   "tag2": "General",
-  "state": "",
-  "comment": "Stella 2.0",
-  "tag_order": "1",
-  "date": "Sun Jun 22 2025 00:00:00 GMT+0900 (Japan Standard Time)"
+  "tag_order": "1"
 }

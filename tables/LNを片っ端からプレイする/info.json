@@ -2,10 +2,10 @@
   "name": "LNを片っ端からプレイする",
   "symbol": "¶",
   "url": "http://kickbass.web.fc2.com/LNkatappasi/table.html",
-  "tag2": "Personal",
+  "comment": "",
   "date": "",
   "state": "",
-  "comment": "",
-  "tag_order": "1",
-  "tag1": "SP"
+  "tag1": "SP",
+  "tag2": "Personal",
+  "tag_order": "1"
 }

@@ -2,10 +2,10 @@
   "name": "Snowzero難易度表",
   "symbol": "雪",
   "url": "https://yaritaihoudie.fr/bazar/snowzero/snowzero_hyou.html",
-  "tag2": "Self-made Chart Only",
-  "tag_order": "1",
   "comment": "Converted by AYhaz",
   "date": "Fri Jan 10 2025 00:00:00 GMT+0900 (Japan Standard Time)",
   "state": "",
-  "tag1": "SP"
+  "tag1": "SP",
+  "tag2": "Self-made Chart Only",
+  "tag_order": "1"
 }

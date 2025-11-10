@@ -2,10 +2,10 @@
   "name": "通常皿難易度表(3rd)",
   "symbol": "◎",
   "url": "http://minddnim.web.fc2.com/bms_sara.html",
-  "tag_order": "1",
+  "comment": "",
   "date": "",
   "state": "",
-  "tag2": "General",
   "tag1": "SP",
-  "comment": ""
+  "tag2": "General",
+  "tag_order": "1"
 }

@@ -2,10 +2,10 @@
   "name": "発狂PMS表外高難易度案内所隔離枠",
   "symbol": "・",
   "url": "http://stellawingroad.web.fc2.com/new3/pms.html",
-  "tag_order": "3",
   "comment": "",
   "date": "",
   "state": "",
   "tag1": "PMS",
-  "tag2": "General"
+  "tag2": "General",
+  "tag_order": "3"
 }

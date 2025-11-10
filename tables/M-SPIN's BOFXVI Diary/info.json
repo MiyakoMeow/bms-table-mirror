@@ -2,10 +2,10 @@
   "name": "M-SPIN's BOFXVI Diary",
   "symbol": "Day ",
   "url": "https://darksabun.club/event/bofxvi/table.html",
-  "tag_order": "4",
-  "state": "",
-  "tag1": "EVENT",
   "comment": "",
   "date": "",
-  "tag2": "Chart Event"
+  "state": "",
+  "tag1": "EVENT",
+  "tag2": "Chart Event",
+  "tag_order": "4"
 }

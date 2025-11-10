@@ -2,10 +2,10 @@
   "name": "驫驫驫",
   "symbol": "驫",
   "url": "https://yaritaihoudie.fr/table.html",
-  "tag_order": "1",
   "comment": "Link fixed 2022.12.17",
   "date": "Mon Oct 10 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "tag2": "Self-made Chart Only",
   "state": "",
-  "tag1": "SP"
+  "tag1": "SP",
+  "tag2": "Self-made Chart Only",
+  "tag_order": "1"
 }

@@ -2,10 +2,10 @@
   "name": "砂場",
   "symbol": "砂",
   "url": "https://bms.hexlataia.xyz/tables/sandbox.html",
-  "tag2": "Personal",
   "comment": "",
-  "tag1": "SP",
   "date": "",
   "state": "",
+  "tag1": "SP",
+  "tag2": "Personal",
   "tag_order": "1"
 }

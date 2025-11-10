@@ -2,10 +2,10 @@
   "name": "Timing Table (仮)",
   "symbol": "点",
   "url": "https://plyfrm.github.io/table/timing/",
-  "tag1": "SP",
+  "comment": "URL Changed",
   "date": "",
-  "tag2": "Personal",
   "state": "",
-  "tag_order": "1",
-  "comment": "URL Changed"
+  "tag1": "SP",
+  "tag2": "Personal",
+  "tag_order": "1"
 }

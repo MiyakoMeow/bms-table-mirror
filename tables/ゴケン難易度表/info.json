@@ -2,10 +2,10 @@
   "name": "ゴケン難易度表",
   "symbol": "ゴ",
   "url": "https://9domu46i.com/5k/table.html",
-  "tag1": "SP",
-  "tag_order": "1",
-  "state": "",
-  "tag2": "Personal",
+  "comment": "5keys",
   "date": "Mon Feb 14 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "comment": "5keys"
+  "state": "",
+  "tag1": "SP",
+  "tag2": "Personal",
+  "tag_order": "1"
 }

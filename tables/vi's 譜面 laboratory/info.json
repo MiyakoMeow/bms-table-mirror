@@ -2,10 +2,10 @@
   "name": "vi's 譜面 laboratory",
   "symbol": "ⅵ",
   "url": "https://vi2dx.github.io/table.html",
+  "comment": "",
   "date": "",
-  "tag2": "Personal",
-  "tag1": "SP",
-  "tag_order": "1",
   "state": "",
-  "comment": ""
+  "tag1": "SP",
+  "tag2": "Personal",
+  "tag_order": "1"
 }

@@ -2,10 +2,10 @@
   "name": "BMS差分アップローダー表",
   "symbol": "新ロダ",
   "url": "https://bms.hexlataia.xyz/tables/hinanjoy.html",
+  "comment": "Converted by Hex",
+  "date": "",
   "state": "",
   "tag1": "etc",
-  "date": "",
-  "tag_order": "5",
-  "comment": "Converted by Hex",
-  "tag2": "Uploader"
+  "tag2": "Uploader",
+  "tag_order": "5"
 }

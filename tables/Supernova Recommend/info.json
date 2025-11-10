@@ -2,10 +2,10 @@
   "name": "Supernova Recommend",
   "symbol": "sn",
   "url": "https://stellabms.xyz/sn/table_rec.html",
-  "date": "Sun Jun 22 2025 00:00:00 GMT+0900 (Japan Standard Time)",
-  "tag1": "SP",
-  "state": "",
   "comment": "Stella 2.0",
+  "date": "Sun Jun 22 2025 00:00:00 GMT+0900 (Japan Standard Time)",
+  "state": "",
+  "tag1": "SP",
   "tag2": "General",
   "tag_order": "1"
 }

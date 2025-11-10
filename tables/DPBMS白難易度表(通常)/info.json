@@ -2,10 +2,10 @@
   "name": "DPBMS白難易度表(通常)",
   "symbol": "白",
   "url": "http://dpbmschart.web.fc2.com/normal-chart/normal_chart.html",
-  "tag2": "General",
-  "tag_order": "2",
-  "date": "",
-  "tag1": "DP",
   "comment": "",
-  "state": ""
+  "date": "",
+  "state": "",
+  "tag1": "DP",
+  "tag2": "General",
+  "tag_order": "2"
 }

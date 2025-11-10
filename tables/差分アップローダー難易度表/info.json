@@ -2,10 +2,10 @@
   "name": "差分アップローダー難易度表",
   "symbol": "ろだ",
   "url": "http://upl.konjiki.jp/",
+  "comment": "",
+  "date": "",
+  "state": "",
   "tag1": "SP",
   "tag2": "General",
-  "date": "",
-  "tag_order": "1",
-  "state": "",
-  "comment": ""
+  "tag_order": "1"
 }

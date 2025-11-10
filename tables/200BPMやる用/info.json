@@ -2,10 +2,10 @@
   "name": "200BPMやる用",
   "symbol": "200BPM",
   "url": "https://potechang.github.io/bpm200/",
-  "tag1": "SP",
-  "state": "",
+  "comment": "",
   "date": "",
-  "tag_order": "1",
+  "state": "",
+  "tag1": "SP",
   "tag2": "Personal",
-  "comment": ""
+  "tag_order": "1"
 }

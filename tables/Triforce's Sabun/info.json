@@ -2,10 +2,10 @@
   "name": "Triforce's Sabun",
   "symbol": "木",
   "url": "https://trfce.github.io/",
-  "tag2": "Self-made Chart Only",
-  "tag_order": "1",
   "comment": "",
   "date": "",
   "state": "",
-  "tag1": "SP"
+  "tag1": "SP",
+  "tag2": "Self-made Chart Only",
+  "tag_order": "1"
 }

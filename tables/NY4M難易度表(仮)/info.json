@@ -2,10 +2,10 @@
   "name": "NY4M難易度表(仮)",
   "symbol": "★",
   "url": "https://nyamdxy.web.fc2.com/table_ny4m_dp.html",
+  "comment": "",
+  "date": "Sat Jan 01 2022 00:00:00 GMT+0900 (Japan Standard Time)",
+  "state": "",
   "tag1": "DP",
   "tag2": "Personal",
-  "tag_order": "2",
-  "date": "Sat Jan 01 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "comment": "",
-  "state": ""
+  "tag_order": "2"
 }

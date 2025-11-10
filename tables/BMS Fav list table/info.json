@@ -2,10 +2,10 @@
   "name": "BMS Fav list table",
   "symbol": "♪",
   "url": "https://verticalsub.web.fc2.com/fav/table.html",
-  "tag_order": "1",
   "comment": "",
-  "state": "",
   "date": "Sun Jan 09 2022 00:00:00 GMT+0900 (Japan Standard Time)",
+  "state": "",
   "tag1": "SP",
-  "tag2": "Personal"
+  "tag2": "Personal",
+  "tag_order": "1"
 }

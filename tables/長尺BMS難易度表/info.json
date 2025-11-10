@@ -2,10 +2,10 @@
   "name": "長尺BMS難易度表",
   "symbol": "長",
   "url": "http://rattoto10.web.fc2.com/longbms/list_sample.html",
-  "tag1": "SP",
-  "date": "",
-  "tag_order": "1",
-  "tag2": "Personal",
   "comment": "",
-  "state": ""
+  "date": "",
+  "state": "",
+  "tag1": "SP",
+  "tag2": "Personal",
+  "tag_order": "1"
 }

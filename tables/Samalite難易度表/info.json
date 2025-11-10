@@ -2,10 +2,10 @@
   "name": "Samalite難易度表",
   "symbol": "夏",
   "url": "http://samalite.fuma-kotaro.com/table.html",
-  "tag_order": "1",
+  "comment": "",
   "date": "Wed Feb 17 2021 00:00:00 GMT+0900 (Japan Standard Time)",
   "state": "",
-  "comment": "",
+  "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag1": "SP"
+  "tag_order": "1"
 }

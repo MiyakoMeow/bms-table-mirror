@@ -2,10 +2,10 @@
   "name": "BOFET(BOF2022)PMS",
   "symbol": "BOFETPlv",
   "url": "https://pmsdifficulty.xxxxxxxx.jp/BOFETPMS.html",
-  "date": "Wed Feb 08 2023 00:00:00 GMT+0900 (Japan Standard Time)",
   "comment": "",
+  "date": "Wed Feb 08 2023 00:00:00 GMT+0900 (Japan Standard Time)",
+  "state": "",
   "tag1": "EVENT",
   "tag2": "Chart Event",
-  "tag_order": "4",
-  "state": ""
+  "tag_order": "4"
 }

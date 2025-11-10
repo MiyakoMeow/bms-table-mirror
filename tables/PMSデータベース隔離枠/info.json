@@ -2,10 +2,10 @@
   "name": "PMSデータベース隔離枠",
   "symbol": "P†",
   "url": "https://pmsdifficulty.xxxxxxxx.jp/excluded_PMSdifficulty.html",
-  "tag_order": "3",
+  "comment": "",
   "date": "",
-  "tag1": "PMS",
   "state": "",
+  "tag1": "PMS",
   "tag2": "General",
-  "comment": ""
+  "tag_order": "3"
 }

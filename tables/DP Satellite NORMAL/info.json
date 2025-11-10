@@ -2,10 +2,10 @@
   "name": "DP Satellite NORMAL",
   "symbol": "N-sl",
   "url": "https://notmichaelchen.github.io/stella-table-extensions/dp-satellite-normal.html",
+  "comment": "maintained by <a href=\"https://x.com/dewero4\">dewero</a>",
+  "date": "Thu Jun 24 2021 00:00:00 GMT+0900 (Japan Standard Time)",
+  "state": "",
   "tag1": "DP",
   "tag2": "Personal",
-  "tag_order": "2",
-  "date": "Thu Jun 24 2021 00:00:00 GMT+0900 (Japan Standard Time)",
-  "comment": "maintained by <a href=\"https://x.com/dewero4\">dewero</a>",
-  "state": ""
+  "tag_order": "2"
 }

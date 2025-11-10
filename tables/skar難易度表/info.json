@@ -2,10 +2,10 @@
   "name": "skar難易度表",
   "symbol": "爆",
   "url": "https://skar-wem.github.io/table/",
-  "tag_order": "1",
-  "tag1": "SP",
   "comment": "",
-  "state": "",
   "date": "Fri Dec 30 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "tag2": "Self-made Chart Only"
+  "state": "",
+  "tag1": "SP",
+  "tag2": "Self-made Chart Only",
+  "tag_order": "1"
 }

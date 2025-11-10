@@ -2,10 +2,10 @@
   "name": "PIANIT BMS TABLE(lx)",
   "symbol": "lx",
   "url": "https://pianit.github.io/lxdiff/",
-  "tag1": "SP",
-  "tag2": "Personal",
-  "tag_order": "1",
   "comment": "",
   "date": "Tue Feb 08 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "state": ""
+  "state": "",
+  "tag1": "SP",
+  "tag2": "Personal",
+  "tag_order": "1"
 }
