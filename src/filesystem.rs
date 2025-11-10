@@ -77,20 +77,18 @@ pub fn deep_sort_json_value(value: &mut serde_json::Value) {
             }
             // 数组元素排序，确保比较稳定
             arr.sort_by_key(|a| a.to_string());
-            // 数组本身不需要再 sort_all_objects，但顶层为数组时保证其内部对象已排序
         }
         Value::Object(map) => {
             for val in map.values_mut() {
                 deep_sort_json_value(val);
             }
             // 对当前对象执行排序，确保键顺序稳定
-            value.sort_all_objects();
+            map.sort_keys();
         }
-        _ => {
-            // 对当前对象执行排序，确保键顺序稳定
-            value.sort_all_objects();
-        }
+        _ => {}
     }
+    // 对当前对象执行排序，确保键顺序稳定
+    value.sort_all_objects();
 }
 
 /// 仅在需要时写入 JSON 文件：
