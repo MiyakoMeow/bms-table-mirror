@@ -9,8 +9,8 @@ use std::{
 };
 
 use bms_table::{
-    BmsTableIndexItem,
-    fetch::reqwest::{fetch_table_full, fetch_table_index_full, make_lenient_client},
+    BmsTableInfo,
+    fetch::reqwest::{fetch_table_full, fetch_table_list_full, make_lenient_client},
 };
 use log::{info, warn};
 use url::Url;
@@ -25,8 +25,8 @@ async fn main() -> anyhow::Result<()> {
     // Load configuration from tables.toml
     let config: TableConfig = load_table_config("tables.toml")?;
 
-    // Build BTreeMap<Url, BmsTableIndexItem>
-    let mut index_map: BTreeMap<Url, BmsTableIndexItem> = BTreeMap::new();
+    // Build BTreeMap<Url, BmsTableInfo>
+    let mut index_map: BTreeMap<Url, BmsTableInfo> = BTreeMap::new();
 
     // Prepare index output directory
     let index_dir = Path::new("indexes");
@@ -37,7 +37,7 @@ async fn main() -> anyhow::Result<()> {
     // Fetch and merge indexes from configured index endpoints
     for idx in &config.table_index {
         info!("Fetching table index from: {} ({})", idx.name, idx.url);
-        let (indexes, original_json) = fetch_table_index_full(&client, idx.url.as_str()).await?;
+        let (indexes, original_json) = fetch_table_list_full(&client, idx.url.as_str()).await?;
         for item in indexes {
             let url_str = item.url.to_string();
             if let Ok(url) = Url::parse(&url_str) {
@@ -54,8 +54,8 @@ async fn main() -> anyhow::Result<()> {
     // Add extra table URLs with default name from domain
     for url in &config.add_table_url {
         let name = url.host_str().unwrap_or("unknown").to_string();
-        // 手动构建 BmsTableIndexItem，symbol 使用 "-"
-        let item = BmsTableIndexItem {
+        // 手动构建 BmsTableInfo，symbol 使用 "-"
+        let item = BmsTableInfo {
             name,
             url: url.clone(),
             symbol: "-".to_string(),
@@ -93,7 +93,7 @@ async fn main() -> anyhow::Result<()> {
 
 fn spawn_fetch(
     join_set: &mut tokio::task::JoinSet<()>,
-    index: BmsTableIndexItem,
+    index: BmsTableInfo,
     base_dir: &Path,
 ) -> anyhow::Result<()> {
     let url = index.url.to_string();
@@ -117,7 +117,7 @@ fn spawn_fetch(
 
 async fn fetch_and_save_table(
     client: &reqwest::Client,
-    mut index: BmsTableIndexItem,
+    mut index: BmsTableInfo,
     base_dir: &Path,
 ) -> anyhow::Result<()> {
     // 先获取表数据与原始JSON，再创建目录与写入
