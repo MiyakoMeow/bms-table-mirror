@@ -3,6 +3,7 @@ import json
 import sys
 from pathlib import Path
 from typing import Any, Dict, List
+from urllib.parse import urlparse
 
 
 def to_str(value: Any) -> str:
@@ -23,10 +24,15 @@ def escape_md_cell(text: str) -> str:
     )
 
 
-def make_md_link(label: str, url: str) -> str:
+def make_md_link(url: str) -> str:
     if not url:
         return ""
-    return f"[{label}]({url})"
+    try:
+        parsed = urlparse(url)
+        domain = parsed.netloc or url
+    except Exception:
+        domain = url
+    return f"[{domain}]({url})"
 
 
 def generate_md(
@@ -91,14 +97,14 @@ def generate_md(
 
                     # Build proxy links labeled by their xxx derived from filename
                     proxy_links: List[str] = []
-                    for label, name_to_url in sorted(proxy_maps_by_label.items()):
+                    for _label, name_to_url in sorted(proxy_maps_by_label.items()):
                         u = to_str(name_to_url.get(name_raw, ""))
                         if u:
-                            proxy_links.append(make_md_link(label, u))
+                            proxy_links.append(make_md_link(u))
 
-                    # Use markdown link syntax to avoid displaying long URLs directly
-                    ori_link = make_md_link("原", url_ori)
-                    repo_link = make_md_link("仓库", url_repo)
+                    # 使用域名作为显示文本
+                    ori_link = make_md_link(url_ori)
+                    repo_link = make_md_link(url_repo)
                     proxy_link = " ".join(proxy_links) if proxy_links else ""
 
                     lines.append(
