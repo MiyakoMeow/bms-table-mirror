@@ -1,3 +1,5 @@
+use std::path::Path;
+
 pub fn sanitize_filename(name: &str) -> String {
     // 将非法的非控制字符替换为对应的全角字符；控制字符替换为下划线
     let mapped: String = name
@@ -59,4 +61,37 @@ pub fn sanitize_filename(name: &str) -> String {
     } else {
         s
     }
+}
+
+/// 仅在需要时写入 JSON 文件：
+/// - 文件不存在；或
+/// - 旧文件解析失败；或
+/// - 解析后对象不同。
+pub fn write_json_if_changed(path: &Path, new_content: &str) -> anyhow::Result<()> {
+    use serde_json::Value;
+    use std::fs;
+
+    if !path.exists() {
+        // 路径下文件不存在，直接写入
+        fs::write(path, new_content)?;
+        return Ok(());
+    }
+    // 读取旧文件内容
+    let Ok(old_str) = fs::read_to_string(path) else {
+        // 文件读取失败，直接写入
+        fs::write(path, new_content)?;
+        return Ok(());
+    };
+    // 解析json
+    let old_parsed = serde_json::from_str::<Value>(&old_str);
+    let new_parsed = serde_json::from_str::<Value>(new_content);
+    match (old_parsed, new_parsed) {
+        // 如果旧文件和新文件解析后对象相等，则不写入
+        (Ok(old_val), Ok(new_val)) if old_val == new_val => {}
+        // 旧文件不相等、解析失败或无法比较，直接替换
+        _ => {
+            fs::write(path, new_content)?;
+        }
+    }
+    Ok(())
 }

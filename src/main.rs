@@ -15,8 +15,11 @@ use bms_table::{
 use log::{info, warn};
 use url::Url;
 
-use crate::config::{TableConfig, load_table_config};
-use crate::{filesystem::sanitize_filename, logger::init_logger};
+use crate::{
+    config::{TableConfig, load_table_config},
+    filesystem::{sanitize_filename, write_json_if_changed},
+    logger::init_logger,
+};
 
 #[tokio::main]
 async fn main() -> anyhow::Result<()> {
@@ -141,8 +144,9 @@ async fn fetch_and_save_table(
     let header_path: PathBuf = out_dir.join("header.json");
     let data_path = out_dir.join("data.json");
 
-    fs::write(&header_path, patched_header)?;
-    fs::write(&data_path, data_raw)?;
+    // 条件写入：仅在解析失败或对象不同的情况下替换
+    write_json_if_changed(&header_path, &patched_header)?;
+    write_json_if_changed(&data_path, &data_raw)?;
 
     // 向index同步实际获取的难度表信息
     index.name = header.name;
@@ -151,7 +155,7 @@ async fn fetch_and_save_table(
     // 写入index
     let info_path: PathBuf = out_dir.join("info.json");
     let info_data = serde_json::to_string_pretty(&index)?;
-    fs::write(&info_path, info_data)?;
+    write_json_if_changed(&info_path, &info_data)?;
 
     Ok(())
 }
