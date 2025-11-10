@@ -1,0 +1,13 @@
+[project]
+name = "bms-table-mirror"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.0",
+    "mypy>=1.8.0",
+]
