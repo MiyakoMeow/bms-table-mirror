@@ -5,12 +5,13 @@ mod logger;
 use std::{
     collections::BTreeMap,
     fs,
-    path::{Path, PathBuf},
+    path::{Path, PathBuf}, time::Duration,
 };
 
+use anyhow::{anyhow, Result};
 use bms_table::{
     BmsTable, BmsTableInfo, BmsTableRaw,
-    fetch::reqwest::{fetch_table_full, fetch_table_list_full, make_lenient_client},
+    fetch::reqwest::{fetch_table_full, fetch_table_list_full},
 };
 use log::{info, warn};
 use url::Url;
@@ -22,7 +23,7 @@ use crate::{
 };
 
 #[tokio::main]
-async fn main() -> anyhow::Result<()> {
+async fn main() -> Result<()> {
     init_logger();
 
     // Load configuration from tables.toml
@@ -98,7 +99,7 @@ fn spawn_fetch(
     join_set: &mut tokio::task::JoinSet<()>,
     index: BmsTableInfo,
     base_dir: &Path,
-) -> anyhow::Result<()> {
+) -> Result<()> {
     let url = index.url.to_string();
     let name = index.name.clone();
     // JoinSet 需要 'static future，捕获一个拥有所有权的 PathBuf
@@ -122,7 +123,7 @@ async fn fetch_and_save_table(
     client: &reqwest::Client,
     mut index: BmsTableInfo,
     base_dir: &Path,
-) -> anyhow::Result<()> {
+) -> Result<()> {
     // 先获取表数据与原始JSON，再创建目录与写入
     let (
         BmsTable { header, data: _ },
@@ -158,4 +159,24 @@ async fn fetch_and_save_table(
     write_json_if_changed(&info_path, &info_data)?;
 
     Ok(())
+}
+
+/// 创建一个规则宽松、兼容性更强的 HTTP 客户端。
+///
+/// - 设置浏览器 UA；
+/// - 配置超时与重定向；
+/// - 接受无效证书（用于少数不规范站点）；
+/// - 接受无效主机名（用于少数不规范站点）；
+///
+/// 注意：生产环境应审慎使用 `danger_accept_invalid_certs`。
+pub fn make_lenient_client() -> Result<reqwest::Client> {
+    let client = reqwest::Client::builder()
+        .user_agent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119 Safari/537.36 bms-table-rs")
+        .timeout(Duration::from_secs(60))
+        .redirect(reqwest::redirect::Policy::limited(100))
+        .danger_accept_invalid_certs(true)
+        .danger_accept_invalid_hostnames(true)
+        .build()
+        .map_err(|e| anyhow!("When building client: {e}"))?;
+    Ok(client)
 }
