@@ -4,7 +4,7 @@ import sys
 import subprocess
 import re
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, unquote
 from typing import Any, Dict
 
 repo_root = Path(__file__).resolve().parent.parent
@@ -44,6 +44,8 @@ class GiteeRawUrlProxyModifier(UrlProxyModifier):
       -> https://gitee.com/<owner>/<repo>/raw/<branch>/<path>
 
     仅在匹配到 raw.githubusercontent.com 时执行转换，否则原样返回。
+    为避免特殊字符（括号、全角符号、非 ASCII 等）在不同平台处理不一致，
+    会先对路径进行一次反解码再以 RFC 3986 规范重新编码（保留 "/-._~" 与路径分隔符）。
     """
 
     def modify_url(self, url: str) -> str:
@@ -56,9 +58,10 @@ class GiteeRawUrlProxyModifier(UrlProxyModifier):
         if not m:
             return url
         owner, repo, branch, rest = m.groups()
-        # 保留括号不编码，仅将 %28/%29 还原为括号
-        rest = rest.replace("%28", "(").replace("%29", ")")
-        return f"https://gitee.com/{owner}/{repo}/raw/{branch}/{rest}"
+        # 统一规范：先反解码，再按 RFC 3986 重新编码，避免括号等字符在 gitee 上解析异常
+        rest_decoded = unquote(rest)
+        rest_encoded = quote(rest_decoded, safe="/-._~")
+        return f"https://gitee.com/{owner}/{repo}/raw/{branch}/{rest_encoded}"
 
 
 def setup():
