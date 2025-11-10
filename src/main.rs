@@ -11,7 +11,7 @@ use tokio::fs;
 
 use anyhow::{Result, anyhow};
 use bms_table::{
-    BmsTable, BmsTableInfo, BmsTableRaw,
+    BmsTable, BmsTableData, BmsTableHeader, BmsTableInfo, BmsTableRaw,
     fetch::reqwest::{fetch_table_full, fetch_table_list_full},
 };
 use log::{info, warn};
@@ -147,10 +147,20 @@ async fn fetch_and_save_table(
     let data_path = out_dir.join("data.json");
 
     // 条件写入：仅在解析失败或对象不同的情况下替换
-    if is_changed::<serde_json::Value>(&header_path, &patched_header, deep_sort_json_value).await? {
+    if is_changed::<BmsTableHeader>(&header_path, &patched_header, |header| {
+        header.extra = Default::default()
+    })
+    .await?
+    {
         fs::write(&header_path, &patched_header).await?;
     }
-    if is_changed::<serde_json::Value>(&data_path, &data_raw, deep_sort_json_value).await? {
+    if is_changed::<BmsTableData>(&data_path, &data_raw, |data| {
+        data.charts
+            .iter_mut()
+            .for_each(|v| v.extra = Default::default())
+    })
+    .await?
+    {
         fs::write(&data_path, &data_raw).await?;
     }
 
