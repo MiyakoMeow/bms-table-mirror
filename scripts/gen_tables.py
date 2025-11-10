@@ -5,12 +5,36 @@ import subprocess
 import re
 from pathlib import Path
 from urllib.parse import quote
+from typing import Any, Dict
 
 repo_root = Path(__file__).resolve().parent.parent
 tables_dir = repo_root / "tables"
 outputs_dir = repo_root / "outputs"
 
 DEFAULT_PROXY_PREFIX = "https://get.2sb.org/"
+
+
+class UrlProxyModifier:
+    """
+    代理设置接口类：用于按需修改 URL。
+    用户可实现此类以自定义代理规则。
+    """
+
+    def modify_url(self, url: str) -> str:
+        """返回修改后的 URL。默认直接返回原值。"""
+        return url
+
+
+class PrefixUrlProxyModifier(UrlProxyModifier):
+    """基于前缀的代理实现类（默认使用 get.2sb.org）。"""
+
+    def __init__(self, prefix: str = DEFAULT_PROXY_PREFIX):
+        self.prefix = prefix
+
+    def modify_url(self, url: str) -> str:
+        if not isinstance(url, str) or not url:
+            return url
+        return url if url.startswith(self.prefix) else self.prefix + url
 
 
 def setup():
@@ -122,28 +146,35 @@ def generate_tables_json():
         )
 
 
-def prefix_urls(data, prefix: str = DEFAULT_PROXY_PREFIX):
+def apply_proxy_modifier(data: Any, modifier: UrlProxyModifier):
+    """递归应用代理修改器到数据结构中的 url 字段。"""
     if isinstance(data, dict):
         result = {}
         for key, value in data.items():
             if key == "url" and isinstance(value, str):
-                if value.startswith(prefix):
-                    result[key] = value
-                else:
-                    result[key] = prefix + value
+                result[key] = modifier.modify_url(value)
             else:
-                result[key] = prefix_urls(value, prefix)
+                result[key] = apply_proxy_modifier(value, modifier)
         return result
     if isinstance(data, list):
-        return [prefix_urls(item, prefix) for item in data]
+        return [apply_proxy_modifier(item, modifier) for item in data]
     return data
 
 
-def gen_tables_proxy():
+def gen_tables_with_modifier():
+    """
+    统一生成多个代理版本：在函数内部使用 dict[Path, UrlProxyModifier]
+    来描述输出目标与代理策略的映射。
+
+    命令行参数（可选，仅用于 2sb 版本）
+      - args[0]: 输入路径（默认 outputs/tables.json）
+      - args[1]: 2sb 输出路径（默认 outputs/tables_2sb.json）
+      - args[2]: 2sb 代理前缀（默认 DEFAULT_PROXY_PREFIX）
+    """
     args = sys.argv[1:]
     input_path = Path(args[0]) if len(args) >= 1 else Path("outputs/tables.json")
-    output_path = Path(args[1]) if len(args) >= 2 else Path("outputs/tables_proxy.json")
-    prefix = args[2] if len(args) >= 3 else DEFAULT_PROXY_PREFIX
+    out_2sb = Path(args[1]) if len(args) >= 2 else Path("outputs/tables_2sb.json")
+    prefix_2sb = args[2] if len(args) >= 3 else DEFAULT_PROXY_PREFIX
 
     if not input_path.exists():
         print(f"Input file not found: {input_path}")
@@ -152,15 +183,27 @@ def gen_tables_proxy():
     with input_path.open("r", encoding="utf-8") as f:
         data = json.load(f)
 
-    proxied = prefix_urls(data, prefix)
+    mapping: Dict[Path, UrlProxyModifier] = {
+        out_2sb: PrefixUrlProxyModifier(prefix_2sb),
+        Path("outputs/tables_gh_proxy.json"): PrefixUrlProxyModifier(
+            "https://gh-proxy.com/"
+        ),
+    }
 
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with output_path.open("w", encoding="utf-8") as f:
-        json.dump(proxied, f, ensure_ascii=False, indent=2)
-
-    print(f"Wrote {output_path} with prefixed urls: {prefix}")
+    for output_path, modifier in mapping.items():
+        proxied = apply_proxy_modifier(data, modifier)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        with output_path.open("w", encoding="utf-8") as f:
+            json.dump(proxied, f, ensure_ascii=False, indent=2)
+        # 在打印中体现当前使用的实现类与关键参数
+        msg_prefix = (
+            modifier.prefix if isinstance(modifier, PrefixUrlProxyModifier) else ""
+        )
+        print(
+            f"Wrote {output_path} with UrlProxyModifier ({modifier.__class__.__name__}, prefix: {msg_prefix})"
+        )
 
 
 if __name__ == "__main__":
     generate_tables_json()
-    gen_tables_proxy()
+    gen_tables_with_modifier()
