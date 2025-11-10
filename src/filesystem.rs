@@ -67,19 +67,19 @@ pub fn sanitize_filename(name: &str) -> String {
 /// - 文件不存在；或
 /// - 旧文件解析失败；或
 /// - 解析后对象不同。
-pub fn write_json_if_changed(path: &Path, new_content: &str) -> anyhow::Result<()> {
+pub async fn write_json_if_changed(path: &Path, new_content: &str) -> anyhow::Result<()> {
     use serde_json::Value;
-    use std::fs;
+    use tokio::fs;
 
-    if !path.exists() {
+    if !fs::try_exists(path).await? {
         // 路径下文件不存在，直接写入
-        fs::write(path, new_content)?;
+        fs::write(path, new_content).await?;
         return Ok(());
     }
     // 读取旧文件内容
-    let Ok(old_str) = fs::read_to_string(path) else {
+    let Ok(old_str) = fs::read_to_string(path).await else {
         // 文件读取失败，直接写入
-        fs::write(path, new_content)?;
+        fs::write(path, new_content).await?;
         return Ok(());
     };
     // 解析json
@@ -91,12 +91,12 @@ pub fn write_json_if_changed(path: &Path, new_content: &str) -> anyhow::Result<(
             old_val.sort_all_objects();
             new_val.sort_all_objects();
             if old_val != new_val {
-                fs::write(path, new_content)?;
+                fs::write(path, new_content).await?;
             }
         }
         // 旧文件不相等、解析失败或无法比较，直接替换
         _ => {
-            fs::write(path, new_content)?;
+            fs::write(path, new_content).await?;
         }
     }
     Ok(())

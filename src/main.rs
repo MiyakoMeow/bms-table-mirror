@@ -4,11 +4,12 @@ mod logger;
 
 use std::{
     collections::BTreeMap,
-    fs,
-    path::{Path, PathBuf}, time::Duration,
+    path::{Path, PathBuf},
+    time::Duration,
 };
+use tokio::fs;
 
-use anyhow::{anyhow, Result};
+use anyhow::{Result, anyhow};
 use bms_table::{
     BmsTable, BmsTableInfo, BmsTableRaw,
     fetch::reqwest::{fetch_table_full, fetch_table_list_full},
@@ -27,14 +28,14 @@ async fn main() -> Result<()> {
     init_logger();
 
     // Load configuration from tables.toml
-    let config: TableConfig = load_table_config("tables.toml")?;
+    let config: TableConfig = load_table_config("tables.toml").await?;
 
     // Build BTreeMap<Url, BmsTableInfo>
     let mut index_map: BTreeMap<Url, BmsTableInfo> = BTreeMap::new();
 
     // Prepare index output directory
     let index_dir = Path::new("indexes");
-    fs::create_dir_all(index_dir)?;
+    fs::create_dir_all(index_dir).await?;
 
     let client = make_lenient_client()?;
 
@@ -52,7 +53,7 @@ async fn main() -> Result<()> {
         }
         // Write index json file
         let index_file_path = index_dir.join(format!("{}.json", idx.name));
-        fs::write(index_file_path, original_json)?;
+        fs::write(index_file_path, original_json).await?;
     }
 
     // Add extra table URLs with default name from domain
@@ -81,7 +82,7 @@ async fn main() -> Result<()> {
 
     // Prepare base output directory
     let base_dir = Path::new("tables");
-    fs::create_dir_all(base_dir)?;
+    fs::create_dir_all(base_dir).await?;
 
     // Fetch each table concurrently based on built map
     let mut join_set = tokio::task::JoinSet::new();
@@ -141,13 +142,13 @@ async fn fetch_and_save_table(
     let patched_header = header_raw.replace(&header.data_url, "data.json");
 
     // 在成功获取后再创建目录与写入文件
-    fs::create_dir_all(&out_dir)?;
+    fs::create_dir_all(&out_dir).await?;
     let header_path: PathBuf = out_dir.join("header.json");
     let data_path = out_dir.join("data.json");
 
     // 条件写入：仅在解析失败或对象不同的情况下替换
-    write_json_if_changed(&header_path, &patched_header)?;
-    write_json_if_changed(&data_path, &data_raw)?;
+    write_json_if_changed(&header_path, &patched_header).await?;
+    write_json_if_changed(&data_path, &data_raw).await?;
 
     // 向index同步实际获取的难度表信息
     index.name = header.name;
@@ -156,7 +157,7 @@ async fn fetch_and_save_table(
     // 写入index
     let info_path: PathBuf = out_dir.join("info.json");
     let info_data = serde_json::to_string_pretty(&index)?;
-    write_json_if_changed(&info_path, &info_data)?;
+    write_json_if_changed(&info_path, &info_data).await?;
 
     Ok(())
 }
