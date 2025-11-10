@@ -19,7 +19,7 @@ use url::Url;
 
 use crate::{
     config::{TableConfig, load_table_config},
-    filesystem::{sanitize_filename, write_json_if_changed},
+    filesystem::{deep_sort_json_value, is_changed, sanitize_filename},
     logger::init_logger,
 };
 
@@ -147,8 +147,12 @@ async fn fetch_and_save_table(
     let data_path = out_dir.join("data.json");
 
     // 条件写入：仅在解析失败或对象不同的情况下替换
-    write_json_if_changed(&header_path, &patched_header).await?;
-    write_json_if_changed(&data_path, &data_raw).await?;
+    if is_changed::<serde_json::Value>(&header_path, &patched_header, deep_sort_json_value).await? {
+        fs::write(&header_path, &patched_header).await?;
+    }
+    if is_changed::<serde_json::Value>(&data_path, &data_raw, deep_sort_json_value).await? {
+        fs::write(&data_path, &data_raw).await?;
+    }
 
     // 向index同步实际获取的难度表信息
     info.name = header.name;
@@ -157,7 +161,9 @@ async fn fetch_and_save_table(
     // 写入index
     let info_path: PathBuf = out_dir.join("info.json");
     let info_data = serde_json::to_string_pretty(&info)?;
-    write_json_if_changed(&info_path, &info_data).await?;
+    if is_changed::<serde_json::Value>(&info_path, &info_data, deep_sort_json_value).await? {
+        fs::write(&info_path, &info_data).await?;
+    }
 
     Ok(())
 }

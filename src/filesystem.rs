@@ -1,6 +1,6 @@
 use std::path::Path;
 
-use log::{info, warn};
+use log::warn;
 use serde_json::Value;
 
 pub fn sanitize_filename(name: &str) -> String {
@@ -88,50 +88,55 @@ pub fn deep_sort_json_value(value: &mut Value) {
     }
 }
 
-/// 仅在需要时写入 JSON 文件：
-/// - 文件不存在；或
-/// - 旧文件解析失败；或
-/// - 解析后对象不同。
-pub async fn write_json_if_changed(path: &Path, new_content: &str) -> anyhow::Result<()> {
-    use serde_json::Value;
+/// 判断 JSON 文件内容是否与新的内容不同。
+/// 返回 `Ok(true)` 表示需要更新（文件不存在、读取/解析失败，或排序后不相等），否则返回 `Ok(false)`。
+use serde::de::DeserializeOwned;
+
+/// 判断 JSON 文件内容是否与新的内容不同，支持自定义预处理。
+///
+/// - 读取旧文件与新内容，分别解析为 `T`；
+/// - 在比较前对两者调用传入的 `preprocess` 函数进行修改；
+/// - 比较修改后的值是否不同。
+///
+/// 返回 `Ok(true)` 表示需要更新（文件不存在、读取/解析失败，或预处理后不相等），否则返回 `Ok(false)`。
+pub async fn is_changed<T>(
+    path: &Path,
+    new_content: &str,
+    preprocess: impl Fn(&mut T),
+) -> anyhow::Result<bool>
+where
+    T: DeserializeOwned + PartialEq,
+{
     use tokio::fs;
 
     if !fs::try_exists(path).await? {
-        // 路径下文件不存在，直接写入
-        fs::write(path, new_content).await?;
-        return Ok(());
+        // 文件不存在，视为需要更新
+        return Ok(true);
     }
-    // 读取旧文件内容
-    let Ok(old_str) = fs::read_to_string(path).await else {
-        // 文件读取失败，直接写入
-        warn!("旧文件 {:?} 读取失败，尝试执行覆盖写入", path);
-        fs::write(path, new_content).await?;
-        return Ok(());
-    };
-    // 解析json
-    let old_parsed = serde_json::from_str::<Value>(&old_str);
-    let new_parsed = serde_json::from_str::<Value>(new_content);
 
-    // 解析失败，直接写入新文件
+    // 读取旧文件内容失败，视为需要更新
+    let Ok(old_str) = fs::read_to_string(path).await else {
+        warn!("旧文件 {:?} 读取失败，视为需要更新", path);
+        return Ok(true);
+    };
+
+    // 解析为 T
+    let old_parsed = serde_json::from_str::<T>(&old_str);
+    let new_parsed = serde_json::from_str::<T>(new_content);
+
+    // 任一解析失败，视为需要更新
     let Ok(mut old_val) = old_parsed else {
-        warn!("旧文件 {:?} 解析失败，尝试执行覆盖写入", path);
-        fs::write(path, new_content).await?;
-        return Ok(());
+        warn!("旧文件 {:?} 解析失败，视为需要更新", path);
+        return Ok(true);
     };
     let Ok(mut new_val) = new_parsed else {
-        warn!("新文件 {:?} 解析失败，尝试执行覆盖写入", path);
-        fs::write(path, new_content).await?;
-        return Ok(());
+        warn!("新内容解析失败，视为需要更新");
+        return Ok(true);
     };
 
-    // 解析成功，进行递归排序后比较是否不同
-    deep_sort_json_value(&mut old_val);
-    deep_sort_json_value(&mut new_val);
+    // 比较前进行预处理
+    preprocess(&mut old_val);
+    preprocess(&mut new_val);
 
-    // 排序后比较是否不同
-    if old_val != new_val {
-        info!("旧文件 {:?} 与新文件 {:?} 不同，写入新文件", path, path);
-        fs::write(path, new_content).await?;
-    }
-    Ok(())
+    Ok(old_val != new_val)
 }
