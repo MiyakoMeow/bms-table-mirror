@@ -72,30 +72,35 @@ def generate_tables_json():
         header_path = child / "header.json"
         if not header_path.is_file():
             missing_header.append(str(header_path))
+            continue
 
-        if info_path.is_file():
-            try:
-                text = info_path.read_text(encoding="utf-8")
-                obj = json.loads(text)
-
-                if owner and repo:
-                    # 对目录名进行 URL 转义，避免空格与特殊字符
-                    encoded_child = quote(child.name, safe="-._~")
-                    raw_url = f"{base_raw}/{owner}/{repo}/{branch}/tables/{encoded_child}/header.json"
-                    obj["url"] = raw_url
-                else:
-                    # 获取不到仓库信息时保留原字段并提醒
-                    print(
-                        f"[WARN] 无法获取 Git 仓库信息，未修改 url：{child}",
-                        file=sys.stderr,
-                    )
-
-                aggregated.append(obj)
-            except Exception as e:
-                print(f"[WARN] 解析失败: {info_path}: {e}", file=sys.stderr)
-                invalid_info.append(str(info_path))
-        else:
+        if not info_path.is_file():
             missing_info.append(str(child))
+            continue
+
+        try:
+            text = info_path.read_text(encoding="utf-8")
+            obj = json.loads(text)
+
+            if not (owner and repo):
+                # 获取不到仓库信息时保留原字段并提醒
+                print(
+                    f"[WARN] 无法获取 Git 仓库信息，未修改 url：{child}",
+                    file=sys.stderr,
+                )
+                continue
+
+            # 对目录名进行 URL 转义，避免空格与特殊字符
+            encoded_child = quote(child.name, safe="-._~")
+            raw_url = f"{base_raw}/{owner}/{repo}/{branch}/tables/{encoded_child}/header.json"
+            obj["url_ori"] = obj["url"]
+            obj["url"] = raw_url
+
+            aggregated.append(obj)
+
+        except Exception as e:
+            print(f"[WARN] 解析失败: {info_path}: {e}", file=sys.stderr)
+            invalid_info.append(str(info_path))
 
     output_path = outputs_dir / "tables.json"
     with output_path.open("w", encoding="utf-8") as f:
