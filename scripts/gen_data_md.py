@@ -5,6 +5,28 @@ from pathlib import Path
 from typing import Any, Dict, List
 from urllib.parse import urlparse
 
+TIPS = """
+## 使用方式
+
+1. 选择对应难度表的对应链接。
+2. 鼠标右键该链接 -> 复制链接。
+3. 粘贴到beatoraja/BeMusicSeeker，并在软件内部同步难度表内容。
+
+> 国内用户推荐使用下方的“代理链接”部分。
+> 
+> 偏好更新速度选反代（2sb或gh-proxy），偏好稳定连接选Gitee。
+
+## 用于BeMusicSeeker的难度表清单链接：
+
+- [raw.githubusercontent.com](https://github.com/MiyakoMeow/bms-table-mirror/raw/refs/heads/main/outputs/tables.json)
+- [get.2sb.org](https://get.2sb.org/https://github.com/MiyakoMeow/bms-table-mirror/raw/refs/heads/main/outputs/tables.json)
+- [gh-proxy.com](https://gh-proxy.com/https://github.com/MiyakoMeow/bms-table-mirror/raw/refs/heads/main/outputs/tables.json)
+- [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/outputs/tables.json)
+
+### 用法参考：
+- [用法参考/数据来源](https://darksabun.club/table/tablelist.html)
+"""
+
 
 def to_str(value: Any) -> str:
     if value is None:
@@ -70,6 +92,7 @@ def generate_md(
     lines: List[str] = []
     # Top-level title
     lines.append("# BMS难度表镜像")
+    lines.extend(TIPS.splitlines())
     lines.append("")
 
     for tag_order in _sort_tag_order_keys(list(groups.keys())):
