@@ -37,6 +37,30 @@ class PrefixUrlProxyModifier(UrlProxyModifier):
         return url if url.startswith(self.prefix) else self.prefix + url
 
 
+class GiteeRawUrlProxyModifier(UrlProxyModifier):
+    """
+    将 GitHub raw 链接转换为 gitee raw 格式：
+    https://raw.githubusercontent.com/<owner>/<repo>/<branch>/<path>
+      -> https://gitee.com/<owner>/<repo>/raw/<branch>/<path>
+
+    仅在匹配到 raw.githubusercontent.com 时执行转换，否则原样返回。
+    """
+
+    def modify_url(self, url: str) -> str:
+        if not isinstance(url, str) or not url:
+            return url
+        m = re.match(
+            r"^https://raw\.githubusercontent\.com/([^/]+)/([^/]+)/([^/]+)/(.*)$",
+            url,
+        )
+        if not m:
+            return url
+        owner, repo, branch, rest = m.groups()
+        # 保留括号不编码，仅将 %28/%29 还原为括号
+        rest = rest.replace("%28", "(").replace("%29", ")")
+        return f"https://gitee.com/{owner}/{repo}/raw/{branch}/{rest}"
+
+
 def setup():
     outputs_dir.mkdir(parents=True, exist_ok=True)
 
@@ -146,73 +170,6 @@ def generate_tables_json():
         )
 
 
-def generate_tables_json_gitee():
-    """
-    生成基于 gitee 原始链接的 tables_gitee.json：
-    https://gitee.com/<owner>/<repo>/raw/<branch>/tables/<dir>/header.json
-    """
-    aggregated = []
-    missing_info = []
-    invalid_info = []
-    missing_header = []
-
-    owner, repo = _get_owner_repo()
-    branch = _get_branch()
-    base_raw = "https://gitee.com"
-
-    for child in sorted(tables_dir.iterdir(), key=lambda p: p.name.lower()):
-        if not child.is_dir():
-            continue
-
-        info_path = child / "info.json"
-        header_path = child / "header.json"
-        if not header_path.is_file():
-            missing_header.append(str(header_path))
-            continue
-
-        if not info_path.is_file():
-            missing_info.append(str(child))
-            continue
-
-        try:
-            text = info_path.read_text(encoding="utf-8")
-            obj = json.loads(text)
-
-            if not (owner and repo):
-                print(
-                    f"[WARN] 无法获取 Git 仓库信息，未修改 url：{child}",
-                    file=sys.stderr,
-                )
-                continue
-
-            # gitee 链接中保留括号以匹配示例链接风格
-            encoded_child = quote(child.name, safe="-._~()")
-            raw_url = f"{base_raw}/{owner}/{repo}/raw/{branch}/tables/{encoded_child}/header.json"
-            obj["url_ori"] = obj.get("url")
-            obj["url"] = raw_url
-
-            aggregated.append(obj)
-
-        except Exception as e:
-            print(f"[WARN] 解析失败: {info_path}: {e}", file=sys.stderr)
-            invalid_info.append(str(info_path))
-
-    output_path = outputs_dir / "tables_gitee.json"
-    with output_path.open("w", encoding="utf-8") as f:
-        json.dump(aggregated, f, ensure_ascii=False, indent=2)
-
-    print(f"[OK] 写入 {output_path}，共 {len(aggregated)} 条。")
-    if missing_info:
-        print(f"[INFO] 缺少 info.json 的目录数量: {len(missing_info)}", file=sys.stderr)
-    if invalid_info:
-        print(f"[INFO] 无法解析的 JSON 文件数量: {len(invalid_info)}", file=sys.stderr)
-    if missing_header:
-        print(
-            f"[INFO] 缺少 header.json 的目录数量: {len(missing_header)}",
-            file=sys.stderr,
-        )
-
-
 def apply_proxy_modifier(data: Any, modifier: UrlProxyModifier):
     """递归应用代理修改器到数据结构中的 url 字段。"""
     if isinstance(data, dict):
@@ -255,6 +212,7 @@ def gen_tables_with_modifier():
         Path("outputs/tables_gh_proxy.json"): PrefixUrlProxyModifier(
             "https://gh-proxy.com/"
         ),
+        Path("outputs/tables_gitee.json"): GiteeRawUrlProxyModifier(),
     }
 
     for output_path, modifier in mapping.items():
@@ -274,5 +232,4 @@ def gen_tables_with_modifier():
 if __name__ == "__main__":
     setup()
     generate_tables_json()
-    generate_tables_json_gitee()
     gen_tables_with_modifier()
