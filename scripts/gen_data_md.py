@@ -181,8 +181,11 @@ def generate_md(
                 lines.append("")
 
                 # Table header for each group
-                lines.append("| 标记 | 难度表名称 | 原链接 | 仓库链接 | 中间链接 |")
-                lines.append("| --- | --- | --- | --- | --- |")
+                # 仓库链接拆分为两列：Gitee 与 GitHub
+                lines.append(
+                    "| 标记 | 难度表名称 | 原链接 | Gitee直链 | GitHub直链 | 中间链接 |"
+                )
+                lines.append("| --- | --- | --- | --- | --- | --- |")
 
                 for item in tag2_map[tag2]:
                     symbol_cell = escape_md_cell(to_str(item.get("symbol", "")))
@@ -204,16 +207,14 @@ def generate_md(
 
                     # 使用域名作为显示文本
                     ori_link = make_md_link(url_ori)
-                    # 仓库链接：先放 gitee.com，再放 raw.githubusercontent.com
+                    # 仓库链接分别展示：先计算 Gitee，再计算 GitHub
                     gitee_url = GiteeRawUrlProxyModifier().modify_url(url_repo)
                     gitee_link = make_md_link(gitee_url) if gitee_url else ""
-                    repo_link = " ".join(
-                        [s for s in [gitee_link, make_md_link(url_repo)] if s]
-                    )
+                    github_link = make_md_link(url_repo) if url_repo else ""
                     proxy_link = " ".join(proxy_links) if proxy_links else ""
 
                     lines.append(
-                        f"| {symbol_cell} | {name_cell} | {ori_link} | {repo_link} | {proxy_link} |"
+                        f"| {symbol_cell} | {name_cell} | {ori_link} | {gitee_link} | {github_link} | {proxy_link} |"
                     )
 
                 # Blank line between groups
