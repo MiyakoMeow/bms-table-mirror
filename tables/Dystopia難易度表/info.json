@@ -3,11 +3,11 @@
   "symbol": "dy",
   "url": "https://monibms.github.io/Dystopia/dystopia.html",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbzzrbIKEmIHQNrt2t0_FiTCGLTzDL9Fo0IlBvV1CJxzvuDaaDmUpRTfnf_lPTu5riUs6Q/exec",
   "date": "Fri Feb 11 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://monibms.github.io/Dystopia/dystopia_header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbzzrbIKEmIHQNrt2t0_FiTCGLTzDL9Fo0IlBvV1CJxzvuDaaDmUpRTfnf_lPTu5riUs6Q/exec",
+  "url_header_json": "https://monibms.github.io/Dystopia/dystopia_header.json"
 }

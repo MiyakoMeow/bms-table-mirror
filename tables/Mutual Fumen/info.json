@@ -3,11 +3,11 @@
   "symbol": "MF ",
   "url": "https://darksabun.club/event/mf/table.html",
   "comment": "",
-  "data_json_url": "https://darksabun.club/event/mf/data.json",
   "date": "",
-  "header_json_url": "https://darksabun.club/event/mf/header.json",
   "state": "",
   "tag1": "EVENT",
   "tag2": "Chart Event",
-  "tag_order": "4"
+  "tag_order": "4",
+  "url_data_json": "https://darksabun.club/event/mf/data.json",
+  "url_header_json": "https://darksabun.club/event/mf/header.json"
 }

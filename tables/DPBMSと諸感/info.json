@@ -3,11 +3,11 @@
   "symbol": "☆",
   "url": "https://yaruki0.net/DPlibrary/",
   "comment": "",
-  "data_json_url": "https://yaruki0.net/DPlibrary/data/score.json",
   "date": "",
-  "header_json_url": "https://yaruki0.net/DPlibrary/data/header.json",
   "state": "",
   "tag1": "DP",
   "tag2": "Personal",
-  "tag_order": "2"
+  "tag_order": "2",
+  "url_data_json": "https://yaruki0.net/DPlibrary/data/score.json",
+  "url_header_json": "https://yaruki0.net/DPlibrary/data/header.json"
 }

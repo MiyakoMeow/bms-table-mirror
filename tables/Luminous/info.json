@@ -3,11 +3,11 @@
   "symbol": "ln",
   "url": "https://ladymade-star.github.io/luminous/table.html",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbw1BLjiGiOwjmbsZyJFG3FvxmfXWlrb5QkanYM_g2Dvgvp-lGcqWGoCZG2rXniQzL-X3A/exec?status=main",
   "date": "Sun May 15 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://ladymade-star.github.io/luminous/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "General",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbw1BLjiGiOwjmbsZyJFG3FvxmfXWlrb5QkanYM_g2Dvgvp-lGcqWGoCZG2rXniQzL-X3A/exec?status=main",
+  "url_header_json": "https://ladymade-star.github.io/luminous/header.json"
 }

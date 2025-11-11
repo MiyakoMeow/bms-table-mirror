@@ -3,11 +3,11 @@
   "symbol": "G",
   "url": "https://nasashiki.web.fc2.com/gimmick.html",
   "comment": "",
-  "data_json_url": "https://nasashiki.web.fc2.com/score_gim.json",
   "date": "",
-  "header_json_url": "https://nasashiki.web.fc2.com/header_gim.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://nasashiki.web.fc2.com/score_gim.json",
+  "url_header_json": "https://nasashiki.web.fc2.com/header_gim.json"
 }

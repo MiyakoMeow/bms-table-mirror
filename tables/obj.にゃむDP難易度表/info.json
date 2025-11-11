@@ -3,11 +3,11 @@
   "symbol": "にゃ",
   "url": "https://nyamdxy.web.fc2.com/table_dp.html",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbxZ9yfYcS-yhdUL_j8Qhz_eUyTlrSQmgrOdj1sbr6RtUx3aJfzOBZgQm5hUYvh3g7Ax/exec",
   "date": "Sat Jan 01 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://nyamdxy.web.fc2.com/header_dp.json",
   "state": "",
   "tag1": "DP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "2"
+  "tag_order": "2",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbxZ9yfYcS-yhdUL_j8Qhz_eUyTlrSQmgrOdj1sbr6RtUx3aJfzOBZgQm5hUYvh3g7Ax/exec",
+  "url_header_json": "https://nyamdxy.web.fc2.com/header_dp.json"
 }

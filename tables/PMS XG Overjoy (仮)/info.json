@@ -3,11 +3,11 @@
   "symbol": "PXG●",
   "url": "https://pmsdifficulty.xxxxxxxx.jp/overjoy/table.html",
   "comment": "",
-  "data_json_url": "https://pmsdatabase.github.io/overjoy/xg_overjoy_score.json",
   "date": "Mon Dec 13 2021 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://pmsdatabase.github.io/overjoy/header.json",
   "state": "",
   "tag1": "PMS",
   "tag2": "General",
-  "tag_order": "3"
+  "tag_order": "3",
+  "url_data_json": "https://pmsdatabase.github.io/overjoy/xg_overjoy_score.json",
+  "url_header_json": "https://pmsdatabase.github.io/overjoy/header.json"
 }

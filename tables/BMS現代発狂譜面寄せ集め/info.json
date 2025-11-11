@@ -3,11 +3,11 @@
   "symbol": "集",
   "url": "https://potechang.github.io/like_st/",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbzxaygsG5F82bHlTlhtiV1I1aEA9-aMLw2MOxZyYdLGptjIo3ua_qC07snELdwkSoxJ/exec",
   "date": "Fri Oct 31 2025 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://potechang.github.io/like_st/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbzxaygsG5F82bHlTlhtiV1I1aEA9-aMLw2MOxZyYdLGptjIo3ua_qC07snELdwkSoxJ/exec",
+  "url_header_json": "https://potechang.github.io/like_st/header.json"
 }

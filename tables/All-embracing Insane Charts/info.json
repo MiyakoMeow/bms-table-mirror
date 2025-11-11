@@ -3,11 +3,11 @@
   "symbol": "★",
   "url": "https://kju8.github.io/all-embracing-insane-charts/",
   "comment": "",
-  "data_json_url": "https://kju8.github.io/all-embracing-insane-charts/table.json",
   "date": "",
-  "header_json_url": "https://kju8.github.io/all-embracing-insane-charts/head.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://kju8.github.io/all-embracing-insane-charts/table.json",
+  "url_header_json": "https://kju8.github.io/all-embracing-insane-charts/head.json"
 }

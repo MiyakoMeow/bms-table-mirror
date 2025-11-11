@@ -3,11 +3,11 @@
   "symbol": "T☆",
   "url": "https://tristandavis97.github.io/Tables/Normal_Sabun.html",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbzF1x5Faeg4waCJiHqOWUUiM3vqIQcKU2bnHv3HDSMbBFMdZN3WV50KYR1fyABAJjD1/exec",
   "date": "Wed Feb 08 2023 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://tristandavis97.github.io/Tables/T97_Normal_Table_header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbzF1x5Faeg4waCJiHqOWUUiM3vqIQcKU2bnHv3HDSMbBFMdZN3WV50KYR1fyABAJjD1/exec",
+  "url_header_json": "https://tristandavis97.github.io/Tables/T97_Normal_Table_header.json"
 }

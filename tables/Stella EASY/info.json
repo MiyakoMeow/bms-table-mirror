@@ -3,11 +3,11 @@
   "symbol": "E-st",
   "url": "https://notmichaelchen.github.io/stella-table-extensions/stella-easy.html",
   "comment": "maintained by <a href=\"https://x.com/dewero4\">dewero</a>",
-  "data_json_url": "https://notmichaelchen.github.io/stella-table-extensions/data/Stella-EASY-data.json",
   "date": "Thu Jun 24 2021 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://notmichaelchen.github.io/stella-table-extensions/data/Stella-EASY-header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://notmichaelchen.github.io/stella-table-extensions/data/Stella-EASY-data.json",
+  "url_header_json": "https://notmichaelchen.github.io/stella-table-extensions/data/Stella-EASY-header.json"
 }

@@ -3,11 +3,11 @@
   "symbol": "N★",
   "url": "http://walkure.net/hakkyou/for_glassist/bms/?lamp=normal",
   "comment": "",
-  "data_json_url": "http://walkure.net/hakkyou/for_glassist/bms/data_json.cgi?lamp=normal&min=1.5&max=25.0&step_count=47",
   "date": "",
-  "header_json_url": "http://walkure.net/hakkyou/for_glassist/bms/header_json.cgi?lamp=normal&min=1.5&max=25.0&step_count=47",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://walkure.net/hakkyou/for_glassist/bms/data_json.cgi?lamp=normal&min=1.5&max=25.0&step_count=47",
+  "url_header_json": "http://walkure.net/hakkyou/for_glassist/bms/header_json.cgi?lamp=normal&min=1.5&max=25.0&step_count=47"
 }

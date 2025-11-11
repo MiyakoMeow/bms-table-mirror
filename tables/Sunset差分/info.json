@@ -3,11 +3,11 @@
   "symbol": "Ss+",
   "url": "https://darksabun.club/table/archive/sunset/",
   "comment": "",
-  "data_json_url": "https://darksabun.club/table/archive/sunset/data.json",
   "date": "Sat Sep 13 2025 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://darksabun.club/table/archive/sunset/header.json",
   "state": "",
   "tag1": "EVENT",
   "tag2": "Chart Event",
-  "tag_order": "4"
+  "tag_order": "4",
+  "url_data_json": "https://darksabun.club/table/archive/sunset/data.json",
+  "url_header_json": "https://darksabun.club/table/archive/sunset/header.json"
 }

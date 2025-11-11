@@ -3,11 +3,11 @@
   "symbol": "†",
   "url": "http://uetnosubarashikikusosabun.web.fc2.com/uet/uetkai.html",
   "comment": "",
-  "data_json_url": "http://uetnosubarashikikusosabun.web.fc2.com/uet/data.json",
   "date": "",
-  "header_json_url": "http://uetnosubarashikikusosabun.web.fc2.com/uet/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://uetnosubarashikikusosabun.web.fc2.com/uet/data.json",
+  "url_header_json": "http://uetnosubarashikikusosabun.web.fc2.com/uet/header.json"
 }

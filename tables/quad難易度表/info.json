@@ -3,11 +3,11 @@
   "symbol": "q",
   "url": "http://quad.ninja-web.net/table.html",
   "comment": "",
-  "data_json_url": "http://quad.ninja-web.net/score.json",
   "date": "",
-  "header_json_url": "http://quad.ninja-web.net/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://quad.ninja-web.net/score.json",
+  "url_header_json": "http://quad.ninja-web.net/header.json"
 }

@@ -3,11 +3,11 @@
   "symbol": "ゴ",
   "url": "https://9domu46i.com/5k/table.html",
   "comment": "5keys",
-  "data_json_url": "https://9domu46i.com/5k/score.json",
   "date": "Mon Feb 14 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://9domu46i.com/5k/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://9domu46i.com/5k/score.json",
+  "url_header_json": "https://9domu46i.com/5k/header.json"
 }

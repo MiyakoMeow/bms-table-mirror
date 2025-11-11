@@ -3,11 +3,11 @@
   "symbol": "200BPM",
   "url": "https://potechang.github.io/bpm200/",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbyPhiTfPV2WLlRyMEXHoOQziK0xAUOGBRkyfUFQ_6WLkLIFbWUaGWJhAIO_2y9lnkSFvg/exec",
   "date": "",
-  "header_json_url": "https://potechang.github.io/bpm200/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbyPhiTfPV2WLlRyMEXHoOQziK0xAUOGBRkyfUFQ_6WLkLIFbWUaGWJhAIO_2y9lnkSFvg/exec",
+  "url_header_json": "https://potechang.github.io/bpm200/header.json"
 }

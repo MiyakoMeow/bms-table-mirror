@@ -3,11 +3,11 @@
   "symbol": "⚛",
   "url": "http://onzonium.at-ninja.jp/dp/",
   "comment": "",
-  "data_json_url": "http://onzonium.at-ninja.jp/dp/score.json",
   "date": "",
-  "header_json_url": "http://onzonium.at-ninja.jp/dp/header.json",
   "state": "",
   "tag1": "DP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "2"
+  "tag_order": "2",
+  "url_data_json": "http://onzonium.at-ninja.jp/dp/score.json",
+  "url_header_json": "http://onzonium.at-ninja.jp/dp/header.json"
 }

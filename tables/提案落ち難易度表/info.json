@@ -3,11 +3,11 @@
   "symbol": "落",
   "url": "http://bmsagoo.web.fc2.com/list_teian_otita.html",
   "comment": "",
-  "data_json_url": "http://bmsagoo.web.fc2.com/score_teian_otita.json",
   "date": "",
-  "header_json_url": "http://bmsagoo.web.fc2.com/header_teian_otita.json",
   "state": "",
   "tag1": "etc",
   "tag2": "Personal",
-  "tag_order": "5"
+  "tag_order": "5",
+  "url_data_json": "http://bmsagoo.web.fc2.com/score_teian_otita.json",
+  "url_header_json": "http://bmsagoo.web.fc2.com/header_teian_otita.json"
 }

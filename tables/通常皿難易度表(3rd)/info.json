@@ -3,11 +3,11 @@
   "symbol": "◎",
   "url": "http://minddnim.web.fc2.com/bms_sara.html",
   "comment": "",
-  "data_json_url": "http://minddnim.web.fc2.com/sara/3rd_normal/json/data.json",
   "date": "",
-  "header_json_url": "http://minddnim.web.fc2.com/sara/3rd_normal/json/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "General",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://minddnim.web.fc2.com/sara/3rd_normal/json/data.json",
+  "url_header_json": "http://minddnim.web.fc2.com/sara/3rd_normal/json/header.json"
 }

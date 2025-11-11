@@ -3,11 +3,11 @@
   "symbol": "sU",
   "url": "https://bms.hexlataia.xyz/tables/stuploader.html",
   "comment": "Converted by Hex",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbxMG5jqTHVZqSqE3dNkvc-QUcgm1-soiy0xMOJQn0ycCy2ZBGiy/exec?tablename=stuploader",
   "date": "",
-  "header_json_url": "https://bms.hexlataia.xyz/tables/header/stuploader.json",
   "state": "",
   "tag1": "etc",
   "tag2": "Uploader",
-  "tag_order": "5"
+  "tag_order": "5",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbxMG5jqTHVZqSqE3dNkvc-QUcgm1-soiy0xMOJQn0ycCy2ZBGiy/exec?tablename=stuploader",
+  "url_header_json": "https://bms.hexlataia.xyz/tables/header/stuploader.json"
 }

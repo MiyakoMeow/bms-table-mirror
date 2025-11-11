@@ -3,11 +3,11 @@
   "symbol": "個",
   "url": "http://overchoi.web.fc2.com/",
   "comment": "",
-  "data_json_url": "http://overchoi.web.fc2.com/table/myself.json",
   "date": "",
-  "header_json_url": "http://overchoi.web.fc2.com/table/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://overchoi.web.fc2.com/table/myself.json",
+  "url_header_json": "http://overchoi.web.fc2.com/table/header.json"
 }

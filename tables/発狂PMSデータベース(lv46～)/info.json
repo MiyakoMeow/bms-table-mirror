@@ -3,11 +3,11 @@
   "symbol": "P●",
   "url": "https://pmsdifficulty.xxxxxxxx.jp/insane_PMSdifficulty.html",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbxxIG6DRM_yFNYV6yMWGhZusbcGNGoZmVKOVcANDge7ayL_WemCfKthT0_qmdKdXc-z/exec",
   "date": "",
-  "header_json_url": "https://pmsdatabase.github.io/insane_pmsdatabase/insane_pmsdatabase_header.json",
   "state": "",
   "tag1": "PMS",
   "tag2": "General",
-  "tag_order": "3"
+  "tag_order": "3",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbxxIG6DRM_yFNYV6yMWGhZusbcGNGoZmVKOVcANDge7ayL_WemCfKthT0_qmdKdXc-z/exec",
+  "url_header_json": "https://pmsdatabase.github.io/insane_pmsdatabase/insane_pmsdatabase_header.json"
 }

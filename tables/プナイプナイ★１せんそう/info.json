@@ -3,11 +3,11 @@
   "symbol": "271★",
   "url": "https://darksabun.club/bceg/event/punaipunai/",
   "comment": "",
-  "data_json_url": "https://darksabun.club/bceg/event/punaipunai/data.json",
   "date": "",
-  "header_json_url": "https://darksabun.club/bceg/event/punaipunai/header.json",
   "state": "",
   "tag1": "EVENT",
   "tag2": "Chart Event",
-  "tag_order": "4"
+  "tag_order": "4",
+  "url_data_json": "https://darksabun.club/bceg/event/punaipunai/data.json",
+  "url_header_json": "https://darksabun.club/bceg/event/punaipunai/header.json"
 }

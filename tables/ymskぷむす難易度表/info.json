@@ -3,11 +3,11 @@
   "symbol": "にょ～ん♪",
   "url": "http://yumasuki.yumenogotoshi.com/table.html",
   "comment": "",
-  "data_json_url": "http://yumasuki.yumenogotoshi.com/score.json",
   "date": "",
-  "header_json_url": "http://yumasuki.yumenogotoshi.com/header.json",
   "state": "",
   "tag1": "PMS",
   "tag2": "Self-made Chart Only",
-  "tag_order": "3"
+  "tag_order": "3",
+  "url_data_json": "http://yumasuki.yumenogotoshi.com/score.json",
+  "url_header_json": "http://yumasuki.yumenogotoshi.com/header.json"
 }

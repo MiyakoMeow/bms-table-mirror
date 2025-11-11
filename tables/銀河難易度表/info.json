@@ -3,11 +3,11 @@
   "symbol": "★★★",
   "url": "http://oneeighth.web.fc2.com/galaxy/list_sample.html",
   "comment": "",
-  "data_json_url": "http://oneeighth.web.fc2.com/galaxy/score_sample.json",
   "date": "",
-  "header_json_url": "http://oneeighth.web.fc2.com/galaxy/header_sample.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://oneeighth.web.fc2.com/galaxy/score_sample.json",
+  "url_header_json": "http://oneeighth.web.fc2.com/galaxy/header_sample.json"
 }

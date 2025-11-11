@@ -3,11 +3,11 @@
   "symbol": "♪",
   "url": "https://verticalsub.web.fc2.com/fav/table.html",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbwCDN8qxWjfSErUHEHsjo3ZkjcmV7OSnJdu5SMEnKKz5GlFsjI/exec",
   "date": "Sun Jan 09 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://verticalsub.web.fc2.com/fav/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbwCDN8qxWjfSErUHEHsjo3ZkjcmV7OSnJdu5SMEnKKz5GlFsjI/exec",
+  "url_header_json": "https://verticalsub.web.fc2.com/fav/header.json"
 }

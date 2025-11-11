@@ -3,11 +3,11 @@
   "symbol": "¶イベ",
   "url": "http://kickbass.web.fc2.com/LNkatappasi/event/table.html",
   "comment": "",
-  "data_json_url": "http://kickbass.web.fc2.com/LNkatappasi/event/score.json",
   "date": "",
-  "header_json_url": "http://kickbass.web.fc2.com/LNkatappasi/event/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://kickbass.web.fc2.com/LNkatappasi/event/score.json",
+  "url_header_json": "http://kickbass.web.fc2.com/LNkatappasi/event/header.json"
 }

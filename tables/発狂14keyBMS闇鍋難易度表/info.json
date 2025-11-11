@@ -3,11 +3,11 @@
   "symbol": "★",
   "url": "https://kenpel.github.io/objeCraft/table14/",
   "comment": "",
-  "data_json_url": "https://kenpel.github.io/objeCraft/table14/data14.json",
   "date": "",
-  "header_json_url": "https://kenpel.github.io/objeCraft/table14/head14.json",
   "state": "",
   "tag1": "DP",
   "tag2": "Personal",
-  "tag_order": "2"
+  "tag_order": "2",
+  "url_data_json": "https://kenpel.github.io/objeCraft/table14/data14.json",
+  "url_header_json": "https://kenpel.github.io/objeCraft/table14/head14.json"
 }

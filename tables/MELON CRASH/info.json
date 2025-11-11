@@ -3,11 +3,11 @@
   "symbol": "",
   "url": "https://verticalsub.web.fc2.com/melon_crash/table.html",
   "comment": "",
-  "data_json_url": "https://verticalsub.web.fc2.com/melon_crash/score.json",
   "date": "Fri Jan 06 2023 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://verticalsub.web.fc2.com/melon_crash/header.json",
   "state": "",
   "tag1": "EVENT",
   "tag2": "Chart Event",
-  "tag_order": "4"
+  "tag_order": "4",
+  "url_data_json": "https://verticalsub.web.fc2.com/melon_crash/score.json",
+  "url_header_json": "https://verticalsub.web.fc2.com/melon_crash/header.json"
 }

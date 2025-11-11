@@ -3,11 +3,11 @@
   "symbol": "●",
   "url": "http://stellawingroad.web.fc2.com/new/pms.html",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbzob0GvajfzDm_IwppcW9RH-wRIwZh19kUfhZomyaU_Kwcvq12iJ2nhrG7fPD1yaAvV/exec",
   "date": "",
-  "header_json_url": "https://pmsdatabase.github.io/pastoral_insane/header.json",
   "state": "",
   "tag1": "PMS",
   "tag2": "General",
-  "tag_order": "3"
+  "tag_order": "3",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbzob0GvajfzDm_IwppcW9RH-wRIwZh19kUfhZomyaU_Kwcvq12iJ2nhrG7fPD1yaAvV/exec",
+  "url_header_json": "https://pmsdatabase.github.io/pastoral_insane/header.json"
 }

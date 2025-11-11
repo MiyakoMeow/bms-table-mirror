@@ -3,11 +3,11 @@
   "symbol": "('A`)",
   "url": "https://yaritaihoudie.fr/bazar/objmp/objmp_hyou.html",
   "comment": "Converted by AYhaz",
-  "data_json_url": "https://yaritaihoudie.fr/bazar/objmp/objmpdata.json",
   "date": "Fri Jan 10 2025 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://yaritaihoudie.fr/bazar/objmp/objmpheader.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://yaritaihoudie.fr/bazar/objmp/objmpdata.json",
+  "url_header_json": "https://yaritaihoudie.fr/bazar/objmp/objmpheader.json"
 }

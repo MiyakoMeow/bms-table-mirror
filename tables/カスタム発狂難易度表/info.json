@@ -3,11 +3,11 @@
   "symbol": "c★",
   "url": "https://dl.dropboxusercontent.com/s/31lu5nm7defbwhu/custom_insane2.html",
   "comment": "",
-  "data_json_url": "https://dl.dropbox.com/s/evr05f3e8s44ort/data_insane.json",
   "date": "",
-  "header_json_url": "https://dl.dropbox.com/s/1m74k8lczr9s1ow/header_insane.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://dl.dropbox.com/s/evr05f3e8s44ort/data_insane.json",
+  "url_header_json": "https://dl.dropbox.com/s/1m74k8lczr9s1ow/header_insane.json"
 }

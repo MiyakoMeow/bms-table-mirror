@@ -3,11 +3,11 @@
   "symbol": "Lv",
   "url": "https://pmpmsrndsz.nomaki.jp/BOFXVI.html",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbzgvooVLE8HqNZ85ttomV7tSaEGzon6mxMnda4OTXB552wS2NY/exec",
   "date": "Fri Dec 10 2021 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://pmpmsrndsz.nomaki.jp/BOFXVI/BOFXVI_header.json",
   "state": "",
   "tag1": "EVENT",
   "tag2": "BMS Event",
-  "tag_order": "4"
+  "tag_order": "4",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbzgvooVLE8HqNZ85ttomV7tSaEGzon6mxMnda4OTXB552wS2NY/exec",
+  "url_header_json": "https://pmpmsrndsz.nomaki.jp/BOFXVI/BOFXVI_header.json"
 }

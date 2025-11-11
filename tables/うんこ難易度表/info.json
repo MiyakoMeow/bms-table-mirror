@@ -3,11 +3,11 @@
   "symbol": "便",
   "url": "http://captainbms.web.fc2.com/unko_list/unko_index.html",
   "comment": "",
-  "data_json_url": "http://captainbms.web.fc2.com/unko_list/score.json",
   "date": "",
-  "header_json_url": "http://captainbms.web.fc2.com/unko_list/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://captainbms.web.fc2.com/unko_list/score.json",
+  "url_header_json": "http://captainbms.web.fc2.com/unko_list/header.json"
 }
