@@ -10,13 +10,15 @@ import re
 TIPS = """
 ## 使用方式
 
-1. 选择对应难度表的对应链接。
+1. 选择对应难度表的对应链接。如果不知道怎么选择，请往下看。
 2. 鼠标右键该链接 -> 复制链接。
 3. 粘贴到beatoraja/BeMusicSeeker，并在软件内部同步难度表内容。
 
-> 国内用户推荐使用下方的“代理链接”部分。
-> 
-> 偏好更新速度选反代（2sb或gh-proxy），偏好稳定连接选Gitee。
+### 如何选择链接？
+- 一般建议选择`gitee.com`，能够确保链接稳定。每小时更新一次。
+- 希望实时同步，选择`代理链接`下的任一可用链接。
+> 注意，`代理链接`的有效性取决于难度表。
+> 只有难度表`header.json`定义的`data_url`字段是相对链接时，代理才能被正确应用至获取`data.json`的过程中。
 
 ## 用于BeMusicSeeker的难度表清单链接：
 
@@ -301,20 +303,37 @@ def load_rows_from_tables(tables_dir: Path) -> List[Dict[str, Any]]:
 
 def build_proxy_maps(rows: List[Dict[str, Any]]) -> Dict[str, Dict[str, str]]:
     result: Dict[str, Dict[str, str]] = {}
-    label_to_modifier = {
-        "2sb": PrefixUrlProxyModifier("https://get.2sb.org/"),
-        "gh_proxy": PrefixUrlProxyModifier("https://gh-proxy.com/"),
-        "gitee": GiteeRawUrlProxyModifier(),
-    }
-    for label, modifier in label_to_modifier.items():
-        proxied_rows = apply_proxy_modifier(rows, modifier)
+
+    # 反向代理（2sb 与 gh-proxy）：直接代理 info.json 中的 header_json_url 字段
+    for label, prefix in (
+        ("2sb", "https://get.2sb.org/"),
+        ("gh_proxy", "https://gh-proxy.com/"),
+    ):
+        modifier = PrefixUrlProxyModifier(prefix)
         name_to_url: Dict[str, str] = {}
-        for item in proxied_rows:
+        for item in rows:
             name = to_str(item.get("name", ""))
-            url = to_str(item.get("url", ""))
-            if name and url:
-                name_to_url[name] = url
+            header_url = to_str(item.get("header_json_url", ""))
+            if not (name and header_url):
+                continue
+            proxied = modifier.modify_url(header_url)
+            if proxied:
+                name_to_url[name] = proxied
         result[label] = name_to_url
+
+    # gitee：将仓库的 raw 链接转换为 gitee raw
+    gitee_modifier = GiteeRawUrlProxyModifier()
+    name_to_gitee: Dict[str, str] = {}
+    for item in rows:
+        name = to_str(item.get("name", ""))
+        repo_raw_url = to_str(item.get("url", ""))
+        if not (name and repo_raw_url):
+            continue
+        gitee_url = gitee_modifier.modify_url(repo_raw_url)
+        if gitee_url:
+            name_to_gitee[name] = gitee_url
+    result["gitee"] = name_to_gitee
+
     return result
 
 
