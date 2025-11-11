@@ -165,14 +165,51 @@ def html_escape(s: str) -> str:
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def generate_md(rows: list[dict[str, Any]], proxy_maps_by_label: dict[str, dict[str, str]]) -> str:
-    # Group rows by tag_order > tag1 > tag2
-    def _to_int(val: Any) -> Any:
-        try:
-            return int(str(val).strip())
-        except Exception:
-            return None
+def derive_item_links(item: dict[str, Any]) -> dict[str, str]:
+    """
+    统一派生某个难度表条目的各类链接，供表格版与 URL 数组版复用。
+    返回的字典可能包含以下键（若不可用则缺失或为空字符串）：
+    - ori: 原链接（url_ori）
+    - gitee: 将仓库 raw 链接转换为 gitee raw 链接
+    - intermediate:2sb: 针对 header.json 的中间链接（get.2sb.org）
+    - github: 仓库 raw 直链（raw.githubusercontent.com）
+    - github_proxy:2sb: GitHub raw 的 2sb 反向代理
+    - github_proxy:gh_proxy: GitHub raw 的 gh-proxy 反向代理
+    """
+    url_ori = to_str(item.get("url_ori", ""))
+    repo_raw_url = to_str(item.get("url", ""))
+    header_url = to_str(item.get("url_header_json", ""))
 
+    out: dict[str, str] = {}
+    if url_ori:
+        out["ori"] = url_ori
+
+    if repo_raw_url:
+        # gitee raw
+        gitee_url = GiteeRawUrlProxyModifier().modify_url(repo_raw_url)
+        if gitee_url:
+            out["gitee"] = gitee_url
+        # github raw
+        out["github"] = repo_raw_url
+        # github proxies
+        if repo_raw_url.startswith(REPO_RAW_PREFIX):
+            prox_2sb = GITHUB_PROXY_MODIFIERS["2sb"].modify_url(repo_raw_url)
+            if prox_2sb:
+                out["github_proxy:2sb"] = prox_2sb
+            prox_gh = GITHUB_PROXY_MODIFIERS["gh_proxy"].modify_url(repo_raw_url)
+            if prox_gh:
+                out["github_proxy:gh_proxy"] = prox_gh
+
+    if header_url:
+        prox_intermediate = INTERMEDIATE_PROXY_MODIFIERS["2sb"].modify_url(header_url)
+        if prox_intermediate:
+            out["intermediate:2sb"] = prox_intermediate
+
+    return out
+
+
+def generate_md(rows: list[dict[str, Any]], proxy_maps_by_label: dict[str, dict[str, str]]) -> str:
+    # Group rows by tag_order > tag1 > tag2（使用全局排序工具）
     groups: dict[str, dict[str, dict[str, list[dict[str, Any]]]]] = {}
     for item in rows:
         tag_order_raw = item.get("tag_order")
@@ -181,16 +218,7 @@ def generate_md(rows: list[dict[str, Any]], proxy_maps_by_label: dict[str, dict[
         tag2 = to_str(item.get("tag2", "")).strip() or "未分类"
         groups.setdefault(tag_order_key, {}).setdefault(tag1, {}).setdefault(tag2, []).append(item)
 
-    # Sort tag_order keys: numeric first (ascending), then non-numeric
-    def _sort_tag_order_keys(keys: list[str]) -> list[str]:
-        def _key(k: str) -> tuple[int, float, str]:
-            i = _to_int(k)
-            return (0, float(i), str(k)) if i is not None else (1, float("inf"), str(k))
-
-        return sorted(keys, key=_key)
-
     lines: list[str] = []
-    # Top-level title
     lines.append("# BMS难度表镜像")
     lines.extend(TIPS.splitlines())
     lines.append("")
@@ -206,51 +234,32 @@ def generate_md(rows: list[dict[str, Any]], proxy_maps_by_label: dict[str, dict[
                 lines.append(f"### {tag2}")
                 lines.append("")
 
-                # Table header for each group
-                # 仓库链接拆分为两列：Gitee 与 GitHub
+                # 表头
                 lines.append("| 标记 | 难度表名称 | 原链接 | Gitee直链 | 中间链接 | GitHub直链 | GitHub中间链接 |")
                 lines.append("| --- | --- | --- | --- | --- | --- | --- |")
 
                 for item in tag2_map[tag2]:
                     symbol_cell = escape_md_cell(to_str(item.get("symbol", "")))
-                    name_raw = to_str(item.get("name", ""))
-                    name_cell = escape_md_cell(name_raw)
+                    name_cell = escape_md_cell(to_str(item.get("name", "")))
 
-                    url_ori = to_str(item.get("url_ori", ""))
-                    url_repo = to_str(item.get("url", ""))
+                    links = derive_item_links(item)
+                    ori_link = make_md_link(links.get("ori", ""))
+                    gitee_link = make_md_link(links.get("gitee", ""))
+                    github_link = make_md_link(links.get("github", ""))
+                    proxy_link = make_md_link(links.get("intermediate:2sb", ""))
 
-                    proxy_links: list[str] = []
-                    header_url = to_str(item.get("url_header_json", ""))
-                    if header_url:
-                        for _, modifier in INTERMEDIATE_PROXY_MODIFIERS.items():
-                            proxied = modifier.modify_url(header_url)
-                            if proxied:
-                                proxy_links.append(make_md_link(proxied))
-
-                    # 使用域名作为显示文本
-                    ori_link = make_md_link(url_ori)
-                    # 仓库链接分别展示：先计算 Gitee，再计算 GitHub
-                    gitee_url = GiteeRawUrlProxyModifier().modify_url(url_repo)
-                    gitee_link = make_md_link(gitee_url) if gitee_url else ""
-                    github_link = make_md_link(url_repo) if url_repo else ""
-
-                    # GitHub中间链接：对 raw.githubusercontent.com 开头的链接使用两个反向代理前缀
-                    github_proxy_links: list[str] = []
-                    if url_repo.startswith(REPO_RAW_PREFIX):
-                        for _, modifier in GITHUB_PROXY_MODIFIERS.items():
-                            proxied = modifier.modify_url(url_repo)
-                            if proxied:
-                                github_proxy_links.append(make_md_link(proxied))
-                    github_proxy_cell = " ".join(github_proxy_links) if github_proxy_links else ""
-
-                    proxy_link = " ".join(proxy_links) if proxy_links else ""
+                    github_proxy = []
+                    if links.get("github_proxy:2sb"):
+                        github_proxy.append(make_md_link(links["github_proxy:2sb"]))
+                    if links.get("github_proxy:gh_proxy"):
+                        github_proxy.append(make_md_link(links["github_proxy:gh_proxy"]))
+                    github_proxy_cell = " ".join([p for p in github_proxy if p])
 
                     lines.append(
                         f"| {symbol_cell} | {name_cell} | {ori_link} | {gitee_link} "
                         f"| {proxy_link} | {github_link} | {github_proxy_cell} |"
                     )
 
-                # Blank line between groups
                 lines.append("")
 
     return "\n".join(lines) + "\n"
@@ -301,7 +310,7 @@ def _make_dual_column_block(names: list[str], urls: list[str], title: str) -> li
 
 
 def generate_url_md(rows: list[dict[str, Any]]) -> str:
-    # 分组：tag_order > tag1 > tag2
+    # 分组：tag_order > tag1 > tag2（共享派生链接）
     groups: dict[str, dict[str, dict[str, list[dict[str, Any]]]]] = {}
     for item in rows:
         tag_order_raw = item.get("tag_order")
@@ -356,39 +365,13 @@ def generate_url_md(rows: list[dict[str, Any]]) -> str:
 
                 for item in tag2_map[tag2]:
                     name = to_str(item.get("name", "")).strip() or "(未命名)"
-                    url_ori = to_str(item.get("url_ori", ""))
-                    repo_raw_url = to_str(item.get("url", ""))
-                    header_url = to_str(item.get("url_header_json", ""))
+                    links = derive_item_links(item)
 
-                    if url_ori:
-                        names_by_key["ori"].append(name)
-                        urls_by_key["ori"].append(url_ori)
-
-                    if repo_raw_url:
-                        gitee_url = GiteeRawUrlProxyModifier().modify_url(repo_raw_url)
-                        if gitee_url:
-                            names_by_key["gitee"].append(name)
-                            urls_by_key["gitee"].append(gitee_url)
-
-                    if header_url:
-                        proxied = INTERMEDIATE_PROXY_MODIFIERS["2sb"].modify_url(header_url)
-                        if proxied:
-                            names_by_key["intermediate:2sb"].append(name)
-                            urls_by_key["intermediate:2sb"].append(proxied)
-
-                    if repo_raw_url:
-                        names_by_key["github"].append(name)
-                        urls_by_key["github"].append(repo_raw_url)
-
-                    if repo_raw_url.startswith(REPO_RAW_PREFIX):
-                        prox_2sb = GITHUB_PROXY_MODIFIERS["2sb"].modify_url(repo_raw_url)
-                        if prox_2sb:
-                            names_by_key["github_proxy:2sb"].append(name)
-                            urls_by_key["github_proxy:2sb"].append(prox_2sb)
-                        prox_gh = GITHUB_PROXY_MODIFIERS["gh_proxy"].modify_url(repo_raw_url)
-                        if prox_gh:
-                            names_by_key["github_proxy:gh_proxy"].append(name)
-                            urls_by_key["github_proxy:gh_proxy"].append(prox_gh)
+                    for key in order_keys:
+                        url = links.get(key, "")
+                        if url:
+                            names_by_key[key].append(name)
+                            urls_by_key[key].append(url)
 
                 for key in order_keys:
                     block_lines = _make_dual_column_block(
