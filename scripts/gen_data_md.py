@@ -384,6 +384,41 @@ def generate_url_md(rows: list[dict[str, Any]]) -> str:
     return "\n".join(out_lines) + "\n"
 
 
+def _write_json(output_path: Path, data: Any) -> None:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with output_path.open("w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def generate_tables_outputs(rows: list[dict[str, Any]], outputs_dir: Path | None = None) -> None:
+    """写出 outputs 下的 tables.json 及代理变体（合并原 gen_tables.py 逻辑）。
+
+    - `tables.json`：包含 info.json 的字段，且 `url` 为仓库 raw 直链，`url_ori`为原字段。
+    - `tables_2sb.json` / `tables_gh_proxy.json`：对 `url` 应用前缀代理。
+    - `tables_gitee.json`：将 GitHub raw 直链转换为 gitee raw 直链。
+    """
+    base = outputs_dir or Path(__file__).resolve().parent.parent / "outputs"
+    base.mkdir(parents=True, exist_ok=True)
+
+    # 原始聚合（raw.githubusercontent.com 直链）
+    out_tables = base / "tables.json"
+    _write_json(out_tables, rows)
+    print(f"[OK] 写入 {out_tables}，共 {len(rows)} 条。")
+
+    # 代理变体映射
+    mapping: dict[Path, UrlProxyModifier] = {
+        base / "tables_2sb.json": PrefixUrlProxyModifier(PROXY_PREFIXES["2sb"]),
+        base / "tables_gh_proxy.json": PrefixUrlProxyModifier(PROXY_PREFIXES["gh_proxy"]),
+        base / "tables_gitee.json": GiteeRawUrlProxyModifier(),
+    }
+
+    for output_path, modifier in mapping.items():
+        proxied = apply_proxy_modifier(rows, modifier)
+        _write_json(output_path, proxied)
+        msg_prefix = modifier.prefix if isinstance(modifier, PrefixUrlProxyModifier) else ""
+        print(f"Wrote {output_path} with UrlProxyModifier ({modifier.__class__.__name__}, prefix: {msg_prefix})")
+
+
 def _git_capture(args: list[str]) -> str | None:
     try:
         out = subprocess.check_output(
@@ -530,6 +565,9 @@ def main() -> None:
     with out_url_path.open("w", encoding="utf-8") as f:
         f.write(md_url)
     print(f"[OK] 写入 {out_url_path}，共 {len(rows)} 行数据。基础: {tables_dir}；中间生成: [2sb, gh_proxy, gitee]")
+
+    # 生成 outputs 下的 tables*.json（合并原 gen_tables.py 逻辑）
+    generate_tables_outputs(rows)
 
 
 if __name__ == "__main__":
