@@ -553,30 +553,54 @@ def _write_json(output_path: Path, data: Any) -> None:
 def generate_tables_outputs(rows: list[dict[str, Any]], outputs_dir: Path | None = None) -> None:
     """写出 outputs 下的 tables.json 及代理变体（合并原 gen_tables.py 逻辑）。
 
-    - `tables.json`：包含 info.json 的字段，且 `url` 为仓库 raw 直链，`url_ori`为原字段。
-    - `tables_2sb.json` / `tables_gh_proxy.json`：对 `url` 应用前缀代理。
-    - `tables_gitee.json`：将 GitHub raw 直链转换为 gitee raw 直链。
+    命名与链接派生遵循 derive_item_links 使用的标签约定：
+    - `github` -> `tables.json`：包含 info.json 的字段，且 `url` 为仓库 raw 直链，`url_ori` 为原字段。
+    - `github_proxy:<label>` -> `tables_<label>.json`：对所有 `url` 字段应用对应前缀代理（如 2sb / gh_proxy）。
+    - `gitee` -> `tables_gitee.json`：将 GitHub raw 直链转换为 gitee raw 直链。
+    输出内容保持与原实现一致。
     """
     base = outputs_dir or Path(__file__).resolve().parent.parent / "outputs"
     base.mkdir(parents=True, exist_ok=True)
 
-    # 原始聚合（raw.githubusercontent.com 直链）
+    # 原始聚合（github 直链）；命名遵循 derive_item_links 的 `github`
     out_tables = base / "tables.json"
     _write_json(out_tables, rows)
     print(f"[OK] 写入 {out_tables}，共 {len(rows)} 条。")
 
-    # 代理变体映射
-    mapping: dict[Path, UrlProxyModifier] = {
-        base / "tables_2sb.json": PrefixUrlProxyModifier(PROXY_PREFIXES["2sb"]),
-        base / "tables_gh_proxy.json": PrefixUrlProxyModifier(PROXY_PREFIXES["gh_proxy"]),
-        base / "tables_gitee.json": GiteeRawUrlProxyModifier(),
-    }
-
-    for output_path, modifier in mapping.items():
+    # 代理变体与 gitee：统一使用 derive_item_links 的标签约定生成文件名
+    # github_proxy:<label> -> tables_<label>.json
+    for label, modifier in sorted(GITHUB_PROXY_MODIFIERS.items()):
+        output_path = base / f"tables_{label}.json"
         proxied = apply_proxy_modifier(rows, modifier)
         _write_json(output_path, proxied)
         msg_prefix = modifier.prefix if isinstance(modifier, PrefixUrlProxyModifier) else ""
         print(f"Wrote {output_path} with UrlProxyModifier ({modifier.__class__.__name__}, prefix: {msg_prefix})")
+
+    # gitee 变体；命名遵循 derive_item_links 的 `gitee`
+    gitee_output = base / "tables_gitee.json"
+    gitee_modifier = GiteeRawUrlProxyModifier()
+    gitee_rows = apply_proxy_modifier(rows, gitee_modifier)
+    _write_json(gitee_output, gitee_rows)
+    print(f"Wrote {gitee_output} with UrlProxyModifier ({gitee_modifier.__class__.__name__})")
+
+    # 中间链接 JSON：结构与其它 JSON 相同（列表字典），仅将每项 `url` 替换为中间链接
+    # 文件命名遵循 derive_item_links 的 `intermediate:<label>` -> `tables_intermediate_<label>.json`
+    for label in sorted(INTERMEDIATE_PROXY_MODIFIERS.keys()):
+        modifier = INTERMEDIATE_PROXY_MODIFIERS[label]
+        intermediate_rows: list[dict[str, Any]] = []
+        for item in rows:
+            new_item = dict(item)
+            header_url = to_str(item.get("url_header_json", ""))
+            if header_url:
+                new_item["url"] = modifier.modify_url(header_url)
+            else:
+                # 无 header_url 时保留原始 url（保持与其它输出一致的完整性）
+                new_item["url"] = to_str(item.get("url", ""))
+            intermediate_rows.append(new_item)
+        output_path = base / f"tables_intermediate_{label}.json"
+        _write_json(output_path, intermediate_rows)
+        msg_prefix = modifier.prefix if isinstance(modifier, PrefixUrlProxyModifier) else ""
+        print(f"Wrote {output_path} with intermediate rows ({modifier.__class__.__name__}, prefix: {msg_prefix})")
 
 
 def main() -> None:
