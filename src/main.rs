@@ -133,6 +133,8 @@ async fn fetch_and_save_table(
         BmsTableRaw {
             header_raw,
             data_raw,
+            header_json_url,
+            data_json_url,
         },
     ) = fetch_table_full(client, info.url.as_str()).await?;
 
@@ -166,11 +168,17 @@ async fn fetch_and_save_table(
         fs::write(&data_path, &data_raw).await?;
     }
 
-    // 向index同步实际获取的难度表信息
+    // 向info同步实际获取的难度表信息
     info.name = header.name;
     info.symbol = header.symbol;
 
-    // 写入index
+    // 向info的extra字段写入header_json_url和data_json_url
+    *info.extra.entry("header_json_url".to_string()).or_default() =
+        serde_json::to_value(header_json_url)?;
+    *info.extra.entry("data_json_url".to_string()).or_default() =
+        serde_json::to_value(data_json_url)?;
+
+    // 写入info
     let info_path: PathBuf = out_dir.join("info.json");
     let info_data = serde_json::to_string_pretty(&info)?;
     if is_changed::<serde_json::Value>(&info_path, &info_data, deep_sort_json_value).await? {
