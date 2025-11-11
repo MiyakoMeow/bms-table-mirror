@@ -43,6 +43,7 @@ PROXY_PREFIXES = {
 }
 # 默认代理前缀供通用中间使用（采用 2sb）
 DEFAULT_PROXY_PREFIX = PROXY_PREFIXES["2sb"]
+REPO_RAW_PREFIX = "https://raw.githubusercontent.com/"
 
 
 class UrlProxyModifier:
@@ -92,6 +93,16 @@ class GiteeRawUrlProxyModifier(UrlProxyModifier):
         rest_decoded = unquote(rest)
         rest_encoded = quote(rest_decoded, safe="/-._~")
         return f"https://gitee.com/{owner}/{repo}/raw/{branch}/{rest_encoded}"
+
+
+INTERMEDIATE_PROXY_MODIFIERS = {
+    "2sb": PrefixUrlProxyModifier(PROXY_PREFIXES["2sb"]),
+}
+
+GITHUB_PROXY_MODIFIERS = {
+    "2sb": PrefixUrlProxyModifier(PROXY_PREFIXES["2sb"]),
+    "gh_proxy": PrefixUrlProxyModifier(PROXY_PREFIXES["gh_proxy"]),
+}
 
 
 def apply_proxy_modifier(data: Any, modifier: UrlProxyModifier):
@@ -202,18 +213,13 @@ def generate_md(
                     url_ori = to_str(item.get("url_ori", ""))
                     url_repo = to_str(item.get("url", ""))
 
-                    # Build proxy links labeled by their xxx derived from filename
                     proxy_links: List[str] = []
-                    for label, name_to_url in sorted(proxy_maps_by_label.items()):
-                        # gitee 链接将被放入“仓库链接”列，不在“中间链接”中展示
-                        if label == "gitee":
-                            continue
-                        # gh_proxy 不在“中间链接”中展示，因为不支持
-                        if label == "gh_proxy":
-                            continue
-                        u = to_str(name_to_url.get(name_raw, ""))
-                        if u:
-                            proxy_links.append(make_md_link(u))
+                    header_url = to_str(item.get("url_header_json", ""))
+                    if header_url:
+                        for _, modifier in INTERMEDIATE_PROXY_MODIFIERS.items():
+                            proxied = modifier.modify_url(header_url)
+                            if proxied:
+                                proxy_links.append(make_md_link(proxied))
 
                     # 使用域名作为显示文本
                     ori_link = make_md_link(url_ori)
@@ -224,12 +230,14 @@ def generate_md(
 
                     # GitHub中间链接：对 raw.githubusercontent.com 开头的链接使用两个反向代理前缀
                     github_proxy_links: List[str] = []
-                    if url_repo.startswith("https://raw.githubusercontent.com/"):
-                        for _, prefix in PROXY_PREFIXES.items():
-                            proxied = PrefixUrlProxyModifier(prefix).modify_url(url_repo)
+                    if url_repo.startswith(REPO_RAW_PREFIX):
+                        for _, modifier in GITHUB_PROXY_MODIFIERS.items():
+                            proxied = modifier.modify_url(url_repo)
                             if proxied:
                                 github_proxy_links.append(make_md_link(proxied))
-                    github_proxy_cell = " ".join(github_proxy_links) if github_proxy_links else ""
+                    github_proxy_cell = (
+                        " ".join(github_proxy_links) if github_proxy_links else ""
+                    )
 
                     proxy_link = " ".join(proxy_links) if proxy_links else ""
 
