@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 import json
-import sys
-import subprocess
 import re
+import subprocess
+import sys
 from pathlib import Path
+from typing import Any
 from urllib.parse import quote, unquote
-from typing import Any, Dict
 
 repo_root = Path(__file__).resolve().parent.parent
 tables_dir = repo_root / "tables"
@@ -84,9 +84,7 @@ def _get_owner_repo():
     url = _git_capture(["git", "config", "--get", "remote.origin.url"])
     if not url:
         return None, None
-    m = re.search(
-        r"github\.com[:/](?P<owner>[^/]+)/(?P<repo>[^/]+?)(?:\.git)?$", url.strip()
-    )
+    m = re.search(r"github\.com[:/](?P<owner>[^/]+)/(?P<repo>[^/]+?)(?:\.git)?$", url.strip())
     if not m:
         return None, None
     owner = m.group("owner")
@@ -145,9 +143,7 @@ def generate_tables_json():
 
             # 对目录名进行 URL 转义，避免空格与特殊字符
             encoded_child = quote(child.name, safe="-._~")
-            raw_url = (
-                f"{base_raw}/{owner}/{repo}/{branch}/tables/{encoded_child}/header.json"
-            )
+            raw_url = f"{base_raw}/{owner}/{repo}/{branch}/tables/{encoded_child}/header.json"
             obj["url_ori"] = obj["url"]
             obj["url"] = raw_url
 
@@ -210,11 +206,9 @@ def gen_tables_with_modifier():
     with input_path.open("r", encoding="utf-8") as f:
         data = json.load(f)
 
-    mapping: Dict[Path, UrlProxyModifier] = {
+    mapping: dict[Path, UrlProxyModifier] = {
         out_2sb: PrefixUrlProxyModifier(prefix_2sb),
-        Path("outputs/tables_gh_proxy.json"): PrefixUrlProxyModifier(
-            "https://gh-proxy.com/"
-        ),
+        Path("outputs/tables_gh_proxy.json"): PrefixUrlProxyModifier("https://gh-proxy.com/"),
         Path("outputs/tables_gitee.json"): GiteeRawUrlProxyModifier(),
     }
 
@@ -224,12 +218,8 @@ def gen_tables_with_modifier():
         with output_path.open("w", encoding="utf-8") as f:
             json.dump(proxied, f, ensure_ascii=False, indent=2)
         # 在打印中体现当前使用的实现类与关键参数
-        msg_prefix = (
-            modifier.prefix if isinstance(modifier, PrefixUrlProxyModifier) else ""
-        )
-        print(
-            f"Wrote {output_path} with UrlProxyModifier ({modifier.__class__.__name__}, prefix: {msg_prefix})"
-        )
+        msg_prefix = modifier.prefix if isinstance(modifier, PrefixUrlProxyModifier) else ""
+        print(f"Wrote {output_path} with UrlProxyModifier ({modifier.__class__.__name__}, prefix: {msg_prefix})")
 
 
 if __name__ == "__main__":

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 import json
+import re
+import subprocess
 import sys
 from pathlib import Path
-from typing import Any, Dict, List
-from urllib.parse import urlparse, quote, unquote
-import subprocess
-import re
+from typing import Any
+from urllib.parse import quote, unquote, urlparse
 
 TIPS = """
 ## 使用方式
@@ -130,12 +130,7 @@ def to_str(value: Any) -> str:
 
 def escape_md_cell(text: str) -> str:
     # Escape Markdown table separators and normalize newlines
-    return (
-        text.replace("|", "\\|")
-        .replace("\r\n", "<br>")
-        .replace("\n", "<br>")
-        .replace("\r", "<br>")
-    )
+    return text.replace("|", "\\|").replace("\r\n", "<br>").replace("\n", "<br>").replace("\r", "<br>")
 
 
 def make_md_link(url: str) -> str:
@@ -149,9 +144,7 @@ def make_md_link(url: str) -> str:
     return f"[{domain}]({url})"
 
 
-def generate_md(
-    rows: List[Dict[str, Any]], proxy_maps_by_label: Dict[str, Dict[str, str]]
-) -> str:
+def generate_md(rows: list[dict[str, Any]], proxy_maps_by_label: dict[str, dict[str, str]]) -> str:
     # Group rows by tag_order > tag1 > tag2
     def _to_int(val: Any) -> Any:
         try:
@@ -159,29 +152,23 @@ def generate_md(
         except Exception:
             return None
 
-    groups: Dict[str, Dict[str, Dict[str, List[Dict[str, Any]]]]] = {}
+    groups: dict[str, dict[str, dict[str, list[dict[str, Any]]]]] = {}
     for item in rows:
         tag_order_raw = item.get("tag_order")
         tag_order_key = to_str(tag_order_raw) if tag_order_raw is not None else "N/A"
         tag1 = to_str(item.get("tag1", "")).strip() or "未分类"
         tag2 = to_str(item.get("tag2", "")).strip() or "未分类"
-        groups.setdefault(tag_order_key, {}).setdefault(tag1, {}).setdefault(
-            tag2, []
-        ).append(item)
+        groups.setdefault(tag_order_key, {}).setdefault(tag1, {}).setdefault(tag2, []).append(item)
 
     # Sort tag_order keys: numeric first (ascending), then non-numeric
-    def _sort_tag_order_keys(keys: List[str]) -> List[str]:
+    def _sort_tag_order_keys(keys: list[str]) -> list[str]:
         def _key(k: str):
             i = _to_int(k)
-            return (
-                (0, i if i is not None else 0, str(k))
-                if i is not None
-                else (1, float("inf"), str(k))
-            )
+            return (0, i if i is not None else 0, str(k)) if i is not None else (1, float("inf"), str(k))
 
         return sorted(keys, key=_key)
 
-    lines: List[str] = []
+    lines: list[str] = []
     # Top-level title
     lines.append("# BMS难度表镜像")
     lines.extend(TIPS.splitlines())
@@ -200,9 +187,7 @@ def generate_md(
 
                 # Table header for each group
                 # 仓库链接拆分为两列：Gitee 与 GitHub
-                lines.append(
-                    "| 标记 | 难度表名称 | 原链接 | Gitee直链 | 中间链接 | GitHub直链 | GitHub中间链接 |"
-                )
+                lines.append("| 标记 | 难度表名称 | 原链接 | Gitee直链 | 中间链接 | GitHub直链 | GitHub中间链接 |")
                 lines.append("| --- | --- | --- | --- | --- | --- | --- |")
 
                 for item in tag2_map[tag2]:
@@ -213,7 +198,7 @@ def generate_md(
                     url_ori = to_str(item.get("url_ori", ""))
                     url_repo = to_str(item.get("url", ""))
 
-                    proxy_links: List[str] = []
+                    proxy_links: list[str] = []
                     header_url = to_str(item.get("url_header_json", ""))
                     if header_url:
                         for _, modifier in INTERMEDIATE_PROXY_MODIFIERS.items():
@@ -229,20 +214,19 @@ def generate_md(
                     github_link = make_md_link(url_repo) if url_repo else ""
 
                     # GitHub中间链接：对 raw.githubusercontent.com 开头的链接使用两个反向代理前缀
-                    github_proxy_links: List[str] = []
+                    github_proxy_links: list[str] = []
                     if url_repo.startswith(REPO_RAW_PREFIX):
                         for _, modifier in GITHUB_PROXY_MODIFIERS.items():
                             proxied = modifier.modify_url(url_repo)
                             if proxied:
                                 github_proxy_links.append(make_md_link(proxied))
-                    github_proxy_cell = (
-                        " ".join(github_proxy_links) if github_proxy_links else ""
-                    )
+                    github_proxy_cell = " ".join(github_proxy_links) if github_proxy_links else ""
 
                     proxy_link = " ".join(proxy_links) if proxy_links else ""
 
                     lines.append(
-                        f"| {symbol_cell} | {name_cell} | {ori_link} | {gitee_link} | {proxy_link}| {github_link} | {github_proxy_cell}  |"
+                        f"| {symbol_cell} | {name_cell} | {ori_link} | {gitee_link} "
+                        f"| {proxy_link} | {github_link} | {github_proxy_cell} |"
                     )
 
                 # Blank line between groups
@@ -288,8 +272,8 @@ def _get_branch():
     return "main"
 
 
-def load_rows_from_tables(tables_dir: Path) -> List[Dict[str, Any]]:
-    rows: List[Dict[str, Any]] = []
+def load_rows_from_tables(tables_dir: Path) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
     if not tables_dir.is_dir():
         print(f"[ERROR] tables 目录不存在: {tables_dir}", file=sys.stderr)
         sys.exit(1)
@@ -323,9 +307,7 @@ def load_rows_from_tables(tables_dir: Path) -> List[Dict[str, Any]]:
             continue
 
         encoded_child = quote(child.name, safe="-._~")
-        raw_url = (
-            f"{base_raw}/{owner}/{repo}/{branch}/tables/{encoded_child}/header.json"
-        )
+        raw_url = f"{base_raw}/{owner}/{repo}/{branch}/tables/{encoded_child}/header.json"
 
         obj["url_ori"] = to_str(obj.get("url", ""))
         obj["url"] = raw_url
@@ -334,13 +316,13 @@ def load_rows_from_tables(tables_dir: Path) -> List[Dict[str, Any]]:
     return rows
 
 
-def build_proxy_maps(rows: List[Dict[str, Any]]) -> Dict[str, Dict[str, str]]:
-    result: Dict[str, Dict[str, str]] = {}
+def build_proxy_maps(rows: list[dict[str, Any]]) -> dict[str, dict[str, str]]:
+    result: dict[str, dict[str, str]] = {}
 
     # 反向中间（2sb 与 gh-proxy）：直接中间 info.json 中的 url_header_json 字段
     for label, prefix in PROXY_PREFIXES.items():
         modifier = PrefixUrlProxyModifier(prefix)
-        name_to_url: Dict[str, str] = {}
+        name_to_url: dict[str, str] = {}
         for item in rows:
             name = to_str(item.get("name", ""))
             header_url = to_str(item.get("url_header_json", ""))
@@ -353,7 +335,7 @@ def build_proxy_maps(rows: List[Dict[str, Any]]) -> Dict[str, Dict[str, str]]:
 
     # gitee：将仓库的 raw 链接转换为 gitee raw
     gitee_modifier = GiteeRawUrlProxyModifier()
-    name_to_gitee: Dict[str, str] = {}
+    name_to_gitee: dict[str, str] = {}
     for item in rows:
         name = to_str(item.get("name", ""))
         repo_raw_url = to_str(item.get("url", ""))
@@ -383,9 +365,7 @@ def main():
         f.write(md)
 
     proxies_list = ", ".join(sorted(proxy_maps_by_label.keys()))
-    print(
-        f"[OK] 写入 {output_path}，共 {len(rows)} 行数据。基础: {tables_dir}；中间生成: [{proxies_list}]"
-    )
+    print(f"[OK] 写入 {output_path}，共 {len(rows)} 行数据。基础: {tables_dir}；中间生成: [{proxies_list}]")
 
 
 if __name__ == "__main__":
