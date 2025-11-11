@@ -11,8 +11,9 @@ TIPS = """
 ## 使用方式
 
 1. 选择对应难度表的对应链接。
-   - 一般建议选择`gitee.com`，能够确保链接稳定。每小时更新一次。
+   - 一般建议选择`Gitee直链`，能够确保链接稳定。每小时更新一次。
    - 希望实时获取最新难度表内容，选择`中间链接`下的任一可用链接。
+   - 可以将`GitHub中间链接`下的任一可用链接作为备选。同步频率与`Gitee直链`相同。
 2. 复制选中链接。请尝试以下两种操作，并确保复制到的链接的域名与显示的相同：
    - a. （在`GitHub`上，或在`Gitee`使用`gitee.com`的链接时）鼠标右键点击链接，选择`复制链接`。
    - b. （在`Gitee`等平台上，打开其它网站的链接时）直接点击链接。
@@ -26,16 +27,22 @@ TIPS = """
 
 ## 用于BeMusicSeeker的难度表清单链接：
 
-- [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/outputs/tables.json)
-- [get.2sb.org](https://get.2sb.org/https://github.com/MiyakoMeow/bms-table-mirror/raw/refs/heads/main/outputs/tables.json)
-- [gh-proxy.com](https://gh-proxy.com/https://github.com/MiyakoMeow/bms-table-mirror/raw/refs/heads/main/outputs/tables.json)
-- [raw.githubusercontent.com](https://github.com/MiyakoMeow/bms-table-mirror/raw/refs/heads/main/outputs/tables.json)
+- （Gitee直链）[gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/outputs/tables.json)
+- （GitHub中间链接）[get.2sb.org](https://get.2sb.org/https://github.com/MiyakoMeow/bms-table-mirror/raw/refs/heads/main/outputs/tables.json)
+- （GitHub中间链接）[gh-proxy.com](https://gh-proxy.com/https://github.com/MiyakoMeow/bms-table-mirror/raw/refs/heads/main/outputs/tables.json)
+- （GitHub直链）[raw.githubusercontent.com](https://github.com/MiyakoMeow/bms-table-mirror/raw/refs/heads/main/outputs/tables.json)
 
 ### 用法参考：
 - [用法参考/数据来源](https://darksabun.club/table/tablelist.html)
 """
 
-DEFAULT_PROXY_PREFIX = "https://get.2sb.org/"
+# 全局定义：实际使用的反向代理前缀（保持原有两个反向代理）
+PROXY_PREFIXES = {
+    "2sb": "https://get.2sb.org/",
+    "gh_proxy": "https://gh-proxy.com/",
+}
+# 默认代理前缀供通用中间使用（采用 2sb）
+DEFAULT_PROXY_PREFIX = PROXY_PREFIXES["2sb"]
 
 
 class UrlProxyModifier:
@@ -183,9 +190,9 @@ def generate_md(
                 # Table header for each group
                 # 仓库链接拆分为两列：Gitee 与 GitHub
                 lines.append(
-                    "| 标记 | 难度表名称 | 原链接 | Gitee直链 | GitHub直链 | 中间链接 |"
+                    "| 标记 | 难度表名称 | 原链接 | Gitee直链 | 中间链接 | GitHub直链 | GitHub中间链接 |"
                 )
-                lines.append("| --- | --- | --- | --- | --- | --- |")
+                lines.append("| --- | --- | --- | --- | --- | --- | --- |")
 
                 for item in tag2_map[tag2]:
                     symbol_cell = escape_md_cell(to_str(item.get("symbol", "")))
@@ -201,6 +208,9 @@ def generate_md(
                         # gitee 链接将被放入“仓库链接”列，不在“中间链接”中展示
                         if label == "gitee":
                             continue
+                        # gh_proxy 不在“中间链接”中展示，因为不支持
+                        if label == "gh_proxy":
+                            continue
                         u = to_str(name_to_url.get(name_raw, ""))
                         if u:
                             proxy_links.append(make_md_link(u))
@@ -211,10 +221,20 @@ def generate_md(
                     gitee_url = GiteeRawUrlProxyModifier().modify_url(url_repo)
                     gitee_link = make_md_link(gitee_url) if gitee_url else ""
                     github_link = make_md_link(url_repo) if url_repo else ""
+
+                    # GitHub中间链接：对 raw.githubusercontent.com 开头的链接使用两个反向代理前缀
+                    github_proxy_links: List[str] = []
+                    if url_repo.startswith("https://raw.githubusercontent.com/"):
+                        for _, prefix in PROXY_PREFIXES.items():
+                            proxied = PrefixUrlProxyModifier(prefix).modify_url(url_repo)
+                            if proxied:
+                                github_proxy_links.append(make_md_link(proxied))
+                    github_proxy_cell = " ".join(github_proxy_links) if github_proxy_links else ""
+
                     proxy_link = " ".join(proxy_links) if proxy_links else ""
 
                     lines.append(
-                        f"| {symbol_cell} | {name_cell} | {ori_link} | {gitee_link} | {github_link} | {proxy_link} |"
+                        f"| {symbol_cell} | {name_cell} | {ori_link} | {gitee_link} | {proxy_link}| {github_link} | {github_proxy_cell}  |"
                     )
 
                 # Blank line between groups
@@ -310,10 +330,7 @@ def build_proxy_maps(rows: List[Dict[str, Any]]) -> Dict[str, Dict[str, str]]:
     result: Dict[str, Dict[str, str]] = {}
 
     # 反向中间（2sb 与 gh-proxy）：直接中间 info.json 中的 url_header_json 字段
-    for label, prefix in (
-        ("2sb", "https://get.2sb.org/"),
-        ("gh_proxy", "https://gh-proxy.com/"),
-    ):
+    for label, prefix in PROXY_PREFIXES.items():
         modifier = PrefixUrlProxyModifier(prefix)
         name_to_url: Dict[str, str] = {}
         for item in rows:
