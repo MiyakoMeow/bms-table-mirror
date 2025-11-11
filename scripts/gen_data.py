@@ -384,6 +384,38 @@ def generate_url_md(rows: list[dict[str, Any]]) -> str:
     return "\n".join(out_lines) + "\n"
 
 
+def write_md_table(rows: list[dict[str, Any]], tables_dir: Path, out_md_path: Path) -> None:
+    """
+    基于读取到的 rows，生成表格版 Markdown 并写入到指定路径。
+
+    - 自动构建中间映射并生成表格内容；
+    - 确保输出目录存在；
+    - 写入完成后输出简要日志。
+    """
+    proxy_maps_by_label = build_proxy_maps(rows)
+    md_table = generate_md(rows, proxy_maps_by_label)
+    out_md_path.parent.mkdir(parents=True, exist_ok=True)
+    with out_md_path.open("w", encoding="utf-8") as f:
+        f.write(md_table)
+    proxies_list = ", ".join(sorted(proxy_maps_by_label.keys()))
+    print(f"[OK] 写入 {out_md_path}，共 {len(rows)} 行数据。基础: {tables_dir}；中间生成: [{proxies_list}]")
+
+
+def write_url_md(rows: list[dict[str, Any]], tables_dir: Path, out_url_path: Path) -> None:
+    """
+    基于读取到的 rows，生成 URL 数组版 Markdown 并写入到指定路径。
+
+    - 生成右栏 JSON 数组并与名称清单组成左右分栏；
+    - 确保输出目录存在；
+    - 写入完成后输出简要日志。
+    """
+    md_url = generate_url_md(rows)
+    out_url_path.parent.mkdir(parents=True, exist_ok=True)
+    with out_url_path.open("w", encoding="utf-8") as f:
+        f.write(md_url)
+    print(f"[OK] 写入 {out_url_path}，共 {len(rows)} 行数据。基础: {tables_dir}；中间生成: [2sb, gh_proxy, gitee]")
+
+
 def _write_json(output_path: Path, data: Any) -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8") as f:
@@ -550,23 +582,13 @@ def main() -> None:
 
     rows = load_rows_from_tables(tables_dir)
 
-    # 生成并写入表格版
-    proxy_maps_by_label = build_proxy_maps(rows)
-    md_table = generate_md(rows, proxy_maps_by_label)
-    out_md_path.parent.mkdir(parents=True, exist_ok=True)
-    with out_md_path.open("w", encoding="utf-8") as f:
-        f.write(md_table)
-    proxies_list = ", ".join(sorted(proxy_maps_by_label.keys()))
-    print(f"[OK] 写入 {out_md_path}，共 {len(rows)} 行数据。基础: {tables_dir}；中间生成: [{proxies_list}]")
+    # 生成并写入表格版（输出函数1）
+    write_md_table(rows, tables_dir, out_md_path)
 
-    # 生成并写入 URL 数组版
-    md_url = generate_url_md(rows)
-    out_url_path.parent.mkdir(parents=True, exist_ok=True)
-    with out_url_path.open("w", encoding="utf-8") as f:
-        f.write(md_url)
-    print(f"[OK] 写入 {out_url_path}，共 {len(rows)} 行数据。基础: {tables_dir}；中间生成: [2sb, gh_proxy, gitee]")
+    # 生成并写入 URL 数组版（输出函数2）
+    write_url_md(rows, tables_dir, out_url_path)
 
-    # 生成 outputs 下的 tables*.json（合并原 gen_tables.py 逻辑）
+    # 生成 outputs 下的 tables*.json（输出函数3，沿用原有实现）
     generate_tables_outputs(rows)
 
 
