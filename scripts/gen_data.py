@@ -245,8 +245,8 @@ def derive_item_links(item: dict[str, Any]) -> dict[str, str]:
     return out
 
 
-def generate_data_md(rows: list[dict[str, Any]], proxy_maps_by_label: dict[str, dict[str, str]]) -> str:
-    # Group rows by tag_order > tag1 > tag2（使用全局排序工具）
+def _group_rows_by_tags(rows: list[dict[str, Any]]) -> dict[str, dict[str, dict[str, list[dict[str, Any]]]]]:
+    """按 tag_order > tag1 > tag2 对 rows 进行分组（供多处生成函数复用）。"""
     groups: dict[str, dict[str, dict[str, list[dict[str, Any]]]]] = {}
     for item in rows:
         tag_order_raw = item.get("tag_order")
@@ -254,6 +254,12 @@ def generate_data_md(rows: list[dict[str, Any]], proxy_maps_by_label: dict[str, 
         tag1 = to_str(item.get("tag1", "")).strip() or "未分类"
         tag2 = to_str(item.get("tag2", "")).strip() or "未分类"
         groups.setdefault(tag_order_key, {}).setdefault(tag1, {}).setdefault(tag2, []).append(item)
+    return groups
+
+
+def generate_data_md(rows: list[dict[str, Any]]) -> str:
+    # 使用公共分组逻辑：tag_order > tag1 > tag2（保持原有排序与分组行为）
+    groups = _group_rows_by_tags(rows)
 
     lines: list[str] = []
     lines.append("# BMS难度表镜像")
@@ -347,14 +353,8 @@ def _make_dual_column_block(names: list[str], urls: list[str], title: str) -> li
 
 
 def generate_data_url_md(rows: list[dict[str, Any]]) -> str:
-    # 分组：tag_order > tag1 > tag2（共享派生链接）
-    groups: dict[str, dict[str, dict[str, list[dict[str, Any]]]]] = {}
-    for item in rows:
-        tag_order_raw = item.get("tag_order")
-        tag_order_key = to_str(tag_order_raw) if tag_order_raw is not None else "N/A"
-        tag1 = to_str(item.get("tag1", "")).strip() or "未分类"
-        tag2 = to_str(item.get("tag2", "")).strip() or "未分类"
-        groups.setdefault(tag_order_key, {}).setdefault(tag1, {}).setdefault(tag2, []).append(item)
+    # 分组：tag_order > tag1 > tag2（共享派生链接，复用公共分组函数）
+    groups = _group_rows_by_tags(rows)
 
     out_lines: list[str] = []
     out_lines.extend(TIPS_DATA_URL_MD.splitlines())
@@ -507,7 +507,7 @@ def write_data_md(rows: list[dict[str, Any]], tables_dir: Path, out_md_path: Pat
     - 写入完成后输出简要日志。
     """
     proxy_maps_by_label = build_proxy_maps(rows)
-    md_table = generate_data_md(rows, proxy_maps_by_label)
+    md_table = generate_data_md(rows)
     out_md_path.parent.mkdir(parents=True, exist_ok=True)
     with out_md_path.open("w", encoding="utf-8") as f:
         f.write(md_table)
