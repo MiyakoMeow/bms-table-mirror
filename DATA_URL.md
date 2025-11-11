@@ -1,16 +1,13 @@
-
 # BMS难度表镜像链接（URL 数组版）
+
+- 更详细的链接说明见：[镜像表格](DATA.md)
 
 本页按照原有分组（tag_order > tag1 > tag2）组织内容，但不再使用表格。
 改为“左右分栏”：左栏为难度表名称清单（文本代码块），右栏为对应链接的 JSON 数组。
 
-使用方式示例：
-- 从右栏复制 JSON 数组到 beatoraja / BeMusicSeeker 或其它工具中批量使用。
-- 左栏名称清单可用于人工检索与比对。
-
-说明：
-- “中间链接”针对各难度表 header.json 中 `url_header_json` 字段，仅在该字段可用时生成。
-- “GitHub中间链接”对 `raw.githubusercontent.com` 的仓库直链进行反向代理（保留 get.2sb.org 与 gh-proxy.com 两种）。
+## 使用方式：
+- 复制右侧链接，粘贴到 beatoraja / BeMusicSeeker 等。
+- 批量导入：对于 beatoraja 用户，可以直接修改`config_sys.json`文件中的对应字段。
 
 ## 1 - SP
 

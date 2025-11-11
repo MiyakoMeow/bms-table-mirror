@@ -7,7 +7,8 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import quote, unquote, urlparse
 
-TIPS_DATA_MD = """
+TIPS_DATA_MD = """# BMS难度表镜像
+
 ## 使用方式
 
 1. 选择对应难度表的对应链接。
@@ -20,10 +21,12 @@ TIPS_DATA_MD = """
      - 如果弹出“确认跳转”页面，复制页面上显示的链接。
      - 如果直接跳转，复制地址栏链接。如果触发下载任务，复制该任务的下载链接。
    - 确保复制到的链接的域名，与显示的域名相同。如：显示`get.2sb.org`，则复制到的链接应以`https://get.2sb.org`开头。
-3. 粘贴到beatoraja/BeMusicSeeker，并在软件内部同步难度表内容。
+3. 粘贴到 beatoraja / BeMusicSeeker ，并在软件内部同步难度表内容。
 
 > 注意，`中间链接`会直接通过中间件从源难度表获取数据。中间件的有效性**取决于难度表自身**。
 > 只有难度表`header.json`定义的`data_url`字段是`相对路径`时，中间件才能被正确应用至获取`data.json`的过程中。
+
+- 希望批量导入？请查看：[URL数组版镜像列表](DATA_URL.md)。
 
 ## 用于BeMusicSeeker的难度表清单链接：
 
@@ -37,19 +40,16 @@ TIPS_DATA_MD = """
 """
 
 # URL 版页面的提示内容
-TIPS_DATA_URL_MD = """
-# BMS难度表镜像链接（URL 数组版）
+TIPS_DATA_URL_MD = """# BMS难度表镜像链接（URL 数组版）
+
+- 更详细的链接说明见：[镜像表格](DATA.md)
 
 本页按照原有分组（tag_order > tag1 > tag2）组织内容，但不再使用表格。
 改为“左右分栏”：左栏为难度表名称清单（文本代码块），右栏为对应链接的 JSON 数组。
 
-使用方式示例：
-- 从右栏复制 JSON 数组到 beatoraja / BeMusicSeeker 或其它工具中批量使用。
-- 左栏名称清单可用于人工检索与比对。
-
-说明：
-- “中间链接”针对各难度表 header.json 中 `url_header_json` 字段，仅在该字段可用时生成。
-- “GitHub中间链接”对 `raw.githubusercontent.com` 的仓库直链进行反向代理（保留 get.2sb.org 与 gh-proxy.com 两种）。
+## 使用方式：
+- 复制右侧链接，粘贴到 beatoraja / BeMusicSeeker 等。
+- 批量导入：对于 beatoraja 用户，可以直接修改`config_sys.json`文件中的对应字段。
 """
 
 # 全局定义：实际使用的反向代理前缀（保持原有两个反向代理）
@@ -269,7 +269,6 @@ def generate_data_md(rows: list[dict[str, Any]]) -> str:
     groups = _group_rows_by_tags(rows)
 
     lines: list[str] = []
-    lines.append("# BMS难度表镜像")
     lines.extend(TIPS_DATA_MD.splitlines())
     lines.append("")
 
