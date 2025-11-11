@@ -1,0 +1,31 @@
+{
+  "name": "Seori & 妖夢 Chart Table",
+  "symbol": "sy",
+  "level_order": [
+    "0-",
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "12+"
+  ],
+  "folder_order": [ ],
+  "folder_sort_key": "",
+  "folder_sort_ascending": true,
+  "entry_type": "",
+  "data_url": "data.json",
+  "compat_prefix": "sy",
+  "last_update": "2024-09-22",
+  "editor_name": "BeMusicSeeker",
+  "editor_version": "",
+  "output_date": "2024-09-22"
+}
