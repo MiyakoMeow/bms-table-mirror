@@ -31,10 +31,10 @@ TIPS_DATA_MD = """# BMS难度表镜像
 ## 用于BeMusicSeeker的难度表清单链接：
 
 - （Gitee直链）[gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/outputs/tables_gitee.json)
-- （中间链接）[get.2sb.org](https://get.2sb.org/https://github.com/MiyakoMeow/bms-table-mirror/raw/refs/heads/main/outputs/tables_intermediate_2sb.json)
-- （GitHub中间链接）[get.2sb.org](https://get.2sb.org/https://github.com/MiyakoMeow/bms-table-mirror/raw/refs/heads/main/outputs/tables_2sb.json)
-- （GitHub中间链接）[gh-proxy.com](https://gh-proxy.com/https://github.com/MiyakoMeow/bms-table-mirror/raw/refs/heads/main/outputs/tables_gh_proxy.json)
-- （GitHub直链）[raw.githubusercontent.com](https://github.com/MiyakoMeow/bms-table-mirror/raw/refs/heads/main/outputs/tables.json)
+- （中间链接）[get.2sb.org](https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/refs/heads/main/outputs/tables_intermediate_2sb.json)
+- （GitHub中间链接）[get.2sb.org](https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/refs/heads/main/outputs/tables_2sb.json)
+- （GitHub中间链接）[gh-proxy.com](https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/refs/heads/main/outputs/tables_gh_proxy.json)
+- （GitHub直链）[raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/refs/heads/main/outputs/tables_intermediate_2sb.json)
 
 ### 用法参考：
 - [用法参考/数据来源](https://darksabun.club/table/tablelist.html)
