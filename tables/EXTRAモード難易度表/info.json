@@ -3,11 +3,11 @@
   "symbol": "EX★",
   "url": "http://shimamasa1009.web.fc2.com/",
   "comment": "",
-  "data_json_url": "http://shimamasa1009.web.fc2.com/data.json",
   "date": "",
-  "header_json_url": "http://shimamasa1009.web.fc2.com/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://shimamasa1009.web.fc2.com/data.json",
+  "url_header_json": "http://shimamasa1009.web.fc2.com/header.json"
 }

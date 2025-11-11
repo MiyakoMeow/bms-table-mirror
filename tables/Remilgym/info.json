@@ -3,11 +3,11 @@
   "symbol": "(╯°□°）╯︵ ┻━┻",
   "url": "https://kuroling.github.io/remilgym/main.html",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbzK-ux9UC8gp_xP__qU48WU6VoRCqZhFOBHnni2tX4XS0oIyIophHTBZWJuQ7kK4GuiQA/exec",
   "date": "Mon Nov 20 2023 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://kuroling.github.io/remilgym/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbzK-ux9UC8gp_xP__qU48WU6VoRCqZhFOBHnni2tX4XS0oIyIophHTBZWJuQ7kK4GuiQA/exec",
+  "url_header_json": "https://kuroling.github.io/remilgym/header.json"
 }

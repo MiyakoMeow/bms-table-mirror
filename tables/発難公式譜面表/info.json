@@ -3,11 +3,11 @@
   "symbol": "公",
   "url": "http://roma11.site44.com/nanidohyo/indifofficial.html",
   "comment": "",
-  "data_json_url": "http://roma11.site44.com/nanidohyo/indifofficial_list.json",
   "date": "",
-  "header_json_url": "http://roma11.site44.com/nanidohyo/indifofficial_header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://roma11.site44.com/nanidohyo/indifofficial_list.json",
+  "url_header_json": "http://roma11.site44.com/nanidohyo/indifofficial_header.json"
 }

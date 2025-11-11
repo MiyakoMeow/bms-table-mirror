@@ -3,11 +3,11 @@
   "symbol": "#",
   "url": "http://irotsuka.web.fc2.com/tsumekomi/tsumekomi.html",
   "comment": "",
-  "data_json_url": "http://irotsuka.web.fc2.com/tsumekomi/score.json",
   "date": "",
-  "header_json_url": "http://irotsuka.web.fc2.com/tsumekomi/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://irotsuka.web.fc2.com/tsumekomi/score.json",
+  "url_header_json": "http://irotsuka.web.fc2.com/tsumekomi/header.json"
 }

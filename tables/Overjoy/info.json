@@ -3,11 +3,11 @@
   "symbol": "★★",
   "url": "http://lr2.sakura.ne.jp/overjoy.php",
   "comment": "",
-  "data_json_url": "http://lr2.sakura.ne.jp/data/score.json",
   "date": "",
-  "header_json_url": "http://lr2.sakura.ne.jp/data/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "General",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://lr2.sakura.ne.jp/data/score.json",
+  "url_header_json": "http://lr2.sakura.ne.jp/data/header.json"
 }

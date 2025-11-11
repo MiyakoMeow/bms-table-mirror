@@ -3,11 +3,11 @@
   "symbol": "木",
   "url": "https://trfce.github.io/",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbxhRoB2Ic8qt0EctVzY2gsPIOZt9MNK3bvFt2scTDFXoKS12r1GWTdZkKaJBm3JNdfx/exec",
   "date": "",
-  "header_json_url": "https://trfce.github.io/assets/json/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbxhRoB2Ic8qt0EctVzY2gsPIOZt9MNK3bvFt2scTDFXoKS12r1GWTdZkKaJBm3JNdfx/exec",
+  "url_header_json": "https://trfce.github.io/assets/json/header.json"
 }

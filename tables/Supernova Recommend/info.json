@@ -3,11 +3,11 @@
   "symbol": "sn",
   "url": "https://stellabms.xyz/sn/table_rec.html",
   "comment": "Stella 2.0",
-  "data_json_url": "https://stellabms.xyz/sn/score_rec.json",
   "date": "Sun Jun 22 2025 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://stellabms.xyz/sn/header_rec.json",
   "state": "",
   "tag1": "SP",
   "tag2": "General",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://stellabms.xyz/sn/score_rec.json",
+  "url_header_json": "https://stellabms.xyz/sn/header_rec.json"
 }

@@ -3,11 +3,11 @@
   "symbol": "吸",
   "url": "http://captainbms.web.fc2.com/kirby_table/kirby_index.html",
   "comment": "",
-  "data_json_url": "http://captainbms.web.fc2.com/kirby_table/score.json",
   "date": "",
-  "header_json_url": "http://captainbms.web.fc2.com/kirby_table/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://captainbms.web.fc2.com/kirby_table/score.json",
+  "url_header_json": "http://captainbms.web.fc2.com/kirby_table/header.json"
 }

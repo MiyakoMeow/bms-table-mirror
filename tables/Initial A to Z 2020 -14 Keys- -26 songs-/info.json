@@ -3,11 +3,11 @@
   "symbol": "AtoZ ",
   "url": "https://darksabun.club/bceg/event/atoz14key2020/",
   "comment": "",
-  "data_json_url": "https://darksabun.club/bceg/event/atoz14key2020/data.json",
   "date": "",
-  "header_json_url": "https://darksabun.club/bceg/event/atoz14key2020/header.json",
   "state": "",
   "tag1": "EVENT",
   "tag2": "Chart Event",
-  "tag_order": "4"
+  "tag_order": "4",
+  "url_data_json": "https://darksabun.club/bceg/event/atoz14key2020/data.json",
+  "url_header_json": "https://darksabun.club/bceg/event/atoz14key2020/header.json"
 }

@@ -3,11 +3,11 @@
   "symbol": "",
   "url": "https://deltabms.yaruki0.net/table/data/vote_head.json",
   "comment": "",
-  "data_json_url": "https://deltabms.yaruki0.net/table/data/vote_data.json",
   "date": "",
-  "header_json_url": "https://deltabms.yaruki0.net/table/data/vote_head.json",
   "state": "",
   "tag1": "DP",
   "tag2": "General",
-  "tag_order": "2"
+  "tag_order": "2",
+  "url_data_json": "https://deltabms.yaruki0.net/table/data/vote_data.json",
+  "url_header_json": "https://deltabms.yaruki0.net/table/data/vote_head.json"
 }

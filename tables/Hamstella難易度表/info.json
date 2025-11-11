@@ -3,11 +3,11 @@
   "symbol": "公",
   "url": "https://hamstella.web.fc2.com/hamu.html",
   "comment": "",
-  "data_json_url": "https://hamstella.web.fc2.com/score.json",
   "date": "",
-  "header_json_url": "https://hamstella.web.fc2.com/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://hamstella.web.fc2.com/score.json",
+  "url_header_json": "https://hamstella.web.fc2.com/header.json"
 }

@@ -3,11 +3,11 @@
   "symbol": "izayoi◎",
   "url": "http://izayoi.tada-katsu.com/bms.html",
   "comment": "",
-  "data_json_url": "http://izayoi.tada-katsu.com/json/data3.json",
   "date": "",
-  "header_json_url": "http://izayoi.tada-katsu.com/json/header_samp4.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://izayoi.tada-katsu.com/json/data3.json",
+  "url_header_json": "http://izayoi.tada-katsu.com/json/header_samp4.json"
 }

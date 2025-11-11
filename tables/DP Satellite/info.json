@@ -3,11 +3,11 @@
   "symbol": "DPsl",
   "url": "https://stellabms.xyz/dp/table.html",
   "comment": "Stella 2.0",
-  "data_json_url": "https://stellabms.xyz/dp/score.json",
   "date": "Sun Jun 22 2025 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://stellabms.xyz/dp/header.json",
   "state": "",
   "tag1": "DP",
   "tag2": "General",
-  "tag_order": "2"
+  "tag_order": "2",
+  "url_data_json": "https://stellabms.xyz/dp/score.json",
+  "url_header_json": "https://stellabms.xyz/dp/header.json"
 }

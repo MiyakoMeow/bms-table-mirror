@@ -3,11 +3,11 @@
   "symbol": "( ^・ω・^)★",
   "url": "https://mqppppp.neocities.org/dawn.html",
   "comment": "",
-  "data_json_url": "https://mqppppp.neocities.org/dawn_data.json",
   "date": "Tue Jan 25 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://mqppppp.neocities.org/dawn_header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://mqppppp.neocities.org/dawn_data.json",
+  "url_header_json": "https://mqppppp.neocities.org/dawn_header.json"
 }

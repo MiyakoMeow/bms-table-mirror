@@ -3,11 +3,11 @@
   "symbol": "⑤",
   "url": "https://hibyethere.github.io/table/",
   "comment": "5keys",
-  "data_json_url": "https://asumatoki.kr/table/aery/data.json",
   "date": "Tue May 23 2023 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://hibyethere.github.io/table/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://asumatoki.kr/table/aery/data.json",
+  "url_header_json": "https://hibyethere.github.io/table/header.json"
 }

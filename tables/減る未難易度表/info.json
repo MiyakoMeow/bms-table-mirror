@@ -3,11 +3,11 @@
   "symbol": "he",
   "url": "https://herumina.github.io/heruminanidohyou/",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycby8FBEh5hjkb3oF1R5IVLA8w0_boIz9l6icjj8qb4xmjSue3rtXy6gnucesY3CbBZFJ/exec",
   "date": "Sat Sep 20 2025 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://herumina.github.io/heruminanidohyou/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.google.com/macros/s/AKfycby8FBEh5hjkb3oF1R5IVLA8w0_boIz9l6icjj8qb4xmjSue3rtXy6gnucesY3CbBZFJ/exec",
+  "url_header_json": "https://herumina.github.io/heruminanidohyou/header.json"
 }

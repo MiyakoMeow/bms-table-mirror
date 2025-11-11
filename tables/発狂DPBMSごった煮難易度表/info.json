@@ -3,11 +3,11 @@
   "symbol": "★",
   "url": "http://yuyuyu.soudesune.net/DPgottani/insane2.html",
   "comment": "",
-  "data_json_url": "http://yuyuyu.soudesune.net/DPgottani/score.json",
   "date": "",
-  "header_json_url": "http://yuyuyu.soudesune.net/DPgottani/header.json",
   "state": "",
   "tag1": "DP",
   "tag2": "General",
-  "tag_order": "2"
+  "tag_order": "2",
+  "url_data_json": "http://yuyuyu.soudesune.net/DPgottani/score.json",
+  "url_header_json": "http://yuyuyu.soudesune.net/DPgottani/header.json"
 }

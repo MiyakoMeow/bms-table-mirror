@@ -3,11 +3,11 @@
   "symbol": "DB",
   "url": "https://bms.hexlataia.xyz/tables/db.html",
   "comment": "Insane BMS Database",
-  "data_json_url": "https://bms.hexlataia.xyz/tables/json/db.json",
   "date": "",
-  "header_json_url": "https://bms.hexlataia.xyz/tables/header/db.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://bms.hexlataia.xyz/tables/json/db.json",
+  "url_header_json": "https://bms.hexlataia.xyz/tables/header/db.json"
 }

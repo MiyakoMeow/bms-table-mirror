@@ -3,11 +3,11 @@
   "symbol": "P同梱●",
   "url": "https://pmsdifficulty.xxxxxxxx.jp/subtable/included/_insane_table.html",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbzuPIi2KemkV9rgI_yDCIGIZEMXON90UR9iMJU0hYDOqLt65IDNR0yMikEjoHTQi5dn/exec",
   "date": "Mon Dec 13 2021 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://pmsdatabase.github.io/subtable/included/insane_header.json",
   "state": "",
   "tag1": "PMS",
   "tag2": "General",
-  "tag_order": "3"
+  "tag_order": "3",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbzuPIi2KemkV9rgI_yDCIGIZEMXON90UR9iMJU0hYDOqLt65IDNR0yMikEjoHTQi5dn/exec",
+  "url_header_json": "https://pmsdatabase.github.io/subtable/included/insane_header.json"
 }

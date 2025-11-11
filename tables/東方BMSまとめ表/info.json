@@ -3,11 +3,11 @@
   "symbol": "th",
   "url": "http://kaguyasystem.web.fc2.com/tohonannidohyou1/list.html",
   "comment": "",
-  "data_json_url": "http://kaguyasystem.web.fc2.com/tohonannidohyou1/score_toho.json",
   "date": "",
-  "header_json_url": "http://kaguyasystem.web.fc2.com/tohonannidohyou1/header.json",
   "state": "",
   "tag1": "etc",
   "tag2": "Personal",
-  "tag_order": "5"
+  "tag_order": "5",
+  "url_data_json": "http://kaguyasystem.web.fc2.com/tohonannidohyou1/score_toho.json",
+  "url_header_json": "http://kaguyasystem.web.fc2.com/tohonannidohyou1/header.json"
 }

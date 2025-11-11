@@ -3,11 +3,11 @@
   "symbol": "Σ",
   "url": "https://rattoto10.web.fc2.com/fox_table/fox_table/fox_table.html",
   "comment": "URL Changed",
-  "data_json_url": "https://rattoto10.web.fc2.com/fox_table/fox_table/score.json",
   "date": "",
-  "header_json_url": "https://rattoto10.web.fc2.com/fox_table/fox_table/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://rattoto10.web.fc2.com/fox_table/fox_table/score.json",
+  "url_header_json": "https://rattoto10.web.fc2.com/fox_table/fox_table/header.json"
 }

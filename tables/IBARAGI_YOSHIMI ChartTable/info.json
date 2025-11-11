@@ -3,11 +3,11 @@
   "symbol": "IY",
   "url": "https://siimamu.github.io/IY-ChartTable/",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbwh8_hmEG17KEOjmCxCdKBnDqJoyvpt09gwwu-Tuq-BBiW42OhF86spMdzEf5U_rwVA/exec",
   "date": "Sat Dec 14 2024 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://siimamu.github.io/IY-ChartTable/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbwh8_hmEG17KEOjmCxCdKBnDqJoyvpt09gwwu-Tuq-BBiW42OhF86spMdzEf5U_rwVA/exec",
+  "url_header_json": "https://siimamu.github.io/IY-ChartTable/header.json"
 }

@@ -3,11 +3,11 @@
   "symbol": "双",
   "url": "http://su565fx.web.fc2.com/Gachimijoy/gachimijoy.html",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbz1nScG0S5xcvo-GpGLZMa0MgrCHWjigvdhg4OrcgbLEltlgG-9/exec",
   "date": "",
-  "header_json_url": "http://su565fx.web.fc2.com/Gachimijoy/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbz1nScG0S5xcvo-GpGLZMa0MgrCHWjigvdhg4OrcgbLEltlgG-9/exec",
+  "url_header_json": "http://su565fx.web.fc2.com/Gachimijoy/header.json"
 }

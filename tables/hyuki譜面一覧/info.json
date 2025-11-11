@@ -3,11 +3,11 @@
   "symbol": "obj:hyuki",
   "url": "https://hyuki2684.github.io/hyuki_table/",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbwDrJm3LNJapSUOL89xOZHnX51HAdQrbS3BPf_F_Q1OWRAS7bYeNwoEuQO6v1zScjC6/exec",
   "date": "Fri Dec 30 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://hyuki2684.github.io/hyuki_table/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbwDrJm3LNJapSUOL89xOZHnX51HAdQrbS3BPf_F_Q1OWRAS7bYeNwoEuQO6v1zScjC6/exec",
+  "url_header_json": "https://hyuki2684.github.io/hyuki_table/header.json"
 }

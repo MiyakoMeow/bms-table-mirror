@@ -3,11 +3,11 @@
   "symbol": "∮",
   "url": "http://cerqant.web.fc2.com/ananuki/table.html",
   "comment": "",
-  "data_json_url": "http://cerqant.web.fc2.com/ananuki/data.json",
   "date": "",
-  "header_json_url": "http://cerqant.web.fc2.com/ananuki/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://cerqant.web.fc2.com/ananuki/data.json",
+  "url_header_json": "http://cerqant.web.fc2.com/ananuki/header.json"
 }

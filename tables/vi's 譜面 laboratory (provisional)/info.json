@@ -3,11 +3,11 @@
   "symbol": "ⅵ",
   "url": "https://vi2dx.github.io/table_provisional.html",
   "comment": "",
-  "data_json_url": "https://vi2dx.github.io/score_provisional.json",
   "date": "",
-  "header_json_url": "https://vi2dx.github.io/header_provisional.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://vi2dx.github.io/score_provisional.json",
+  "url_header_json": "https://vi2dx.github.io/header_provisional.json"
 }

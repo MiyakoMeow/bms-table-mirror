@@ -3,11 +3,11 @@
   "symbol": "砂",
   "url": "https://bms.hexlataia.xyz/tables/sandbox.html",
   "comment": "",
-  "data_json_url": "https://bms.hexlataia.xyz/tables/json/sandbox.json",
   "date": "",
-  "header_json_url": "https://bms.hexlataia.xyz/tables/header/sandbox.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://bms.hexlataia.xyz/tables/json/sandbox.json",
+  "url_header_json": "https://bms.hexlataia.xyz/tables/header/sandbox.json"
 }

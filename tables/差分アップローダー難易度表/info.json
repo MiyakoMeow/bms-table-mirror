@@ -3,11 +3,11 @@
   "symbol": "ろだ",
   "url": "http://upl.konjiki.jp/",
   "comment": "",
-  "data_json_url": "http://upl.konjiki.jp/data/uploader.json",
   "date": "",
-  "header_json_url": "http://upl.konjiki.jp/data/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "General",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://upl.konjiki.jp/data/uploader.json",
+  "url_header_json": "http://upl.konjiki.jp/data/header.json"
 }

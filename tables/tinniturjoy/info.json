@@ -3,11 +3,11 @@
   "symbol": "🟢",
   "url": "https://kerocomino.github.io/tinnitus/",
   "comment": "",
-  "data_json_url": "https://script.googleusercontent.com/macros/echo?user_content_key=ywZgVfj-ym1B0iz2clyjIh7Tcpfz6wK-orMGdX0SVNysMAwiJt-_f4Zjmwmlzh3g8xYgrQeadUoCLSJ6srPlVGVisLdZfdonm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnP_7tMwCA4Sybqp8boC7LxABjZyfJW-YnJQLqevJMnYE7nlJPNn-Qz0bAtkato6x3CKLAyv9vKcRXfTaYZ4A8E_hI1IwgfN9_Q&lib=M-NFDVXmS2aH7ByqtZZq0kxd3h_ZeQuXN",
   "date": "Mon Jan 08 2024 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://kerocomino.github.io/tinnitus/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.googleusercontent.com/macros/echo?user_content_key=ywZgVfj-ym1B0iz2clyjIh7Tcpfz6wK-orMGdX0SVNysMAwiJt-_f4Zjmwmlzh3g8xYgrQeadUoCLSJ6srPlVGVisLdZfdonm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnP_7tMwCA4Sybqp8boC7LxABjZyfJW-YnJQLqevJMnYE7nlJPNn-Qz0bAtkato6x3CKLAyv9vKcRXfTaYZ4A8E_hI1IwgfN9_Q&lib=M-NFDVXmS2aH7ByqtZZq0kxd3h_ZeQuXN",
+  "url_header_json": "https://kerocomino.github.io/tinnitus/header.json"
 }

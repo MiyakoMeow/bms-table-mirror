@@ -3,11 +3,11 @@
   "symbol": "SUPERVARIATION",
   "url": "https://rattoto10.web.fc2.com/SUPERVARIATION/list_sample.html",
   "comment": "",
-  "data_json_url": "https://rattoto10.web.fc2.com/SUPERVARIATION/score_sample.json",
   "date": "Mon Nov 06 2023 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://rattoto10.web.fc2.com/SUPERVARIATION/header_sample.json",
   "state": "",
   "tag1": "EVENT",
   "tag2": "Chart Event",
-  "tag_order": "4"
+  "tag_order": "4",
+  "url_data_json": "https://rattoto10.web.fc2.com/SUPERVARIATION/score_sample.json",
+  "url_header_json": "https://rattoto10.web.fc2.com/SUPERVARIATION/header_sample.json"
 }

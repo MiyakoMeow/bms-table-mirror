@@ -3,11 +3,11 @@
   "symbol": "Lv",
   "url": "http://stellawingroad.web.fc2.com/g2r/pms.html",
   "comment": "",
-  "data_json_url": "http://stellawingroad.web.fc2.com/g2r/data.json",
   "date": "",
-  "header_json_url": "http://stellawingroad.web.fc2.com/g2r/header.json",
   "state": "",
   "tag1": "PMS",
   "tag2": "Personal",
-  "tag_order": "3"
+  "tag_order": "3",
+  "url_data_json": "http://stellawingroad.web.fc2.com/g2r/data.json",
+  "url_header_json": "http://stellawingroad.web.fc2.com/g2r/header.json"
 }

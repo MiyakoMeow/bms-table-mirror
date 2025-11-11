@@ -3,11 +3,11 @@
   "symbol": "★",
   "url": "https://nyamdxy.web.fc2.com/table_ny4m_dp.html",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbzQV7ILNMSjFDcl-yqGSSvqLElBp5LiSGGkcdHH4UzpTUwQrjs/exec",
   "date": "Sat Jan 01 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://nyamdxy.web.fc2.com/header_ny4m_dp.json",
   "state": "",
   "tag1": "DP",
   "tag2": "Personal",
-  "tag_order": "2"
+  "tag_order": "2",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbzQV7ILNMSjFDcl-yqGSSvqLElBp5LiSGGkcdHH4UzpTUwQrjs/exec",
+  "url_header_json": "https://nyamdxy.web.fc2.com/header_ny4m_dp.json"
 }

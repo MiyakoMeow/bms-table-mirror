@@ -3,11 +3,11 @@
   "symbol": "ぐ",
   "url": "http://kaguyasystem.web.fc2.com/may_fav_nanidohyou/list_guya_fav.html",
   "comment": "",
-  "data_json_url": "http://kaguyasystem.web.fc2.com/may_fav_nanidohyou/score_guya_hyou.json",
   "date": "",
-  "header_json_url": "http://kaguyasystem.web.fc2.com/may_fav_nanidohyou/header_guya_hyou.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://kaguyasystem.web.fc2.com/may_fav_nanidohyou/score_guya_hyou.json",
+  "url_header_json": "http://kaguyasystem.web.fc2.com/may_fav_nanidohyou/header_guya_hyou.json"
 }

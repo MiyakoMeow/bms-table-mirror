@@ -3,11 +3,11 @@
   "symbol": "彡彡☆",
   "url": "http://wakaba-shirasu.velvet.jp/chirimen/DP_mydiff.html",
   "comment": "",
-  "data_json_url": "https://wakaba-shirasu.info/chirimen/dp_data_mydiff.json",
   "date": "Mon Mar 20 2023 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://wakaba-shirasu.info/chirimen/mydiff_header",
   "state": "",
   "tag1": "DP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "2"
+  "tag_order": "2",
+  "url_data_json": "https://wakaba-shirasu.info/chirimen/dp_data_mydiff.json",
+  "url_header_json": "https://wakaba-shirasu.info/chirimen/mydiff_header"
 }

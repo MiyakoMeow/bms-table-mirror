@@ -3,11 +3,11 @@
   "symbol": "cj",
   "url": "https://criyajuh.github.io/criyajuh-bms/",
   "comment": "",
-  "data_json_url": "https://script.googleusercontent.com/macros/echo?user_content_key=gy4kU2gJUKda76Ndq7xA5YbtEdsMHabM-8Lor6sSLzVOnvnEUXfJkL9w7MiBG1DuhW7JtmVE7Ed9x-lCuqnxA1lgWut_mMQvm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnOxn5a6W0C79Rvc19-S_jReisy9XihOXEAPvrajMUMEl4ZIWXbDJN1sJKuhJuDz9hOCstEDCY0lywjcQqDMcF1rpAmz9XKMhgdz9Jw9Md8uu&lib=MeA3U-r3onQc2S_q-zRQncAvZDfxmAUC8",
   "date": "Sat Dec 24 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://criyajuh.github.io/criyajuh-bms/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.googleusercontent.com/macros/echo?user_content_key=gy4kU2gJUKda76Ndq7xA5YbtEdsMHabM-8Lor6sSLzVOnvnEUXfJkL9w7MiBG1DuhW7JtmVE7Ed9x-lCuqnxA1lgWut_mMQvm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnOxn5a6W0C79Rvc19-S_jReisy9XihOXEAPvrajMUMEl4ZIWXbDJN1sJKuhJuDz9hOCstEDCY0lywjcQqDMcF1rpAmz9XKMhgdz9Jw9Md8uu&lib=MeA3U-r3onQc2S_q-zRQncAvZDfxmAUC8",
+  "url_header_json": "https://criyajuh.github.io/criyajuh-bms/header.json"
 }

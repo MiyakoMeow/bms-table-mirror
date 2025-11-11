@@ -3,11 +3,11 @@
   "symbol": "め",
   "url": "http://metometo.web.fc2.com/index.html",
   "comment": "",
-  "data_json_url": "http://metometo.web.fc2.com/metonanido/score.json",
   "date": "",
-  "header_json_url": "http://metometo.web.fc2.com/metonanido/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://metometo.web.fc2.com/metonanido/score.json",
+  "url_header_json": "http://metometo.web.fc2.com/metonanido/header.json"
 }

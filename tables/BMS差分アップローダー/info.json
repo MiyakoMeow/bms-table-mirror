@@ -3,11 +3,11 @@
   "symbol": "㊤",
   "url": "https://darksabun.club/table/archive/bmsuploader2/",
   "comment": "Converted by Ribbit",
-  "data_json_url": "https://darksabun.club/table/archive/bmsuploader2/data.json",
   "date": "",
-  "header_json_url": "https://darksabun.club/table/archive/bmsuploader2/header.json",
   "state": "",
   "tag1": "etc",
   "tag2": "Uploader",
-  "tag_order": "5"
+  "tag_order": "5",
+  "url_data_json": "https://darksabun.club/table/archive/bmsuploader2/data.json",
+  "url_header_json": "https://darksabun.club/table/archive/bmsuploader2/header.json"
 }

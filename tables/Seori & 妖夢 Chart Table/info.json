@@ -3,11 +3,11 @@
   "symbol": "sy",
   "url": "https://seori-lee.github.io/bms-table/table.html",
   "comment": "",
-  "data_json_url": "https://seori-lee.github.io/bms-table/data.json",
   "date": "Sun Sep 22 2024 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://seori-lee.github.io/bms-table/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://seori-lee.github.io/bms-table/data.json",
+  "url_header_json": "https://seori-lee.github.io/bms-table/header.json"
 }

@@ -3,11 +3,11 @@
   "symbol": "≡",
   "url": "http://renda.konjiki.jp/",
   "comment": "",
-  "data_json_url": "http://renda.konjiki.jp/data/json/data.json",
   "date": "",
-  "header_json_url": "http://renda.konjiki.jp/data/json/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "General",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://renda.konjiki.jp/data/json/data.json",
+  "url_header_json": "http://renda.konjiki.jp/data/json/header.json"
 }

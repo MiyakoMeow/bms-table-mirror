@@ -3,11 +3,11 @@
   "symbol": "ξ",
   "url": "https://mqppppp.neocities.org/StardustTable.html",
   "comment": "",
-  "data_json_url": "https://mqppppp.neocities.org/StardustData.json",
   "date": "Tue Jan 25 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://mqppppp.neocities.org/StardustTable.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://mqppppp.neocities.org/StardustData.json",
+  "url_header_json": "https://mqppppp.neocities.org/StardustTable.json"
 }

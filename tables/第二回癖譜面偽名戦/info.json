@@ -3,11 +3,11 @@
   "symbol": "",
   "url": "http://oneeighth.web.fc2.com/Event2/sabunbattle.html",
   "comment": "",
-  "data_json_url": "http://oneeighth.web.fc2.com/Event2/score.json",
   "date": "",
-  "header_json_url": "http://oneeighth.web.fc2.com/Event2/header.json",
   "state": "",
   "tag1": "EVENT",
   "tag2": "Chart Event",
-  "tag_order": "4"
+  "tag_order": "4",
+  "url_data_json": "http://oneeighth.web.fc2.com/Event2/score.json",
+  "url_header_json": "http://oneeighth.web.fc2.com/Event2/header.json"
 }

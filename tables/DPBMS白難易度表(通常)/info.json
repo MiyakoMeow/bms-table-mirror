@@ -3,11 +3,11 @@
   "symbol": "白",
   "url": "http://dpbmschart.web.fc2.com/normal-chart/normal_chart.html",
   "comment": "",
-  "data_json_url": "http://dpbmschart.web.fc2.com/normal-chart/score.json",
   "date": "",
-  "header_json_url": "http://dpbmschart.web.fc2.com/normal-chart/header.json",
   "state": "",
   "tag1": "DP",
   "tag2": "General",
-  "tag_order": "2"
+  "tag_order": "2",
+  "url_data_json": "http://dpbmschart.web.fc2.com/normal-chart/score.json",
+  "url_header_json": "http://dpbmschart.web.fc2.com/normal-chart/header.json"
 }

@@ -3,11 +3,11 @@
   "symbol": "◆",
   "url": "http://flowermaster.web.fc2.com/lrnanido/gla/LN.html",
   "comment": "",
-  "data_json_url": "http://flowermaster.web.fc2.com/lrnanido/gla/score.json",
   "date": "",
-  "header_json_url": "http://flowermaster.web.fc2.com/lrnanido/gla/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "General",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://flowermaster.web.fc2.com/lrnanido/gla/score.json",
+  "url_header_json": "http://flowermaster.web.fc2.com/lrnanido/gla/header.json"
 }

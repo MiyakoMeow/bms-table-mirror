@@ -3,11 +3,11 @@
   "symbol": "P†",
   "url": "https://pmsdifficulty.xxxxxxxx.jp/excluded_PMSdifficulty.html",
   "comment": "",
-  "data_json_url": "https://pmsdatabase.github.io/excluded_pmsdatabase/excluded_pmsdatabase_score.json",
   "date": "",
-  "header_json_url": "https://pmsdatabase.github.io/excluded_pmsdatabase/excluded_pmsdatabase_header.json",
   "state": "",
   "tag1": "PMS",
   "tag2": "General",
-  "tag_order": "3"
+  "tag_order": "3",
+  "url_data_json": "https://pmsdatabase.github.io/excluded_pmsdatabase/excluded_pmsdatabase_score.json",
+  "url_header_json": "https://pmsdatabase.github.io/excluded_pmsdatabase/excluded_pmsdatabase_header.json"
 }

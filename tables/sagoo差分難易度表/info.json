@@ -3,11 +3,11 @@
   "symbol": "sag",
   "url": "http://bmsagoo.web.fc2.com/list_sagoo.html",
   "comment": "",
-  "data_json_url": "http://bmsagoo.web.fc2.com/score_sagoo.json",
   "date": "",
-  "header_json_url": "http://bmsagoo.web.fc2.com/header_sagoo.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "http://bmsagoo.web.fc2.com/score_sagoo.json",
+  "url_header_json": "http://bmsagoo.web.fc2.com/header_sagoo.json"
 }

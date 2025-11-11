@@ -3,11 +3,11 @@
   "symbol": "lx",
   "url": "https://pianit.github.io/lxdiff/",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbw0iRlYqO-F1_E3GAWKOIHOVFVNWDDU-tw43DNjtoFZgUh7RnrhwQtS0SKJJsvX17P1/exec",
   "date": "Tue Feb 08 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://pianit.github.io/lxdiff/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbw0iRlYqO-F1_E3GAWKOIHOVFVNWDDU-tw43DNjtoFZgUh7RnrhwQtS0SKJJsvX17P1/exec",
+  "url_header_json": "https://pianit.github.io/lxdiff/header.json"
 }

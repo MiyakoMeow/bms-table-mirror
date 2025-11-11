@@ -3,11 +3,11 @@
   "symbol": "dt",
   "url": "https://qetyip0123.github.io/lr2-mypage/",
   "comment": "",
-  "data_json_url": "https://qetyip0123.github.io/lr2-mypage/double_time.json",
   "date": "Fri Mar 01 2024 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://qetyip0123.github.io/lr2-mypage/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://qetyip0123.github.io/lr2-mypage/double_time.json",
+  "url_header_json": "https://qetyip0123.github.io/lr2-mypage/header.json"
 }

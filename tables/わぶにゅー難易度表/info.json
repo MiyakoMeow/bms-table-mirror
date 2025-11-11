@@ -3,11 +3,11 @@
   "symbol": "わ",
   "url": "https://strangerxxx.web.fc2.com/WuvNU_table/",
   "comment": "",
-  "data_json_url": "https://strangerxxx.web.fc2.com/WuvNU_table/score.json",
   "date": "",
-  "header_json_url": "https://strangerxxx.web.fc2.com/WuvNU_table/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://strangerxxx.web.fc2.com/WuvNU_table/score.json",
+  "url_header_json": "https://strangerxxx.web.fc2.com/WuvNU_table/header.json"
 }

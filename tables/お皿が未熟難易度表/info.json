@@ -3,11 +3,11 @@
   "symbol": "皿",
   "url": "https://einst-alfimi.github.io/bmsdiffs/table/3109/",
   "comment": "Obj:sarao3",
-  "data_json_url": "https://einst-alfimi.github.io/bmsdiffs/table/3109/main.json",
   "date": "Thu Mar 21 2024 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://einst-alfimi.github.io/bmsdiffs/table/3109/head.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://einst-alfimi.github.io/bmsdiffs/table/3109/main.json",
+  "url_header_json": "https://einst-alfimi.github.io/bmsdiffs/table/3109/head.json"
 }

@@ -3,11 +3,11 @@
   "symbol": "km",
   "url": "https://kemotable.kage-tora.com/insanebms/table.html",
   "comment": "",
-  "data_json_url": "https://kginse.github.io/kemotable/insanebms/score.json",
   "date": "Wed Jun 23 2021 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://kginse.github.io/kemotable/insanebms/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://kginse.github.io/kemotable/insanebms/score.json",
+  "url_header_json": "https://kginse.github.io/kemotable/insanebms/header.json"
 }

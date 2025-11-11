@@ -3,11 +3,11 @@
   "symbol": "pt_",
   "url": "https://pmpmsrndsz.nomaki.jp/all.html",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbyyrTrh_kIUqy_K4FVUtsjeCxKb8PKYPJbbd7M1oeBn4bWlQ0wn/exec",
   "date": "Fri Dec 10 2021 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://pmpmsrndsz.nomaki.jp/all/all_header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbyyrTrh_kIUqy_K4FVUtsjeCxKb8PKYPJbbd7M1oeBn4bWlQ0wn/exec",
+  "url_header_json": "https://pmpmsrndsz.nomaki.jp/all/all_header.json"
 }

@@ -3,11 +3,11 @@
   "symbol": "Lc",
   "url": "https://bms.hexlataia.xyz/tables/convert/obj.Lucy/table.html",
   "comment": "Converted by Hex",
-  "data_json_url": "https://bms.hexlataia.xyz/tables/convert/obj.Lucy/data.json",
   "date": "",
-  "header_json_url": "https://bms.hexlataia.xyz/tables/convert/obj.Lucy/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Self-made Chart Only",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://bms.hexlataia.xyz/tables/convert/obj.Lucy/data.json",
+  "url_header_json": "https://bms.hexlataia.xyz/tables/convert/obj.Lucy/header.json"
 }

@@ -3,11 +3,11 @@
   "symbol": "★★joy",
   "url": "https://ladymade-star.github.io/star-struck-table/",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbxOXDS_PENKWcTSn-2xNtKSaSm5zL3yyX8MIctBUaobJN0hlCXMGAJxTx68O-FtWaVD/exec?status=main",
   "date": "Sat Sep 20 2025 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://ladymade-star.github.io/star-struck-table/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbxOXDS_PENKWcTSn-2xNtKSaSm5zL3yyX8MIctBUaobJN0hlCXMGAJxTx68O-FtWaVD/exec?status=main",
+  "url_header_json": "https://ladymade-star.github.io/star-struck-table/header.json"
 }

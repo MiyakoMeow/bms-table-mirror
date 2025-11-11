@@ -3,11 +3,11 @@
   "symbol": "GL",
   "url": "https://getaji-bms-library.pages.dev/",
   "comment": "",
-  "data_json_url": "https://getaji-bms-library.pages.dev/table_data.json",
   "date": "Mon Oct 31 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://getaji-bms-library.pages.dev/table_header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://getaji-bms-library.pages.dev/table_data.json",
+  "url_header_json": "https://getaji-bms-library.pages.dev/table_header.json"
 }

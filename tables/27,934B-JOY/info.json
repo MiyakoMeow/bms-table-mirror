@@ -3,11 +3,11 @@
   "symbol": "B",
   "url": "https://darksabun.club/table/",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbzaQbcI9UZDcDlSHHl2NHilhmePrNrwxRdOFkmIXsfnbfksKKmAB3V65WZ8jPWU-7E/exec?table=darksabun",
   "date": "",
-  "header_json_url": "https://darksabun.club/table/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbzaQbcI9UZDcDlSHHl2NHilhmePrNrwxRdOFkmIXsfnbfksKKmAB3V65WZ8jPWU-7E/exec?table=darksabun",
+  "url_header_json": "https://darksabun.club/table/header.json"
 }

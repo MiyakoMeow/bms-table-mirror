@@ -3,11 +3,11 @@
   "symbol": "φ",
   "url": "https://tamate27.github.io/bms/memo.html",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbyKQCQ16PTO2KKJjPZtlr1YBz2HGBqmJuRttpjDc1Cz0sQSv4XF/exec",
   "date": "",
-  "header_json_url": "https://tamate27.github.io/bms/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbyKQCQ16PTO2KKJjPZtlr1YBz2HGBqmJuRttpjDc1Cz0sQSv4XF/exec",
+  "url_header_json": "https://tamate27.github.io/bms/header.json"
 }

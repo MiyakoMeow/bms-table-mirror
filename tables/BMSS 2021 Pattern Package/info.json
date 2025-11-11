@@ -3,11 +3,11 @@
   "symbol": "+",
   "url": "https://hpx.getonpictochat.com/bmss/2021/table/",
   "comment": "",
-  "data_json_url": "https://hpx.getonpictochat.com/bmss/2021/table/score.json",
   "date": "Thu Aug 04 2022 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://hpx.getonpictochat.com/bmss/2021/table/header.json",
   "state": "",
   "tag1": "EVENT",
   "tag2": "Chart Event",
-  "tag_order": "4"
+  "tag_order": "4",
+  "url_data_json": "https://hpx.getonpictochat.com/bmss/2021/table/score.json",
+  "url_header_json": "https://hpx.getonpictochat.com/bmss/2021/table/header.json"
 }

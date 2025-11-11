@@ -3,11 +3,11 @@
   "symbol": "α",
   "url": "http://iidxtool.kasacontent.com/alphabetlistsp/alphabetlistsp.php",
   "comment": "",
-  "data_json_url": "https://iidxtool.kasacontent.com/alphabetlistsp/json/data.json",
   "date": "",
-  "header_json_url": "https://iidxtool.kasacontent.com/alphabetlistsp/json/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://iidxtool.kasacontent.com/alphabetlistsp/json/data.json",
+  "url_header_json": "https://iidxtool.kasacontent.com/alphabetlistsp/json/header.json"
 }

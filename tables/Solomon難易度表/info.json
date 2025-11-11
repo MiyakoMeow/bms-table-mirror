@@ -3,11 +3,11 @@
   "symbol": "✡",
   "url": "https://mplwtch.github.io/Solomon/",
   "comment": "",
-  "data_json_url": "https://script.google.com/macros/s/AKfycbzDJoMyecKxofvLGbndUmL3QfKNkAKVmtaBzKPDbtQzAbg2T5ZLVQZK-IzpkdLFf0g/exec",
   "date": "Thu May 11 2023 00:00:00 GMT+0900 (Japan Standard Time)",
-  "header_json_url": "https://mplwtch.github.io/Solomon/header.json",
   "state": "",
   "tag1": "SP",
   "tag2": "Personal",
-  "tag_order": "1"
+  "tag_order": "1",
+  "url_data_json": "https://script.google.com/macros/s/AKfycbzDJoMyecKxofvLGbndUmL3QfKNkAKVmtaBzKPDbtQzAbg2T5ZLVQZK-IzpkdLFf0g/exec",
+  "url_header_json": "https://mplwtch.github.io/Solomon/header.json"
 }

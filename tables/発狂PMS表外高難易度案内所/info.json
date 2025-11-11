@@ -3,11 +3,11 @@
   "symbol": "・",
   "url": "http://stellawingroad.web.fc2.com/new2/pms.html",
   "comment": "",
-  "data_json_url": "http://stellawingroad.web.fc2.com/new2/data.json",
   "date": "",
-  "header_json_url": "http://stellawingroad.web.fc2.com/new2/header.json",
   "state": "",
   "tag1": "PMS",
   "tag2": "General",
-  "tag_order": "3"
+  "tag_order": "3",
+  "url_data_json": "http://stellawingroad.web.fc2.com/new2/data.json",
+  "url_header_json": "http://stellawingroad.web.fc2.com/new2/header.json"
 }
