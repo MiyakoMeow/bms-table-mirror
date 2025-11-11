@@ -3,7 +3,9 @@ import json
 import sys
 from pathlib import Path
 from typing import Any, Dict, List
-from urllib.parse import urlparse
+from urllib.parse import urlparse, quote, unquote
+import subprocess
+import re
 
 TIPS = """
 ## 使用方式
@@ -26,6 +28,72 @@ TIPS = """
 ### 用法参考：
 - [用法参考/数据来源](https://darksabun.club/table/tablelist.html)
 """
+
+DEFAULT_PROXY_PREFIX = "https://get.2sb.org/"
+
+
+class UrlProxyModifier:
+    """
+    代理设置接口类：用于按需修改 URL。
+    用户可实现此类以自定义代理规则。
+    """
+
+    def modify_url(self, url: str) -> str:
+        """返回修改后的 URL。默认直接返回原值。"""
+        return url
+
+
+class PrefixUrlProxyModifier(UrlProxyModifier):
+    """基于前缀的代理实现类（默认使用 get.2sb.org）。"""
+
+    def __init__(self, prefix: str = DEFAULT_PROXY_PREFIX):
+        self.prefix = prefix
+
+    def modify_url(self, url: str) -> str:
+        if not isinstance(url, str) or not url:
+            return url
+        return url if url.startswith(self.prefix) else self.prefix + url
+
+
+class GiteeRawUrlProxyModifier(UrlProxyModifier):
+    """
+    将 GitHub raw 链接转换为 gitee raw 格式：
+    https://raw.githubusercontent.com/<owner>/<repo>/<branch>/<path>
+      -> https://gitee.com/<owner>/<repo>/raw/<branch>/<path>
+
+    仅在匹配到 raw.githubusercontent.com 时执行转换，否则原样返回。
+    为避免特殊字符（括号、全角符号、非 ASCII 等）在不同平台处理不一致，
+    会先对路径进行一次反解码再以 RFC 3986 规范重新编码（保留 "/-._~" 与路径分隔符）。
+    """
+
+    def modify_url(self, url: str) -> str:
+        if not isinstance(url, str) or not url:
+            return url
+        m = re.match(
+            r"^https://raw\.githubusercontent\.com/([^/]+)/([^/]+)/([^/]+)/(.*)$",
+            url,
+        )
+        if not m:
+            return url
+        owner, repo, branch, rest = m.groups()
+        rest_decoded = unquote(rest)
+        rest_encoded = quote(rest_decoded, safe="/-._~")
+        return f"https://gitee.com/{owner}/{repo}/raw/{branch}/{rest_encoded}"
+
+
+def apply_proxy_modifier(data: Any, modifier: UrlProxyModifier):
+    """递归应用代理修改器到数据结构中的 url 字段。"""
+    if isinstance(data, dict):
+        result = {}
+        for key, value in data.items():
+            if key == "url" and isinstance(value, str):
+                result[key] = modifier.modify_url(value)
+            else:
+                result[key] = apply_proxy_modifier(value, modifier)
+        return result
+    if isinstance(data, list):
+        return [apply_proxy_modifier(item, modifier) for item in data]
+    return data
 
 
 def to_str(value: Any) -> str:
@@ -140,79 +208,126 @@ def generate_md(
     return "\n".join(lines) + "\n"
 
 
-def _derive_label(path: Path) -> str:
-    stem = path.stem
-    if stem.startswith("tables_"):
-        return stem[len("tables_") :]
-    if stem.startswith("table_"):
-        return stem[len("table_") :]
-    return stem
+def _git_capture(args):
+    try:
+        out = subprocess.check_output(
+            args,
+            cwd=Path(__file__).resolve().parent.parent,
+            stderr=subprocess.DEVNULL,
+        )
+        return out.decode("utf-8").strip()
+    except Exception:
+        return None
 
 
-def _scan_proxy_files(proxies_dir: Path) -> Dict[str, Path]:
-    mapping: Dict[str, Path] = {}
-    if not proxies_dir.exists():
-        return mapping
-    # Support both patterns: tables_*.json and table_*.json
-    for p in proxies_dir.glob("tables_*.json"):
-        if p.name == "tables.json":
+def _get_owner_repo():
+    url = _git_capture(["git", "config", "--get", "remote.origin.url"])
+    if not url:
+        return None, None
+    m = re.search(
+        r"github\.com[:/](?P<owner>[^/]+)/(?P<repo>[^/]+?)(?:\.git)?$",
+        url.strip(),
+    )
+    if not m:
+        return None, None
+    return m.group("owner"), m.group("repo")
+
+
+def _get_branch():
+    branch = _git_capture(["git", "branch", "--show-current"])
+    if branch:
+        return branch
+    head = _git_capture(["git", "symbolic-ref", "refs/remotes/origin/HEAD"])
+    if head:
+        m = re.search(r"origin/(?P<branch>.+)$", head)
+        if m:
+            return m.group("branch")
+    return "main"
+
+
+def load_rows_from_tables(tables_dir: Path) -> List[Dict[str, Any]]:
+    rows: List[Dict[str, Any]] = []
+    if not tables_dir.is_dir():
+        print(f"[ERROR] tables 目录不存在: {tables_dir}", file=sys.stderr)
+        sys.exit(1)
+
+    owner, repo = _get_owner_repo()
+    branch = _get_branch()
+    base_raw = "https://raw.githubusercontent.com"
+
+    for child in sorted(tables_dir.iterdir(), key=lambda p: p.name.lower()):
+        if not child.is_dir():
             continue
-        mapping[_derive_label(p)] = p
-    for p in proxies_dir.glob("table_*.json"):
-        mapping[_derive_label(p)] = p
-    return mapping
+
+        info_path = child / "info.json"
+        header_path = child / "header.json"
+        if not header_path.is_file():
+            print(f"[INFO] 缺少 header.json: {header_path}", file=sys.stderr)
+            continue
+
+        if not info_path.is_file():
+            print(f"[INFO] 缺少 info.json: {info_path}", file=sys.stderr)
+            continue
+
+        try:
+            obj = json.loads(info_path.read_text(encoding="utf-8"))
+        except Exception as e:
+            print(f"[WARN] 解析失败: {info_path}: {e}", file=sys.stderr)
+            continue
+
+        if not (owner and repo):
+            print(f"[WARN] 无法获取 Git 仓库信息，跳过: {child}", file=sys.stderr)
+            continue
+
+        encoded_child = quote(child.name, safe="-._~")
+        raw_url = (
+            f"{base_raw}/{owner}/{repo}/{branch}/tables/{encoded_child}/header.json"
+        )
+
+        obj["url_ori"] = to_str(obj.get("url", ""))
+        obj["url"] = raw_url
+        rows.append(obj)
+
+    return rows
+
+
+def build_proxy_maps(rows: List[Dict[str, Any]]) -> Dict[str, Dict[str, str]]:
+    result: Dict[str, Dict[str, str]] = {}
+    label_to_modifier = {
+        "2sb": PrefixUrlProxyModifier("https://get.2sb.org/"),
+        "gh_proxy": PrefixUrlProxyModifier("https://gh-proxy.com/"),
+        "gitee": GiteeRawUrlProxyModifier(),
+    }
+    for label, modifier in label_to_modifier.items():
+        proxied_rows = apply_proxy_modifier(rows, modifier)
+        name_to_url: Dict[str, str] = {}
+        for item in proxied_rows:
+            name = to_str(item.get("name", ""))
+            url = to_str(item.get("url", ""))
+            if name and url:
+                name_to_url[name] = url
+        result[label] = name_to_url
+    return result
 
 
 def main():
     args = sys.argv[1:]
-    # Defaults: read base from outputs/tables.json; auto-scan proxies in outputs; write to repo-root DATA.md
-    input_path = Path(args[0]) if len(args) >= 1 else Path("outputs/tables.json")
+    # Defaults: read base from tables/*/info.json; write to repo-root DATA.md
+    tables_dir = Path(args[0]) if len(args) >= 1 else Path("tables")
     output_path = Path(args[1]) if len(args) >= 2 else Path("DATA.md")
-    proxies_dir = Path(args[2]) if len(args) >= 3 else Path("outputs")
 
-    if not input_path.exists():
-        print(f"[ERROR] 输入文件不存在: {input_path}", file=sys.stderr)
-        sys.exit(1)
+    rows = load_rows_from_tables(tables_dir)
+    proxy_maps_by_label = build_proxy_maps(rows)
 
-    try:
-        with input_path.open("r", encoding="utf-8") as f:
-            data = json.load(f)
-    except Exception as e:
-        print(f"[ERROR] 读取/解析 JSON 失败: {input_path}: {e}", file=sys.stderr)
-        sys.exit(1)
-
-    if not isinstance(data, list):
-        print(f"[ERROR] 基础 JSON 根节点应为数组: {input_path}", file=sys.stderr)
-        sys.exit(1)
-
-    proxy_files = _scan_proxy_files(proxies_dir)
-    proxy_maps_by_label: Dict[str, Dict[str, str]] = {}
-    for label, path in proxy_files.items():
-        try:
-            with path.open("r", encoding="utf-8") as f:
-                arr = json.load(f)
-            if isinstance(arr, list):
-                name_to_url: Dict[str, str] = {}
-                for item in arr:
-                    name = to_str(item.get("name", ""))
-                    url = to_str(item.get("url", ""))
-                    if name and url:
-                        name_to_url[name] = url
-                proxy_maps_by_label[label] = name_to_url
-        except Exception as e:
-            print(f"[WARN] 读取代理文件失败: {path}: {e}", file=sys.stderr)
-
-    md = generate_md(data, proxy_maps_by_label)
+    md = generate_md(rows, proxy_maps_by_label)
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8") as f:
         f.write(md)
 
-    proxies_list = ", ".join(
-        [f"{lbl}:{p.name}" for lbl, p in sorted(proxy_files.items())]
-    )
+    proxies_list = ", ".join(sorted(proxy_maps_by_label.keys()))
     print(
-        f"[OK] 写入 {output_path}，共 {len(data)} 行数据。基础: {input_path}；代理扫描目录: {proxies_dir}；已加载: [{proxies_list}]"
+        f"[OK] 写入 {output_path}，共 {len(rows)} 行数据。基础: {tables_dir}；代理生成: [{proxies_list}]"
     )
 
 
