@@ -121,6 +121,13 @@ GITHUB_PROXY_MODIFIERS = {
 }
 
 
+def _get_proxy_labels() -> list[str]:
+    """统一提供日志中使用的“中间生成”标签来源。"""
+    labels = list(PROXY_PREFIXES.keys())
+    labels.append("gitee")
+    return labels
+
+
 def apply_proxy_modifier(data: Any, modifier: UrlProxyModifier) -> Any:
     """递归应用中间修改器到数据结构中的 url 字段。"""
     if isinstance(data, dict):
@@ -506,12 +513,11 @@ def write_data_md(rows: list[dict[str, Any]], tables_dir: Path, out_md_path: Pat
     - 确保输出目录存在；
     - 写入完成后输出简要日志。
     """
-    proxy_maps_by_label = build_proxy_maps(rows)
     md_table = generate_data_md(rows)
     out_md_path.parent.mkdir(parents=True, exist_ok=True)
     with out_md_path.open("w", encoding="utf-8") as f:
         f.write(md_table)
-    proxies_list = ", ".join(sorted(proxy_maps_by_label.keys()))
+    proxies_list = ", ".join(_get_proxy_labels())
     print(f"[OK] 写入 {out_md_path}，共 {len(rows)} 行数据。基础: {tables_dir}；中间生成: [{proxies_list}]")
 
 
@@ -527,7 +533,8 @@ def write_data_url_md(rows: list[dict[str, Any]], tables_dir: Path, out_url_path
     out_url_path.parent.mkdir(parents=True, exist_ok=True)
     with out_url_path.open("w", encoding="utf-8") as f:
         f.write(md_url)
-    print(f"[OK] 写入 {out_url_path}，共 {len(rows)} 行数据。基础: {tables_dir}；中间生成: [2sb, gh_proxy, gitee]")
+    proxies_list = ", ".join(_get_proxy_labels())
+    print(f"[OK] 写入 {out_url_path}，共 {len(rows)} 行数据。基础: {tables_dir}；中间生成: [{proxies_list}]")
 
 
 def _write_json(output_path: Path, data: Any) -> None:
