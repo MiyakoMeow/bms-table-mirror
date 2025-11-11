@@ -12,7 +12,7 @@ TIPS = """
 
 1. 选择对应难度表的对应链接。
    - 一般建议选择`gitee.com`，能够确保链接稳定。每小时更新一次。
-   - 希望实时同步，选择`代理链接`下的任一可用链接。
+   - 希望实时获取最新难度表内容，选择`代理链接`下的任一可用链接。
 2. 复制选中链接。请尝试以下两种操作，并确保复制到的链接的域名与显示的相同：
    - a. （在`GitHub`上，或在`Gitee`使用`gitee.com`的链接时）鼠标右键点击链接，选择`复制链接`。
    - b. （在`Gitee`等平台上，打开其它网站的链接时）直接点击链接。
@@ -21,15 +21,15 @@ TIPS = """
    - 确保复制到的链接的域名，与显示的域名相同。如：显示`get.2sb.org`，则复制到的链接应以`https://get.2sb.org`开头。
 3. 粘贴到beatoraja/BeMusicSeeker，并在软件内部同步难度表内容。
 
-> 注意，`代理链接`的有效性取决于难度表。
-> 只有难度表`header.json`定义的`data_url`字段是相对链接时，代理才能被正确应用至获取`data.json`的过程中。
+> 注意，`代理链接`会直接通过代理从源难度表获取数据。代理的有效性**取决于难度表自身**。
+> 只有难度表`header.json`定义的`data_url`字段是`相对路径`时，代理才能被正确应用至获取`data.json`的过程中。
 
 ## 用于BeMusicSeeker的难度表清单链接：
 
-- [raw.githubusercontent.com](https://github.com/MiyakoMeow/bms-table-mirror/raw/refs/heads/main/outputs/tables.json)
+- [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/outputs/tables.json)
 - [get.2sb.org](https://get.2sb.org/https://github.com/MiyakoMeow/bms-table-mirror/raw/refs/heads/main/outputs/tables.json)
 - [gh-proxy.com](https://gh-proxy.com/https://github.com/MiyakoMeow/bms-table-mirror/raw/refs/heads/main/outputs/tables.json)
-- [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/outputs/tables.json)
+- [raw.githubusercontent.com](https://github.com/MiyakoMeow/bms-table-mirror/raw/refs/heads/main/outputs/tables.json)
 
 ### 用法参考：
 - [用法参考/数据来源](https://darksabun.club/table/tablelist.html)
