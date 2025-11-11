@@ -52,11 +52,8 @@ jobs:
       - name: Sync dependencies
         run: uv sync
       
-      - name: Run gen_tables
-        run: uv run scripts/gen_tables.py
-      
       - name: Run gen_data_md
-        run: uv run scripts/gen_data_md.py
+        run: uv run scripts/gen_data.py
       
       - name: Create Pull Request
         id: create-pull-request
