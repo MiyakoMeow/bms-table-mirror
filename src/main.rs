@@ -129,7 +129,7 @@ async fn fetch_and_save_table(
 ) -> Result<()> {
     // 先获取表数据与原始JSON，再创建目录与写入
     let (
-        BmsTable { header, data: _ },
+        BmsTable { header, data },
         BmsTableRaw {
             header_raw,
             data_raw,
@@ -156,7 +156,12 @@ async fn fetch_and_save_table(
     })
     .await?
     {
-        fs::write(&header_path, &patched_header).await?;
+        // check if `patched_header` can parse
+        let header_to_write = match serde_json::from_str::<BmsTableHeader>(&patched_header) {
+            Ok(_) => patched_header,
+            Err(_) => serde_json::to_string_pretty(&header)?,
+        };
+        fs::write(&header_path, &header_to_write).await?;
     }
     if is_changed::<BmsTableData>(&data_path, &data_raw, |data| {
         data.charts
@@ -165,7 +170,12 @@ async fn fetch_and_save_table(
     })
     .await?
     {
-        fs::write(&data_path, &data_raw).await?;
+        // check if `data_raw` can parse
+        let data_to_write = match serde_json::from_str::<BmsTableData>(&data_raw) {
+            Ok(_) => data_raw,
+            Err(_) => serde_json::to_string_pretty(&data)?,
+        };
+        fs::write(&data_path, &data_to_write).await?;
     }
 
     // 向info同步实际获取的难度表信息
