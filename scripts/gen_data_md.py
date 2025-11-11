@@ -36,6 +36,22 @@ TIPS = """
 - [用法参考/数据来源](https://darksabun.club/table/tablelist.html)
 """
 
+# URL 版页面的提示内容
+TIPS_URL = """
+# BMS难度表镜像链接（URL 数组版）
+
+本页按照原有分组（tag_order > tag1 > tag2）组织内容，但不再使用表格。
+改为“左右分栏”：左栏为难度表名称清单（文本代码块），右栏为对应链接的 JSON 数组。
+
+使用方式示例：
+- 从右栏复制 JSON 数组到 beatoraja / BeMusicSeeker 或其它工具中批量使用。
+- 左栏名称清单可用于人工检索与比对。
+
+说明：
+- “中间链接”针对各难度表 header.json 中 `url_header_json` 字段，仅在该字段可用时生成。
+- “GitHub中间链接”对 `raw.githubusercontent.com` 的仓库直链进行反向代理（保留 get.2sb.org 与 gh-proxy.com 两种）。
+"""
+
 # 全局定义：实际使用的反向代理前缀（保持原有两个反向代理）
 PROXY_PREFIXES = {
     "2sb": "https://get.2sb.org/",
@@ -144,6 +160,11 @@ def make_md_link(url: str) -> str:
     return f"[{domain}]({url})"
 
 
+def html_escape(s: str) -> str:
+    """最小化的 HTML 转义（用于 <pre><code> 内部）。"""
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
 def generate_md(rows: list[dict[str, Any]], proxy_maps_by_label: dict[str, dict[str, str]]) -> str:
     # Group rows by tag_order > tag1 > tag2
     def _to_int(val: Any) -> Any:
@@ -233,6 +254,151 @@ def generate_md(rows: list[dict[str, Any]], proxy_maps_by_label: dict[str, dict[
                 lines.append("")
 
     return "\n".join(lines) + "\n"
+
+
+def _to_int(val: Any) -> Any:
+    try:
+        return int(str(val).strip())
+    except Exception:
+        return None
+
+
+def _sort_tag_order_keys(keys: list[str]) -> list[str]:
+    def _key(k: str) -> tuple[int, float, str]:
+        i = _to_int(k)
+        return (0, float(i), str(k)) if i is not None else (1, float("inf"), str(k))
+
+    return sorted(keys, key=_key)
+
+
+def _make_dual_column_block(names: list[str], urls: list[str], title: str) -> list[str]:
+    """返回一个左右分栏的 HTML 表格代码块（不使用 div）。"""
+    if not urls:
+        return []
+    lines: list[str] = []
+    lines.append(f"#### {title}")
+    lines.append("")
+    names_text = "\n".join(names) if names else ""
+    json_text = json.dumps(urls, ensure_ascii=False, indent=2)
+    lines.append('<table style="width:100%; table-layout:fixed;">')
+    lines.append("<tr>")
+    # 左栏：名称清单（文本代码块）
+    lines.append('<td style="width:50%; vertical-align:top;">')
+    lines.append('<pre><code class="language-text">')
+    lines.append(html_escape(names_text))
+    lines.append("</code></pre>")
+    lines.append("</td>")
+    # 右栏：JSON 数组
+    lines.append('<td style="width:50%; vertical-align:top;">')
+    lines.append('<pre><code class="language-json">')
+    lines.append(html_escape(json_text))
+    lines.append("</code></pre>")
+    lines.append("</td>")
+    lines.append("</tr>")
+    lines.append("</table>")
+    lines.append("")
+    return lines
+
+
+def generate_url_md(rows: list[dict[str, Any]]) -> str:
+    # 分组：tag_order > tag1 > tag2
+    groups: dict[str, dict[str, dict[str, list[dict[str, Any]]]]] = {}
+    for item in rows:
+        tag_order_raw = item.get("tag_order")
+        tag_order_key = to_str(tag_order_raw) if tag_order_raw is not None else "N/A"
+        tag1 = to_str(item.get("tag1", "")).strip() or "未分类"
+        tag2 = to_str(item.get("tag2", "")).strip() or "未分类"
+        groups.setdefault(tag_order_key, {}).setdefault(tag1, {}).setdefault(tag2, []).append(item)
+
+    out_lines: list[str] = []
+    out_lines.extend(TIPS_URL.splitlines())
+    out_lines.append("")
+
+    # 展示顺序（与表格版一致）
+    order_keys = [
+        "ori",
+        "gitee",
+        "intermediate:2sb",
+        "github",
+        "github_proxy:2sb",
+        "github_proxy:gh_proxy",
+    ]
+
+    def _display_name_for_key(k: str) -> str:
+        if k == "ori":
+            return "原链接"
+        if k == "gitee":
+            return "Gitee直链"
+        if k == "intermediate:2sb":
+            return "中间链接 (get.2sb.org)"
+        if k == "github":
+            return "GitHub直链"
+        if k == "github_proxy:2sb":
+            return "GitHub中间链接 (get.2sb.org)"
+        if k == "github_proxy:gh_proxy":
+            return "GitHub中间链接 (gh-proxy.com)"
+        return k
+
+    for tag_order in _sort_tag_order_keys(list(groups.keys())):
+        tag1_map = groups[tag_order]
+        for tag1 in sorted(tag1_map.keys(), key=lambda s: (s == "未分类", s)):
+            out_lines.append(f"## {tag_order} - {tag1}")
+            out_lines.append("")
+
+            tag2_map = tag1_map[tag1]
+            for tag2 in sorted(tag2_map.keys(), key=lambda s: (s == "未分类", s)):
+                out_lines.append(f"### {tag2}")
+                out_lines.append("")
+
+                # 收集名称与 URL
+                names_by_key: dict[str, list[str]] = {k: [] for k in order_keys}
+                urls_by_key: dict[str, list[str]] = {k: [] for k in order_keys}
+
+                for item in tag2_map[tag2]:
+                    name = to_str(item.get("name", "")).strip() or "(未命名)"
+                    url_ori = to_str(item.get("url_ori", ""))
+                    repo_raw_url = to_str(item.get("url", ""))
+                    header_url = to_str(item.get("url_header_json", ""))
+
+                    if url_ori:
+                        names_by_key["ori"].append(name)
+                        urls_by_key["ori"].append(url_ori)
+
+                    if repo_raw_url:
+                        gitee_url = GiteeRawUrlProxyModifier().modify_url(repo_raw_url)
+                        if gitee_url:
+                            names_by_key["gitee"].append(name)
+                            urls_by_key["gitee"].append(gitee_url)
+
+                    if header_url:
+                        proxied = INTERMEDIATE_PROXY_MODIFIERS["2sb"].modify_url(header_url)
+                        if proxied:
+                            names_by_key["intermediate:2sb"].append(name)
+                            urls_by_key["intermediate:2sb"].append(proxied)
+
+                    if repo_raw_url:
+                        names_by_key["github"].append(name)
+                        urls_by_key["github"].append(repo_raw_url)
+
+                    if repo_raw_url.startswith(REPO_RAW_PREFIX):
+                        prox_2sb = GITHUB_PROXY_MODIFIERS["2sb"].modify_url(repo_raw_url)
+                        if prox_2sb:
+                            names_by_key["github_proxy:2sb"].append(name)
+                            urls_by_key["github_proxy:2sb"].append(prox_2sb)
+                        prox_gh = GITHUB_PROXY_MODIFIERS["gh_proxy"].modify_url(repo_raw_url)
+                        if prox_gh:
+                            names_by_key["github_proxy:gh_proxy"].append(name)
+                            urls_by_key["github_proxy:gh_proxy"].append(prox_gh)
+
+                for key in order_keys:
+                    block_lines = _make_dual_column_block(
+                        names_by_key.get(key, []),
+                        urls_by_key.get(key, []),
+                        _display_name_for_key(key),
+                    )
+                    out_lines.extend(block_lines)
+
+    return "\n".join(out_lines) + "\n"
 
 
 def _git_capture(args: list[str]) -> str | None:
@@ -353,19 +519,34 @@ def main() -> None:
     args = sys.argv[1:]
     # Defaults: read base from tables/*/info.json; write to repo-root DATA.md
     tables_dir = Path(args[0]) if len(args) >= 1 else Path("tables")
-    output_path = Path(args[1]) if len(args) >= 2 else Path("DATA.md")
+    base_output = Path(args[1]) if len(args) >= 2 else Path("DATA.md")
+
+    # 始终生成两个文件：表格版和 URL 数组版；基于传入路径决定输出目录
+    out_dir = base_output.parent
+    if "URL" in base_output.name.upper():
+        out_url_path = base_output
+        out_md_path = out_dir / "DATA.md"
+    else:
+        out_md_path = base_output
+        out_url_path = out_dir / "DATA_URL.md"
 
     rows = load_rows_from_tables(tables_dir)
+
+    # 生成并写入表格版
     proxy_maps_by_label = build_proxy_maps(rows)
-
-    md = generate_md(rows, proxy_maps_by_label)
-
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with output_path.open("w", encoding="utf-8") as f:
-        f.write(md)
-
+    md_table = generate_md(rows, proxy_maps_by_label)
+    out_md_path.parent.mkdir(parents=True, exist_ok=True)
+    with out_md_path.open("w", encoding="utf-8") as f:
+        f.write(md_table)
     proxies_list = ", ".join(sorted(proxy_maps_by_label.keys()))
-    print(f"[OK] 写入 {output_path}，共 {len(rows)} 行数据。基础: {tables_dir}；中间生成: [{proxies_list}]")
+    print(f"[OK] 写入 {out_md_path}，共 {len(rows)} 行数据。基础: {tables_dir}；中间生成: [{proxies_list}]")
+
+    # 生成并写入 URL 数组版
+    md_url = generate_url_md(rows)
+    out_url_path.parent.mkdir(parents=True, exist_ok=True)
+    with out_url_path.open("w", encoding="utf-8") as f:
+        f.write(md_url)
+    print(f"[OK] 写入 {out_url_path}，共 {len(rows)} 行数据。基础: {tables_dir}；中间生成: [2sb, gh_proxy, gitee]")
 
 
 if __name__ == "__main__":
