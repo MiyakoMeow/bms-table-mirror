@@ -41,8 +41,13 @@ async fn main() -> Result<()> {
 
     // Fetch and merge indexes from configured index endpoints
     for idx in &config.table_list {
+        // Fetch table list
         info!("Fetching table index from: {} ({})", idx.name, idx.url);
         let (infos, original_json) = fetch_table_list_full(&client, idx.url.as_str()).await?;
+        // Write list json file
+        let list_file_path = lists_dir.join(format!("{}.json", idx.name));
+        fs::write(list_file_path, original_json).await?;
+        // Yield into table_info_map
         for info in infos {
             let url_str = info.url.to_string();
             let Ok(url) = Url::parse(&url_str) else {
@@ -51,9 +56,6 @@ async fn main() -> Result<()> {
             };
             table_info_map.insert(url.clone(), info);
         }
-        // Write index json file
-        let list_file_path = lists_dir.join(format!("{}.json", idx.name));
-        fs::write(list_file_path, original_json).await?;
     }
 
     // Add extra table URLs with default name from domain
