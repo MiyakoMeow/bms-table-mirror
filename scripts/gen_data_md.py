@@ -105,7 +105,7 @@ GITHUB_PROXY_MODIFIERS = {
 }
 
 
-def apply_proxy_modifier(data: Any, modifier: UrlProxyModifier):
+def apply_proxy_modifier(data: Any, modifier: UrlProxyModifier) -> Any:
     """递归应用中间修改器到数据结构中的 url 字段。"""
     if isinstance(data, dict):
         result = {}
@@ -162,9 +162,9 @@ def generate_md(rows: list[dict[str, Any]], proxy_maps_by_label: dict[str, dict[
 
     # Sort tag_order keys: numeric first (ascending), then non-numeric
     def _sort_tag_order_keys(keys: list[str]) -> list[str]:
-        def _key(k: str):
+        def _key(k: str) -> tuple[int, float, str]:
             i = _to_int(k)
-            return (0, i if i is not None else 0, str(k)) if i is not None else (1, float("inf"), str(k))
+            return (0, float(i), str(k)) if i is not None else (1, float("inf"), str(k))
 
         return sorted(keys, key=_key)
 
@@ -235,7 +235,7 @@ def generate_md(rows: list[dict[str, Any]], proxy_maps_by_label: dict[str, dict[
     return "\n".join(lines) + "\n"
 
 
-def _git_capture(args):
+def _git_capture(args: list[str]) -> str | None:
     try:
         out = subprocess.check_output(
             args,
@@ -247,7 +247,7 @@ def _git_capture(args):
         return None
 
 
-def _get_owner_repo():
+def _get_owner_repo() -> tuple[str | None, str | None]:
     url = _git_capture(["git", "config", "--get", "remote.origin.url"])
     if not url:
         return None, None
@@ -260,7 +260,7 @@ def _get_owner_repo():
     return m.group("owner"), m.group("repo")
 
 
-def _get_branch():
+def _get_branch() -> str:
     branch = _git_capture(["git", "branch", "--show-current"])
     if branch:
         return branch
@@ -349,7 +349,7 @@ def build_proxy_maps(rows: list[dict[str, Any]]) -> dict[str, dict[str, str]]:
     return result
 
 
-def main():
+def main() -> None:
     args = sys.argv[1:]
     # Defaults: read base from tables/*/info.json; write to repo-root DATA.md
     tables_dir = Path(args[0]) if len(args) >= 1 else Path("tables")

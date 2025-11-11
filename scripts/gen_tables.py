@@ -64,7 +64,7 @@ class GiteeRawUrlProxyModifier(UrlProxyModifier):
         return f"https://gitee.com/{owner}/{repo}/raw/{branch}/{rest_encoded}"
 
 
-def setup():
+def setup() -> None:
     outputs_dir.mkdir(parents=True, exist_ok=True)
 
     if not tables_dir.is_dir():
@@ -72,7 +72,7 @@ def setup():
         sys.exit(1)
 
 
-def _git_capture(args):
+def _git_capture(args: list[str]) -> str | None:
     try:
         out = subprocess.check_output(args, cwd=repo_root, stderr=subprocess.DEVNULL)
         return out.decode("utf-8").strip()
@@ -80,7 +80,7 @@ def _git_capture(args):
         return None
 
 
-def _get_owner_repo():
+def _get_owner_repo() -> tuple[str | None, str | None]:
     url = _git_capture(["git", "config", "--get", "remote.origin.url"])
     if not url:
         return None, None
@@ -92,7 +92,7 @@ def _get_owner_repo():
     return owner, repo
 
 
-def _get_branch():
+def _get_branch() -> str:
     branch = _git_capture(["git", "branch", "--show-current"])
     if branch:
         return branch
@@ -104,7 +104,7 @@ def _get_branch():
     return "main"
 
 
-def generate_tables_json():
+def generate_tables_json() -> None:
     aggregated = []
     missing_info = []
     invalid_info = []
@@ -169,7 +169,7 @@ def generate_tables_json():
         )
 
 
-def apply_proxy_modifier(data: Any, modifier: UrlProxyModifier):
+def apply_proxy_modifier(data: Any, modifier: UrlProxyModifier) -> Any:
     """递归应用中间修改器到数据结构中的 url 字段。"""
     if isinstance(data, dict):
         result = {}
@@ -184,7 +184,7 @@ def apply_proxy_modifier(data: Any, modifier: UrlProxyModifier):
     return data
 
 
-def gen_tables_with_modifier():
+def gen_tables_with_modifier() -> None:
     """
     统一生成多个中间版本：在函数内部使用 dict[Path, UrlProxyModifier]
     来描述输出目标与中间策略的映射。
