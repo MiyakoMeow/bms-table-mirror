@@ -4,7 +4,7 @@
 
 1. 选择对应难度表的对应链接。
    - 一般建议选择`gitee.com`，能够确保链接稳定。每小时更新一次。
-   - 希望实时获取最新难度表内容，选择`代理链接`下的任一可用链接。
+   - 希望实时获取最新难度表内容，选择`中间链接`下的任一可用链接。
 2. 复制选中链接。请尝试以下两种操作，并确保复制到的链接的域名与显示的相同：
    - a. （在`GitHub`上，或在`Gitee`使用`gitee.com`的链接时）鼠标右键点击链接，选择`复制链接`。
    - b. （在`Gitee`等平台上，打开其它网站的链接时）直接点击链接。
@@ -13,8 +13,8 @@
    - 确保复制到的链接的域名，与显示的域名相同。如：显示`get.2sb.org`，则复制到的链接应以`https://get.2sb.org`开头。
 3. 粘贴到beatoraja/BeMusicSeeker，并在软件内部同步难度表内容。
 
-> 注意，`代理链接`会直接通过代理从源难度表获取数据。代理的有效性**取决于难度表自身**。
-> 只有难度表`header.json`定义的`data_url`字段是`相对路径`时，代理才能被正确应用至获取`data.json`的过程中。
+> 注意，`中间链接`会直接通过中间件从源难度表获取数据。中间件的有效性**取决于难度表自身**。
+> 只有难度表`header.json`定义的`data_url`字段是`相对路径`时，中间件才能被正确应用至获取`data.json`的过程中。
 
 ## 用于BeMusicSeeker的难度表清单链接：
 
@@ -30,7 +30,7 @@
 
 ### General
 
-| 标记 | 难度表名称 | 原链接 | 仓库链接 | 代理链接 |
+| 标记 | 难度表名称 | 原链接 | 仓库链接 | 中间链接 |
 | --- | --- | --- | --- | --- |
 | 1◎ | 1st | [minddnim.web.fc2.com](http://minddnim.web.fc2.com/sara/1st/bms_sara_1st.html) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/1st/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/1st/header.json) | [get.2sb.org](https://get.2sb.org/http://minddnim.web.fc2.com/sara/1st/json/header.json) [gh-proxy.com](https://gh-proxy.com/http://minddnim.web.fc2.com/sara/1st/json/header.json) |
 | 2◎ | 2nd | [minddnim.web.fc2.com](http://minddnim.web.fc2.com/sara/2nd/bms_sara_2nd.html) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/2nd/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/2nd/header.json) | [get.2sb.org](https://get.2sb.org/http://minddnim.web.fc2.com/sara/2nd/json/header.json) [gh-proxy.com](https://gh-proxy.com/http://minddnim.web.fc2.com/sara/2nd/json/header.json) |
@@ -79,7 +79,7 @@
 
 ### Personal
 
-| 标记 | 难度表名称 | 原链接 | 仓库链接 | 代理链接 |
+| 标记 | 难度表名称 | 原链接 | 仓库链接 | 中间链接 |
 | --- | --- | --- | --- | --- |
 |   | 16分乱打難易度表(仮) | [lets-go-time-hell.github.io](https://lets-go-time-hell.github.io/code-stream-table/) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/16%E5%88%86%E4%B9%B1%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/16%E5%88%86%E4%B9%B1%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json) | [get.2sb.org](https://get.2sb.org/https://lets-go-time-hell.github.io/code-stream-table/header.json) [gh-proxy.com](https://gh-proxy.com/https://lets-go-time-hell.github.io/code-stream-table/header.json) |
 | 200BPM | 200BPMやる用 | [potechang.github.io](https://potechang.github.io/bpm200/) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/200BPM%E3%82%84%E3%82%8B%E7%94%A8/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/200BPM%E3%82%84%E3%82%8B%E7%94%A8/header.json) | [get.2sb.org](https://get.2sb.org/https://potechang.github.io/bpm200/header.json) [gh-proxy.com](https://gh-proxy.com/https://potechang.github.io/bpm200/header.json) |
@@ -210,7 +210,7 @@
 
 ### Self-made Chart Only
 
-| 标记 | 难度表名称 | 原链接 | 仓库链接 | 代理链接 |
+| 标记 | 难度表名称 | 原链接 | 仓库链接 | 中间链接 |
 | --- | --- | --- | --- | --- |
 | ( ^・ω・^)★ | (*°▽°*)八(*°▽°*)♪ | [mqppppp.neocities.org](https://mqppppp.neocities.org/dawn.html) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E5%85%AB%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E2%99%AA/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E5%85%AB%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E2%99%AA/header.json) | [get.2sb.org](https://get.2sb.org/https://mqppppp.neocities.org/dawn_header.json) [gh-proxy.com](https://gh-proxy.com/https://mqppppp.neocities.org/dawn_header.json) |
 | ． | .WAS難易度表 | [darksabun.club](https://darksabun.club/table/archive/was/) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/.WAS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/.WAS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json) | [get.2sb.org](https://get.2sb.org/https://darksabun.club/table/archive/was/header.json) [gh-proxy.com](https://gh-proxy.com/https://darksabun.club/table/archive/was/header.json) |
@@ -334,7 +334,7 @@
 
 ### General
 
-| 标记 | 难度表名称 | 原链接 | 仓库链接 | 代理链接 |
+| 标记 | 难度表名称 | 原链接 | 仓库链接 | 中间链接 |
 | --- | --- | --- | --- | --- |
 | DPsl | DP Satellite | [stellabms.xyz](https://stellabms.xyz/dp/table.html) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%20Satellite/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite/header.json) | [get.2sb.org](https://get.2sb.org/https://stellabms.xyz/dp/header.json) [gh-proxy.com](https://gh-proxy.com/https://stellabms.xyz/dp/header.json) |
 | DPsl | DP Satellite (Voting) | [stellabms.xyz](https://stellabms.xyz/dp/table_vote.html) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%20Satellite%20%28Voting%29/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20%28Voting%29/header.json) | [get.2sb.org](https://get.2sb.org/https://stellabms.xyz/dp/header_vote.json) [gh-proxy.com](https://gh-proxy.com/https://stellabms.xyz/dp/header_vote.json) |
@@ -356,7 +356,7 @@
 
 ### Personal
 
-| 标记 | 难度表名称 | 原链接 | 仓库链接 | 代理链接 |
+| 标记 | 难度表名称 | 原链接 | 仓库链接 | 中间链接 |
 | --- | --- | --- | --- | --- |
 | E-sl | DP Satellite EASY | [notmichaelchen.github.io](https://notmichaelchen.github.io/stella-table-extensions/dp-satellite-easy.html) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%20Satellite%20EASY/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20EASY/header.json) | [get.2sb.org](https://get.2sb.org/https://notmichaelchen.github.io/stella-table-extensions/data/DP-Satellite-EASY-header.json) [gh-proxy.com](https://gh-proxy.com/https://notmichaelchen.github.io/stella-table-extensions/data/DP-Satellite-EASY-header.json) |
 | F-sl | DP Satellite FULLCOMBO | [notmichaelchen.github.io](https://notmichaelchen.github.io/stella-table-extensions/dp-satellite-fullcombo.html) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%20Satellite%20FULLCOMBO/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20FULLCOMBO/header.json) | [get.2sb.org](https://get.2sb.org/https://notmichaelchen.github.io/stella-table-extensions/data/DP-Satellite-FULLCOMBO-header.json) [gh-proxy.com](https://gh-proxy.com/https://notmichaelchen.github.io/stella-table-extensions/data/DP-Satellite-FULLCOMBO-header.json) |
@@ -377,7 +377,7 @@
 
 ### Self-made Chart Only
 
-| 标记 | 难度表名称 | 原链接 | 仓库链接 | 代理链接 |
+| 标记 | 难度表名称 | 原链接 | 仓库链接 | 中间链接 |
 | --- | --- | --- | --- | --- |
 | ⚛ | ATOM難易度表(DP) | [onzonium.at-ninja.jp](http://onzonium.at-ninja.jp/dp/) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/ATOM%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28DP%29/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ATOM%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28DP%29/header.json) | [get.2sb.org](https://get.2sb.org/http://onzonium.at-ninja.jp/dp/header.json) [gh-proxy.com](https://gh-proxy.com/http://onzonium.at-ninja.jp/dp/header.json) |
 | DP | Limite DP差分 | [bms.limiteknj.net](https://bms.limiteknj.net/dp/) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Limite%20DP%E5%B7%AE%E5%88%86/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Limite%20DP%E5%B7%AE%E5%88%86/header.json) | [get.2sb.org](https://get.2sb.org/https://bms.limiteknj.net/dp/head.json) [gh-proxy.com](https://gh-proxy.com/https://bms.limiteknj.net/dp/head.json) |
@@ -392,7 +392,7 @@
 
 ### General
 
-| 标记 | 难度表名称 | 原链接 | 仓库链接 | 代理链接 |
+| 标记 | 难度表名称 | 原链接 | 仓库链接 | 中间链接 |
 | --- | --- | --- | --- | --- |
 | R-PickupP● | PMS Database お題箱 | [pmsdifficulty.xxxxxxxx.jp](https://pmsdifficulty.xxxxxxxx.jp/subtable/randomselect/randomselect.html) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/PMS%20Database%20%E3%81%8A%E9%A1%8C%E7%AE%B1/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%20Database%20%E3%81%8A%E9%A1%8C%E7%AE%B1/header.json) |  |
 | PXG● | PMS XG Overjoy (仮) | [pmsdifficulty.xxxxxxxx.jp](https://pmsdifficulty.xxxxxxxx.jp/overjoy/table.html) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/PMS%20XG%20Overjoy%20%28%E4%BB%AE%29/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%20XG%20Overjoy%20%28%E4%BB%AE%29/header.json) | [get.2sb.org](https://get.2sb.org/https://pmsdatabase.github.io/overjoy/header.json) [gh-proxy.com](https://gh-proxy.com/https://pmsdatabase.github.io/overjoy/header.json) |
@@ -410,7 +410,7 @@
 
 ### Personal
 
-| 标记 | 难度表名称 | 原链接 | 仓库链接 | 代理链接 |
+| 标记 | 难度表名称 | 原链接 | 仓库链接 | 中间链接 |
 | --- | --- | --- | --- | --- |
 | Lv | G2R PMS | [stellawingroad.web.fc2.com](http://stellawingroad.web.fc2.com/g2r/pms.html) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/G2R%20PMS/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/G2R%20PMS/header.json) | [get.2sb.org](https://get.2sb.org/http://stellawingroad.web.fc2.com/g2r/header.json) [gh-proxy.com](https://gh-proxy.com/http://stellawingroad.web.fc2.com/g2r/header.json) |
 | ●◆ | LNPMS難易度 | [masshiroworld.web.fc2.com](http://masshiroworld.web.fc2.com/lnpms.html) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/LNPMS%E9%9B%A3%E6%98%93%E5%BA%A6/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LNPMS%E9%9B%A3%E6%98%93%E5%BA%A6/header.json) | [get.2sb.org](https://get.2sb.org/http://masshiroworld.web.fc2.com/headerln.json) [gh-proxy.com](https://gh-proxy.com/http://masshiroworld.web.fc2.com/headerln.json) |
@@ -420,7 +420,7 @@
 
 ### Self-made Chart Only
 
-| 标记 | 难度表名称 | 原链接 | 仓库链接 | 代理链接 |
+| 标记 | 难度表名称 | 原链接 | 仓库链接 | 中间链接 |
 | --- | --- | --- | --- | --- |
 | にょ～ん♪ | ymskぷむす難易度表 | [yumasuki.yumenogotoshi.com](http://yumasuki.yumenogotoshi.com/table.html) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/ymsk%E3%81%B7%E3%82%80%E3%81%99%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ymsk%E3%81%B7%E3%82%80%E3%81%99%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json) | [get.2sb.org](https://get.2sb.org/http://yumasuki.yumenogotoshi.com/header.json) [gh-proxy.com](https://gh-proxy.com/http://yumasuki.yumenogotoshi.com/header.json) |
 | SLv | おさとう難易度表 | [osatoudifficulty.yu-nagi.com](http://osatoudifficulty.yu-nagi.com/sugardifficulty.html) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%8A%E3%81%95%E3%81%A8%E3%81%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8A%E3%81%95%E3%81%A8%E3%81%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json) | [get.2sb.org](https://get.2sb.org/http://osatoudifficulty.yu-nagi.com/header_sample.json) [gh-proxy.com](https://gh-proxy.com/http://osatoudifficulty.yu-nagi.com/header_sample.json) |
@@ -430,7 +430,7 @@
 
 ### BMS Event
 
-| 标记 | 难度表名称 | 原链接 | 仓库链接 | 代理链接 |
+| 标记 | 难度表名称 | 原链接 | 仓库链接 | 中间链接 |
 | --- | --- | --- | --- | --- |
 | ≠ | BMS EVENT 2015 | [asaksaksmakm.web.fc2.com](http://asaksaksmakm.web.fc2.com/event/2015/table.html) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMS%20EVENT%202015/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20EVENT%202015/header.json) | [get.2sb.org](https://get.2sb.org/http://asaksaksmakm.web.fc2.com/event/2015/header.json) [gh-proxy.com](https://gh-proxy.com/http://asaksaksmakm.web.fc2.com/event/2015/header.json) |
 | ≠ | BMS EVENT 2016 | [asaksaksmakm.web.fc2.com](http://asaksaksmakm.web.fc2.com/event/2016/table.html) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMS%20EVENT%202016/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20EVENT%202016/header.json) | [get.2sb.org](https://get.2sb.org/http://asaksaksmakm.web.fc2.com/event/2016/header.json) [gh-proxy.com](https://gh-proxy.com/http://asaksaksmakm.web.fc2.com/event/2016/header.json) |
@@ -444,7 +444,7 @@
 
 ### Chart Event
 
-| 标记 | 难度表名称 | 原链接 | 仓库链接 | 代理链接 |
+| 标记 | 难度表名称 | 原链接 | 仓库链接 | 中间链接 |
 | --- | --- | --- | --- | --- |
 | 100m | 100min Fumen Cooking!! | [darksabun.club](https://darksabun.club/table/archive/100min/) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/100min%20Fumen%20Cooking%21%21/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/100min%20Fumen%20Cooking%21%21/header.json) | [get.2sb.org](https://get.2sb.org/https://darksabun.club/table/archive/100min/header.json) [gh-proxy.com](https://gh-proxy.com/https://darksabun.club/table/archive/100min/header.json) |
 | 年 | 1998 to 2020 (仮) | [darksabun.club](https://darksabun.club/bceg/event/1998to2020/) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/1998%20to%202020%20%28%E4%BB%AE%29/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/1998%20to%202020%20%28%E4%BB%AE%29/header.json) | [get.2sb.org](https://get.2sb.org/https://darksabun.club/bceg/event/1998to2020/header.json) [gh-proxy.com](https://gh-proxy.com/https://darksabun.club/bceg/event/1998to2020/header.json) |
@@ -492,14 +492,14 @@
 
 ### Personal
 
-| 标记 | 难度表名称 | 原链接 | 仓库链接 | 代理链接 |
+| 标记 | 难度表名称 | 原链接 | 仓库链接 | 中间链接 |
 | --- | --- | --- | --- | --- |
 | 落 | 提案落ち難易度表 | [bmsagoo.web.fc2.com](http://bmsagoo.web.fc2.com/list_teian_otita.html) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E6%8F%90%E6%A1%88%E8%90%BD%E3%81%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%8F%90%E6%A1%88%E8%90%BD%E3%81%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json) | [get.2sb.org](https://get.2sb.org/http://bmsagoo.web.fc2.com/header_teian_otita.json) [gh-proxy.com](https://gh-proxy.com/http://bmsagoo.web.fc2.com/header_teian_otita.json) |
 | th | 東方BMSまとめ表 | [kaguyasystem.web.fc2.com](http://kaguyasystem.web.fc2.com/tohonannidohyou1/list.html) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E6%9D%B1%E6%96%B9BMS%E3%81%BE%E3%81%A8%E3%82%81%E8%A1%A8/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%9D%B1%E6%96%B9BMS%E3%81%BE%E3%81%A8%E3%82%81%E8%A1%A8/header.json) | [get.2sb.org](https://get.2sb.org/http://kaguyasystem.web.fc2.com/tohonannidohyou1/header.json) [gh-proxy.com](https://gh-proxy.com/http://kaguyasystem.web.fc2.com/tohonannidohyou1/header.json) |
 
 ### Uploader
 
-| 标记 | 难度表名称 | 原链接 | 仓库链接 | 代理链接 |
+| 标记 | 难度表名称 | 原链接 | 仓库链接 | 中间链接 |
 | --- | --- | --- | --- | --- |
 | ㊤ | BMS差分アップローダー | [darksabun.club](https://darksabun.club/table/archive/bmsuploader2/) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC/header.json) | [get.2sb.org](https://get.2sb.org/https://darksabun.club/table/archive/bmsuploader2/header.json) [gh-proxy.com](https://gh-proxy.com/https://darksabun.club/table/archive/bmsuploader2/header.json) |
 | 新ロダ | BMS差分アップローダー表 | [bms.hexlataia.xyz](https://bms.hexlataia.xyz/tables/hinanjoy.html) | [gitee.com](https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E8%A1%A8/header.json) [raw.githubusercontent.com](https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E8%A1%A8/header.json) | [get.2sb.org](https://get.2sb.org/https://bms.hexlataia.xyz/tables/header/hinanjoy.json) [gh-proxy.com](https://gh-proxy.com/https://bms.hexlataia.xyz/tables/header/hinanjoy.json) |

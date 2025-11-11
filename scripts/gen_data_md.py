@@ -12,7 +12,7 @@ TIPS = """
 
 1. 选择对应难度表的对应链接。
    - 一般建议选择`gitee.com`，能够确保链接稳定。每小时更新一次。
-   - 希望实时获取最新难度表内容，选择`代理链接`下的任一可用链接。
+   - 希望实时获取最新难度表内容，选择`中间链接`下的任一可用链接。
 2. 复制选中链接。请尝试以下两种操作，并确保复制到的链接的域名与显示的相同：
    - a. （在`GitHub`上，或在`Gitee`使用`gitee.com`的链接时）鼠标右键点击链接，选择`复制链接`。
    - b. （在`Gitee`等平台上，打开其它网站的链接时）直接点击链接。
@@ -21,8 +21,8 @@ TIPS = """
    - 确保复制到的链接的域名，与显示的域名相同。如：显示`get.2sb.org`，则复制到的链接应以`https://get.2sb.org`开头。
 3. 粘贴到beatoraja/BeMusicSeeker，并在软件内部同步难度表内容。
 
-> 注意，`代理链接`会直接通过代理从源难度表获取数据。代理的有效性**取决于难度表自身**。
-> 只有难度表`header.json`定义的`data_url`字段是`相对路径`时，代理才能被正确应用至获取`data.json`的过程中。
+> 注意，`中间链接`会直接通过中间件从源难度表获取数据。中间件的有效性**取决于难度表自身**。
+> 只有难度表`header.json`定义的`data_url`字段是`相对路径`时，中间件才能被正确应用至获取`data.json`的过程中。
 
 ## 用于BeMusicSeeker的难度表清单链接：
 
@@ -40,8 +40,8 @@ DEFAULT_PROXY_PREFIX = "https://get.2sb.org/"
 
 class UrlProxyModifier:
     """
-    代理设置接口类：用于按需修改 URL。
-    用户可实现此类以自定义代理规则。
+    中间设置接口类：用于按需修改 URL。
+    用户可实现此类以自定义中间规则。
     """
 
     def modify_url(self, url: str) -> str:
@@ -50,7 +50,7 @@ class UrlProxyModifier:
 
 
 class PrefixUrlProxyModifier(UrlProxyModifier):
-    """基于前缀的代理实现类（默认使用 get.2sb.org）。"""
+    """基于前缀的中间实现类（默认使用 get.2sb.org）。"""
 
     def __init__(self, prefix: str = DEFAULT_PROXY_PREFIX):
         self.prefix = prefix
@@ -88,7 +88,7 @@ class GiteeRawUrlProxyModifier(UrlProxyModifier):
 
 
 def apply_proxy_modifier(data: Any, modifier: UrlProxyModifier):
-    """递归应用代理修改器到数据结构中的 url 字段。"""
+    """递归应用中间修改器到数据结构中的 url 字段。"""
     if isinstance(data, dict):
         result = {}
         for key, value in data.items():
@@ -181,7 +181,7 @@ def generate_md(
                 lines.append("")
 
                 # Table header for each group
-                lines.append("| 标记 | 难度表名称 | 原链接 | 仓库链接 | 代理链接 |")
+                lines.append("| 标记 | 难度表名称 | 原链接 | 仓库链接 | 中间链接 |")
                 lines.append("| --- | --- | --- | --- | --- |")
 
                 for item in tag2_map[tag2]:
@@ -195,7 +195,7 @@ def generate_md(
                     # Build proxy links labeled by their xxx derived from filename
                     proxy_links: List[str] = []
                     for label, name_to_url in sorted(proxy_maps_by_label.items()):
-                        # gitee 链接将被放入“仓库链接”列，不在“代理链接”中展示
+                        # gitee 链接将被放入“仓库链接”列，不在“中间链接”中展示
                         if label == "gitee":
                             continue
                         u = to_str(name_to_url.get(name_raw, ""))
@@ -308,7 +308,7 @@ def load_rows_from_tables(tables_dir: Path) -> List[Dict[str, Any]]:
 def build_proxy_maps(rows: List[Dict[str, Any]]) -> Dict[str, Dict[str, str]]:
     result: Dict[str, Dict[str, str]] = {}
 
-    # 反向代理（2sb 与 gh-proxy）：直接代理 info.json 中的 url_header_json 字段
+    # 反向中间（2sb 与 gh-proxy）：直接中间 info.json 中的 url_header_json 字段
     for label, prefix in (
         ("2sb", "https://get.2sb.org/"),
         ("gh_proxy", "https://gh-proxy.com/"),
@@ -358,7 +358,7 @@ def main():
 
     proxies_list = ", ".join(sorted(proxy_maps_by_label.keys()))
     print(
-        f"[OK] 写入 {output_path}，共 {len(rows)} 行数据。基础: {tables_dir}；代理生成: [{proxies_list}]"
+        f"[OK] 写入 {output_path}，共 {len(rows)} 行数据。基础: {tables_dir}；中间生成: [{proxies_list}]"
     )
 
 

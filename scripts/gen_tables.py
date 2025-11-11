@@ -16,8 +16,8 @@ DEFAULT_PROXY_PREFIX = "https://get.2sb.org/"
 
 class UrlProxyModifier:
     """
-    代理设置接口类：用于按需修改 URL。
-    用户可实现此类以自定义代理规则。
+    中间设置接口类：用于按需修改 URL。
+    用户可实现此类以自定义中间规则。
     """
 
     def modify_url(self, url: str) -> str:
@@ -26,7 +26,7 @@ class UrlProxyModifier:
 
 
 class PrefixUrlProxyModifier(UrlProxyModifier):
-    """基于前缀的代理实现类（默认使用 get.2sb.org）。"""
+    """基于前缀的中间实现类（默认使用 get.2sb.org）。"""
 
     def __init__(self, prefix: str = DEFAULT_PROXY_PREFIX):
         self.prefix = prefix
@@ -174,7 +174,7 @@ def generate_tables_json():
 
 
 def apply_proxy_modifier(data: Any, modifier: UrlProxyModifier):
-    """递归应用代理修改器到数据结构中的 url 字段。"""
+    """递归应用中间修改器到数据结构中的 url 字段。"""
     if isinstance(data, dict):
         result = {}
         for key, value in data.items():
@@ -190,13 +190,13 @@ def apply_proxy_modifier(data: Any, modifier: UrlProxyModifier):
 
 def gen_tables_with_modifier():
     """
-    统一生成多个代理版本：在函数内部使用 dict[Path, UrlProxyModifier]
-    来描述输出目标与代理策略的映射。
+    统一生成多个中间版本：在函数内部使用 dict[Path, UrlProxyModifier]
+    来描述输出目标与中间策略的映射。
 
     命令行参数（可选，仅用于 2sb 版本）
       - args[0]: 输入路径（默认 outputs/tables.json）
       - args[1]: 2sb 输出路径（默认 outputs/tables_2sb.json）
-      - args[2]: 2sb 代理前缀（默认 DEFAULT_PROXY_PREFIX）
+      - args[2]: 2sb 中间前缀（默认 DEFAULT_PROXY_PREFIX）
     """
     args = sys.argv[1:]
     input_path = Path(args[0]) if len(args) >= 1 else Path("outputs/tables.json")
