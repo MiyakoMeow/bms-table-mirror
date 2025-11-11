@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import quote, unquote, urlparse
 
-TIPS = """
+TIPS_DATA_MD = """
 ## 使用方式
 
 1. 选择对应难度表的对应链接。
@@ -37,7 +37,7 @@ TIPS = """
 """
 
 # URL 版页面的提示内容
-TIPS_URL = """
+TIPS_DATA_URL_MD = """
 # BMS难度表镜像链接（URL 数组版）
 
 本页按照原有分组（tag_order > tag1 > tag2）组织内容，但不再使用表格。
@@ -136,6 +136,43 @@ def apply_proxy_modifier(data: Any, modifier: UrlProxyModifier) -> Any:
     return data
 
 
+def _git_capture(args: list[str]) -> str | None:
+    try:
+        out = subprocess.check_output(
+            args,
+            cwd=Path(__file__).resolve().parent.parent,
+            stderr=subprocess.DEVNULL,
+        )
+        return out.decode("utf-8").strip()
+    except Exception:
+        return None
+
+
+def _get_owner_repo() -> tuple[str | None, str | None]:
+    url = _git_capture(["git", "config", "--get", "remote.origin.url"])
+    if not url:
+        return None, None
+    m = re.search(
+        r"github\.com[:/](?P<owner>[^/]+)/(?P<repo>[^/]+?)(?:\.git)?$",
+        url.strip(),
+    )
+    if not m:
+        return None, None
+    return m.group("owner"), m.group("repo")
+
+
+def _get_branch() -> str:
+    branch = _git_capture(["git", "branch", "--show-current"])
+    if branch:
+        return branch
+    head = _git_capture(["git", "symbolic-ref", "refs/remotes/origin/HEAD"])
+    if head:
+        m = re.search(r"origin/(?P<branch>.+)$", head)
+        if m:
+            return m.group("branch")
+    return "main"
+
+
 def to_str(value: Any) -> str:
     if value is None:
         return ""
@@ -208,7 +245,7 @@ def derive_item_links(item: dict[str, Any]) -> dict[str, str]:
     return out
 
 
-def generate_md(rows: list[dict[str, Any]], proxy_maps_by_label: dict[str, dict[str, str]]) -> str:
+def generate_data_md(rows: list[dict[str, Any]], proxy_maps_by_label: dict[str, dict[str, str]]) -> str:
     # Group rows by tag_order > tag1 > tag2（使用全局排序工具）
     groups: dict[str, dict[str, dict[str, list[dict[str, Any]]]]] = {}
     for item in rows:
@@ -220,7 +257,7 @@ def generate_md(rows: list[dict[str, Any]], proxy_maps_by_label: dict[str, dict[
 
     lines: list[str] = []
     lines.append("# BMS难度表镜像")
-    lines.extend(TIPS.splitlines())
+    lines.extend(TIPS_DATA_MD.splitlines())
     lines.append("")
 
     for tag_order in _sort_tag_order_keys(list(groups.keys())):
@@ -309,7 +346,7 @@ def _make_dual_column_block(names: list[str], urls: list[str], title: str) -> li
     return lines
 
 
-def generate_url_md(rows: list[dict[str, Any]]) -> str:
+def generate_data_url_md(rows: list[dict[str, Any]]) -> str:
     # 分组：tag_order > tag1 > tag2（共享派生链接）
     groups: dict[str, dict[str, dict[str, list[dict[str, Any]]]]] = {}
     for item in rows:
@@ -320,7 +357,7 @@ def generate_url_md(rows: list[dict[str, Any]]) -> str:
         groups.setdefault(tag_order_key, {}).setdefault(tag1, {}).setdefault(tag2, []).append(item)
 
     out_lines: list[str] = []
-    out_lines.extend(TIPS_URL.splitlines())
+    out_lines.extend(TIPS_DATA_URL_MD.splitlines())
     out_lines.append("")
 
     # 展示顺序（与表格版一致）
@@ -382,110 +419,6 @@ def generate_url_md(rows: list[dict[str, Any]]) -> str:
                     out_lines.extend(block_lines)
 
     return "\n".join(out_lines) + "\n"
-
-
-def write_md_table(rows: list[dict[str, Any]], tables_dir: Path, out_md_path: Path) -> None:
-    """
-    基于读取到的 rows，生成表格版 Markdown 并写入到指定路径。
-
-    - 自动构建中间映射并生成表格内容；
-    - 确保输出目录存在；
-    - 写入完成后输出简要日志。
-    """
-    proxy_maps_by_label = build_proxy_maps(rows)
-    md_table = generate_md(rows, proxy_maps_by_label)
-    out_md_path.parent.mkdir(parents=True, exist_ok=True)
-    with out_md_path.open("w", encoding="utf-8") as f:
-        f.write(md_table)
-    proxies_list = ", ".join(sorted(proxy_maps_by_label.keys()))
-    print(f"[OK] 写入 {out_md_path}，共 {len(rows)} 行数据。基础: {tables_dir}；中间生成: [{proxies_list}]")
-
-
-def write_url_md(rows: list[dict[str, Any]], tables_dir: Path, out_url_path: Path) -> None:
-    """
-    基于读取到的 rows，生成 URL 数组版 Markdown 并写入到指定路径。
-
-    - 生成右栏 JSON 数组并与名称清单组成左右分栏；
-    - 确保输出目录存在；
-    - 写入完成后输出简要日志。
-    """
-    md_url = generate_url_md(rows)
-    out_url_path.parent.mkdir(parents=True, exist_ok=True)
-    with out_url_path.open("w", encoding="utf-8") as f:
-        f.write(md_url)
-    print(f"[OK] 写入 {out_url_path}，共 {len(rows)} 行数据。基础: {tables_dir}；中间生成: [2sb, gh_proxy, gitee]")
-
-
-def _write_json(output_path: Path, data: Any) -> None:
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with output_path.open("w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
-
-def generate_tables_outputs(rows: list[dict[str, Any]], outputs_dir: Path | None = None) -> None:
-    """写出 outputs 下的 tables.json 及代理变体（合并原 gen_tables.py 逻辑）。
-
-    - `tables.json`：包含 info.json 的字段，且 `url` 为仓库 raw 直链，`url_ori`为原字段。
-    - `tables_2sb.json` / `tables_gh_proxy.json`：对 `url` 应用前缀代理。
-    - `tables_gitee.json`：将 GitHub raw 直链转换为 gitee raw 直链。
-    """
-    base = outputs_dir or Path(__file__).resolve().parent.parent / "outputs"
-    base.mkdir(parents=True, exist_ok=True)
-
-    # 原始聚合（raw.githubusercontent.com 直链）
-    out_tables = base / "tables.json"
-    _write_json(out_tables, rows)
-    print(f"[OK] 写入 {out_tables}，共 {len(rows)} 条。")
-
-    # 代理变体映射
-    mapping: dict[Path, UrlProxyModifier] = {
-        base / "tables_2sb.json": PrefixUrlProxyModifier(PROXY_PREFIXES["2sb"]),
-        base / "tables_gh_proxy.json": PrefixUrlProxyModifier(PROXY_PREFIXES["gh_proxy"]),
-        base / "tables_gitee.json": GiteeRawUrlProxyModifier(),
-    }
-
-    for output_path, modifier in mapping.items():
-        proxied = apply_proxy_modifier(rows, modifier)
-        _write_json(output_path, proxied)
-        msg_prefix = modifier.prefix if isinstance(modifier, PrefixUrlProxyModifier) else ""
-        print(f"Wrote {output_path} with UrlProxyModifier ({modifier.__class__.__name__}, prefix: {msg_prefix})")
-
-
-def _git_capture(args: list[str]) -> str | None:
-    try:
-        out = subprocess.check_output(
-            args,
-            cwd=Path(__file__).resolve().parent.parent,
-            stderr=subprocess.DEVNULL,
-        )
-        return out.decode("utf-8").strip()
-    except Exception:
-        return None
-
-
-def _get_owner_repo() -> tuple[str | None, str | None]:
-    url = _git_capture(["git", "config", "--get", "remote.origin.url"])
-    if not url:
-        return None, None
-    m = re.search(
-        r"github\.com[:/](?P<owner>[^/]+)/(?P<repo>[^/]+?)(?:\.git)?$",
-        url.strip(),
-    )
-    if not m:
-        return None, None
-    return m.group("owner"), m.group("repo")
-
-
-def _get_branch() -> str:
-    branch = _git_capture(["git", "branch", "--show-current"])
-    if branch:
-        return branch
-    head = _git_capture(["git", "symbolic-ref", "refs/remotes/origin/HEAD"])
-    if head:
-        m = re.search(r"origin/(?P<branch>.+)$", head)
-        if m:
-            return m.group("branch")
-    return "main"
 
 
 def load_rows_from_tables(tables_dir: Path) -> list[dict[str, Any]]:
@@ -565,6 +498,73 @@ def build_proxy_maps(rows: list[dict[str, Any]]) -> dict[str, dict[str, str]]:
     return result
 
 
+def write_data_md(rows: list[dict[str, Any]], tables_dir: Path, out_md_path: Path) -> None:
+    """
+    基于读取到的 rows，生成表格版 Markdown 并写入到指定路径。
+
+    - 自动构建中间映射并生成表格内容；
+    - 确保输出目录存在；
+    - 写入完成后输出简要日志。
+    """
+    proxy_maps_by_label = build_proxy_maps(rows)
+    md_table = generate_data_md(rows, proxy_maps_by_label)
+    out_md_path.parent.mkdir(parents=True, exist_ok=True)
+    with out_md_path.open("w", encoding="utf-8") as f:
+        f.write(md_table)
+    proxies_list = ", ".join(sorted(proxy_maps_by_label.keys()))
+    print(f"[OK] 写入 {out_md_path}，共 {len(rows)} 行数据。基础: {tables_dir}；中间生成: [{proxies_list}]")
+
+
+def write_data_url_md(rows: list[dict[str, Any]], tables_dir: Path, out_url_path: Path) -> None:
+    """
+    基于读取到的 rows，生成 URL 数组版 Markdown 并写入到指定路径。
+
+    - 生成右栏 JSON 数组并与名称清单组成左右分栏；
+    - 确保输出目录存在；
+    - 写入完成后输出简要日志。
+    """
+    md_url = generate_data_url_md(rows)
+    out_url_path.parent.mkdir(parents=True, exist_ok=True)
+    with out_url_path.open("w", encoding="utf-8") as f:
+        f.write(md_url)
+    print(f"[OK] 写入 {out_url_path}，共 {len(rows)} 行数据。基础: {tables_dir}；中间生成: [2sb, gh_proxy, gitee]")
+
+
+def _write_json(output_path: Path, data: Any) -> None:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with output_path.open("w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def generate_tables_outputs(rows: list[dict[str, Any]], outputs_dir: Path | None = None) -> None:
+    """写出 outputs 下的 tables.json 及代理变体（合并原 gen_tables.py 逻辑）。
+
+    - `tables.json`：包含 info.json 的字段，且 `url` 为仓库 raw 直链，`url_ori`为原字段。
+    - `tables_2sb.json` / `tables_gh_proxy.json`：对 `url` 应用前缀代理。
+    - `tables_gitee.json`：将 GitHub raw 直链转换为 gitee raw 直链。
+    """
+    base = outputs_dir or Path(__file__).resolve().parent.parent / "outputs"
+    base.mkdir(parents=True, exist_ok=True)
+
+    # 原始聚合（raw.githubusercontent.com 直链）
+    out_tables = base / "tables.json"
+    _write_json(out_tables, rows)
+    print(f"[OK] 写入 {out_tables}，共 {len(rows)} 条。")
+
+    # 代理变体映射
+    mapping: dict[Path, UrlProxyModifier] = {
+        base / "tables_2sb.json": PrefixUrlProxyModifier(PROXY_PREFIXES["2sb"]),
+        base / "tables_gh_proxy.json": PrefixUrlProxyModifier(PROXY_PREFIXES["gh_proxy"]),
+        base / "tables_gitee.json": GiteeRawUrlProxyModifier(),
+    }
+
+    for output_path, modifier in mapping.items():
+        proxied = apply_proxy_modifier(rows, modifier)
+        _write_json(output_path, proxied)
+        msg_prefix = modifier.prefix if isinstance(modifier, PrefixUrlProxyModifier) else ""
+        print(f"Wrote {output_path} with UrlProxyModifier ({modifier.__class__.__name__}, prefix: {msg_prefix})")
+
+
 def main() -> None:
     args = sys.argv[1:]
     # Defaults: read base from tables/*/info.json; write to repo-root DATA.md
@@ -583,10 +583,10 @@ def main() -> None:
     rows = load_rows_from_tables(tables_dir)
 
     # 生成并写入表格版（输出函数1）
-    write_md_table(rows, tables_dir, out_md_path)
+    write_data_md(rows, tables_dir, out_md_path)
 
     # 生成并写入 URL 数组版（输出函数2）
-    write_url_md(rows, tables_dir, out_url_path)
+    write_data_url_md(rows, tables_dir, out_url_path)
 
     # 生成 outputs 下的 tables*.json（输出函数3，沿用原有实现）
     generate_tables_outputs(rows)
