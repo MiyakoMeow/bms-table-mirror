@@ -188,14 +188,22 @@ def generate_md(
 
                     # Build proxy links labeled by their xxx derived from filename
                     proxy_links: List[str] = []
-                    for _label, name_to_url in sorted(proxy_maps_by_label.items()):
+                    for label, name_to_url in sorted(proxy_maps_by_label.items()):
+                        # gitee 链接将被放入“仓库链接”列，不在“代理链接”中展示
+                        if label == "gitee":
+                            continue
                         u = to_str(name_to_url.get(name_raw, ""))
                         if u:
                             proxy_links.append(make_md_link(u))
 
                     # 使用域名作为显示文本
                     ori_link = make_md_link(url_ori)
-                    repo_link = make_md_link(url_repo)
+                    # 仓库链接：先放 gitee.com，再放 raw.githubusercontent.com
+                    gitee_url = GiteeRawUrlProxyModifier().modify_url(url_repo)
+                    gitee_link = make_md_link(gitee_url) if gitee_url else ""
+                    repo_link = " ".join(
+                        [s for s in [gitee_link, make_md_link(url_repo)] if s]
+                    )
                     proxy_link = " ".join(proxy_links) if proxy_links else ""
 
                     lines.append(
