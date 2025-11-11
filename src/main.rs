@@ -182,10 +182,10 @@ async fn fetch_and_save_table(
     info.name = header.name;
     info.symbol = header.symbol;
 
-    // 向info的extra字段写入header_json_url和data_json_url
-    *info.extra.entry("header_json_url".to_string()).or_default() =
+    // 向info的extra字段写入url_header_json和url_data_json
+    *info.extra.entry("url_header_json".to_string()).or_default() =
         serde_json::to_value(header_json_url)?;
-    *info.extra.entry("data_json_url".to_string()).or_default() =
+    *info.extra.entry("url_data_json".to_string()).or_default() =
         serde_json::to_value(data_json_url)?;
 
     // 写入info

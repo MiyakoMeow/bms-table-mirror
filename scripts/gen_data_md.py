@@ -304,7 +304,7 @@ def load_rows_from_tables(tables_dir: Path) -> List[Dict[str, Any]]:
 def build_proxy_maps(rows: List[Dict[str, Any]]) -> Dict[str, Dict[str, str]]:
     result: Dict[str, Dict[str, str]] = {}
 
-    # 反向代理（2sb 与 gh-proxy）：直接代理 info.json 中的 header_json_url 字段
+    # 反向代理（2sb 与 gh-proxy）：直接代理 info.json 中的 url_header_json 字段
     for label, prefix in (
         ("2sb", "https://get.2sb.org/"),
         ("gh_proxy", "https://gh-proxy.com/"),
@@ -313,7 +313,7 @@ def build_proxy_maps(rows: List[Dict[str, Any]]) -> Dict[str, Dict[str, str]]:
         name_to_url: Dict[str, str] = {}
         for item in rows:
             name = to_str(item.get("name", ""))
-            header_url = to_str(item.get("header_json_url", ""))
+            header_url = to_str(item.get("url_header_json", ""))
             if not (name and header_url):
                 continue
             proxied = modifier.modify_url(header_url)
