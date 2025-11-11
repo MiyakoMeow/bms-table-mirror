@@ -123,7 +123,9 @@ GITHUB_PROXY_MODIFIERS = {
 
 def _get_proxy_labels() -> list[str]:
     """统一提供日志中使用的“中间生成”标签来源。"""
-    labels = list(PROXY_PREFIXES.keys())
+    # 统一从两个映射中汇总标签（去重），并附加 gitee
+    labels_set = set(INTERMEDIATE_PROXY_MODIFIERS.keys()) | set(GITHUB_PROXY_MODIFIERS.keys())
+    labels = sorted(labels_set)
     labels.append("gitee")
     return labels
 
@@ -215,10 +217,9 @@ def derive_item_links(item: dict[str, Any]) -> dict[str, str]:
     返回的字典可能包含以下键（若不可用则缺失或为空字符串）：
     - ori: 原链接（url_ori）
     - gitee: 将仓库 raw 链接转换为 gitee raw 链接
-    - intermediate:2sb: 针对 header.json 的中间链接（get.2sb.org）
+    - intermediate:<label>: 针对 header.json 的中间链接（遍历 INTERMEDIATE_PROXY_MODIFIERS）
     - github: 仓库 raw 直链（raw.githubusercontent.com）
-    - github_proxy:2sb: GitHub raw 的 2sb 反向代理
-    - github_proxy:gh_proxy: GitHub raw 的 gh-proxy 反向代理
+    - github_proxy:<label>: GitHub raw 的反向代理（遍历 GITHUB_PROXY_MODIFIERS）
     """
     url_ori = to_str(item.get("url_ori", ""))
     repo_raw_url = to_str(item.get("url", ""))
@@ -237,17 +238,16 @@ def derive_item_links(item: dict[str, Any]) -> dict[str, str]:
         out["github"] = repo_raw_url
         # github proxies
         if repo_raw_url.startswith(REPO_RAW_PREFIX):
-            prox_2sb = GITHUB_PROXY_MODIFIERS["2sb"].modify_url(repo_raw_url)
-            if prox_2sb:
-                out["github_proxy:2sb"] = prox_2sb
-            prox_gh = GITHUB_PROXY_MODIFIERS["gh_proxy"].modify_url(repo_raw_url)
-            if prox_gh:
-                out["github_proxy:gh_proxy"] = prox_gh
+            for label, modifier in GITHUB_PROXY_MODIFIERS.items():
+                proxied = modifier.modify_url(repo_raw_url)
+                if proxied:
+                    out[f"github_proxy:{label}"] = proxied
 
     if header_url:
-        prox_intermediate = INTERMEDIATE_PROXY_MODIFIERS["2sb"].modify_url(header_url)
-        if prox_intermediate:
-            out["intermediate:2sb"] = prox_intermediate
+        for label, modifier in INTERMEDIATE_PROXY_MODIFIERS.items():
+            prox_intermediate = modifier.modify_url(header_url)
+            if prox_intermediate:
+                out[f"intermediate:{label}"] = prox_intermediate
 
     return out
 
@@ -296,18 +296,25 @@ def generate_data_md(rows: list[dict[str, Any]]) -> str:
                     ori_link = make_md_link(links.get("ori", ""))
                     gitee_link = make_md_link(links.get("gitee", ""))
                     github_link = make_md_link(links.get("github", ""))
-                    proxy_link = make_md_link(links.get("intermediate:2sb", ""))
+                    # 动态聚合所有中间链接
+                    intermediate_cells: list[str] = []
+                    for label in INTERMEDIATE_PROXY_MODIFIERS.keys():
+                        k = f"intermediate:{label}"
+                        if links.get(k):
+                            intermediate_cells.append(make_md_link(links[k]))
+                    proxy_link_cell = " ".join([p for p in intermediate_cells if p])
 
-                    github_proxy = []
-                    if links.get("github_proxy:2sb"):
-                        github_proxy.append(make_md_link(links["github_proxy:2sb"]))
-                    if links.get("github_proxy:gh_proxy"):
-                        github_proxy.append(make_md_link(links["github_proxy:gh_proxy"]))
-                    github_proxy_cell = " ".join([p for p in github_proxy if p])
+                    # 动态聚合所有 GitHub 反向中间链接
+                    github_proxy_cells: list[str] = []
+                    for label in GITHUB_PROXY_MODIFIERS.keys():
+                        k = f"github_proxy:{label}"
+                        if links.get(k):
+                            github_proxy_cells.append(make_md_link(links[k]))
+                    github_proxy_cell = " ".join([p for p in github_proxy_cells if p])
 
                     lines.append(
                         f"| {symbol_cell} | {name_cell} | {ori_link} | {gitee_link} "
-                        f"| {proxy_link} | {github_link} | {github_proxy_cell} |"
+                        f"| {proxy_link_cell} | {github_link} | {github_proxy_cell} |"
                     )
 
                 lines.append("")
@@ -367,29 +374,31 @@ def generate_data_url_md(rows: list[dict[str, Any]]) -> str:
     out_lines.extend(TIPS_DATA_URL_MD.splitlines())
     out_lines.append("")
 
-    # 展示顺序（与表格版一致）
-    order_keys = [
-        "ori",
-        "gitee",
-        "intermediate:2sb",
-        "github",
-        "github_proxy:2sb",
-        "github_proxy:gh_proxy",
-    ]
+    # 展示顺序（与表格版一致），按映射动态生成
+    order_keys: list[str] = []
+    order_keys.append("ori")
+    order_keys.append("gitee")
+    order_keys.extend([f"intermediate:{label}" for label in sorted(INTERMEDIATE_PROXY_MODIFIERS.keys())])
+    order_keys.append("github")
+    order_keys.extend([f"github_proxy:{label}" for label in sorted(GITHUB_PROXY_MODIFIERS.keys())])
 
     def _display_name_for_key(k: str) -> str:
         if k == "ori":
             return "原链接"
         if k == "gitee":
             return "Gitee直链"
-        if k == "intermediate:2sb":
-            return "中间链接 (get.2sb.org)"
         if k == "github":
             return "GitHub直链"
-        if k == "github_proxy:2sb":
-            return "GitHub中间链接 (get.2sb.org)"
-        if k == "github_proxy:gh_proxy":
-            return "GitHub中间链接 (gh-proxy.com)"
+        if k.startswith("intermediate:"):
+            label = k.split(":", 1)[1]
+            prefix = PROXY_PREFIXES.get(label, "")
+            domain = urlparse(prefix).netloc if prefix else label
+            return f"中间链接 ({domain})"
+        if k.startswith("github_proxy:"):
+            label = k.split(":", 1)[1]
+            prefix = PROXY_PREFIXES.get(label, "")
+            domain = urlparse(prefix).netloc if prefix else label
+            return f"GitHub中间链接 ({domain})"
         return k
 
     for tag_order in _sort_tag_order_keys(list(groups.keys())):
@@ -475,9 +484,8 @@ def load_rows_from_tables(tables_dir: Path) -> list[dict[str, Any]]:
 def build_proxy_maps(rows: list[dict[str, Any]]) -> dict[str, dict[str, str]]:
     result: dict[str, dict[str, str]] = {}
 
-    # 反向中间（2sb 与 gh-proxy）：直接中间 info.json 中的 url_header_json 字段
-    for label, prefix in PROXY_PREFIXES.items():
-        modifier = PrefixUrlProxyModifier(prefix)
+    # 中间链接：遍历 INTERMEDIATE_PROXY_MODIFIERS，直接中间 info.json 中的 url_header_json 字段
+    for label, modifier in INTERMEDIATE_PROXY_MODIFIERS.items():
         name_to_url: dict[str, str] = {}
         for item in rows:
             name = to_str(item.get("name", ""))
