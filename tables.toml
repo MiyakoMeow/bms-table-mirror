@@ -11,6 +11,8 @@ table_list = [
 add_table_url = [
   # 在此添加难度表 URL，例如：
   # "https://example.com/my-bms-table"
+  "https://bmstable.iidx.org/ereter-dpbms-easy-clear",
+  "https://bmstable.iidx.org/ereter-dpbms-hard-clear",
 ]
 
 disable_table_url = [
@@ -25,3 +27,7 @@ disable_table_url = [
 # [[replace_table_url]]
 # from = "https://old.example.com/table.html"
 # to = "https://new.example.com/table.html"
+
+[[replace_table_url]]
+from = "http://ereter.net/dpoverjoy"
+to = "https://ereter.net/static/analyzer/json/header.json"
