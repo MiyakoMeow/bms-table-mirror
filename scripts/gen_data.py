@@ -478,6 +478,8 @@ def load_rows_from_tables(tables_dir: Path) -> list[dict[str, Any]]:
         obj["url"] = raw_url
         rows.append(obj)
 
+    rows.sort(key=lambda item: (item.get("name", "").lower(), item.items()))
+
     return rows
 
 
