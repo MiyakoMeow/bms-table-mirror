@@ -179,7 +179,11 @@ async fn fetch_and_save_table(
     ) = fetch_table_full(client, info.url.as_str()).await?;
 
     // 使用 BmsTableHeader 的 name 作为目录名（经 sanitize）
-    let dir_name = sanitize_filename(&header.name);
+    let dir_name = sanitize_filename(&format!(
+        "[{}] {}",
+        header_json_url.domain().unwrap_or("unknown.domain"),
+        header.name
+    ));
     let out_dir = base_dir.join(dir_name);
 
     // 使用 BmsTableHeader 的 data_url 字段，直接用 String::replace 将其替换为 "data.json"
