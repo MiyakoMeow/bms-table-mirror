@@ -588,6 +588,20 @@
     "url_ori": "http://asaksaksmakm.web.fc2.com/event/2017/table.html"
   },
   {
+    "name": "BOFXV19PMS",
+    "symbol": "BOFXV19Plv",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXV19PMS/header.json",
+    "comment": "",
+    "date": "Wed Jun 09 2021 00:00:00 GMT+0900 (日本标准时间)",
+    "state": "",
+    "tag1": "EVENT",
+    "tag2": "Chart Event",
+    "tag_order": "4",
+    "url_data_json": "https://pmsdatabase.github.io/BOFXV19PMS/BOFXV19PMS_score.json",
+    "url_header_json": "https://pmsdatabase.github.io/BOFXV19PMS/BOFXV19PMS_header.json",
+    "url_ori": "https://pmsdifficulty.xxxxxxxx.jp/BOFXV19PMS.html"
+  },
+  {
     "name": "BOFXVII(BOF2021)PMS",
     "symbol": "BOFXVIIPlv",
     "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXVII%28BOF2021%29PMS/header.json",
@@ -2144,6 +2158,20 @@
     "url_ori": "https://wcko87.github.io/bms-table/obj-w.html"
   },
   {
+    "name": "obj.1008",
+    "symbol": "∞",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.1008/header.json",
+    "comment": "Uploader Filter by Hex",
+    "date": "",
+    "state": "",
+    "tag1": "SP",
+    "tag2": "Self-made Chart Only",
+    "tag_order": "1",
+    "url_data_json": "https://script.google.com/macros/s/AKfycbxMG5jqTHVZqSqE3dNkvc-QUcgm1-soiy0xMOJQn0ycCy2ZBGiy/exec?getfilteredhinanjoy=%7B%22a%22:%22a%22,%22f%22:%5B%7B%22c%22:%22noter%22,%22e%22:%22=%22,%22v%22:%221008%22,%22n%22:false%7D%5D%7D",
+    "url_header_json": "https://bmsdb.hexlataia.xyz/hinanjoy/header.json?name=obj.1008&symbol=%E2%88%9E&filter=%7B%22a%22%3A%22a%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%221008%22%2C%22n%22%3Afalse%7D%5D%7D",
+    "url_ori": "https://bmsdb.hexlataia.xyz/hinanjoy?name=obj.1008&symbol=%E2%88%9E&filter=%7B%22a%22%3A%22a%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%221008%22%2C%22n%22%3Afalse%7D%5D%7D"
+  },
+  {
     "name": "obj.7zs",
     "symbol": "7zs",
     "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.7zs/header.json",
@@ -2212,6 +2240,20 @@
     "url_data_json": "https://script.google.com/macros/s/AKfycbxMG5jqTHVZqSqE3dNkvc-QUcgm1-soiy0xMOJQn0ycCy2ZBGiy/exec?getfilteredhinanjoy=%7B%22a%22:%22o%22,%22f%22:%5B%7B%22c%22:%22noter%22,%22e%22:%22=%22,%22v%22:%22R1N%22,%22n%22:false%7D%5D%7D",
     "url_header_json": "https://bmsdb.hexlataia.xyz/hinanjoy/header.json?name=obj.R1N&symbol=R1N&filter=%7B%22a%22%3A%22o%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22R1N%22%2C%22n%22%3Afalse%7D%5D%7D",
     "url_ori": "https://bmsdb.hexlataia.xyz/hinanjoy?name=obj.R1N&symbol=R1N&filter=%7B%22a%22%3A%22o%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22R1N%22%2C%22n%22%3Afalse%7D%5D%7D"
+  },
+  {
+    "name": "obj.seojoon",
+    "symbol": "sj",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsj.github.io%5D%20obj.seojoon/header.json",
+    "comment": "",
+    "date": "Fri Oct 04 2024 00:00:00 GMT+0900 (日本标准时间)",
+    "state": "",
+    "tag1": "SP",
+    "tag2": "Self-made Chart Only",
+    "tag_order": "1",
+    "url_data_json": "https://script.google.com/macros/s/AKfycbyLkmoYIcHlpMJGzQ5EVPYATxckt7_DOwtnNIX3Cw7lktFe7DD9O7FgWC89dm78q0pQ/exec",
+    "url_header_json": "https://bmsj.github.io/header.json",
+    "url_ori": "https://bmsj.github.io/table.html"
   },
   {
     "name": "obj.XYZ",
@@ -2690,6 +2732,20 @@
     "url_ori": "https://9domu.web.fc2.com/sanity.html"
   },
   {
+    "name": "Satellite",
+    "symbol": "sl",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite/header.json",
+    "comment": "Stella 2.0",
+    "date": "Sun Jun 22 2025 00:00:00 GMT+0900 (日本标准时间)",
+    "state": "",
+    "tag1": "SP",
+    "tag2": "General",
+    "tag_order": "1",
+    "url_data_json": "https://stellabms.xyz/sl/score.json",
+    "url_header_json": "https://stellabms.xyz/sl/header.json",
+    "url_ori": "https://stellabms.xyz/sl/table.html"
+  },
+  {
     "name": "Satellite (Voting)",
     "symbol": "sl",
     "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20%28Voting%29/header.json",
@@ -2772,6 +2828,20 @@
     "url_data_json": "https://stellabms.xyz/sl/score_rec.json",
     "url_header_json": "https://stellabms.xyz/sl/header_rec.json",
     "url_ori": "https://stellabms.xyz/sl/table_rec.html"
+  },
+  {
+    "name": "Satellite Recommend (Voting)",
+    "symbol": "sl",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Recommend%20%28Voting%29/header.json",
+    "comment": "Stella 2.0",
+    "date": "Sun Jun 22 2025 00:00:00 GMT+0900 (日本标准时间)",
+    "state": "",
+    "tag1": "SP",
+    "tag2": "General",
+    "tag_order": "1",
+    "url_data_json": "https://stellabms.xyz/sl/score_rec_vote.json",
+    "url_header_json": "https://stellabms.xyz/sl/header_rec_vote.json",
+    "url_ori": "https://stellabms.xyz/sl/table_rec_vote.html"
   },
   {
     "name": "Satellite Sub",
@@ -3010,6 +3080,20 @@
     "url_data_json": "https://stellabms.xyz/st/score.json",
     "url_header_json": "https://stellabms.xyz/st/header.json",
     "url_ori": "https://stellabms.xyz/st/table.html"
+  },
+  {
+    "name": "Stella (Voting)",
+    "symbol": "st",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20%28Voting%29/header.json",
+    "comment": "Stella 2.0",
+    "date": "Sun Jun 22 2025 00:00:00 GMT+0900 (日本标准时间)",
+    "state": "",
+    "tag1": "SP",
+    "tag2": "General",
+    "tag_order": "1",
+    "url_data_json": "https://stellabms.xyz/st/score_vote.json",
+    "url_header_json": "https://stellabms.xyz/st/header_vote.json",
+    "url_ori": "https://stellabms.xyz/st/table_vote.html"
   },
   {
     "name": "Stella EASY",
@@ -3318,6 +3402,20 @@
     "url_data_json": "https://script.google.com/macros/s/AKfycbxMG5jqTHVZqSqE3dNkvc-QUcgm1-soiy0xMOJQn0ycCy2ZBGiy/exec?getfilteredhinanjoy=%7B%22a%22:%22a%22,%22f%22:%5B%7B%22c%22:%22noter%22,%22e%22:%22=%22,%22v%22:%22Thasyka%22,%22n%22:false%7D%5D%7D",
     "url_header_json": "https://bmsdb.hexlataia.xyz/hinanjoy/header.json?name=Thasyka&symbol=Th&filter=%7B%22a%22%3A%22a%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22Thasyka%22%2C%22n%22%3Afalse%7D%5D%7D",
     "url_ori": "https://bmsdb.hexlataia.xyz/hinanjoy?name=Thasyka&symbol=Th&filter=%7B%22a%22%3A%22a%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22Thasyka%22%2C%22n%22%3Afalse%7D%5D%7D"
+  },
+  {
+    "name": "th差分",
+    "symbol": "θ",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bth-bms.github.io%5D%20th%E5%B7%AE%E5%88%86/header.json",
+    "comment": "",
+    "date": "Sat Sep 20 2025 00:00:00 GMT+0900 (日本标准时间)",
+    "state": "",
+    "tag1": "SP",
+    "tag2": "Self-made Chart Only",
+    "tag_order": "1",
+    "url_data_json": "https://script.google.com/macros/s/AKfycbz3E_e7IEHIutJkryD31SVeyNoaAtPZipHgpfBtlpECpjJYDlAjA0N6G_RwSjZVhyVdLQ/exec",
+    "url_header_json": "https://th-bms.github.io/table/header.json",
+    "url_ori": "https://th-bms.github.io/table/"
   },
   {
     "name": "Timing Table (仮)",
@@ -4482,6 +4580,20 @@
     "url_ori": "https://pmsdifficulty.xxxxxxxx.jp/subtable/included/_normal_table.html"
   },
   {
+    "name": "差分アップローダー難易度表",
+    "symbol": "ろだ",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bupl.konjiki.jp%5D%20%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+    "comment": "",
+    "date": "",
+    "state": "",
+    "tag1": "SP",
+    "tag2": "General",
+    "tag_order": "1",
+    "url_data_json": "http://upl.konjiki.jp/data/uploader.json",
+    "url_header_json": "http://upl.konjiki.jp/data/header.json",
+    "url_ori": "http://upl.konjiki.jp/"
+  },
+  {
     "name": "差分置き場",
     "symbol": "★",
     "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsiromarudaisuki.github.io%5D%20%E5%B7%AE%E5%88%86%E7%BD%AE%E3%81%8D%E5%A0%B4/header.json",
@@ -4986,6 +5098,20 @@
     "url_ori": "https://deltabms.yaruki0.net/table/data/insane_head.json"
   },
   {
+    "name": "発狂PMSデータベース(lv46～)",
+    "symbol": "P●",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E7%99%BA%E7%8B%82PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%28lv46%EF%BD%9E%29/header.json",
+    "comment": "",
+    "date": "",
+    "state": "",
+    "tag1": "PMS",
+    "tag2": "General",
+    "tag_order": "3",
+    "url_data_json": "https://script.google.com/macros/s/AKfycbxxIG6DRM_yFNYV6yMWGhZusbcGNGoZmVKOVcANDge7ayL_WemCfKthT0_qmdKdXc-z/exec",
+    "url_header_json": "https://pmsdatabase.github.io/insane_pmsdatabase/insane_pmsdatabase_header.json",
+    "url_ori": "https://pmsdifficulty.xxxxxxxx.jp/insane_PMSdifficulty.html"
+  },
+  {
     "name": "発狂PMS表外高難易度案内所",
     "symbol": "・",
     "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80/header.json",
@@ -5250,6 +5376,20 @@
     "url_data_json": "https://yaruki0.net/DPlibrary/bluvel/score.json",
     "url_header_json": "https://yaruki0.net/DPlibrary/bluvel/header.json",
     "url_ori": "https://yaruki0.net/DPlibrary/bluvel/"
+  },
+  {
+    "name": "自分で楽しむためのDP譜面集(仮)",
+    "symbol": "DPFav",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnyamdxy.web.fc2.com%5D%20%E8%87%AA%E5%88%86%E3%81%A7%E6%A5%BD%E3%81%97%E3%82%80%E3%81%9F%E3%82%81%E3%81%AEDP%E8%AD%9C%E9%9D%A2%E9%9B%86%28%E4%BB%AE%29/header.json",
+    "comment": "",
+    "date": "Sat Jan 01 2022 00:00:00 GMT+0900 (日本标准时间)",
+    "state": "",
+    "tag1": "DP",
+    "tag2": "Personal",
+    "tag_order": "2",
+    "url_data_json": "https://script.google.com/macros/s/AKfycbxZHbtNPrTf3w93H7N3FsdYNpiiEHrCXinRHs26anI8YuAXwHSH/exec",
+    "url_header_json": "https://nyamdxy.web.fc2.com/header_dpfav.json",
+    "url_ori": "https://nyamdxy.web.fc2.com/table_dpfav.html"
   },
   {
     "name": "薄杏",
