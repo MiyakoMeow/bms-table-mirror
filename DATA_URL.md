@@ -32,8 +32,10 @@ NEW GENERATION 通常難易度表
 Overjoy
 Overjoy (旧)
 Overjoy隔離
+Satellite
 Satellite (Voting)
 Satellite Recommend
+Satellite Recommend (Voting)
 Satellite Sub
 Solar
 Solar (Voting)
@@ -41,6 +43,7 @@ Solar Recommend
 Solar Recommend (Voting)
 Solar Sub
 Stella
+Stella (Voting)
 Stella Recommend
 Stella Recommend (Voting)
 Stella Sub
@@ -49,6 +52,7 @@ Supernova (Voting)
 Supernova Recommend
 Supernova Recommend (Voting)
 Supernova Sub
+差分アップローダー難易度表
 発狂BMS第2難易度表 (旧)
 発狂BMS第2難易度表+ (旧)
 発狂BMS難易度表
@@ -77,8 +81,10 @@ Supernova Sub
   "http://lr2.sakura.ne.jp/overjoy.php",
   "https://darksabun.club/table/archive/old-overjoy/",
   "https://darksabun.club/table/archive/old-overjoy-kakuri/",
+  "https://stellabms.xyz/sl/table.html",
   "https://stellabms.xyz/sl/table_vote.html",
   "https://stellabms.xyz/sl/table_rec.html",
+  "https://stellabms.xyz/sl/table_rec_vote.html",
   "https://stellabms.xyz/sl/table_sub.html",
   "https://stellabms.xyz/so/table.html",
   "https://stellabms.xyz/so/table_vote.html",
@@ -86,6 +92,7 @@ Supernova Sub
   "https://stellabms.xyz/so/table_rec_vote.html",
   "https://stellabms.xyz/so/table_sub.html",
   "https://stellabms.xyz/st/table.html",
+  "https://stellabms.xyz/st/table_vote.html",
   "https://stellabms.xyz/st/table_rec.html",
   "https://stellabms.xyz/st/table_rec_vote.html",
   "https://stellabms.xyz/st/table_sub.html",
@@ -94,6 +101,7 @@ Supernova Sub
   "https://stellabms.xyz/sn/table_rec.html",
   "https://stellabms.xyz/sn/table_rec_vote.html",
   "https://stellabms.xyz/sn/table_sub.html",
+  "http://upl.konjiki.jp/",
   "https://darksabun.club/table/archive/old-insane2/",
   "https://darksabun.club/table/archive/old-insane2-plus/",
   "https://darksabun.club/table/archive/insane1/",
@@ -129,8 +137,10 @@ NEW GENERATION 通常難易度表
 Overjoy
 Overjoy (旧)
 Overjoy隔離
+Satellite
 Satellite (Voting)
 Satellite Recommend
+Satellite Recommend (Voting)
 Satellite Sub
 Solar
 Solar (Voting)
@@ -138,6 +148,7 @@ Solar Recommend
 Solar Recommend (Voting)
 Solar Sub
 Stella
+Stella (Voting)
 Stella Recommend
 Stella Recommend (Voting)
 Stella Sub
@@ -146,6 +157,7 @@ Supernova (Voting)
 Supernova Recommend
 Supernova Recommend (Voting)
 Supernova Sub
+差分アップローダー難易度表
 発狂BMS第2難易度表 (旧)
 発狂BMS第2難易度表+ (旧)
 発狂BMS難易度表
@@ -174,8 +186,10 @@ Supernova Sub
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Blr2.sakura.ne.jp%5D%20Overjoy/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20Overjoy%20%28%E6%97%A7%29/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20Overjoy%E9%9A%94%E9%9B%A2/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Satellite/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Satellite%20%28Voting%29/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Recommend/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Recommend%20%28Voting%29/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Sub/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Solar/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Solar%20%28Voting%29/header.json",
@@ -183,6 +197,7 @@ Supernova Sub
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Solar%20Recommend%20%28Voting%29/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Solar%20Sub/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Stella/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Stella%20%28Voting%29/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Stella%20Recommend/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Stella%20Recommend%20%28Voting%29/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Stella%20Sub/header.json",
@@ -191,6 +206,7 @@ Supernova Sub
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Recommend/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Recommend%20%28Voting%29/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Sub/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bupl.konjiki.jp%5D%20%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28%E6%97%A7%29/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%2B%20%28%E6%97%A7%29/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
@@ -226,8 +242,10 @@ NEW GENERATION 通常難易度表
 Overjoy
 Overjoy (旧)
 Overjoy隔離
+Satellite
 Satellite (Voting)
 Satellite Recommend
+Satellite Recommend (Voting)
 Satellite Sub
 Solar
 Solar (Voting)
@@ -235,6 +253,7 @@ Solar Recommend
 Solar Recommend (Voting)
 Solar Sub
 Stella
+Stella (Voting)
 Stella Recommend
 Stella Recommend (Voting)
 Stella Sub
@@ -243,6 +262,7 @@ Supernova (Voting)
 Supernova Recommend
 Supernova Recommend (Voting)
 Supernova Sub
+差分アップローダー難易度表
 発狂BMS第2難易度表 (旧)
 発狂BMS第2難易度表+ (旧)
 発狂BMS難易度表
@@ -271,8 +291,10 @@ Supernova Sub
   "https://get.2sb.org/http://lr2.sakura.ne.jp/data/header.json",
   "https://get.2sb.org/https://darksabun.club/table/archive/old-overjoy/header.json",
   "https://get.2sb.org/https://darksabun.club/table/archive/old-overjoy-kakuri/header.json",
+  "https://get.2sb.org/https://stellabms.xyz/sl/header.json",
   "https://get.2sb.org/https://stellabms.xyz/sl/header_vote.json",
   "https://get.2sb.org/https://stellabms.xyz/sl/header_rec.json",
+  "https://get.2sb.org/https://stellabms.xyz/sl/header_rec_vote.json",
   "https://get.2sb.org/https://stellabms.xyz/sl/header_sub.json",
   "https://get.2sb.org/https://stellabms.xyz/so/header.json",
   "https://get.2sb.org/https://stellabms.xyz/so/header_vote.json",
@@ -280,6 +302,7 @@ Supernova Sub
   "https://get.2sb.org/https://stellabms.xyz/so/header_rec_vote.json",
   "https://get.2sb.org/https://stellabms.xyz/so/header_sub.json",
   "https://get.2sb.org/https://stellabms.xyz/st/header.json",
+  "https://get.2sb.org/https://stellabms.xyz/st/header_vote.json",
   "https://get.2sb.org/https://stellabms.xyz/st/header_rec.json",
   "https://get.2sb.org/https://stellabms.xyz/st/header_rec_vote.json",
   "https://get.2sb.org/https://stellabms.xyz/st/header_sub.json",
@@ -288,6 +311,7 @@ Supernova Sub
   "https://get.2sb.org/https://stellabms.xyz/sn/header_rec.json",
   "https://get.2sb.org/https://stellabms.xyz/sn/header_rec_vote.json",
   "https://get.2sb.org/https://stellabms.xyz/sn/header_sub.json",
+  "https://get.2sb.org/http://upl.konjiki.jp/data/header.json",
   "https://get.2sb.org/https://darksabun.club/table/archive/old-insane2/header.json",
   "https://get.2sb.org/https://darksabun.club/table/archive/old-insane2-plus/header.json",
   "https://get.2sb.org/https://darksabun.club/table/archive/insane1/header.json",
@@ -323,8 +347,10 @@ NEW GENERATION 通常難易度表
 Overjoy
 Overjoy (旧)
 Overjoy隔離
+Satellite
 Satellite (Voting)
 Satellite Recommend
+Satellite Recommend (Voting)
 Satellite Sub
 Solar
 Solar (Voting)
@@ -332,6 +358,7 @@ Solar Recommend
 Solar Recommend (Voting)
 Solar Sub
 Stella
+Stella (Voting)
 Stella Recommend
 Stella Recommend (Voting)
 Stella Sub
@@ -340,6 +367,7 @@ Supernova (Voting)
 Supernova Recommend
 Supernova Recommend (Voting)
 Supernova Sub
+差分アップローダー難易度表
 発狂BMS第2難易度表 (旧)
 発狂BMS第2難易度表+ (旧)
 発狂BMS難易度表
@@ -368,8 +396,10 @@ Supernova Sub
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blr2.sakura.ne.jp%5D%20Overjoy/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Overjoy%20%28%E6%97%A7%29/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Overjoy%E9%9A%94%E9%9B%A2/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20%28Voting%29/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Recommend/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Recommend%20%28Voting%29/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Sub/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20%28Voting%29/header.json",
@@ -377,6 +407,7 @@ Supernova Sub
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20Recommend%20%28Voting%29/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20Sub/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20%28Voting%29/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Recommend/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Recommend%20%28Voting%29/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Sub/header.json",
@@ -385,6 +416,7 @@ Supernova Sub
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Recommend/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Recommend%20%28Voting%29/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Sub/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bupl.konjiki.jp%5D%20%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28%E6%97%A7%29/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%2B%20%28%E6%97%A7%29/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
@@ -420,8 +452,10 @@ NEW GENERATION 通常難易度表
 Overjoy
 Overjoy (旧)
 Overjoy隔離
+Satellite
 Satellite (Voting)
 Satellite Recommend
+Satellite Recommend (Voting)
 Satellite Sub
 Solar
 Solar (Voting)
@@ -429,6 +463,7 @@ Solar Recommend
 Solar Recommend (Voting)
 Solar Sub
 Stella
+Stella (Voting)
 Stella Recommend
 Stella Recommend (Voting)
 Stella Sub
@@ -437,6 +472,7 @@ Supernova (Voting)
 Supernova Recommend
 Supernova Recommend (Voting)
 Supernova Sub
+差分アップローダー難易度表
 発狂BMS第2難易度表 (旧)
 発狂BMS第2難易度表+ (旧)
 発狂BMS難易度表
@@ -465,8 +501,10 @@ Supernova Sub
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blr2.sakura.ne.jp%5D%20Overjoy/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Overjoy%20%28%E6%97%A7%29/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Overjoy%E9%9A%94%E9%9B%A2/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20%28Voting%29/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Recommend/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Recommend%20%28Voting%29/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Sub/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20%28Voting%29/header.json",
@@ -474,6 +512,7 @@ Supernova Sub
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20Recommend%20%28Voting%29/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20Sub/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20%28Voting%29/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Recommend/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Recommend%20%28Voting%29/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Sub/header.json",
@@ -482,6 +521,7 @@ Supernova Sub
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Recommend/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Recommend%20%28Voting%29/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Sub/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bupl.konjiki.jp%5D%20%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28%E6%97%A7%29/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%2B%20%28%E6%97%A7%29/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
@@ -517,8 +557,10 @@ NEW GENERATION 通常難易度表
 Overjoy
 Overjoy (旧)
 Overjoy隔離
+Satellite
 Satellite (Voting)
 Satellite Recommend
+Satellite Recommend (Voting)
 Satellite Sub
 Solar
 Solar (Voting)
@@ -526,6 +568,7 @@ Solar Recommend
 Solar Recommend (Voting)
 Solar Sub
 Stella
+Stella (Voting)
 Stella Recommend
 Stella Recommend (Voting)
 Stella Sub
@@ -534,6 +577,7 @@ Supernova (Voting)
 Supernova Recommend
 Supernova Recommend (Voting)
 Supernova Sub
+差分アップローダー難易度表
 発狂BMS第2難易度表 (旧)
 発狂BMS第2難易度表+ (旧)
 発狂BMS難易度表
@@ -562,8 +606,10 @@ Supernova Sub
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blr2.sakura.ne.jp%5D%20Overjoy/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Overjoy%20%28%E6%97%A7%29/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Overjoy%E9%9A%94%E9%9B%A2/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20%28Voting%29/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Recommend/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Recommend%20%28Voting%29/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Sub/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20%28Voting%29/header.json",
@@ -571,6 +617,7 @@ Supernova Sub
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20Recommend%20%28Voting%29/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20Sub/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20%28Voting%29/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Recommend/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Recommend%20%28Voting%29/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Sub/header.json",
@@ -579,6 +626,7 @@ Supernova Sub
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Recommend/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Recommend%20%28Voting%29/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Sub/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bupl.konjiki.jp%5D%20%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28%E6%97%A7%29/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%2B%20%28%E6%97%A7%29/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
@@ -2278,11 +2326,13 @@ NASA式難易度表
 numuther renda sabun
 numuther sabun
 obj. w
+obj.1008
 obj.7zs
 obj.fhyu
 obj.Lucy
 obj.nov
 obj.R1N
+obj.seojoon
 obj.XYZ
 obj.スノート
 obj:slash SP
@@ -2303,6 +2353,7 @@ Snowzero難易度表
 SUZUKAZEΛonly難易度
 swa倉庫
 Thasyka
+th差分
 Triforce's Sabun
 Tristan97 Insane Sabun Table
 Tristan97 Normal Table
@@ -2397,11 +2448,13 @@ ZENSOQ difficulty table
   "https://numuther.web.fc2.com/table_tate.html",
   "https://numuther.web.fc2.com/table.html",
   "https://wcko87.github.io/bms-table/obj-w.html",
+  "https://bmsdb.hexlataia.xyz/hinanjoy?name=obj.1008&amp;symbol=%E2%88%9E&amp;filter=%7B%22a%22%3A%22a%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%221008%22%2C%22n%22%3Afalse%7D%5D%7D",
   "https://bms.hexlataia.xyz/tables/convert/obj.7zs/table.html",
   "https://bmsdb.hexlataia.xyz/hinanjoy?name=obj.fhyu&amp;symbol=fh&amp;filter=%7B%22a%22%3A%22o%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22fhyu%22%2C%22n%22%3Afalse%7D%5D%7D",
   "https://bms.hexlataia.xyz/tables/convert/obj.Lucy/table.html",
   "https://bms.hexlataia.xyz/tables/convert/obj.nov/table.html",
   "https://bmsdb.hexlataia.xyz/hinanjoy?name=obj.R1N&amp;symbol=R1N&amp;filter=%7B%22a%22%3A%22o%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22R1N%22%2C%22n%22%3Afalse%7D%5D%7D",
+  "https://bmsj.github.io/table.html",
   "https://xxyz.github.io/objxyz/",
   "https://bmsdb.hexlataia.xyz/hinanjoy?name=obj.%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88&amp;symbol=%E2%9D%85&amp;filter=%7B%22a%22%3A%22o%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88%22%2C%22n%22%3Afalse%7D%5D%7D",
   "https://darksabun.club/table/archive/slash-sp/",
@@ -2422,6 +2475,7 @@ ZENSOQ difficulty table
   "https://darksabun.club/table/archive/suzukaze-only/",
   "http://swamelo.web.fc2.com/01_HK.html",
   "https://bmsdb.hexlataia.xyz/hinanjoy?name=Thasyka&amp;symbol=Th&amp;filter=%7B%22a%22%3A%22a%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22Thasyka%22%2C%22n%22%3Afalse%7D%5D%7D",
+  "https://th-bms.github.io/table/",
   "https://trfce.github.io/",
   "https://tristandavis97.github.io/Tables/Insane_Sabun.html",
   "https://tristandavis97.github.io/Tables/Normal_Sabun.html",
@@ -2523,11 +2577,13 @@ NASA式難易度表
 numuther renda sabun
 numuther sabun
 obj. w
+obj.1008
 obj.7zs
 obj.fhyu
 obj.Lucy
 obj.nov
 obj.R1N
+obj.seojoon
 obj.XYZ
 obj.スノート
 obj:slash SP
@@ -2548,6 +2604,7 @@ Snowzero難易度表
 SUZUKAZEΛonly難易度
 swa倉庫
 Thasyka
+th差分
 Triforce's Sabun
 Tristan97 Insane Sabun Table
 Tristan97 Normal Table
@@ -2642,11 +2699,13 @@ ZENSOQ difficulty table
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnumuther.web.fc2.com%5D%20numuther%20renda%20sabun/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnumuther.web.fc2.com%5D%20numuther%20sabun/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bwcko87.github.io%5D%20obj.%20w/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.1008/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.7zs/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.fhyu/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.Lucy/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.nov/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.R1N/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbmsj.github.io%5D%20obj.seojoon/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bxxyz.github.io%5D%20obj.XYZ/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20obj%EF%BC%9Aslash%20SP/header.json",
@@ -2667,6 +2726,7 @@ ZENSOQ difficulty table
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20SUZUKAZE%CE%9Bonly%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bswamelo.web.fc2.com%5D%20swa%E5%80%89%E5%BA%AB/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20Thasyka/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bth-bms.github.io%5D%20th%E5%B7%AE%E5%88%86/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Btrfce.github.io%5D%20Triforce%27s%20Sabun/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Btristandavis97.github.io%5D%20Tristan97%20Insane%20Sabun%20Table/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Btristandavis97.github.io%5D%20Tristan97%20Normal%20Table/header.json",
@@ -2768,11 +2828,13 @@ NASA式難易度表
 numuther renda sabun
 numuther sabun
 obj. w
+obj.1008
 obj.7zs
 obj.fhyu
 obj.Lucy
 obj.nov
 obj.R1N
+obj.seojoon
 obj.XYZ
 obj.スノート
 obj:slash SP
@@ -2793,6 +2855,7 @@ Snowzero難易度表
 SUZUKAZEΛonly難易度
 swa倉庫
 Thasyka
+th差分
 Triforce's Sabun
 Tristan97 Insane Sabun Table
 Tristan97 Normal Table
@@ -2887,11 +2950,13 @@ ZENSOQ difficulty table
   "https://get.2sb.org/https://numuther.web.fc2.com/header_tate.json",
   "https://get.2sb.org/https://numuther.web.fc2.com/header.json",
   "https://get.2sb.org/https://wcko87.github.io/bms-table/header.json",
+  "https://get.2sb.org/https://bmsdb.hexlataia.xyz/hinanjoy/header.json?name=obj.1008&amp;symbol=%E2%88%9E&amp;filter=%7B%22a%22%3A%22a%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%221008%22%2C%22n%22%3Afalse%7D%5D%7D",
   "https://get.2sb.org/https://bms.hexlataia.xyz/tables/convert/obj.7zs/header.json",
   "https://get.2sb.org/https://bmsdb.hexlataia.xyz/hinanjoy/header.json?name=obj.fhyu&amp;symbol=fh&amp;filter=%7B%22a%22%3A%22o%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22fhyu%22%2C%22n%22%3Afalse%7D%5D%7D",
   "https://get.2sb.org/https://bms.hexlataia.xyz/tables/convert/obj.Lucy/header.json",
   "https://get.2sb.org/https://bms.hexlataia.xyz/tables/convert/obj.nov/header.json",
   "https://get.2sb.org/https://bmsdb.hexlataia.xyz/hinanjoy/header.json?name=obj.R1N&amp;symbol=R1N&amp;filter=%7B%22a%22%3A%22o%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22R1N%22%2C%22n%22%3Afalse%7D%5D%7D",
+  "https://get.2sb.org/https://bmsj.github.io/header.json",
   "https://get.2sb.org/https://xxyz.github.io/objxyz/data/header.json",
   "https://get.2sb.org/https://bmsdb.hexlataia.xyz/hinanjoy/header.json?name=obj.%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88&amp;symbol=%E2%9D%85&amp;filter=%7B%22a%22%3A%22o%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88%22%2C%22n%22%3Afalse%7D%5D%7D",
   "https://get.2sb.org/https://darksabun.club/table/archive/slash-sp/header.json",
@@ -2912,6 +2977,7 @@ ZENSOQ difficulty table
   "https://get.2sb.org/https://darksabun.club/table/archive/suzukaze-only/header.json",
   "https://get.2sb.org/http://swamelo.web.fc2.com/header.json",
   "https://get.2sb.org/https://bmsdb.hexlataia.xyz/hinanjoy/header.json?name=Thasyka&amp;symbol=Th&amp;filter=%7B%22a%22%3A%22a%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22Thasyka%22%2C%22n%22%3Afalse%7D%5D%7D",
+  "https://get.2sb.org/https://th-bms.github.io/table/header.json",
   "https://get.2sb.org/https://trfce.github.io/assets/json/header.json",
   "https://get.2sb.org/https://tristandavis97.github.io/Tables/T97_Insane_Sabun_header.json",
   "https://get.2sb.org/https://tristandavis97.github.io/Tables/T97_Normal_Table_header.json",
@@ -3013,11 +3079,13 @@ NASA式難易度表
 numuther renda sabun
 numuther sabun
 obj. w
+obj.1008
 obj.7zs
 obj.fhyu
 obj.Lucy
 obj.nov
 obj.R1N
+obj.seojoon
 obj.XYZ
 obj.スノート
 obj:slash SP
@@ -3038,6 +3106,7 @@ Snowzero難易度表
 SUZUKAZEΛonly難易度
 swa倉庫
 Thasyka
+th差分
 Triforce's Sabun
 Tristan97 Insane Sabun Table
 Tristan97 Normal Table
@@ -3132,11 +3201,13 @@ ZENSOQ difficulty table
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnumuther.web.fc2.com%5D%20numuther%20renda%20sabun/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnumuther.web.fc2.com%5D%20numuther%20sabun/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwcko87.github.io%5D%20obj.%20w/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.1008/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.7zs/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.fhyu/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.Lucy/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.nov/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.R1N/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsj.github.io%5D%20obj.seojoon/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bxxyz.github.io%5D%20obj.XYZ/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20obj%EF%BC%9Aslash%20SP/header.json",
@@ -3157,6 +3228,7 @@ ZENSOQ difficulty table
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20SUZUKAZE%CE%9Bonly%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bswamelo.web.fc2.com%5D%20swa%E5%80%89%E5%BA%AB/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20Thasyka/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bth-bms.github.io%5D%20th%E5%B7%AE%E5%88%86/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btrfce.github.io%5D%20Triforce%27s%20Sabun/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btristandavis97.github.io%5D%20Tristan97%20Insane%20Sabun%20Table/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btristandavis97.github.io%5D%20Tristan97%20Normal%20Table/header.json",
@@ -3258,11 +3330,13 @@ NASA式難易度表
 numuther renda sabun
 numuther sabun
 obj. w
+obj.1008
 obj.7zs
 obj.fhyu
 obj.Lucy
 obj.nov
 obj.R1N
+obj.seojoon
 obj.XYZ
 obj.スノート
 obj:slash SP
@@ -3283,6 +3357,7 @@ Snowzero難易度表
 SUZUKAZEΛonly難易度
 swa倉庫
 Thasyka
+th差分
 Triforce's Sabun
 Tristan97 Insane Sabun Table
 Tristan97 Normal Table
@@ -3377,11 +3452,13 @@ ZENSOQ difficulty table
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnumuther.web.fc2.com%5D%20numuther%20renda%20sabun/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnumuther.web.fc2.com%5D%20numuther%20sabun/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwcko87.github.io%5D%20obj.%20w/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.1008/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.7zs/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.fhyu/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.Lucy/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.nov/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.R1N/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsj.github.io%5D%20obj.seojoon/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bxxyz.github.io%5D%20obj.XYZ/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20obj%EF%BC%9Aslash%20SP/header.json",
@@ -3402,6 +3479,7 @@ ZENSOQ difficulty table
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20SUZUKAZE%CE%9Bonly%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bswamelo.web.fc2.com%5D%20swa%E5%80%89%E5%BA%AB/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20Thasyka/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bth-bms.github.io%5D%20th%E5%B7%AE%E5%88%86/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btrfce.github.io%5D%20Triforce%27s%20Sabun/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btristandavis97.github.io%5D%20Tristan97%20Insane%20Sabun%20Table/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btristandavis97.github.io%5D%20Tristan97%20Normal%20Table/header.json",
@@ -3503,11 +3581,13 @@ NASA式難易度表
 numuther renda sabun
 numuther sabun
 obj. w
+obj.1008
 obj.7zs
 obj.fhyu
 obj.Lucy
 obj.nov
 obj.R1N
+obj.seojoon
 obj.XYZ
 obj.スノート
 obj:slash SP
@@ -3528,6 +3608,7 @@ Snowzero難易度表
 SUZUKAZEΛonly難易度
 swa倉庫
 Thasyka
+th差分
 Triforce's Sabun
 Tristan97 Insane Sabun Table
 Tristan97 Normal Table
@@ -3622,11 +3703,13 @@ ZENSOQ difficulty table
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnumuther.web.fc2.com%5D%20numuther%20renda%20sabun/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnumuther.web.fc2.com%5D%20numuther%20sabun/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwcko87.github.io%5D%20obj.%20w/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.1008/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.7zs/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.fhyu/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.Lucy/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.nov/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.R1N/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsj.github.io%5D%20obj.seojoon/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bxxyz.github.io%5D%20obj.XYZ/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20obj%EF%BC%9Aslash%20SP/header.json",
@@ -3647,6 +3730,7 @@ ZENSOQ difficulty table
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20SUZUKAZE%CE%9Bonly%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bswamelo.web.fc2.com%5D%20swa%E5%80%89%E5%BA%AB/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20Thasyka/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bth-bms.github.io%5D%20th%E5%B7%AE%E5%88%86/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btrfce.github.io%5D%20Triforce%27s%20Sabun/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btristandavis97.github.io%5D%20Tristan97%20Insane%20Sabun%20Table/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btristandavis97.github.io%5D%20Tristan97%20Normal%20Table/header.json",
@@ -4029,6 +4113,7 @@ NY4M難易度表(仮)
 発狂14keyBMS闇鍋難易度表
 発狂DPBMS難度推定表 EASY
 発狂DPBMS難度推定表 HARD
+自分で楽しむためのDP譜面集(仮)
 </code></pre>
 </td>
 <td style="width:50%; vertical-align:top;">
@@ -4049,7 +4134,8 @@ NY4M難易度表(仮)
   "https://kenpel.github.io/objeCraft/table10/",
   "https://kenpel.github.io/objeCraft/table14/",
   "https://kenpel.github.io/objeCraft/estimate/easy.html",
-  "https://kenpel.github.io/objeCraft/estimate/hard.html"
+  "https://kenpel.github.io/objeCraft/estimate/hard.html",
+  "https://nyamdxy.web.fc2.com/table_dpfav.html"
 ]
 </code></pre>
 </td>
@@ -4078,6 +4164,7 @@ NY4M難易度表(仮)
 発狂14keyBMS闇鍋難易度表
 発狂DPBMS難度推定表 EASY
 発狂DPBMS難度推定表 HARD
+自分で楽しむためのDP譜面集(仮)
 </code></pre>
 </td>
 <td style="width:50%; vertical-align:top;">
@@ -4098,7 +4185,8 @@ NY4M難易度表(仮)
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%8210keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%8214keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json"
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnyamdxy.web.fc2.com%5D%20%E8%87%AA%E5%88%86%E3%81%A7%E6%A5%BD%E3%81%97%E3%82%80%E3%81%9F%E3%82%81%E3%81%AEDP%E8%AD%9C%E9%9D%A2%E9%9B%86%28%E4%BB%AE%29/header.json"
 ]
 </code></pre>
 </td>
@@ -4127,6 +4215,7 @@ NY4M難易度表(仮)
 発狂14keyBMS闇鍋難易度表
 発狂DPBMS難度推定表 EASY
 発狂DPBMS難度推定表 HARD
+自分で楽しむためのDP譜面集(仮)
 </code></pre>
 </td>
 <td style="width:50%; vertical-align:top;">
@@ -4147,7 +4236,8 @@ NY4M難易度表(仮)
   "https://get.2sb.org/https://kenpel.github.io/objeCraft/table10/head10.json",
   "https://get.2sb.org/https://kenpel.github.io/objeCraft/table14/head14.json",
   "https://get.2sb.org/https://kenpel.github.io/objeCraft/estimate/easyhead.json",
-  "https://get.2sb.org/https://kenpel.github.io/objeCraft/estimate/hardhead.json"
+  "https://get.2sb.org/https://kenpel.github.io/objeCraft/estimate/hardhead.json",
+  "https://get.2sb.org/https://nyamdxy.web.fc2.com/header_dpfav.json"
 ]
 </code></pre>
 </td>
@@ -4176,6 +4266,7 @@ NY4M難易度表(仮)
 発狂14keyBMS闇鍋難易度表
 発狂DPBMS難度推定表 EASY
 発狂DPBMS難度推定表 HARD
+自分で楽しむためのDP譜面集(仮)
 </code></pre>
 </td>
 <td style="width:50%; vertical-align:top;">
@@ -4196,7 +4287,8 @@ NY4M難易度表(仮)
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%8210keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%8214keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json"
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnyamdxy.web.fc2.com%5D%20%E8%87%AA%E5%88%86%E3%81%A7%E6%A5%BD%E3%81%97%E3%82%80%E3%81%9F%E3%82%81%E3%81%AEDP%E8%AD%9C%E9%9D%A2%E9%9B%86%28%E4%BB%AE%29/header.json"
 ]
 </code></pre>
 </td>
@@ -4225,6 +4317,7 @@ NY4M難易度表(仮)
 発狂14keyBMS闇鍋難易度表
 発狂DPBMS難度推定表 EASY
 発狂DPBMS難度推定表 HARD
+自分で楽しむためのDP譜面集(仮)
 </code></pre>
 </td>
 <td style="width:50%; vertical-align:top;">
@@ -4245,7 +4338,8 @@ NY4M難易度表(仮)
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%8210keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%8214keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json"
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnyamdxy.web.fc2.com%5D%20%E8%87%AA%E5%88%86%E3%81%A7%E6%A5%BD%E3%81%97%E3%82%80%E3%81%9F%E3%82%81%E3%81%AEDP%E8%AD%9C%E9%9D%A2%E9%9B%86%28%E4%BB%AE%29/header.json"
 ]
 </code></pre>
 </td>
@@ -4274,6 +4368,7 @@ NY4M難易度表(仮)
 発狂14keyBMS闇鍋難易度表
 発狂DPBMS難度推定表 EASY
 発狂DPBMS難度推定表 HARD
+自分で楽しむためのDP譜面集(仮)
 </code></pre>
 </td>
 <td style="width:50%; vertical-align:top;">
@@ -4294,7 +4389,8 @@ NY4M難易度表(仮)
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%8210keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%8214keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json"
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnyamdxy.web.fc2.com%5D%20%E8%87%AA%E5%88%86%E3%81%A7%E6%A5%BD%E3%81%97%E3%82%80%E3%81%9F%E3%82%81%E3%81%AEDP%E8%AD%9C%E9%9D%A2%E9%9B%86%28%E4%BB%AE%29/header.json"
 ]
 </code></pre>
 </td>
@@ -4519,6 +4615,7 @@ PMS通常難易度表
 同梱PMS一覧表 (非発狂)
 新規登録譜面一覧表 (月別)
 準発狂PMS難易度表
+発狂PMSデータベース(lv46～)
 発狂PMS表外高難易度案内所
 発狂PMS表外高難易度案内所隔離枠
 発狂PMS難易度表
@@ -4535,6 +4632,7 @@ PMS通常難易度表
   "https://pmsdifficulty.xxxxxxxx.jp/subtable/included/_normal_table.html",
   "https://pmsdifficulty.xxxxxxxx.jp/monthly.html",
   "http://stellawingroad.web.fc2.com/new4/pms.html",
+  "https://pmsdifficulty.xxxxxxxx.jp/insane_PMSdifficulty.html",
   "http://stellawingroad.web.fc2.com/new2/pms.html",
   "http://stellawingroad.web.fc2.com/new3/pms.html",
   "http://stellawingroad.web.fc2.com/new/pms.html"
@@ -4558,6 +4656,7 @@ PMS通常難易度表
 同梱PMS一覧表 (非発狂)
 新規登録譜面一覧表 (月別)
 準発狂PMS難易度表
+発狂PMSデータベース(lv46～)
 発狂PMS表外高難易度案内所
 発狂PMS表外高難易度案内所隔離枠
 発狂PMS難易度表
@@ -4574,6 +4673,7 @@ PMS通常難易度表
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E9%9D%9E%E7%99%BA%E7%8B%82%29/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20%E6%96%B0%E8%A6%8F%E7%99%BB%E9%8C%B2%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E6%9C%88%E5%88%A5%29/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E6%BA%96%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20%E7%99%BA%E7%8B%82PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%28lv46%EF%BD%9E%29/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
@@ -4597,6 +4697,7 @@ PMS通常難易度表
 同梱PMS一覧表 (非発狂)
 新規登録譜面一覧表 (月別)
 準発狂PMS難易度表
+発狂PMSデータベース(lv46～)
 発狂PMS表外高難易度案内所
 発狂PMS表外高難易度案内所隔離枠
 発狂PMS難易度表
@@ -4613,6 +4714,7 @@ PMS通常難易度表
   "https://get.2sb.org/https://pmsdatabase.github.io/subtable/included/normal_header.json",
   "https://get.2sb.org/https://pmsdatabase.github.io/subtable/monthly/monthly_header.json",
   "https://get.2sb.org/http://stellawingroad.web.fc2.com/new4/header.json",
+  "https://get.2sb.org/https://pmsdatabase.github.io/insane_pmsdatabase/insane_pmsdatabase_header.json",
   "https://get.2sb.org/http://stellawingroad.web.fc2.com/new2/header.json",
   "https://get.2sb.org/http://stellawingroad.web.fc2.com/new3/header.json",
   "https://get.2sb.org/https://pmsdatabase.github.io/pastoral_insane/header.json"
@@ -4636,6 +4738,7 @@ PMS通常難易度表
 同梱PMS一覧表 (非発狂)
 新規登録譜面一覧表 (月別)
 準発狂PMS難易度表
+発狂PMSデータベース(lv46～)
 発狂PMS表外高難易度案内所
 発狂PMS表外高難易度案内所隔離枠
 発狂PMS難易度表
@@ -4652,6 +4755,7 @@ PMS通常難易度表
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E9%9D%9E%E7%99%BA%E7%8B%82%29/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E6%96%B0%E8%A6%8F%E7%99%BB%E9%8C%B2%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E6%9C%88%E5%88%A5%29/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E6%BA%96%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E7%99%BA%E7%8B%82PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%28lv46%EF%BD%9E%29/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
@@ -4675,6 +4779,7 @@ PMS通常難易度表
 同梱PMS一覧表 (非発狂)
 新規登録譜面一覧表 (月別)
 準発狂PMS難易度表
+発狂PMSデータベース(lv46～)
 発狂PMS表外高難易度案内所
 発狂PMS表外高難易度案内所隔離枠
 発狂PMS難易度表
@@ -4691,6 +4796,7 @@ PMS通常難易度表
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E9%9D%9E%E7%99%BA%E7%8B%82%29/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E6%96%B0%E8%A6%8F%E7%99%BB%E9%8C%B2%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E6%9C%88%E5%88%A5%29/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E6%BA%96%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E7%99%BA%E7%8B%82PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%28lv46%EF%BD%9E%29/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
@@ -4714,6 +4820,7 @@ PMS通常難易度表
 同梱PMS一覧表 (非発狂)
 新規登録譜面一覧表 (月別)
 準発狂PMS難易度表
+発狂PMSデータベース(lv46～)
 発狂PMS表外高難易度案内所
 発狂PMS表外高難易度案内所隔離枠
 発狂PMS難易度表
@@ -4730,6 +4837,7 @@ PMS通常難易度表
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E9%9D%9E%E7%99%BA%E7%8B%82%29/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E6%96%B0%E8%A6%8F%E7%99%BB%E9%8C%B2%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E6%9C%88%E5%88%A5%29/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E6%BA%96%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E7%99%BA%E7%8B%82PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%28lv46%EF%BD%9E%29/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
@@ -5277,6 +5385,7 @@ BMSS 2022 Pattern Package
 BMSS 2023 Pattern Package
 BOFET(BOF2022)PMS
 BOFU2017PMS
+BOFXV19PMS
 BOFXVII(BOF2021)PMS
 BOFXVII差分企画
 BOFXVIPMS
@@ -5322,6 +5431,7 @@ SUPERVARIATION
   "https://hpx.getonpictochat.com/bmss/2023/table/",
   "https://pmsdifficulty.xxxxxxxx.jp/BOFETPMS.html",
   "https://pmsdifficulty.xxxxxxxx.jp/BOFU2017PMS.html",
+  "https://pmsdifficulty.xxxxxxxx.jp/BOFXV19PMS.html",
   "https://pmsdifficulty.xxxxxxxx.jp/BOFXVIIPMS.html",
   "https://darksabun.club/event/bofxvii/table.html",
   "https://pmsdifficulty.xxxxxxxx.jp/BOFXVIPMS.html",
@@ -5374,6 +5484,7 @@ BMSS 2022 Pattern Package
 BMSS 2023 Pattern Package
 BOFET(BOF2022)PMS
 BOFU2017PMS
+BOFXV19PMS
 BOFXVII(BOF2021)PMS
 BOFXVII差分企画
 BOFXVIPMS
@@ -5419,6 +5530,7 @@ SUPERVARIATION
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bhpx.getonpictochat.com%5D%20BMSS%202023%20Pattern%20Package/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20BOFET%28BOF2022%29PMS/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20BOFU2017PMS/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXV19PMS/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXVII%28BOF2021%29PMS/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20BOFXVII%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXVIPMS/header.json",
@@ -5471,6 +5583,7 @@ BMSS 2022 Pattern Package
 BMSS 2023 Pattern Package
 BOFET(BOF2022)PMS
 BOFU2017PMS
+BOFXV19PMS
 BOFXVII(BOF2021)PMS
 BOFXVII差分企画
 BOFXVIPMS
@@ -5516,6 +5629,7 @@ SUPERVARIATION
   "https://get.2sb.org/https://hpx.getonpictochat.com/bmss/2023/table/header.json",
   "https://get.2sb.org/https://pmsdatabase.github.io/BOFETPMS/BOFETPMS_header.json",
   "https://get.2sb.org/https://pmsdatabase.github.io/BOFU2017PMS/BOFU2017PMS_header.json",
+  "https://get.2sb.org/https://pmsdatabase.github.io/BOFXV19PMS/BOFXV19PMS_header.json",
   "https://get.2sb.org/https://pmsdatabase.github.io/BOFXVIIPMS/BOFXVIIPMS_header.json",
   "https://get.2sb.org/https://darksabun.club/event/bofxvii/header.json",
   "https://get.2sb.org/https://pmsdatabase.github.io/BOFXVIPMS/BOFXVIPMS_header.json",
@@ -5568,6 +5682,7 @@ BMSS 2022 Pattern Package
 BMSS 2023 Pattern Package
 BOFET(BOF2022)PMS
 BOFU2017PMS
+BOFXV19PMS
 BOFXVII(BOF2021)PMS
 BOFXVII差分企画
 BOFXVIPMS
@@ -5613,6 +5728,7 @@ SUPERVARIATION
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhpx.getonpictochat.com%5D%20BMSS%202023%20Pattern%20Package/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFET%28BOF2022%29PMS/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFU2017PMS/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXV19PMS/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXVII%28BOF2021%29PMS/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BOFXVII%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXVIPMS/header.json",
@@ -5665,6 +5781,7 @@ BMSS 2022 Pattern Package
 BMSS 2023 Pattern Package
 BOFET(BOF2022)PMS
 BOFU2017PMS
+BOFXV19PMS
 BOFXVII(BOF2021)PMS
 BOFXVII差分企画
 BOFXVIPMS
@@ -5710,6 +5827,7 @@ SUPERVARIATION
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhpx.getonpictochat.com%5D%20BMSS%202023%20Pattern%20Package/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFET%28BOF2022%29PMS/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFU2017PMS/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXV19PMS/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXVII%28BOF2021%29PMS/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BOFXVII%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXVIPMS/header.json",
@@ -5762,6 +5880,7 @@ BMSS 2022 Pattern Package
 BMSS 2023 Pattern Package
 BOFET(BOF2022)PMS
 BOFU2017PMS
+BOFXV19PMS
 BOFXVII(BOF2021)PMS
 BOFXVII差分企画
 BOFXVIPMS
@@ -5807,6 +5926,7 @@ SUPERVARIATION
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhpx.getonpictochat.com%5D%20BMSS%202023%20Pattern%20Package/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFET%28BOF2022%29PMS/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFU2017PMS/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXV19PMS/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXVII%28BOF2021%29PMS/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BOFXVII%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXVIPMS/header.json",
