@@ -6253,3 +6253,133 @@ Stella Uploader 難易度表
 </tr>
 </table>
 
+## N/A - 未分类
+
+### 未分类
+
+#### 原链接
+
+<table style="width:100%; table-layout:fixed;">
+<tr>
+<td style="width:50%; vertical-align:top;">
+<pre><code class="language-text">
+ereter.net DP EASY CLEAR
+ereter.net DP HARD CLEAR
+</code></pre>
+</td>
+<td style="width:50%; vertical-align:top;">
+<pre><code class="language-json">
+[
+  "https://bmstable.iidx.org/ereter-dpbms-easy-clear",
+  "https://bmstable.iidx.org/ereter-dpbms-hard-clear"
+]
+</code></pre>
+</td>
+</tr>
+</table>
+
+#### Gitee直链
+
+<table style="width:100%; table-layout:fixed;">
+<tr>
+<td style="width:50%; vertical-align:top;">
+<pre><code class="language-text">
+ereter.net DP EASY CLEAR
+ereter.net DP HARD CLEAR
+</code></pre>
+</td>
+<td style="width:50%; vertical-align:top;">
+<pre><code class="language-json">
+[
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/ereter.net%20DP%20EASY%20CLEAR/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/ereter.net%20DP%20HARD%20CLEAR/header.json"
+]
+</code></pre>
+</td>
+</tr>
+</table>
+
+#### 中间链接 (get.2sb.org)
+
+<table style="width:100%; table-layout:fixed;">
+<tr>
+<td style="width:50%; vertical-align:top;">
+<pre><code class="language-text">
+ereter.net DP EASY CLEAR
+ereter.net DP HARD CLEAR
+</code></pre>
+</td>
+<td style="width:50%; vertical-align:top;">
+<pre><code class="language-json">
+[
+  "https://get.2sb.org/https://bmstable.iidx.org/ereter_ec_head.json",
+  "https://get.2sb.org/https://bmstable.iidx.org/ereter_hc_head.json"
+]
+</code></pre>
+</td>
+</tr>
+</table>
+
+#### GitHub直链
+
+<table style="width:100%; table-layout:fixed;">
+<tr>
+<td style="width:50%; vertical-align:top;">
+<pre><code class="language-text">
+ereter.net DP EASY CLEAR
+ereter.net DP HARD CLEAR
+</code></pre>
+</td>
+<td style="width:50%; vertical-align:top;">
+<pre><code class="language-json">
+[
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ereter.net%20DP%20EASY%20CLEAR/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ereter.net%20DP%20HARD%20CLEAR/header.json"
+]
+</code></pre>
+</td>
+</tr>
+</table>
+
+#### GitHub中间链接 (get.2sb.org)
+
+<table style="width:100%; table-layout:fixed;">
+<tr>
+<td style="width:50%; vertical-align:top;">
+<pre><code class="language-text">
+ereter.net DP EASY CLEAR
+ereter.net DP HARD CLEAR
+</code></pre>
+</td>
+<td style="width:50%; vertical-align:top;">
+<pre><code class="language-json">
+[
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ereter.net%20DP%20EASY%20CLEAR/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ereter.net%20DP%20HARD%20CLEAR/header.json"
+]
+</code></pre>
+</td>
+</tr>
+</table>
+
+#### GitHub中间链接 (gh-proxy.com)
+
+<table style="width:100%; table-layout:fixed;">
+<tr>
+<td style="width:50%; vertical-align:top;">
+<pre><code class="language-text">
+ereter.net DP EASY CLEAR
+ereter.net DP HARD CLEAR
+</code></pre>
+</td>
+<td style="width:50%; vertical-align:top;">
+<pre><code class="language-json">
+[
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ereter.net%20DP%20EASY%20CLEAR/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ereter.net%20DP%20HARD%20CLEAR/header.json"
+]
+</code></pre>
+</td>
+</tr>
+</table>
+
