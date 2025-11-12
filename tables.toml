@@ -2,6 +2,7 @@
 # - table_list: 远程表列表接口（返回表列表）的对象数组，每项包含 name 与 url
 # - add_table_url: 额外直接添加的表页面地址数组（无需表列表）
 # - disable_table_url: 需要禁用的表页面地址数组（从最终表列表中移除）
+# - replace_table_url: 将某个表页面地址替换为新地址（等价或迁移）
 
 table_list = [
   { name = "DARKSABUN", url = "https://script.google.com/macros/s/AKfycbzaQbcI9UZDcDlSHHl2NHilhmePrNrwxRdOFkmIXsfnbfksKKmAB3V65WZ8jPWU-7E/exec?table=tablelist" },
@@ -17,3 +18,10 @@ disable_table_url = [
   # "https://example.com/old-table"
   "https://pmsdifficulty.xxxxxxxx.jp/subtable/randomselect/randomselect.html",
 ]
+
+# 将某个表页 URL 替换为新地址（支持多个规则）
+# 语法：按数组表的形式逐条填写 from/to
+# 示例：
+# [[replace_table_url]]
+# from = "https://old.example.com/table.html"
+# to = "https://new.example.com/table.html"

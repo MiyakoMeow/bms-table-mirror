@@ -74,6 +74,36 @@ async fn main() -> Result<()> {
         table_info_map.insert(k, item);
     }
 
+    // Replace specified table URLs (before disabling)
+    for rule in &config.replace_table_url {
+        // Try exact key match first
+        if let Some(mut info) = table_info_map.remove(&rule.from) {
+            info.url = rule.to.clone();
+            table_info_map.insert(rule.to.clone(), info);
+            info!("Replaced table URL: {} -> {}", rule.from, rule.to);
+            continue;
+        }
+
+        // Fallback: match ignoring trailing slashes
+        let from_str = rule.from.as_str().trim_end_matches('/');
+        let mut found_key: Option<Url> = None;
+        for k in table_info_map.keys() {
+            if k.as_str().trim_end_matches('/') == from_str {
+                found_key = Some(k.clone());
+                break;
+            }
+        }
+        if let Some(old_key) = found_key {
+            if let Some(mut info) = table_info_map.remove(&old_key) {
+                info.url = rule.to.clone();
+                table_info_map.insert(rule.to.clone(), info);
+                info!("Replaced similar URL: {} -> {}", old_key, rule.to);
+            }
+        } else {
+            warn!("URL to replace not found: {}", rule.from);
+        }
+    }
+
     // Disable specified table URLs
     for url in &config.disable_table_url {
         if table_info_map.remove(url).is_some() {
