@@ -3465,6 +3465,15 @@
     "comment": "192BPMの微縦譜面。2-2や3-1前後の密度で、密度はかなり薄い代わりに最初から最後までずっと2連打が付きまとい、休憩はほぼ無い。ディレイもそれなりに邪魔してくる。体感の難しさに対して密度が異様に低く、同難易度帯で類似譜面がほとんどない（多分）"
   },
   {
+    "level": "4",
+    "title": "モリオンの姫 [Fragment]",
+    "artist": "wa. / obj:potechang",
+    "url": "https://drive.usercontent.google.com/u/0/uc?id=19gubhZo7hzAAfyqow3UHMblvEeilLc7T&export=download",
+    "url_diff": "https://stellabms.xyz/upload/6673",
+    "md5": "6284c5a0eacf79d9aea8c978663f6415",
+    "comment": "166BPMの2連打主体乱打譜面。密度は4-2などで乱打風の中に連打がある形で、稀に3連打。モリオンの姫らしい局所的なキック部分は優しい回復になり、現代的な連打譜面になっている。前半は連打が1本ずつしか出てこないが、後半から表裏2連打複合などが出て来始めるため、密度は上がらなくても難易度は若干上がる。中盤の潔い2連打地帯が面白い"
+  },
+  {
     "level": "5",
     "title": "MooNatioN [BirthDie]",
     "artist": "287 a.k.a. EXAM.S obj by Nuclein",
@@ -5976,6 +5985,15 @@
     "comment": "150BPMの連打系譜面。トータルが0.125でかなり低い上、150の3～5連打や皿などがじわじわ削ってくるので、しっかり押そうとしないと全然ゲージが持ち上がらない。譜面自体は殆どが休憩で、ちょっと降ってきて削られまた休憩というのを何度も繰り返すタイプで、全体難。トータルの低さを痛烈に感じられる譜面でイージー難易度はかなり高いst7クラス。逆にハードでは難易度が下がる（orajaの場合）"
   },
   {
+    "level": "7",
+    "title": "\t望遠鏡にて天際へ傾く [Kvama]",
+    "artist": "AeventyrNoKibou / obj:1mi",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=337&event=149",
+    "url_diff": "https://stellabms.xyz/upload/6672",
+    "md5": "19d13155f6735aa93e3596449cac3906",
+    "comment": "231BPMの正統派乱打譜面。BPMに配慮されてある程度均等に置かれている部分、あえて軸を作られている部分、両方とも混合してくる部分などがあり当然見て押しにいかないと残らない。231は早めでst7でもだいぶ難しめの乱打な分、最後のちょっとした回復が有難い。"
+  },
+  {
     "level": "8",
     "title": "BlackLily -聖水-",
     "artist": "the 1000th summer obj:しっこ",
@@ -8161,6 +8179,15 @@
     "url_diff": "https://stellabms.xyz/upload/6649",
     "md5": "64bda9a1b9524f9f186e96157dc6a2e3",
     "comment": "175BPMのディレイ譜面。坂状の配置が多いので正規力がかなり強めに問われる。序盤～中盤はst8程度でやや簡単、後半のサビからグッと密度があがり本気を出してst10になる。しかも割と長い。とにかく坂状に置かれている配置が多く、繋ぎ目に連打が形成する配置も多いので、坂で認識出来ない場合は飛びきり難易度が上がる。"
+  },
+  {
+    "level": "10",
+    "title": "望遠鏡にて天際へ傾く [Oripathy]",
+    "artist": "AeventyrNoKibou / obj:1mi",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=337&event=149",
+    "url_diff": "https://stellabms.xyz/upload/6672",
+    "md5": "3e663e927d4a98267d697e7d4aa85fdb",
+    "comment": "231BPMの正統派乱打譜面。乱打でも特に4-3の密度が多めの密度が高い乱打。正しく押そうとするとかなり難しい上に、餡蜜が入りやすそうで入らない緩急をしていてちょうどst10。時々隙間をくれるのが良心的。"
   },
   {
     "level": "11",
