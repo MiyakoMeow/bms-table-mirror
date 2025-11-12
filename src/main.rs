@@ -93,14 +93,25 @@ async fn main() -> Result<()> {
                 break;
             }
         }
-        if let Some(old_key) = found_key {
-            if let Some(mut info) = table_info_map.remove(&old_key) {
-                info.url = rule.to.clone();
-                table_info_map.insert(rule.to.clone(), info);
-                info!("Replaced similar URL: {} -> {}", old_key, rule.to);
-            }
-        } else {
+        let Some(old_key) = found_key else {
             warn!("URL to replace not found: {}", rule.from);
+            continue;
+        };
+        if let Some(mut info) = table_info_map.remove(&old_key) {
+            info.url = rule.to.clone();
+            table_info_map.insert(rule.to.clone(), info);
+            info!("Replaced similar URL: {} -> {}", old_key, rule.to);
+        } else {
+            table_info_map.insert(
+                rule.to.clone(),
+                BmsTableInfo {
+                    name: rule.to.domain().unwrap_or("unknown").to_string(),
+                    url: rule.to.clone(),
+                    symbol: "-".to_string(),
+                    extra: Default::default(),
+                },
+            );
+            info!("Old table not found, added new table: {}", rule.to);
         }
     }
 
