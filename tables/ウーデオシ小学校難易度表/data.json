@@ -1180,15 +1180,6 @@
   },
   {
     "level": "4",
-    "title": "Lily [S-]",
-    "artist": "tolz feat. 音街ウナ obj:S",
-    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=339&event=127",
-    "url_diff": "https://drive.google.com/file/d/1vuo1ituBFD3YEtGdl6zVS9DXkpx7yPac/view",
-    "md5": "9cb71ffb8dcc4908a07bb4f30c382259",
-    "comment": ""
-  },
-  {
-    "level": "4",
     "title": "Littlegirl Complex -Hope-",
     "artist": "ぜらにも×bj.HaLo×小宮真央×LUKASH obj:七海千秋",
     "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=221&event=123",
@@ -1753,6 +1744,15 @@
     "url_diff": "https://web.archive.org/web/20190322230138/https://www.hyper-laner.com/sabun/dday7laner.bme",
     "md5": "c53448db2adfd42e2b6c53ef1e441006",
     "comment": "sub sl7/60"
+  },
+  {
+    "level": "7",
+    "title": "Lily [S-]",
+    "artist": "tolz feat. 音街ウナ obj:S",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=339&event=127",
+    "url_diff": "https://drive.google.com/file/d/1vuo1ituBFD3YEtGdl6zVS9DXkpx7yPac/view",
+    "md5": "9cb71ffb8dcc4908a07bb4f30c382259",
+    "comment": ""
   },
   {
     "level": "7",
