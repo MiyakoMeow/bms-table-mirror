@@ -1,0 +1,7 @@
+{
+"name" : "所持差分一覧表(pt)",
+"symbol" : "pt_",
+"data_url" : "data.json",
+"level_order" : ["ALL"]
+
+}

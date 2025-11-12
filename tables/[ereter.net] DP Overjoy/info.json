@@ -1,0 +1,13 @@
+{
+  "name": "DP Overjoy",
+  "symbol": "★★",
+  "url": "https://ereter.net/static/analyzer/json/header.json",
+  "comment": "",
+  "date": "",
+  "state": "",
+  "tag1": "DP",
+  "tag2": "Personal",
+  "tag_order": "2",
+  "url_data_json": "http://ereter.net/static/analyzer/json/overjoy.json",
+  "url_header_json": "https://ereter.net/static/analyzer/json/header.json"
+}

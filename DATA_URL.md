@@ -32,10 +32,8 @@ NEW GENERATION 通常難易度表
 Overjoy
 Overjoy (旧)
 Overjoy隔離
-Satellite
 Satellite (Voting)
 Satellite Recommend
-Satellite Recommend (Voting)
 Satellite Sub
 Solar
 Solar (Voting)
@@ -43,7 +41,6 @@ Solar Recommend
 Solar Recommend (Voting)
 Solar Sub
 Stella
-Stella (Voting)
 Stella Recommend
 Stella Recommend (Voting)
 Stella Sub
@@ -52,7 +49,6 @@ Supernova (Voting)
 Supernova Recommend
 Supernova Recommend (Voting)
 Supernova Sub
-差分アップローダー難易度表
 発狂BMS第2難易度表 (旧)
 発狂BMS第2難易度表+ (旧)
 発狂BMS難易度表
@@ -81,10 +77,8 @@ Supernova Sub
   "http://lr2.sakura.ne.jp/overjoy.php",
   "https://darksabun.club/table/archive/old-overjoy/",
   "https://darksabun.club/table/archive/old-overjoy-kakuri/",
-  "https://stellabms.xyz/sl/table.html",
   "https://stellabms.xyz/sl/table_vote.html",
   "https://stellabms.xyz/sl/table_rec.html",
-  "https://stellabms.xyz/sl/table_rec_vote.html",
   "https://stellabms.xyz/sl/table_sub.html",
   "https://stellabms.xyz/so/table.html",
   "https://stellabms.xyz/so/table_vote.html",
@@ -92,7 +86,6 @@ Supernova Sub
   "https://stellabms.xyz/so/table_rec_vote.html",
   "https://stellabms.xyz/so/table_sub.html",
   "https://stellabms.xyz/st/table.html",
-  "https://stellabms.xyz/st/table_vote.html",
   "https://stellabms.xyz/st/table_rec.html",
   "https://stellabms.xyz/st/table_rec_vote.html",
   "https://stellabms.xyz/st/table_sub.html",
@@ -101,7 +94,6 @@ Supernova Sub
   "https://stellabms.xyz/sn/table_rec.html",
   "https://stellabms.xyz/sn/table_rec_vote.html",
   "https://stellabms.xyz/sn/table_sub.html",
-  "http://upl.konjiki.jp/",
   "https://darksabun.club/table/archive/old-insane2/",
   "https://darksabun.club/table/archive/old-insane2-plus/",
   "https://darksabun.club/table/archive/insane1/",
@@ -137,10 +129,8 @@ NEW GENERATION 通常難易度表
 Overjoy
 Overjoy (旧)
 Overjoy隔離
-Satellite
 Satellite (Voting)
 Satellite Recommend
-Satellite Recommend (Voting)
 Satellite Sub
 Solar
 Solar (Voting)
@@ -148,7 +138,6 @@ Solar Recommend
 Solar Recommend (Voting)
 Solar Sub
 Stella
-Stella (Voting)
 Stella Recommend
 Stella Recommend (Voting)
 Stella Sub
@@ -157,7 +146,6 @@ Supernova (Voting)
 Supernova Recommend
 Supernova Recommend (Voting)
 Supernova Sub
-差分アップローダー難易度表
 発狂BMS第2難易度表 (旧)
 発狂BMS第2難易度表+ (旧)
 発狂BMS難易度表
@@ -173,50 +161,46 @@ Supernova Sub
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/1st/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/2nd/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/EXOPLANET/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/EXOPLANET%20%28only%20voting%20sub%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/EXOPLANET%20Sub/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/LN%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Luminous/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Luminous%20Sub/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/NEW%20GENERATION%20%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/NEW%20GENERATION%20%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Overjoy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Overjoy%20%28%E6%97%A7%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Overjoy%E9%9A%94%E9%9B%A2/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Satellite/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Satellite%20%28Voting%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Satellite%20Recommend/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Satellite%20Recommend%20%28Voting%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Satellite%20Sub/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Solar/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Solar%20%28Voting%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Solar%20Recommend/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Solar%20Recommend%20%28Voting%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Solar%20Sub/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Stella/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Stella%20%28Voting%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Stella%20Recommend/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Stella%20Recommend%20%28Voting%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Stella%20Sub/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Supernova/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Supernova%20%28Voting%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Supernova%20Recommend/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Supernova%20Recommend%20%28Voting%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Supernova%20Sub/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28%E6%97%A7%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%2B%20%28%E6%97%A7%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%9A%BF%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%28%E7%95%AA%E5%A4%96%E7%B7%A8%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%283rd%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%AC%AC%E4%B8%89%E6%9C%9FOverjoy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%AC%AC%E4%B8%89%E6%9C%9FOverjoy%E9%9A%94%E9%9B%A2/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E9%80%9A%E5%B8%B8%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%283rd%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E7%AC%AC%E4%BA%8C%E6%9C%9F%29/header.json"
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bminddnim.web.fc2.com%5D%201st/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bminddnim.web.fc2.com%5D%202nd/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20EXOPLANET/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20EXOPLANET%20%28only%20voting%20sub%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20EXOPLANET%20Sub/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bflowermaster.web.fc2.com%5D%20LN%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bladymade-star.github.io%5D%20Luminous/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bladymade-star.github.io%5D%20Luminous%20Sub/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Brattoto10.github.io%5D%20NEW%20GENERATION%20%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Brattoto10.github.io%5D%20NEW%20GENERATION%20%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Blr2.sakura.ne.jp%5D%20Overjoy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20Overjoy%20%28%E6%97%A7%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20Overjoy%E9%9A%94%E9%9B%A2/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Satellite%20%28Voting%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Recommend/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Sub/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Solar/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Solar%20%28Voting%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Solar%20Recommend/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Solar%20Recommend%20%28Voting%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Solar%20Sub/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Stella/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Stella%20Recommend/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Stella%20Recommend%20%28Voting%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Stella%20Sub/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Supernova/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Supernova%20%28Voting%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Recommend/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Recommend%20%28Voting%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Sub/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28%E6%97%A7%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%2B%20%28%E6%97%A7%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bminddnim.web.fc2.com%5D%20%E7%9A%BF%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%28%E7%95%AA%E5%A4%96%E7%B7%A8%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bminddnim.web.fc2.com%5D%20%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%283rd%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Brattoto10.github.io%5D%20%E7%AC%AC%E4%B8%89%E6%9C%9FOverjoy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Brattoto10.github.io%5D%20%E7%AC%AC%E4%B8%89%E6%9C%9FOverjoy%E9%9A%94%E9%9B%A2/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bminddnim.web.fc2.com%5D%20%E9%80%9A%E5%B8%B8%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%283rd%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Brenda.konjiki.jp%5D%20%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E7%AC%AC%E4%BA%8C%E6%9C%9F%29/header.json"
 ]
 </code></pre>
 </td>
@@ -242,10 +226,8 @@ NEW GENERATION 通常難易度表
 Overjoy
 Overjoy (旧)
 Overjoy隔離
-Satellite
 Satellite (Voting)
 Satellite Recommend
-Satellite Recommend (Voting)
 Satellite Sub
 Solar
 Solar (Voting)
@@ -253,7 +235,6 @@ Solar Recommend
 Solar Recommend (Voting)
 Solar Sub
 Stella
-Stella (Voting)
 Stella Recommend
 Stella Recommend (Voting)
 Stella Sub
@@ -262,7 +243,6 @@ Supernova (Voting)
 Supernova Recommend
 Supernova Recommend (Voting)
 Supernova Sub
-差分アップローダー難易度表
 発狂BMS第2難易度表 (旧)
 発狂BMS第2難易度表+ (旧)
 発狂BMS難易度表
@@ -291,10 +271,8 @@ Supernova Sub
   "https://get.2sb.org/http://lr2.sakura.ne.jp/data/header.json",
   "https://get.2sb.org/https://darksabun.club/table/archive/old-overjoy/header.json",
   "https://get.2sb.org/https://darksabun.club/table/archive/old-overjoy-kakuri/header.json",
-  "https://get.2sb.org/https://stellabms.xyz/sl/header.json",
   "https://get.2sb.org/https://stellabms.xyz/sl/header_vote.json",
   "https://get.2sb.org/https://stellabms.xyz/sl/header_rec.json",
-  "https://get.2sb.org/https://stellabms.xyz/sl/header_rec_vote.json",
   "https://get.2sb.org/https://stellabms.xyz/sl/header_sub.json",
   "https://get.2sb.org/https://stellabms.xyz/so/header.json",
   "https://get.2sb.org/https://stellabms.xyz/so/header_vote.json",
@@ -302,7 +280,6 @@ Supernova Sub
   "https://get.2sb.org/https://stellabms.xyz/so/header_rec_vote.json",
   "https://get.2sb.org/https://stellabms.xyz/so/header_sub.json",
   "https://get.2sb.org/https://stellabms.xyz/st/header.json",
-  "https://get.2sb.org/https://stellabms.xyz/st/header_vote.json",
   "https://get.2sb.org/https://stellabms.xyz/st/header_rec.json",
   "https://get.2sb.org/https://stellabms.xyz/st/header_rec_vote.json",
   "https://get.2sb.org/https://stellabms.xyz/st/header_sub.json",
@@ -311,7 +288,6 @@ Supernova Sub
   "https://get.2sb.org/https://stellabms.xyz/sn/header_rec.json",
   "https://get.2sb.org/https://stellabms.xyz/sn/header_rec_vote.json",
   "https://get.2sb.org/https://stellabms.xyz/sn/header_sub.json",
-  "https://get.2sb.org/http://upl.konjiki.jp/data/header.json",
   "https://get.2sb.org/https://darksabun.club/table/archive/old-insane2/header.json",
   "https://get.2sb.org/https://darksabun.club/table/archive/old-insane2-plus/header.json",
   "https://get.2sb.org/https://darksabun.club/table/archive/insane1/header.json",
@@ -347,10 +323,8 @@ NEW GENERATION 通常難易度表
 Overjoy
 Overjoy (旧)
 Overjoy隔離
-Satellite
 Satellite (Voting)
 Satellite Recommend
-Satellite Recommend (Voting)
 Satellite Sub
 Solar
 Solar (Voting)
@@ -358,7 +332,6 @@ Solar Recommend
 Solar Recommend (Voting)
 Solar Sub
 Stella
-Stella (Voting)
 Stella Recommend
 Stella Recommend (Voting)
 Stella Sub
@@ -367,7 +340,6 @@ Supernova (Voting)
 Supernova Recommend
 Supernova Recommend (Voting)
 Supernova Sub
-差分アップローダー難易度表
 発狂BMS第2難易度表 (旧)
 発狂BMS第2難易度表+ (旧)
 発狂BMS難易度表
@@ -383,50 +355,46 @@ Supernova Sub
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/1st/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/2nd/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/EXOPLANET/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/EXOPLANET%20%28only%20voting%20sub%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/EXOPLANET%20Sub/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LN%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Luminous/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Luminous%20Sub/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/NEW%20GENERATION%20%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/NEW%20GENERATION%20%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Overjoy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Overjoy%20%28%E6%97%A7%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Overjoy%E9%9A%94%E9%9B%A2/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20%28Voting%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20Recommend/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20Recommend%20%28Voting%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20Sub/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solar/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solar%20%28Voting%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solar%20Recommend/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solar%20Recommend%20%28Voting%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solar%20Sub/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20%28Voting%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20Recommend/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20Recommend%20%28Voting%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20Sub/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Supernova/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Supernova%20%28Voting%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Supernova%20Recommend/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Supernova%20Recommend%20%28Voting%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Supernova%20Sub/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28%E6%97%A7%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%2B%20%28%E6%97%A7%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%9A%BF%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%28%E7%95%AA%E5%A4%96%E7%B7%A8%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%283rd%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%AC%AC%E4%B8%89%E6%9C%9FOverjoy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%AC%AC%E4%B8%89%E6%9C%9FOverjoy%E9%9A%94%E9%9B%A2/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%80%9A%E5%B8%B8%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%283rd%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E7%AC%AC%E4%BA%8C%E6%9C%9F%29/header.json"
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bminddnim.web.fc2.com%5D%201st/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bminddnim.web.fc2.com%5D%202nd/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20EXOPLANET/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20EXOPLANET%20%28only%20voting%20sub%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20EXOPLANET%20Sub/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bflowermaster.web.fc2.com%5D%20LN%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bladymade-star.github.io%5D%20Luminous/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bladymade-star.github.io%5D%20Luminous%20Sub/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.github.io%5D%20NEW%20GENERATION%20%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.github.io%5D%20NEW%20GENERATION%20%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blr2.sakura.ne.jp%5D%20Overjoy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Overjoy%20%28%E6%97%A7%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Overjoy%E9%9A%94%E9%9B%A2/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20%28Voting%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Recommend/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Sub/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20%28Voting%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20Recommend/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20Recommend%20%28Voting%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20Sub/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Recommend/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Recommend%20%28Voting%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Sub/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20%28Voting%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Recommend/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Recommend%20%28Voting%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Sub/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28%E6%97%A7%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%2B%20%28%E6%97%A7%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bminddnim.web.fc2.com%5D%20%E7%9A%BF%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%28%E7%95%AA%E5%A4%96%E7%B7%A8%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bminddnim.web.fc2.com%5D%20%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%283rd%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.github.io%5D%20%E7%AC%AC%E4%B8%89%E6%9C%9FOverjoy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.github.io%5D%20%E7%AC%AC%E4%B8%89%E6%9C%9FOverjoy%E9%9A%94%E9%9B%A2/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bminddnim.web.fc2.com%5D%20%E9%80%9A%E5%B8%B8%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%283rd%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brenda.konjiki.jp%5D%20%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E7%AC%AC%E4%BA%8C%E6%9C%9F%29/header.json"
 ]
 </code></pre>
 </td>
@@ -452,10 +420,8 @@ NEW GENERATION 通常難易度表
 Overjoy
 Overjoy (旧)
 Overjoy隔離
-Satellite
 Satellite (Voting)
 Satellite Recommend
-Satellite Recommend (Voting)
 Satellite Sub
 Solar
 Solar (Voting)
@@ -463,7 +429,6 @@ Solar Recommend
 Solar Recommend (Voting)
 Solar Sub
 Stella
-Stella (Voting)
 Stella Recommend
 Stella Recommend (Voting)
 Stella Sub
@@ -472,7 +437,6 @@ Supernova (Voting)
 Supernova Recommend
 Supernova Recommend (Voting)
 Supernova Sub
-差分アップローダー難易度表
 発狂BMS第2難易度表 (旧)
 発狂BMS第2難易度表+ (旧)
 発狂BMS難易度表
@@ -488,50 +452,46 @@ Supernova Sub
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/1st/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/2nd/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/EXOPLANET/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/EXOPLANET%20%28only%20voting%20sub%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/EXOPLANET%20Sub/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LN%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Luminous/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Luminous%20Sub/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/NEW%20GENERATION%20%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/NEW%20GENERATION%20%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Overjoy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Overjoy%20%28%E6%97%A7%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Overjoy%E9%9A%94%E9%9B%A2/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20%28Voting%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20Recommend/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20Recommend%20%28Voting%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20Sub/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solar/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solar%20%28Voting%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solar%20Recommend/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solar%20Recommend%20%28Voting%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solar%20Sub/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20%28Voting%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20Recommend/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20Recommend%20%28Voting%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20Sub/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Supernova/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Supernova%20%28Voting%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Supernova%20Recommend/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Supernova%20Recommend%20%28Voting%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Supernova%20Sub/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28%E6%97%A7%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%2B%20%28%E6%97%A7%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%9A%BF%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%28%E7%95%AA%E5%A4%96%E7%B7%A8%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%283rd%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%AC%AC%E4%B8%89%E6%9C%9FOverjoy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%AC%AC%E4%B8%89%E6%9C%9FOverjoy%E9%9A%94%E9%9B%A2/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%80%9A%E5%B8%B8%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%283rd%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E7%AC%AC%E4%BA%8C%E6%9C%9F%29/header.json"
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bminddnim.web.fc2.com%5D%201st/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bminddnim.web.fc2.com%5D%202nd/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20EXOPLANET/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20EXOPLANET%20%28only%20voting%20sub%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20EXOPLANET%20Sub/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bflowermaster.web.fc2.com%5D%20LN%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bladymade-star.github.io%5D%20Luminous/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bladymade-star.github.io%5D%20Luminous%20Sub/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.github.io%5D%20NEW%20GENERATION%20%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.github.io%5D%20NEW%20GENERATION%20%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blr2.sakura.ne.jp%5D%20Overjoy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Overjoy%20%28%E6%97%A7%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Overjoy%E9%9A%94%E9%9B%A2/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20%28Voting%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Recommend/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Sub/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20%28Voting%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20Recommend/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20Recommend%20%28Voting%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20Sub/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Recommend/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Recommend%20%28Voting%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Sub/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20%28Voting%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Recommend/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Recommend%20%28Voting%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Sub/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28%E6%97%A7%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%2B%20%28%E6%97%A7%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bminddnim.web.fc2.com%5D%20%E7%9A%BF%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%28%E7%95%AA%E5%A4%96%E7%B7%A8%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bminddnim.web.fc2.com%5D%20%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%283rd%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.github.io%5D%20%E7%AC%AC%E4%B8%89%E6%9C%9FOverjoy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.github.io%5D%20%E7%AC%AC%E4%B8%89%E6%9C%9FOverjoy%E9%9A%94%E9%9B%A2/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bminddnim.web.fc2.com%5D%20%E9%80%9A%E5%B8%B8%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%283rd%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brenda.konjiki.jp%5D%20%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E7%AC%AC%E4%BA%8C%E6%9C%9F%29/header.json"
 ]
 </code></pre>
 </td>
@@ -557,10 +517,8 @@ NEW GENERATION 通常難易度表
 Overjoy
 Overjoy (旧)
 Overjoy隔離
-Satellite
 Satellite (Voting)
 Satellite Recommend
-Satellite Recommend (Voting)
 Satellite Sub
 Solar
 Solar (Voting)
@@ -568,7 +526,6 @@ Solar Recommend
 Solar Recommend (Voting)
 Solar Sub
 Stella
-Stella (Voting)
 Stella Recommend
 Stella Recommend (Voting)
 Stella Sub
@@ -577,7 +534,6 @@ Supernova (Voting)
 Supernova Recommend
 Supernova Recommend (Voting)
 Supernova Sub
-差分アップローダー難易度表
 発狂BMS第2難易度表 (旧)
 発狂BMS第2難易度表+ (旧)
 発狂BMS難易度表
@@ -593,50 +549,46 @@ Supernova Sub
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/1st/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/2nd/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/EXOPLANET/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/EXOPLANET%20%28only%20voting%20sub%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/EXOPLANET%20Sub/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LN%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Luminous/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Luminous%20Sub/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/NEW%20GENERATION%20%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/NEW%20GENERATION%20%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Overjoy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Overjoy%20%28%E6%97%A7%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Overjoy%E9%9A%94%E9%9B%A2/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20%28Voting%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20Recommend/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20Recommend%20%28Voting%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20Sub/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solar/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solar%20%28Voting%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solar%20Recommend/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solar%20Recommend%20%28Voting%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solar%20Sub/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20%28Voting%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20Recommend/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20Recommend%20%28Voting%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20Sub/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Supernova/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Supernova%20%28Voting%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Supernova%20Recommend/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Supernova%20Recommend%20%28Voting%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Supernova%20Sub/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28%E6%97%A7%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%2B%20%28%E6%97%A7%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%9A%BF%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%28%E7%95%AA%E5%A4%96%E7%B7%A8%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%283rd%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%AC%AC%E4%B8%89%E6%9C%9FOverjoy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%AC%AC%E4%B8%89%E6%9C%9FOverjoy%E9%9A%94%E9%9B%A2/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%80%9A%E5%B8%B8%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%283rd%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E7%AC%AC%E4%BA%8C%E6%9C%9F%29/header.json"
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bminddnim.web.fc2.com%5D%201st/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bminddnim.web.fc2.com%5D%202nd/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20EXOPLANET/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20EXOPLANET%20%28only%20voting%20sub%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20EXOPLANET%20Sub/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bflowermaster.web.fc2.com%5D%20LN%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bladymade-star.github.io%5D%20Luminous/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bladymade-star.github.io%5D%20Luminous%20Sub/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.github.io%5D%20NEW%20GENERATION%20%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.github.io%5D%20NEW%20GENERATION%20%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blr2.sakura.ne.jp%5D%20Overjoy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Overjoy%20%28%E6%97%A7%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Overjoy%E9%9A%94%E9%9B%A2/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20%28Voting%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Recommend/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Satellite%20Sub/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20%28Voting%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20Recommend/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20Recommend%20%28Voting%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Solar%20Sub/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Recommend/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Recommend%20%28Voting%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Sub/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20%28Voting%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Recommend/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Recommend%20%28Voting%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Supernova%20Sub/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28%E6%97%A7%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E7%AC%AC2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%2B%20%28%E6%97%A7%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bminddnim.web.fc2.com%5D%20%E7%9A%BF%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%28%E7%95%AA%E5%A4%96%E7%B7%A8%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bminddnim.web.fc2.com%5D%20%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%283rd%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.github.io%5D%20%E7%AC%AC%E4%B8%89%E6%9C%9FOverjoy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.github.io%5D%20%E7%AC%AC%E4%B8%89%E6%9C%9FOverjoy%E9%9A%94%E9%9B%A2/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bminddnim.web.fc2.com%5D%20%E9%80%9A%E5%B8%B8%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%283rd%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brenda.konjiki.jp%5D%20%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E7%AC%AC%E4%BA%8C%E6%9C%9F%29/header.json"
 ]
 </code></pre>
 </td>
@@ -655,6 +607,7 @@ Supernova Sub
 200BPMやる用
 27,934B-JOY
 5KEYS AERY
+All-embracing Insane Charts
 All-embracing Insane Charts
 BMS Fav list table
 BMSメモ帳
@@ -787,6 +740,7 @@ zindy難易度表
   "https://darksabun.club/table/",
   "https://hibyethere.github.io/table/",
   "https://kju8.github.io/all-embracing-insane-charts/",
+  "http://rattoto10.web.fc2.com/insane_charts/list.html",
   "https://verticalsub.web.fc2.com/fav/table.html",
   "https://tamate27.github.io/bms/memo.html",
   "https://khibine.tobiiro.jp/table.html",
@@ -925,6 +879,7 @@ zindy難易度表
 27,934B-JOY
 5KEYS AERY
 All-embracing Insane Charts
+All-embracing Insane Charts
 BMS Fav list table
 BMSメモ帳
 BMS同梱譜面難易度表
@@ -1051,132 +1006,133 @@ zindy難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/16%E5%88%86%E4%B9%B1%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/200BPM%E3%82%84%E3%82%8B%E7%94%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/27%2C934B-JOY/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/5KEYS%20AERY/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/All-embracing%20Insane%20Charts/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMS%20Fav%20list%20table/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMS%E3%83%A1%E3%83%A2%E5%B8%B3/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMS%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMS%E7%8F%BE%E4%BB%A3%E7%99%BA%E7%8B%82%E8%AD%9C%E9%9D%A2%E5%AF%84%E3%81%9B%E9%9B%86%E3%82%81/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/charts%20i%20think%20are%20neat%20%EF%BC%9A3/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DARQUESABOUNE/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DELAY%20Training%20Table/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Delay%E5%B0%8F%E5%AD%A6%E6%A0%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Double%20Time/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Dystopia%20Sub%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Dystopia%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/EnduranceDT/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/EXTRA%E3%83%A2%E3%83%BC%E3%83%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/FIT%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/flora/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/G%20e%20n%20g%20a%20o%20j%20o%20y/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/gachimijoy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Getaji%27s%20BMS%20Library/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/HGRNjoy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/HOUSE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/joverjoy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20EASY/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20HARD/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20NORMAL/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/LN%20Curtain/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/LN%E3%82%92%E7%89%87%E3%81%A3%E7%AB%AF%E3%81%8B%E3%82%89%E3%83%97%E3%83%AC%E3%82%A4%E3%81%99%E3%82%8B/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/LN%E8%A1%A8%E5%A4%96%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Merry%20Christmas%20Mr.Overjoy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/mino90%E3%81%AEBMS%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/overjoy%2B/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/overjoy%2B%E9%9A%94%E9%9B%A2/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Overjoy%E5%8B%9D%E6%89%8B%E3%81%AB%E6%94%B9%E9%80%A0/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/PIANIT%20BMS%20TABLE%28lx%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Remilgym/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/resjoy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/SAN%E5%80%A4%E3%81%8C%E4%B8%8B%E3%81%8C%E3%82%8BBMS%E3%83%AA%E3%82%B9%E3%83%88/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Satellite%20EASY/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Satellite%20FULLCOMBO/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Satellite%20HARD/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Satellite%20NORMAL/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Scramble%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Singularity%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Solomon%E7%99%BB%E8%BC%89%E5%89%8D/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Solomon%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Stardust/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Starlight/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Stella%20EASY/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Stella%20FULLCOMBO/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Stella%20HARD/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Stella%20NORMAL/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Stellalite/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Stellalite%20Sub/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/S%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Timing%20Table%20%28%E4%BB%AE%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/tinniturjoy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/vi%27s%20%E8%AD%9C%E9%9D%A2%20laboratory/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/vi%27s%20%E8%AD%9C%E9%9D%A2%20laboratory%20%28provisional%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/zephyrE/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/zephyrF/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/zephyrH/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/zephyrN/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/zindy%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%CE%A3%EF%BC%9A3%20%E3%80%8D%20%E2%88%A0%20%29%EF%BE%90%E2%8C%92%E3%82%9E%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E2%98%85%20%E7%B7%B4%E7%BF%92%E8%AD%9C%E9%9D%A2/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E2%98%85%E2%98%85joy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%82%E3%82%93%E3%81%95%E3%81%AE%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%86%E3%82%93%E3%81%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%90%E3%82%84%E5%BC%8FBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%EF%BC%887keys%EF%BC%89/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%81%E3%81%A8%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A1%E3%83%99%E3%83%83%E3%83%88%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8SP/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E5%90%8C%E6%A2%B1%E3%81%AELN%E8%AD%9C%E9%9D%A2%E3%82%92%E3%83%97%E3%83%AC%E3%82%A4%E3%81%99%E3%82%8B/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%A6%E3%83%BC%E3%83%87%E3%82%AA%E3%82%B7%E5%B0%8F%E5%AD%A6%E6%A0%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%AA%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%AE%E3%83%9F%E3%83%83%E3%82%AF%E8%AD%9C%E9%9D%A2%E6%A1%88%E5%86%85%E6%89%80/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%B4%E3%82%B1%E3%83%B3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%B8%E3%83%A3%E3%83%91%E3%83%AA%E3%83%91%E3%83%BC%E3%82%AF/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%83%87%E3%82%A3%E3%83%AC%E3%82%A4joy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%83%8D%E3%82%BFBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%83%AD%E3%83%9E%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E4%B8%8D%E6%94%BE%E9%80%B8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E4%B8%AD%E7%B4%9A%E8%80%85%E7%94%A8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E5%80%8B%E4%BA%BA%E7%94%A8BMS%E5%82%99%E5%BF%98%E9%8C%B2%E3%81%BE%E3%81%A8%E3%82%81/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E5%80%8B%E4%BA%BA%E7%9A%84%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E5%89%8A%E9%99%A4%28SKz%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E5%89%8A%E9%99%A4%28SKz%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%287%E9%8D%B5%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E6%89%80%E6%8C%81%E5%B7%AE%E5%88%86%E4%B8%80%E8%A6%A7%E8%A1%A8%28pt%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E6%97%A7Gachimijoy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E6%98%9F%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E6%98%9F%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E6%B1%A0%E7%94%B0%E7%9A%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E6%B8%9B%E3%82%8B%E6%9C%AA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E6%BA%96%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%96%E8%AD%9C%E9%9D%A2%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%28%E4%BB%AE%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%96%E8%AD%9C%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%96%E8%AD%9C%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC%28%E3%82%B5%E3%83%96%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20FC/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20NORMAL/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%82%E3%82%B1%E3%83%A2%E3%83%8EBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%82%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%EF%BC%88%E4%BB%AE%EF%BC%89/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E9%9B%A3%E5%85%AC%E5%BC%8F%E8%AD%9C%E9%9D%A2%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%A0%82%E5%A0%B4/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%A9%B4%E6%8A%9C%E3%81%8D%E8%89%B2%E3%80%85/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%B8%A6%E9%80%A3%E6%89%93%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E8%A9%B0%E3%82%81%E8%BE%BC%E3%81%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E8%BF%B7%E5%AD%90%E3%81%AE%E3%82%84%E3%81%A9%E3%82%8A%E3%81%8E%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E9%80%9A%E5%B8%B8%E3%82%B1%E3%83%A2%E3%83%8EBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28GLAssist%20ver%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E9%8A%80%E6%B2%B3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E9%95%B7%E5%B0%BABMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E9%9B%86%E3%81%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%204th/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E9%9D%9E%E6%90%AD%E8%BC%89%E7%90%86%E7%94%B1/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E9%9F%B3%E9%A0%AD%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E5%B7%AE%E5%88%86%E6%A1%88%E5%86%85%E6%89%80/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E5%B7%AE%E5%88%86%E6%A1%88%E5%86%85%E6%89%80%E6%94%B9/header.json"
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Blets-go-time-hell.github.io%5D%2016%E5%88%86%E4%B9%B1%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpotechang.github.io%5D%20200BPM%E3%82%84%E3%82%8B%E7%94%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%2027%2C934B-JOY/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bhibyethere.github.io%5D%205KEYS%20AERY/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkju8.github.io%5D%20All-embracing%20Insane%20Charts/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Brattoto10.web.fc2.com%5D%20All-embracing%20Insane%20Charts/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bverticalsub.web.fc2.com%5D%20BMS%20Fav%20list%20table/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Btamate27.github.io%5D%20BMS%E3%83%A1%E3%83%A2%E5%B8%B3/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkhibine.tobiiro.jp%5D%20BMS%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpotechang.github.io%5D%20BMS%E7%8F%BE%E4%BB%A3%E7%99%BA%E7%8B%82%E8%AD%9C%E9%9D%A2%E5%AF%84%E3%81%9B%E9%9B%86%E3%82%81/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Btilde.town%5D%20charts%20i%20think%20are%20neat%20%EF%BC%9A3/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarquesaboune.github.io%5D%20DARQUESABOUNE/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkamikaze12345.github.io%5D%20DELAY%20Training%20Table/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bwrench616.github.io%5D%20Delay%E5%B0%8F%E5%AD%A6%E6%A0%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bqetyip0123.github.io%5D%20Double%20Time/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bmonibms.github.io%5D%20Dystopia%20Sub%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bmonibms.github.io%5D%20Dystopia%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bharae09.github.io%5D%20EnduranceDT/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bshimamasa1009.web.fc2.com%5D%20EXTRA%E3%83%A2%E3%83%BC%E3%83%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bshimi9999.github.io%5D%20FIT%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnythil.github.io%5D%20flora/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20G%20e%20n%20g%20a%20o%20j%20o%20y/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bsu565fx.web.fc2.com%5D%20gachimijoy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bgetaji-bms-library.pages.dev%5D%20Getaji%27s%20BMS%20Library/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bhaguren.github.io%5D%20HGRNjoy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bverticalsub.web.fc2.com%5D%20HOUSE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bwww.firiex.com%5D%20joverjoy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkomasan.xyz%5D%20komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20EASY/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkomasan.xyz%5D%20komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20HARD/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkomasan.xyz%5D%20komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20NORMAL/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bskar-wem.github.io%5D%20LN%20Curtain/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkickbass.web.fc2.com%5D%20LN%E3%82%92%E7%89%87%E3%81%A3%E7%AB%AF%E3%81%8B%E3%82%89%E3%83%97%E3%83%AC%E3%82%A4%E3%81%99%E3%82%8B/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bhogeeeeeee.ma-jide.com%5D%20LN%E8%A1%A8%E5%A4%96%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20Merry%20Christmas%20Mr.Overjoy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20mino90%E3%81%AEBMS%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20overjoy%2B/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20overjoy%2B%E9%9A%94%E9%9B%A2/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Blxrlr.web.fc2.com%5D%20Overjoy%E5%8B%9D%E6%89%8B%E3%81%AB%E6%94%B9%E9%80%A0/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpianit.github.io%5D%20PIANIT%20BMS%20TABLE%28lx%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkuroling.github.io%5D%20Remilgym/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bvinylhouse.web.fc2.com%5D%20resjoy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5B9domu.web.fc2.com%5D%20SAN%E5%80%A4%E3%81%8C%E4%B8%8B%E3%81%8C%E3%82%8BBMS%E3%83%AA%E3%82%B9%E3%83%88/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnotmichaelchen.github.io%5D%20Satellite%20EASY/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnotmichaelchen.github.io%5D%20Satellite%20FULLCOMBO/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnotmichaelchen.github.io%5D%20Satellite%20HARD/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnotmichaelchen.github.io%5D%20Satellite%20NORMAL/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Begret9.github.io%5D%20Scramble%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bsnote.web.fc2.com%5D%20Singularity%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpotechang.github.io%5D%20Solomon%E7%99%BB%E8%BC%89%E5%89%8D/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bmplwtch.github.io%5D%20Solomon%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bmqppppp.neocities.org%5D%20Stardust/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdjkuroakari.github.io%5D%20Starlight/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnotmichaelchen.github.io%5D%20Stella%20EASY/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnotmichaelchen.github.io%5D%20Stella%20FULLCOMBO/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnotmichaelchen.github.io%5D%20Stella%20HARD/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnotmichaelchen.github.io%5D%20Stella%20NORMAL/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnotmichaelchen.github.io%5D%20Stellalite/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnotmichaelchen.github.io%5D%20Stellalite%20Sub/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20S%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bplyfrm.github.io%5D%20Timing%20Table%20%28%E4%BB%AE%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkerocomino.github.io%5D%20tinniturjoy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bvi2dx.github.io%5D%20vi%27s%20%E8%AD%9C%E9%9D%A2%20laboratory/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bvi2dx.github.io%5D%20vi%27s%20%E8%AD%9C%E9%9D%A2%20laboratory%20%28provisional%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bfranticfrizz.github.io%5D%20zephyrE/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bfranticfrizz.github.io%5D%20zephyrF/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bfranticfrizz.github.io%5D%20zephyrH/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bfranticfrizz.github.io%5D%20zephyrN/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bcerqant.web.fc2.com%5D%20zindy%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Brattoto10.web.fc2.com%5D%20%CE%A3%EF%BC%9A3%20%E3%80%8D%20%E2%88%A0%20%29%EF%BE%90%E2%8C%92%E3%82%9E%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Beinst-alfimi.github.io%5D%20%E2%98%85%20%E7%B7%B4%E7%BF%92%E8%AD%9C%E9%9D%A2/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bladymade-star.github.io%5D%20%E2%98%85%E2%98%85joy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E3%81%82%E3%82%93%E3%81%95%E3%81%AE%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bcaptainbms.web.fc2.com%5D%20%E3%81%86%E3%82%93%E3%81%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkaguyasystem.web.fc2.com%5D%20%E3%81%90%E3%82%84%E5%BC%8FBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bwakaba-shirasu.velvet.jp%5D%20%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%EF%BC%887keys%EF%BC%89/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bmetometo.web.fc2.com%5D%20%E3%82%81%E3%81%A8%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Biidxtool.kasacontent.com%5D%20%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A1%E3%83%99%E3%83%83%E3%83%88%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8SP/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkickbass.web.fc2.com%5D%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E5%90%8C%E6%A2%B1%E3%81%AELN%E8%AD%9C%E9%9D%A2%E3%82%92%E3%83%97%E3%83%AC%E3%82%A4%E3%81%99%E3%82%8B/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Blets-go-time-hell.github.io%5D%20%E3%82%A6%E3%83%BC%E3%83%87%E3%82%AA%E3%82%B7%E5%B0%8F%E5%AD%A6%E6%A0%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Biidxtool.kasacontent.com%5D%20%E3%82%AA%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdl.dropbox.com%5D%20%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdl.dropbox.com%5D%20%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnasashiki.web.fc2.com%5D%20%E3%82%AE%E3%83%9F%E3%83%83%E3%82%AF%E8%AD%9C%E9%9D%A2%E6%A1%88%E5%86%85%E6%89%80/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5B9domu46i.com%5D%20%E3%82%B4%E3%82%B1%E3%83%B3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%AA%E3%83%91%E3%83%BC%E3%82%AF/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Blets-go-time-hell.github.io%5D%20%E3%83%87%E3%82%A3%E3%83%AC%E3%82%A4joy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E3%83%8D%E3%82%BFBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Broma11.site44.com%5D%20%E3%83%AD%E3%83%9E%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E4%B8%8D%E6%94%BE%E9%80%B8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Babo.nobody.jp%5D%20%E4%B8%AD%E7%B4%9A%E8%80%85%E7%94%A8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmpmsrndsz.nomaki.jp%5D%20%E5%80%8B%E4%BA%BA%E7%94%A8BMS%E5%82%99%E5%BF%98%E9%8C%B2%E3%81%BE%E3%81%A8%E3%82%81/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Boverchoi.web.fc2.com%5D%20%E5%80%8B%E4%BA%BA%E7%9A%84%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bskz.xxxxxxxx.jp%5D%20%E5%89%8A%E9%99%A4%28SKz%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bskz.xxxxxxxx.jp%5D%20%E5%89%8A%E9%99%A4%28SKz%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%287%E9%8D%B5%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmpmsrndsz.nomaki.jp%5D%20%E6%89%80%E6%8C%81%E5%B7%AE%E5%88%86%E4%B8%80%E8%A6%A7%E8%A1%A8%28pt%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E6%97%A7Gachimijoy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bcaptainbms.web.fc2.com%5D%20%E6%98%9F%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bcaptainbms.web.fc2.com%5D%20%E6%98%9F%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bfezikedifficulty.futene.net%5D%20%E6%B1%A0%E7%94%B0%E7%9A%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bherumina.github.io%5D%20%E6%B8%9B%E3%82%8B%E6%9C%AA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E6%BA%96%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E7%99%96%E8%AD%9C%E9%9D%A2%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%28%E4%BB%AE%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Brattoto10.web.fc2.com%5D%20%E7%99%96%E8%AD%9C%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Brattoto10.web.fc2.com%5D%20%E7%99%96%E8%AD%9C%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC%28%E3%82%B5%E3%83%96%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bwalkure.net%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bwalkure.net%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20FC/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bwalkure.net%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bwalkure.net%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20NORMAL/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkginse.github.io%5D%20%E7%99%BA%E7%8B%82%E3%82%B1%E3%83%A2%E3%83%8EBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bwww.firiex.com%5D%20%E7%99%BA%E7%8B%82%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%EF%BC%88%E4%BB%AE%EF%BC%89/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Broma11.site44.com%5D%20%E7%99%BA%E9%9B%A3%E5%85%AC%E5%BC%8F%E8%AD%9C%E9%9D%A2%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20%E7%A0%82%E5%A0%B4/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bcerqant.web.fc2.com%5D%20%E7%A9%B4%E6%8A%9C%E3%81%8D%E8%89%B2%E3%80%85/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bverticalsub.web.fc2.com%5D%20%E7%B8%A6%E9%80%A3%E6%89%93%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Birotsuka.web.fc2.com%5D%20%E8%A9%B0%E3%82%81%E8%BE%BC%E3%81%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkyoto306.github.io%5D%20%E8%BF%B7%E5%AD%90%E3%81%AE%E3%82%84%E3%81%A9%E3%82%8A%E3%81%8E%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkginse.github.io%5D%20%E9%80%9A%E5%B8%B8%E3%82%B1%E3%83%A2%E3%83%8EBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Binfinity.s60.xrea.com%5D%20%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28GLAssist%20ver%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Boneeighth.web.fc2.com%5D%20%E9%8A%80%E6%B2%B3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Brattoto10.web.fc2.com%5D%20%E9%95%B7%E5%B0%BABMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bsuikaikoubou.soragoto.net%5D%20%E9%9B%86%E3%81%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%204th/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bexturbow.github.io%5D%20%E9%9D%9E%E6%90%AD%E8%BC%89%E7%90%86%E7%94%B1/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E9%9F%B3%E9%A0%AD%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E5%B7%AE%E5%88%86%E6%A1%88%E5%86%85%E6%89%80/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Buetnosubarashikikusosabun.web.fc2.com%5D%20%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E5%B7%AE%E5%88%86%E6%A1%88%E5%86%85%E6%89%80%E6%94%B9/header.json"
 ]
 </code></pre>
 </td>
@@ -1193,6 +1149,7 @@ zindy難易度表
 200BPMやる用
 27,934B-JOY
 5KEYS AERY
+All-embracing Insane Charts
 All-embracing Insane Charts
 BMS Fav list table
 BMSメモ帳
@@ -1325,6 +1282,7 @@ zindy難易度表
   "https://get.2sb.org/https://darksabun.club/table/header.json",
   "https://get.2sb.org/https://hibyethere.github.io/table/header.json",
   "https://get.2sb.org/https://kju8.github.io/all-embracing-insane-charts/head.json",
+  "https://get.2sb.org/http://rattoto10.web.fc2.com/insane_charts/header.json",
   "https://get.2sb.org/https://verticalsub.web.fc2.com/fav/header.json",
   "https://get.2sb.org/https://tamate27.github.io/bms/header.json",
   "https://get.2sb.org/https://khibine.tobiiro.jp/header.json",
@@ -1463,6 +1421,7 @@ zindy難易度表
 27,934B-JOY
 5KEYS AERY
 All-embracing Insane Charts
+All-embracing Insane Charts
 BMS Fav list table
 BMSメモ帳
 BMS同梱譜面難易度表
@@ -1589,132 +1548,133 @@ zindy難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/16%E5%88%86%E4%B9%B1%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/200BPM%E3%82%84%E3%82%8B%E7%94%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/27%2C934B-JOY/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/5KEYS%20AERY/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/All-embracing%20Insane%20Charts/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20Fav%20list%20table/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E3%83%A1%E3%83%A2%E5%B8%B3/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E7%8F%BE%E4%BB%A3%E7%99%BA%E7%8B%82%E8%AD%9C%E9%9D%A2%E5%AF%84%E3%81%9B%E9%9B%86%E3%82%81/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/charts%20i%20think%20are%20neat%20%EF%BC%9A3/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DARQUESABOUNE/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DELAY%20Training%20Table/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Delay%E5%B0%8F%E5%AD%A6%E6%A0%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Double%20Time/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Dystopia%20Sub%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Dystopia%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/EnduranceDT/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/EXTRA%E3%83%A2%E3%83%BC%E3%83%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/FIT%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/flora/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/G%20e%20n%20g%20a%20o%20j%20o%20y/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/gachimijoy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Getaji%27s%20BMS%20Library/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/HGRNjoy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/HOUSE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/joverjoy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20EASY/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20HARD/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20NORMAL/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LN%20Curtain/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LN%E3%82%92%E7%89%87%E3%81%A3%E7%AB%AF%E3%81%8B%E3%82%89%E3%83%97%E3%83%AC%E3%82%A4%E3%81%99%E3%82%8B/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LN%E8%A1%A8%E5%A4%96%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Merry%20Christmas%20Mr.Overjoy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/mino90%E3%81%AEBMS%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/overjoy%2B/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/overjoy%2B%E9%9A%94%E9%9B%A2/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Overjoy%E5%8B%9D%E6%89%8B%E3%81%AB%E6%94%B9%E9%80%A0/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PIANIT%20BMS%20TABLE%28lx%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Remilgym/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/resjoy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/SAN%E5%80%A4%E3%81%8C%E4%B8%8B%E3%81%8C%E3%82%8BBMS%E3%83%AA%E3%82%B9%E3%83%88/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20EASY/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20FULLCOMBO/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20HARD/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20NORMAL/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Scramble%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Singularity%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solomon%E7%99%BB%E8%BC%89%E5%89%8D/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solomon%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stardust/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Starlight/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20EASY/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20FULLCOMBO/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20HARD/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20NORMAL/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stellalite/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stellalite%20Sub/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/S%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Timing%20Table%20%28%E4%BB%AE%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/tinniturjoy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/vi%27s%20%E8%AD%9C%E9%9D%A2%20laboratory/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/vi%27s%20%E8%AD%9C%E9%9D%A2%20laboratory%20%28provisional%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/zephyrE/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/zephyrF/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/zephyrH/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/zephyrN/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/zindy%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%CE%A3%EF%BC%9A3%20%E3%80%8D%20%E2%88%A0%20%29%EF%BE%90%E2%8C%92%E3%82%9E%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E2%98%85%20%E7%B7%B4%E7%BF%92%E8%AD%9C%E9%9D%A2/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E2%98%85%E2%98%85joy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%82%E3%82%93%E3%81%95%E3%81%AE%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%86%E3%82%93%E3%81%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%90%E3%82%84%E5%BC%8FBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%EF%BC%887keys%EF%BC%89/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%81%E3%81%A8%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A1%E3%83%99%E3%83%83%E3%83%88%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8SP/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E5%90%8C%E6%A2%B1%E3%81%AELN%E8%AD%9C%E9%9D%A2%E3%82%92%E3%83%97%E3%83%AC%E3%82%A4%E3%81%99%E3%82%8B/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%A6%E3%83%BC%E3%83%87%E3%82%AA%E3%82%B7%E5%B0%8F%E5%AD%A6%E6%A0%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%AA%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%AE%E3%83%9F%E3%83%83%E3%82%AF%E8%AD%9C%E9%9D%A2%E6%A1%88%E5%86%85%E6%89%80/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%B4%E3%82%B1%E3%83%B3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%B8%E3%83%A3%E3%83%91%E3%83%AA%E3%83%91%E3%83%BC%E3%82%AF/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%83%87%E3%82%A3%E3%83%AC%E3%82%A4joy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%83%8D%E3%82%BFBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%83%AD%E3%83%9E%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E4%B8%8D%E6%94%BE%E9%80%B8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E4%B8%AD%E7%B4%9A%E8%80%85%E7%94%A8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%80%8B%E4%BA%BA%E7%94%A8BMS%E5%82%99%E5%BF%98%E9%8C%B2%E3%81%BE%E3%81%A8%E3%82%81/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%80%8B%E4%BA%BA%E7%9A%84%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%89%8A%E9%99%A4%28SKz%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%89%8A%E9%99%A4%28SKz%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%287%E9%8D%B5%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%89%80%E6%8C%81%E5%B7%AE%E5%88%86%E4%B8%80%E8%A6%A7%E8%A1%A8%28pt%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%97%A7Gachimijoy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%98%9F%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%98%9F%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%B1%A0%E7%94%B0%E7%9A%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%B8%9B%E3%82%8B%E6%9C%AA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%BA%96%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%96%E8%AD%9C%E9%9D%A2%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%28%E4%BB%AE%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%96%E8%AD%9C%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%96%E8%AD%9C%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC%28%E3%82%B5%E3%83%96%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20FC/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20NORMAL/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82%E3%82%B1%E3%83%A2%E3%83%8EBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%EF%BC%88%E4%BB%AE%EF%BC%89/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E9%9B%A3%E5%85%AC%E5%BC%8F%E8%AD%9C%E9%9D%A2%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%A0%82%E5%A0%B4/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%A9%B4%E6%8A%9C%E3%81%8D%E8%89%B2%E3%80%85/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%B8%A6%E9%80%A3%E6%89%93%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%A9%B0%E3%82%81%E8%BE%BC%E3%81%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%BF%B7%E5%AD%90%E3%81%AE%E3%82%84%E3%81%A9%E3%82%8A%E3%81%8E%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%80%9A%E5%B8%B8%E3%82%B1%E3%83%A2%E3%83%8EBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28GLAssist%20ver%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%8A%80%E6%B2%B3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%95%B7%E5%B0%BABMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%9B%86%E3%81%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%204th/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%9D%9E%E6%90%AD%E8%BC%89%E7%90%86%E7%94%B1/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%9F%B3%E9%A0%AD%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E5%B7%AE%E5%88%86%E6%A1%88%E5%86%85%E6%89%80/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E5%B7%AE%E5%88%86%E6%A1%88%E5%86%85%E6%89%80%E6%94%B9/header.json"
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blets-go-time-hell.github.io%5D%2016%E5%88%86%E4%B9%B1%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpotechang.github.io%5D%20200BPM%E3%82%84%E3%82%8B%E7%94%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%2027%2C934B-JOY/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhibyethere.github.io%5D%205KEYS%20AERY/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkju8.github.io%5D%20All-embracing%20Insane%20Charts/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20All-embracing%20Insane%20Charts/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bverticalsub.web.fc2.com%5D%20BMS%20Fav%20list%20table/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btamate27.github.io%5D%20BMS%E3%83%A1%E3%83%A2%E5%B8%B3/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkhibine.tobiiro.jp%5D%20BMS%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpotechang.github.io%5D%20BMS%E7%8F%BE%E4%BB%A3%E7%99%BA%E7%8B%82%E8%AD%9C%E9%9D%A2%E5%AF%84%E3%81%9B%E9%9B%86%E3%82%81/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btilde.town%5D%20charts%20i%20think%20are%20neat%20%EF%BC%9A3/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarquesaboune.github.io%5D%20DARQUESABOUNE/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkamikaze12345.github.io%5D%20DELAY%20Training%20Table/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwrench616.github.io%5D%20Delay%E5%B0%8F%E5%AD%A6%E6%A0%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bqetyip0123.github.io%5D%20Double%20Time/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmonibms.github.io%5D%20Dystopia%20Sub%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmonibms.github.io%5D%20Dystopia%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bharae09.github.io%5D%20EnduranceDT/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bshimamasa1009.web.fc2.com%5D%20EXTRA%E3%83%A2%E3%83%BC%E3%83%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bshimi9999.github.io%5D%20FIT%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnythil.github.io%5D%20flora/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20G%20e%20n%20g%20a%20o%20j%20o%20y/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsu565fx.web.fc2.com%5D%20gachimijoy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bgetaji-bms-library.pages.dev%5D%20Getaji%27s%20BMS%20Library/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhaguren.github.io%5D%20HGRNjoy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bverticalsub.web.fc2.com%5D%20HOUSE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwww.firiex.com%5D%20joverjoy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkomasan.xyz%5D%20komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20EASY/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkomasan.xyz%5D%20komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20HARD/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkomasan.xyz%5D%20komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20NORMAL/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bskar-wem.github.io%5D%20LN%20Curtain/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkickbass.web.fc2.com%5D%20LN%E3%82%92%E7%89%87%E3%81%A3%E7%AB%AF%E3%81%8B%E3%82%89%E3%83%97%E3%83%AC%E3%82%A4%E3%81%99%E3%82%8B/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhogeeeeeee.ma-jide.com%5D%20LN%E8%A1%A8%E5%A4%96%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Merry%20Christmas%20Mr.Overjoy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20mino90%E3%81%AEBMS%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20overjoy%2B/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20overjoy%2B%E9%9A%94%E9%9B%A2/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blxrlr.web.fc2.com%5D%20Overjoy%E5%8B%9D%E6%89%8B%E3%81%AB%E6%94%B9%E9%80%A0/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpianit.github.io%5D%20PIANIT%20BMS%20TABLE%28lx%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkuroling.github.io%5D%20Remilgym/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bvinylhouse.web.fc2.com%5D%20resjoy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5B9domu.web.fc2.com%5D%20SAN%E5%80%A4%E3%81%8C%E4%B8%8B%E3%81%8C%E3%82%8BBMS%E3%83%AA%E3%82%B9%E3%83%88/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Satellite%20EASY/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Satellite%20FULLCOMBO/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Satellite%20HARD/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Satellite%20NORMAL/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Begret9.github.io%5D%20Scramble%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsnote.web.fc2.com%5D%20Singularity%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpotechang.github.io%5D%20Solomon%E7%99%BB%E8%BC%89%E5%89%8D/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmplwtch.github.io%5D%20Solomon%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmqppppp.neocities.org%5D%20Stardust/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdjkuroakari.github.io%5D%20Starlight/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Stella%20EASY/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Stella%20FULLCOMBO/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Stella%20HARD/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Stella%20NORMAL/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Stellalite/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Stellalite%20Sub/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20S%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bplyfrm.github.io%5D%20Timing%20Table%20%28%E4%BB%AE%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkerocomino.github.io%5D%20tinniturjoy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bvi2dx.github.io%5D%20vi%27s%20%E8%AD%9C%E9%9D%A2%20laboratory/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bvi2dx.github.io%5D%20vi%27s%20%E8%AD%9C%E9%9D%A2%20laboratory%20%28provisional%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfranticfrizz.github.io%5D%20zephyrE/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfranticfrizz.github.io%5D%20zephyrF/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfranticfrizz.github.io%5D%20zephyrH/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfranticfrizz.github.io%5D%20zephyrN/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bcerqant.web.fc2.com%5D%20zindy%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20%CE%A3%EF%BC%9A3%20%E3%80%8D%20%E2%88%A0%20%29%EF%BE%90%E2%8C%92%E3%82%9E%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Beinst-alfimi.github.io%5D%20%E2%98%85%20%E7%B7%B4%E7%BF%92%E8%AD%9C%E9%9D%A2/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bladymade-star.github.io%5D%20%E2%98%85%E2%98%85joy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%81%82%E3%82%93%E3%81%95%E3%81%AE%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bcaptainbms.web.fc2.com%5D%20%E3%81%86%E3%82%93%E3%81%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkaguyasystem.web.fc2.com%5D%20%E3%81%90%E3%82%84%E5%BC%8FBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwakaba-shirasu.velvet.jp%5D%20%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%EF%BC%887keys%EF%BC%89/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmetometo.web.fc2.com%5D%20%E3%82%81%E3%81%A8%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Biidxtool.kasacontent.com%5D%20%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A1%E3%83%99%E3%83%83%E3%83%88%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8SP/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkickbass.web.fc2.com%5D%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E5%90%8C%E6%A2%B1%E3%81%AELN%E8%AD%9C%E9%9D%A2%E3%82%92%E3%83%97%E3%83%AC%E3%82%A4%E3%81%99%E3%82%8B/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blets-go-time-hell.github.io%5D%20%E3%82%A6%E3%83%BC%E3%83%87%E3%82%AA%E3%82%B7%E5%B0%8F%E5%AD%A6%E6%A0%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Biidxtool.kasacontent.com%5D%20%E3%82%AA%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdl.dropbox.com%5D%20%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdl.dropbox.com%5D%20%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnasashiki.web.fc2.com%5D%20%E3%82%AE%E3%83%9F%E3%83%83%E3%82%AF%E8%AD%9C%E9%9D%A2%E6%A1%88%E5%86%85%E6%89%80/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5B9domu46i.com%5D%20%E3%82%B4%E3%82%B1%E3%83%B3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%AA%E3%83%91%E3%83%BC%E3%82%AF/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blets-go-time-hell.github.io%5D%20%E3%83%87%E3%82%A3%E3%83%AC%E3%82%A4joy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%83%8D%E3%82%BFBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Broma11.site44.com%5D%20%E3%83%AD%E3%83%9E%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E4%B8%8D%E6%94%BE%E9%80%B8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Babo.nobody.jp%5D%20%E4%B8%AD%E7%B4%9A%E8%80%85%E7%94%A8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmpmsrndsz.nomaki.jp%5D%20%E5%80%8B%E4%BA%BA%E7%94%A8BMS%E5%82%99%E5%BF%98%E9%8C%B2%E3%81%BE%E3%81%A8%E3%82%81/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Boverchoi.web.fc2.com%5D%20%E5%80%8B%E4%BA%BA%E7%9A%84%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bskz.xxxxxxxx.jp%5D%20%E5%89%8A%E9%99%A4%28SKz%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bskz.xxxxxxxx.jp%5D%20%E5%89%8A%E9%99%A4%28SKz%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%287%E9%8D%B5%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmpmsrndsz.nomaki.jp%5D%20%E6%89%80%E6%8C%81%E5%B7%AE%E5%88%86%E4%B8%80%E8%A6%A7%E8%A1%A8%28pt%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E6%97%A7Gachimijoy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bcaptainbms.web.fc2.com%5D%20%E6%98%9F%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bcaptainbms.web.fc2.com%5D%20%E6%98%9F%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfezikedifficulty.futene.net%5D%20%E6%B1%A0%E7%94%B0%E7%9A%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bherumina.github.io%5D%20%E6%B8%9B%E3%82%8B%E6%9C%AA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E6%BA%96%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%96%E8%AD%9C%E9%9D%A2%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%28%E4%BB%AE%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20%E7%99%96%E8%AD%9C%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20%E7%99%96%E8%AD%9C%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC%28%E3%82%B5%E3%83%96%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwalkure.net%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwalkure.net%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20FC/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwalkure.net%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwalkure.net%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20NORMAL/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkginse.github.io%5D%20%E7%99%BA%E7%8B%82%E3%82%B1%E3%83%A2%E3%83%8EBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwww.firiex.com%5D%20%E7%99%BA%E7%8B%82%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%EF%BC%88%E4%BB%AE%EF%BC%89/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Broma11.site44.com%5D%20%E7%99%BA%E9%9B%A3%E5%85%AC%E5%BC%8F%E8%AD%9C%E9%9D%A2%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E7%A0%82%E5%A0%B4/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bcerqant.web.fc2.com%5D%20%E7%A9%B4%E6%8A%9C%E3%81%8D%E8%89%B2%E3%80%85/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bverticalsub.web.fc2.com%5D%20%E7%B8%A6%E9%80%A3%E6%89%93%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Birotsuka.web.fc2.com%5D%20%E8%A9%B0%E3%82%81%E8%BE%BC%E3%81%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkyoto306.github.io%5D%20%E8%BF%B7%E5%AD%90%E3%81%AE%E3%82%84%E3%81%A9%E3%82%8A%E3%81%8E%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkginse.github.io%5D%20%E9%80%9A%E5%B8%B8%E3%82%B1%E3%83%A2%E3%83%8EBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Binfinity.s60.xrea.com%5D%20%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28GLAssist%20ver%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Boneeighth.web.fc2.com%5D%20%E9%8A%80%E6%B2%B3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20%E9%95%B7%E5%B0%BABMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsuikaikoubou.soragoto.net%5D%20%E9%9B%86%E3%81%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%204th/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bexturbow.github.io%5D%20%E9%9D%9E%E6%90%AD%E8%BC%89%E7%90%86%E7%94%B1/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E9%9F%B3%E9%A0%AD%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E5%B7%AE%E5%88%86%E6%A1%88%E5%86%85%E6%89%80/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Buetnosubarashikikusosabun.web.fc2.com%5D%20%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E5%B7%AE%E5%88%86%E6%A1%88%E5%86%85%E6%89%80%E6%94%B9/header.json"
 ]
 </code></pre>
 </td>
@@ -1732,274 +1692,6 @@ zindy難易度表
 27,934B-JOY
 5KEYS AERY
 All-embracing Insane Charts
-BMS Fav list table
-BMSメモ帳
-BMS同梱譜面難易度表
-BMS現代発狂譜面寄せ集め
-charts i think are neat :3
-DARQUESABOUNE
-DELAY Training Table
-Delay小学校難易度表
-Double Time
-Dystopia Sub難易度表
-Dystopia難易度表
-EnduranceDT
-EXTRAモード難易度表
-FIT難易度表
-flora
-G e n g a o j o y
-gachimijoy
-Getaji's BMS Library
-HGRNjoy
-HOUSE難易度表
-joverjoy
-komasan.xyz推定難易度表 EASY
-komasan.xyz推定難易度表 HARD
-komasan.xyz推定難易度表 NORMAL
-LN Curtain
-LNを片っ端からプレイする
-LN表外難易度
-Merry Christmas Mr.Overjoy
-mino90のBMS表
-overjoy+
-overjoy+隔離
-Overjoy勝手に改造
-PIANIT BMS TABLE(lx)
-Remilgym
-resjoy
-SAN値が下がるBMSリスト
-Satellite EASY
-Satellite FULLCOMBO
-Satellite HARD
-Satellite NORMAL
-Scramble難易度表
-Singularity難易度表
-Solomon登載前
-Solomon難易度表
-Stardust
-Starlight
-Stella EASY
-Stella FULLCOMBO
-Stella HARD
-Stella NORMAL
-Stellalite
-Stellalite Sub
-S難易度表
-Timing Table (仮)
-tinniturjoy
-vi's 譜面 laboratory
-vi's 譜面 laboratory (provisional)
-zephyrE
-zephyrF
-zephyrH
-zephyrN
-zindy難易度表
-Σ：3 」 ∠ )ﾐ⌒ゞ難易度表
-★ 練習譜面
-★★joy
-あんさの通常難易度表
-うんこ難易度表
-ぐや式BMS難易度表
-ちりめん難易度表（7keys）
-めと難易度
-アルファベット難易度表SP
-イベント同梱のLN譜面をプレイする
-ウーデオシ小学校難易度表
-オマージュBMS難易度表
-カスタム発狂難易度表
-カスタム通常難易度表
-ギミック譜面案内所
-ゴケン難易度表
-ジャパリパーク
-ディレイjoy
-ネタBMS難易度表
-ロマ難易度
-不放逸
-中級者用難易度表
-個人用BMS備忘録まとめ
-個人的難易度
-削除(SKz)難易度表
-削除(SKz)難易度表(7鍵)
-所持差分一覧表(pt)
-旧Gachimijoy
-星のカービィ発狂難易度表
-星のカービィ難易度表
-池田的難易度表
-減る未難易度表
-準発狂BMS難易度表
-癖譜面コレクション(仮)
-癖譜面ライブラリー
-癖譜面ライブラリー(サブ)
-発狂BMS難度推定表 EASY
-発狂BMS難度推定表 FC
-発狂BMS難度推定表 HARD
-発狂BMS難度推定表 NORMAL
-発狂ケモノBMS難易度表
-発狂譜面一覧
-発狂難易度データベース（仮）
-発難公式譜面表
-砂場
-穴抜き色々
-縦連打コレクション
-詰め込み難易度表
-迷子のやどりぎ表
-通常ケモノBMS難易度表
-連打難易度表
-連打難易度表 (GLAssist ver)
-銀河難易度表
-長尺BMS難易度表
-集い難易度表 4th
-非搭載理由
-音頭難易度表
-高難易度差分案内所
-高難易度差分案内所改
-</code></pre>
-</td>
-<td style="width:50%; vertical-align:top;">
-<pre><code class="language-json">
-[
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/16%E5%88%86%E4%B9%B1%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/200BPM%E3%82%84%E3%82%8B%E7%94%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/27%2C934B-JOY/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/5KEYS%20AERY/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/All-embracing%20Insane%20Charts/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20Fav%20list%20table/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E3%83%A1%E3%83%A2%E5%B8%B3/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E7%8F%BE%E4%BB%A3%E7%99%BA%E7%8B%82%E8%AD%9C%E9%9D%A2%E5%AF%84%E3%81%9B%E9%9B%86%E3%82%81/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/charts%20i%20think%20are%20neat%20%EF%BC%9A3/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DARQUESABOUNE/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DELAY%20Training%20Table/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Delay%E5%B0%8F%E5%AD%A6%E6%A0%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Double%20Time/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Dystopia%20Sub%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Dystopia%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/EnduranceDT/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/EXTRA%E3%83%A2%E3%83%BC%E3%83%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/FIT%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/flora/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/G%20e%20n%20g%20a%20o%20j%20o%20y/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/gachimijoy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Getaji%27s%20BMS%20Library/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/HGRNjoy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/HOUSE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/joverjoy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20EASY/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20HARD/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20NORMAL/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LN%20Curtain/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LN%E3%82%92%E7%89%87%E3%81%A3%E7%AB%AF%E3%81%8B%E3%82%89%E3%83%97%E3%83%AC%E3%82%A4%E3%81%99%E3%82%8B/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LN%E8%A1%A8%E5%A4%96%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Merry%20Christmas%20Mr.Overjoy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/mino90%E3%81%AEBMS%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/overjoy%2B/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/overjoy%2B%E9%9A%94%E9%9B%A2/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Overjoy%E5%8B%9D%E6%89%8B%E3%81%AB%E6%94%B9%E9%80%A0/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PIANIT%20BMS%20TABLE%28lx%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Remilgym/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/resjoy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/SAN%E5%80%A4%E3%81%8C%E4%B8%8B%E3%81%8C%E3%82%8BBMS%E3%83%AA%E3%82%B9%E3%83%88/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20EASY/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20FULLCOMBO/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20HARD/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20NORMAL/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Scramble%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Singularity%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solomon%E7%99%BB%E8%BC%89%E5%89%8D/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solomon%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stardust/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Starlight/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20EASY/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20FULLCOMBO/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20HARD/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20NORMAL/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stellalite/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stellalite%20Sub/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/S%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Timing%20Table%20%28%E4%BB%AE%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/tinniturjoy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/vi%27s%20%E8%AD%9C%E9%9D%A2%20laboratory/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/vi%27s%20%E8%AD%9C%E9%9D%A2%20laboratory%20%28provisional%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/zephyrE/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/zephyrF/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/zephyrH/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/zephyrN/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/zindy%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%CE%A3%EF%BC%9A3%20%E3%80%8D%20%E2%88%A0%20%29%EF%BE%90%E2%8C%92%E3%82%9E%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E2%98%85%20%E7%B7%B4%E7%BF%92%E8%AD%9C%E9%9D%A2/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E2%98%85%E2%98%85joy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%82%E3%82%93%E3%81%95%E3%81%AE%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%86%E3%82%93%E3%81%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%90%E3%82%84%E5%BC%8FBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%EF%BC%887keys%EF%BC%89/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%81%E3%81%A8%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A1%E3%83%99%E3%83%83%E3%83%88%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8SP/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E5%90%8C%E6%A2%B1%E3%81%AELN%E8%AD%9C%E9%9D%A2%E3%82%92%E3%83%97%E3%83%AC%E3%82%A4%E3%81%99%E3%82%8B/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%A6%E3%83%BC%E3%83%87%E3%82%AA%E3%82%B7%E5%B0%8F%E5%AD%A6%E6%A0%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%AA%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%AE%E3%83%9F%E3%83%83%E3%82%AF%E8%AD%9C%E9%9D%A2%E6%A1%88%E5%86%85%E6%89%80/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%B4%E3%82%B1%E3%83%B3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%B8%E3%83%A3%E3%83%91%E3%83%AA%E3%83%91%E3%83%BC%E3%82%AF/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%83%87%E3%82%A3%E3%83%AC%E3%82%A4joy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%83%8D%E3%82%BFBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%83%AD%E3%83%9E%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E4%B8%8D%E6%94%BE%E9%80%B8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E4%B8%AD%E7%B4%9A%E8%80%85%E7%94%A8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%80%8B%E4%BA%BA%E7%94%A8BMS%E5%82%99%E5%BF%98%E9%8C%B2%E3%81%BE%E3%81%A8%E3%82%81/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%80%8B%E4%BA%BA%E7%9A%84%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%89%8A%E9%99%A4%28SKz%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%89%8A%E9%99%A4%28SKz%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%287%E9%8D%B5%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%89%80%E6%8C%81%E5%B7%AE%E5%88%86%E4%B8%80%E8%A6%A7%E8%A1%A8%28pt%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%97%A7Gachimijoy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%98%9F%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%98%9F%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%B1%A0%E7%94%B0%E7%9A%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%B8%9B%E3%82%8B%E6%9C%AA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%BA%96%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%96%E8%AD%9C%E9%9D%A2%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%28%E4%BB%AE%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%96%E8%AD%9C%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%96%E8%AD%9C%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC%28%E3%82%B5%E3%83%96%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20FC/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20NORMAL/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82%E3%82%B1%E3%83%A2%E3%83%8EBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%EF%BC%88%E4%BB%AE%EF%BC%89/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E9%9B%A3%E5%85%AC%E5%BC%8F%E8%AD%9C%E9%9D%A2%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%A0%82%E5%A0%B4/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%A9%B4%E6%8A%9C%E3%81%8D%E8%89%B2%E3%80%85/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%B8%A6%E9%80%A3%E6%89%93%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%A9%B0%E3%82%81%E8%BE%BC%E3%81%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%BF%B7%E5%AD%90%E3%81%AE%E3%82%84%E3%81%A9%E3%82%8A%E3%81%8E%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%80%9A%E5%B8%B8%E3%82%B1%E3%83%A2%E3%83%8EBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28GLAssist%20ver%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%8A%80%E6%B2%B3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%95%B7%E5%B0%BABMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%9B%86%E3%81%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%204th/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%9D%9E%E6%90%AD%E8%BC%89%E7%90%86%E7%94%B1/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%9F%B3%E9%A0%AD%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E5%B7%AE%E5%88%86%E6%A1%88%E5%86%85%E6%89%80/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E5%B7%AE%E5%88%86%E6%A1%88%E5%86%85%E6%89%80%E6%94%B9/header.json"
-]
-</code></pre>
-</td>
-</tr>
-</table>
-
-#### GitHub中间链接 (gh-proxy.com)
-
-<table style="width:100%; table-layout:fixed;">
-<tr>
-<td style="width:50%; vertical-align:top;">
-<pre><code class="language-text">
-16分乱打難易度表(仮)
-200BPMやる用
-27,934B-JOY
-5KEYS AERY
 All-embracing Insane Charts
 BMS Fav list table
 BMSメモ帳
@@ -2127,132 +1819,404 @@ zindy難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/16%E5%88%86%E4%B9%B1%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/200BPM%E3%82%84%E3%82%8B%E7%94%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/27%2C934B-JOY/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/5KEYS%20AERY/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/All-embracing%20Insane%20Charts/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20Fav%20list%20table/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E3%83%A1%E3%83%A2%E5%B8%B3/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E7%8F%BE%E4%BB%A3%E7%99%BA%E7%8B%82%E8%AD%9C%E9%9D%A2%E5%AF%84%E3%81%9B%E9%9B%86%E3%82%81/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/charts%20i%20think%20are%20neat%20%EF%BC%9A3/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DARQUESABOUNE/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DELAY%20Training%20Table/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Delay%E5%B0%8F%E5%AD%A6%E6%A0%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Double%20Time/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Dystopia%20Sub%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Dystopia%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/EnduranceDT/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/EXTRA%E3%83%A2%E3%83%BC%E3%83%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/FIT%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/flora/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/G%20e%20n%20g%20a%20o%20j%20o%20y/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/gachimijoy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Getaji%27s%20BMS%20Library/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/HGRNjoy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/HOUSE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/joverjoy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20EASY/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20HARD/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20NORMAL/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LN%20Curtain/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LN%E3%82%92%E7%89%87%E3%81%A3%E7%AB%AF%E3%81%8B%E3%82%89%E3%83%97%E3%83%AC%E3%82%A4%E3%81%99%E3%82%8B/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LN%E8%A1%A8%E5%A4%96%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Merry%20Christmas%20Mr.Overjoy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/mino90%E3%81%AEBMS%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/overjoy%2B/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/overjoy%2B%E9%9A%94%E9%9B%A2/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Overjoy%E5%8B%9D%E6%89%8B%E3%81%AB%E6%94%B9%E9%80%A0/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PIANIT%20BMS%20TABLE%28lx%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Remilgym/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/resjoy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/SAN%E5%80%A4%E3%81%8C%E4%B8%8B%E3%81%8C%E3%82%8BBMS%E3%83%AA%E3%82%B9%E3%83%88/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20EASY/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20FULLCOMBO/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20HARD/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Satellite%20NORMAL/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Scramble%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Singularity%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solomon%E7%99%BB%E8%BC%89%E5%89%8D/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Solomon%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stardust/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Starlight/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20EASY/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20FULLCOMBO/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20HARD/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20NORMAL/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stellalite/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stellalite%20Sub/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/S%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Timing%20Table%20%28%E4%BB%AE%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/tinniturjoy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/vi%27s%20%E8%AD%9C%E9%9D%A2%20laboratory/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/vi%27s%20%E8%AD%9C%E9%9D%A2%20laboratory%20%28provisional%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/zephyrE/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/zephyrF/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/zephyrH/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/zephyrN/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/zindy%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%CE%A3%EF%BC%9A3%20%E3%80%8D%20%E2%88%A0%20%29%EF%BE%90%E2%8C%92%E3%82%9E%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E2%98%85%20%E7%B7%B4%E7%BF%92%E8%AD%9C%E9%9D%A2/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E2%98%85%E2%98%85joy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%82%E3%82%93%E3%81%95%E3%81%AE%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%86%E3%82%93%E3%81%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%90%E3%82%84%E5%BC%8FBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%EF%BC%887keys%EF%BC%89/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%81%E3%81%A8%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A1%E3%83%99%E3%83%83%E3%83%88%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8SP/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E5%90%8C%E6%A2%B1%E3%81%AELN%E8%AD%9C%E9%9D%A2%E3%82%92%E3%83%97%E3%83%AC%E3%82%A4%E3%81%99%E3%82%8B/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%A6%E3%83%BC%E3%83%87%E3%82%AA%E3%82%B7%E5%B0%8F%E5%AD%A6%E6%A0%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%AA%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%AE%E3%83%9F%E3%83%83%E3%82%AF%E8%AD%9C%E9%9D%A2%E6%A1%88%E5%86%85%E6%89%80/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%B4%E3%82%B1%E3%83%B3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%B8%E3%83%A3%E3%83%91%E3%83%AA%E3%83%91%E3%83%BC%E3%82%AF/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%83%87%E3%82%A3%E3%83%AC%E3%82%A4joy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%83%8D%E3%82%BFBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%83%AD%E3%83%9E%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E4%B8%8D%E6%94%BE%E9%80%B8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E4%B8%AD%E7%B4%9A%E8%80%85%E7%94%A8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%80%8B%E4%BA%BA%E7%94%A8BMS%E5%82%99%E5%BF%98%E9%8C%B2%E3%81%BE%E3%81%A8%E3%82%81/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%80%8B%E4%BA%BA%E7%9A%84%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%89%8A%E9%99%A4%28SKz%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%89%8A%E9%99%A4%28SKz%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%287%E9%8D%B5%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%89%80%E6%8C%81%E5%B7%AE%E5%88%86%E4%B8%80%E8%A6%A7%E8%A1%A8%28pt%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%97%A7Gachimijoy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%98%9F%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%98%9F%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%B1%A0%E7%94%B0%E7%9A%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%B8%9B%E3%82%8B%E6%9C%AA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%BA%96%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%96%E8%AD%9C%E9%9D%A2%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%28%E4%BB%AE%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%96%E8%AD%9C%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%96%E8%AD%9C%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC%28%E3%82%B5%E3%83%96%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20FC/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20NORMAL/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82%E3%82%B1%E3%83%A2%E3%83%8EBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%EF%BC%88%E4%BB%AE%EF%BC%89/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E9%9B%A3%E5%85%AC%E5%BC%8F%E8%AD%9C%E9%9D%A2%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%A0%82%E5%A0%B4/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%A9%B4%E6%8A%9C%E3%81%8D%E8%89%B2%E3%80%85/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%B8%A6%E9%80%A3%E6%89%93%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%A9%B0%E3%82%81%E8%BE%BC%E3%81%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%BF%B7%E5%AD%90%E3%81%AE%E3%82%84%E3%81%A9%E3%82%8A%E3%81%8E%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%80%9A%E5%B8%B8%E3%82%B1%E3%83%A2%E3%83%8EBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28GLAssist%20ver%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%8A%80%E6%B2%B3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%95%B7%E5%B0%BABMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%9B%86%E3%81%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%204th/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%9D%9E%E6%90%AD%E8%BC%89%E7%90%86%E7%94%B1/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%9F%B3%E9%A0%AD%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E5%B7%AE%E5%88%86%E6%A1%88%E5%86%85%E6%89%80/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E5%B7%AE%E5%88%86%E6%A1%88%E5%86%85%E6%89%80%E6%94%B9/header.json"
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blets-go-time-hell.github.io%5D%2016%E5%88%86%E4%B9%B1%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpotechang.github.io%5D%20200BPM%E3%82%84%E3%82%8B%E7%94%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%2027%2C934B-JOY/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhibyethere.github.io%5D%205KEYS%20AERY/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkju8.github.io%5D%20All-embracing%20Insane%20Charts/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20All-embracing%20Insane%20Charts/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bverticalsub.web.fc2.com%5D%20BMS%20Fav%20list%20table/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btamate27.github.io%5D%20BMS%E3%83%A1%E3%83%A2%E5%B8%B3/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkhibine.tobiiro.jp%5D%20BMS%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpotechang.github.io%5D%20BMS%E7%8F%BE%E4%BB%A3%E7%99%BA%E7%8B%82%E8%AD%9C%E9%9D%A2%E5%AF%84%E3%81%9B%E9%9B%86%E3%82%81/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btilde.town%5D%20charts%20i%20think%20are%20neat%20%EF%BC%9A3/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarquesaboune.github.io%5D%20DARQUESABOUNE/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkamikaze12345.github.io%5D%20DELAY%20Training%20Table/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwrench616.github.io%5D%20Delay%E5%B0%8F%E5%AD%A6%E6%A0%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bqetyip0123.github.io%5D%20Double%20Time/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmonibms.github.io%5D%20Dystopia%20Sub%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmonibms.github.io%5D%20Dystopia%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bharae09.github.io%5D%20EnduranceDT/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bshimamasa1009.web.fc2.com%5D%20EXTRA%E3%83%A2%E3%83%BC%E3%83%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bshimi9999.github.io%5D%20FIT%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnythil.github.io%5D%20flora/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20G%20e%20n%20g%20a%20o%20j%20o%20y/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsu565fx.web.fc2.com%5D%20gachimijoy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bgetaji-bms-library.pages.dev%5D%20Getaji%27s%20BMS%20Library/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhaguren.github.io%5D%20HGRNjoy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bverticalsub.web.fc2.com%5D%20HOUSE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwww.firiex.com%5D%20joverjoy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkomasan.xyz%5D%20komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20EASY/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkomasan.xyz%5D%20komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20HARD/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkomasan.xyz%5D%20komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20NORMAL/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bskar-wem.github.io%5D%20LN%20Curtain/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkickbass.web.fc2.com%5D%20LN%E3%82%92%E7%89%87%E3%81%A3%E7%AB%AF%E3%81%8B%E3%82%89%E3%83%97%E3%83%AC%E3%82%A4%E3%81%99%E3%82%8B/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhogeeeeeee.ma-jide.com%5D%20LN%E8%A1%A8%E5%A4%96%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Merry%20Christmas%20Mr.Overjoy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20mino90%E3%81%AEBMS%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20overjoy%2B/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20overjoy%2B%E9%9A%94%E9%9B%A2/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blxrlr.web.fc2.com%5D%20Overjoy%E5%8B%9D%E6%89%8B%E3%81%AB%E6%94%B9%E9%80%A0/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpianit.github.io%5D%20PIANIT%20BMS%20TABLE%28lx%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkuroling.github.io%5D%20Remilgym/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bvinylhouse.web.fc2.com%5D%20resjoy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5B9domu.web.fc2.com%5D%20SAN%E5%80%A4%E3%81%8C%E4%B8%8B%E3%81%8C%E3%82%8BBMS%E3%83%AA%E3%82%B9%E3%83%88/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Satellite%20EASY/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Satellite%20FULLCOMBO/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Satellite%20HARD/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Satellite%20NORMAL/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Begret9.github.io%5D%20Scramble%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsnote.web.fc2.com%5D%20Singularity%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpotechang.github.io%5D%20Solomon%E7%99%BB%E8%BC%89%E5%89%8D/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmplwtch.github.io%5D%20Solomon%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmqppppp.neocities.org%5D%20Stardust/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdjkuroakari.github.io%5D%20Starlight/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Stella%20EASY/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Stella%20FULLCOMBO/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Stella%20HARD/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Stella%20NORMAL/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Stellalite/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Stellalite%20Sub/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20S%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bplyfrm.github.io%5D%20Timing%20Table%20%28%E4%BB%AE%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkerocomino.github.io%5D%20tinniturjoy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bvi2dx.github.io%5D%20vi%27s%20%E8%AD%9C%E9%9D%A2%20laboratory/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bvi2dx.github.io%5D%20vi%27s%20%E8%AD%9C%E9%9D%A2%20laboratory%20%28provisional%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfranticfrizz.github.io%5D%20zephyrE/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfranticfrizz.github.io%5D%20zephyrF/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfranticfrizz.github.io%5D%20zephyrH/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfranticfrizz.github.io%5D%20zephyrN/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bcerqant.web.fc2.com%5D%20zindy%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20%CE%A3%EF%BC%9A3%20%E3%80%8D%20%E2%88%A0%20%29%EF%BE%90%E2%8C%92%E3%82%9E%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Beinst-alfimi.github.io%5D%20%E2%98%85%20%E7%B7%B4%E7%BF%92%E8%AD%9C%E9%9D%A2/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bladymade-star.github.io%5D%20%E2%98%85%E2%98%85joy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%81%82%E3%82%93%E3%81%95%E3%81%AE%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bcaptainbms.web.fc2.com%5D%20%E3%81%86%E3%82%93%E3%81%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkaguyasystem.web.fc2.com%5D%20%E3%81%90%E3%82%84%E5%BC%8FBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwakaba-shirasu.velvet.jp%5D%20%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%EF%BC%887keys%EF%BC%89/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmetometo.web.fc2.com%5D%20%E3%82%81%E3%81%A8%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Biidxtool.kasacontent.com%5D%20%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A1%E3%83%99%E3%83%83%E3%83%88%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8SP/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkickbass.web.fc2.com%5D%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E5%90%8C%E6%A2%B1%E3%81%AELN%E8%AD%9C%E9%9D%A2%E3%82%92%E3%83%97%E3%83%AC%E3%82%A4%E3%81%99%E3%82%8B/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blets-go-time-hell.github.io%5D%20%E3%82%A6%E3%83%BC%E3%83%87%E3%82%AA%E3%82%B7%E5%B0%8F%E5%AD%A6%E6%A0%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Biidxtool.kasacontent.com%5D%20%E3%82%AA%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdl.dropbox.com%5D%20%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdl.dropbox.com%5D%20%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnasashiki.web.fc2.com%5D%20%E3%82%AE%E3%83%9F%E3%83%83%E3%82%AF%E8%AD%9C%E9%9D%A2%E6%A1%88%E5%86%85%E6%89%80/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5B9domu46i.com%5D%20%E3%82%B4%E3%82%B1%E3%83%B3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%AA%E3%83%91%E3%83%BC%E3%82%AF/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blets-go-time-hell.github.io%5D%20%E3%83%87%E3%82%A3%E3%83%AC%E3%82%A4joy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%83%8D%E3%82%BFBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Broma11.site44.com%5D%20%E3%83%AD%E3%83%9E%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E4%B8%8D%E6%94%BE%E9%80%B8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Babo.nobody.jp%5D%20%E4%B8%AD%E7%B4%9A%E8%80%85%E7%94%A8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmpmsrndsz.nomaki.jp%5D%20%E5%80%8B%E4%BA%BA%E7%94%A8BMS%E5%82%99%E5%BF%98%E9%8C%B2%E3%81%BE%E3%81%A8%E3%82%81/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Boverchoi.web.fc2.com%5D%20%E5%80%8B%E4%BA%BA%E7%9A%84%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bskz.xxxxxxxx.jp%5D%20%E5%89%8A%E9%99%A4%28SKz%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bskz.xxxxxxxx.jp%5D%20%E5%89%8A%E9%99%A4%28SKz%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%287%E9%8D%B5%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmpmsrndsz.nomaki.jp%5D%20%E6%89%80%E6%8C%81%E5%B7%AE%E5%88%86%E4%B8%80%E8%A6%A7%E8%A1%A8%28pt%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E6%97%A7Gachimijoy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bcaptainbms.web.fc2.com%5D%20%E6%98%9F%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bcaptainbms.web.fc2.com%5D%20%E6%98%9F%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfezikedifficulty.futene.net%5D%20%E6%B1%A0%E7%94%B0%E7%9A%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bherumina.github.io%5D%20%E6%B8%9B%E3%82%8B%E6%9C%AA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E6%BA%96%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%96%E8%AD%9C%E9%9D%A2%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%28%E4%BB%AE%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20%E7%99%96%E8%AD%9C%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20%E7%99%96%E8%AD%9C%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC%28%E3%82%B5%E3%83%96%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwalkure.net%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwalkure.net%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20FC/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwalkure.net%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwalkure.net%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20NORMAL/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkginse.github.io%5D%20%E7%99%BA%E7%8B%82%E3%82%B1%E3%83%A2%E3%83%8EBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwww.firiex.com%5D%20%E7%99%BA%E7%8B%82%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%EF%BC%88%E4%BB%AE%EF%BC%89/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Broma11.site44.com%5D%20%E7%99%BA%E9%9B%A3%E5%85%AC%E5%BC%8F%E8%AD%9C%E9%9D%A2%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E7%A0%82%E5%A0%B4/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bcerqant.web.fc2.com%5D%20%E7%A9%B4%E6%8A%9C%E3%81%8D%E8%89%B2%E3%80%85/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bverticalsub.web.fc2.com%5D%20%E7%B8%A6%E9%80%A3%E6%89%93%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Birotsuka.web.fc2.com%5D%20%E8%A9%B0%E3%82%81%E8%BE%BC%E3%81%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkyoto306.github.io%5D%20%E8%BF%B7%E5%AD%90%E3%81%AE%E3%82%84%E3%81%A9%E3%82%8A%E3%81%8E%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkginse.github.io%5D%20%E9%80%9A%E5%B8%B8%E3%82%B1%E3%83%A2%E3%83%8EBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Binfinity.s60.xrea.com%5D%20%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28GLAssist%20ver%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Boneeighth.web.fc2.com%5D%20%E9%8A%80%E6%B2%B3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20%E9%95%B7%E5%B0%BABMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsuikaikoubou.soragoto.net%5D%20%E9%9B%86%E3%81%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%204th/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bexturbow.github.io%5D%20%E9%9D%9E%E6%90%AD%E8%BC%89%E7%90%86%E7%94%B1/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E9%9F%B3%E9%A0%AD%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E5%B7%AE%E5%88%86%E6%A1%88%E5%86%85%E6%89%80/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Buetnosubarashikikusosabun.web.fc2.com%5D%20%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E5%B7%AE%E5%88%86%E6%A1%88%E5%86%85%E6%89%80%E6%94%B9/header.json"
+]
+</code></pre>
+</td>
+</tr>
+</table>
+
+#### GitHub中间链接 (gh-proxy.com)
+
+<table style="width:100%; table-layout:fixed;">
+<tr>
+<td style="width:50%; vertical-align:top;">
+<pre><code class="language-text">
+16分乱打難易度表(仮)
+200BPMやる用
+27,934B-JOY
+5KEYS AERY
+All-embracing Insane Charts
+All-embracing Insane Charts
+BMS Fav list table
+BMSメモ帳
+BMS同梱譜面難易度表
+BMS現代発狂譜面寄せ集め
+charts i think are neat :3
+DARQUESABOUNE
+DELAY Training Table
+Delay小学校難易度表
+Double Time
+Dystopia Sub難易度表
+Dystopia難易度表
+EnduranceDT
+EXTRAモード難易度表
+FIT難易度表
+flora
+G e n g a o j o y
+gachimijoy
+Getaji's BMS Library
+HGRNjoy
+HOUSE難易度表
+joverjoy
+komasan.xyz推定難易度表 EASY
+komasan.xyz推定難易度表 HARD
+komasan.xyz推定難易度表 NORMAL
+LN Curtain
+LNを片っ端からプレイする
+LN表外難易度
+Merry Christmas Mr.Overjoy
+mino90のBMS表
+overjoy+
+overjoy+隔離
+Overjoy勝手に改造
+PIANIT BMS TABLE(lx)
+Remilgym
+resjoy
+SAN値が下がるBMSリスト
+Satellite EASY
+Satellite FULLCOMBO
+Satellite HARD
+Satellite NORMAL
+Scramble難易度表
+Singularity難易度表
+Solomon登載前
+Solomon難易度表
+Stardust
+Starlight
+Stella EASY
+Stella FULLCOMBO
+Stella HARD
+Stella NORMAL
+Stellalite
+Stellalite Sub
+S難易度表
+Timing Table (仮)
+tinniturjoy
+vi's 譜面 laboratory
+vi's 譜面 laboratory (provisional)
+zephyrE
+zephyrF
+zephyrH
+zephyrN
+zindy難易度表
+Σ：3 」 ∠ )ﾐ⌒ゞ難易度表
+★ 練習譜面
+★★joy
+あんさの通常難易度表
+うんこ難易度表
+ぐや式BMS難易度表
+ちりめん難易度表（7keys）
+めと難易度
+アルファベット難易度表SP
+イベント同梱のLN譜面をプレイする
+ウーデオシ小学校難易度表
+オマージュBMS難易度表
+カスタム発狂難易度表
+カスタム通常難易度表
+ギミック譜面案内所
+ゴケン難易度表
+ジャパリパーク
+ディレイjoy
+ネタBMS難易度表
+ロマ難易度
+不放逸
+中級者用難易度表
+個人用BMS備忘録まとめ
+個人的難易度
+削除(SKz)難易度表
+削除(SKz)難易度表(7鍵)
+所持差分一覧表(pt)
+旧Gachimijoy
+星のカービィ発狂難易度表
+星のカービィ難易度表
+池田的難易度表
+減る未難易度表
+準発狂BMS難易度表
+癖譜面コレクション(仮)
+癖譜面ライブラリー
+癖譜面ライブラリー(サブ)
+発狂BMS難度推定表 EASY
+発狂BMS難度推定表 FC
+発狂BMS難度推定表 HARD
+発狂BMS難度推定表 NORMAL
+発狂ケモノBMS難易度表
+発狂譜面一覧
+発狂難易度データベース（仮）
+発難公式譜面表
+砂場
+穴抜き色々
+縦連打コレクション
+詰め込み難易度表
+迷子のやどりぎ表
+通常ケモノBMS難易度表
+連打難易度表
+連打難易度表 (GLAssist ver)
+銀河難易度表
+長尺BMS難易度表
+集い難易度表 4th
+非搭載理由
+音頭難易度表
+高難易度差分案内所
+高難易度差分案内所改
+</code></pre>
+</td>
+<td style="width:50%; vertical-align:top;">
+<pre><code class="language-json">
+[
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blets-go-time-hell.github.io%5D%2016%E5%88%86%E4%B9%B1%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpotechang.github.io%5D%20200BPM%E3%82%84%E3%82%8B%E7%94%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%2027%2C934B-JOY/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhibyethere.github.io%5D%205KEYS%20AERY/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkju8.github.io%5D%20All-embracing%20Insane%20Charts/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20All-embracing%20Insane%20Charts/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bverticalsub.web.fc2.com%5D%20BMS%20Fav%20list%20table/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btamate27.github.io%5D%20BMS%E3%83%A1%E3%83%A2%E5%B8%B3/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkhibine.tobiiro.jp%5D%20BMS%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpotechang.github.io%5D%20BMS%E7%8F%BE%E4%BB%A3%E7%99%BA%E7%8B%82%E8%AD%9C%E9%9D%A2%E5%AF%84%E3%81%9B%E9%9B%86%E3%82%81/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btilde.town%5D%20charts%20i%20think%20are%20neat%20%EF%BC%9A3/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarquesaboune.github.io%5D%20DARQUESABOUNE/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkamikaze12345.github.io%5D%20DELAY%20Training%20Table/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwrench616.github.io%5D%20Delay%E5%B0%8F%E5%AD%A6%E6%A0%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bqetyip0123.github.io%5D%20Double%20Time/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmonibms.github.io%5D%20Dystopia%20Sub%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmonibms.github.io%5D%20Dystopia%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bharae09.github.io%5D%20EnduranceDT/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bshimamasa1009.web.fc2.com%5D%20EXTRA%E3%83%A2%E3%83%BC%E3%83%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bshimi9999.github.io%5D%20FIT%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnythil.github.io%5D%20flora/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20G%20e%20n%20g%20a%20o%20j%20o%20y/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsu565fx.web.fc2.com%5D%20gachimijoy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bgetaji-bms-library.pages.dev%5D%20Getaji%27s%20BMS%20Library/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhaguren.github.io%5D%20HGRNjoy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bverticalsub.web.fc2.com%5D%20HOUSE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwww.firiex.com%5D%20joverjoy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkomasan.xyz%5D%20komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20EASY/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkomasan.xyz%5D%20komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20HARD/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkomasan.xyz%5D%20komasan.xyz%E6%8E%A8%E5%AE%9A%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20NORMAL/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bskar-wem.github.io%5D%20LN%20Curtain/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkickbass.web.fc2.com%5D%20LN%E3%82%92%E7%89%87%E3%81%A3%E7%AB%AF%E3%81%8B%E3%82%89%E3%83%97%E3%83%AC%E3%82%A4%E3%81%99%E3%82%8B/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhogeeeeeee.ma-jide.com%5D%20LN%E8%A1%A8%E5%A4%96%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Merry%20Christmas%20Mr.Overjoy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20mino90%E3%81%AEBMS%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20overjoy%2B/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20overjoy%2B%E9%9A%94%E9%9B%A2/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blxrlr.web.fc2.com%5D%20Overjoy%E5%8B%9D%E6%89%8B%E3%81%AB%E6%94%B9%E9%80%A0/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpianit.github.io%5D%20PIANIT%20BMS%20TABLE%28lx%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkuroling.github.io%5D%20Remilgym/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bvinylhouse.web.fc2.com%5D%20resjoy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5B9domu.web.fc2.com%5D%20SAN%E5%80%A4%E3%81%8C%E4%B8%8B%E3%81%8C%E3%82%8BBMS%E3%83%AA%E3%82%B9%E3%83%88/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Satellite%20EASY/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Satellite%20FULLCOMBO/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Satellite%20HARD/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Satellite%20NORMAL/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Begret9.github.io%5D%20Scramble%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsnote.web.fc2.com%5D%20Singularity%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpotechang.github.io%5D%20Solomon%E7%99%BB%E8%BC%89%E5%89%8D/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmplwtch.github.io%5D%20Solomon%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmqppppp.neocities.org%5D%20Stardust/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdjkuroakari.github.io%5D%20Starlight/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Stella%20EASY/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Stella%20FULLCOMBO/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Stella%20HARD/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Stella%20NORMAL/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Stellalite/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20Stellalite%20Sub/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20S%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bplyfrm.github.io%5D%20Timing%20Table%20%28%E4%BB%AE%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkerocomino.github.io%5D%20tinniturjoy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bvi2dx.github.io%5D%20vi%27s%20%E8%AD%9C%E9%9D%A2%20laboratory/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bvi2dx.github.io%5D%20vi%27s%20%E8%AD%9C%E9%9D%A2%20laboratory%20%28provisional%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfranticfrizz.github.io%5D%20zephyrE/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfranticfrizz.github.io%5D%20zephyrF/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfranticfrizz.github.io%5D%20zephyrH/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfranticfrizz.github.io%5D%20zephyrN/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bcerqant.web.fc2.com%5D%20zindy%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20%CE%A3%EF%BC%9A3%20%E3%80%8D%20%E2%88%A0%20%29%EF%BE%90%E2%8C%92%E3%82%9E%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Beinst-alfimi.github.io%5D%20%E2%98%85%20%E7%B7%B4%E7%BF%92%E8%AD%9C%E9%9D%A2/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bladymade-star.github.io%5D%20%E2%98%85%E2%98%85joy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%81%82%E3%82%93%E3%81%95%E3%81%AE%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bcaptainbms.web.fc2.com%5D%20%E3%81%86%E3%82%93%E3%81%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkaguyasystem.web.fc2.com%5D%20%E3%81%90%E3%82%84%E5%BC%8FBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwakaba-shirasu.velvet.jp%5D%20%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%EF%BC%887keys%EF%BC%89/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmetometo.web.fc2.com%5D%20%E3%82%81%E3%81%A8%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Biidxtool.kasacontent.com%5D%20%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A1%E3%83%99%E3%83%83%E3%83%88%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8SP/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkickbass.web.fc2.com%5D%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E5%90%8C%E6%A2%B1%E3%81%AELN%E8%AD%9C%E9%9D%A2%E3%82%92%E3%83%97%E3%83%AC%E3%82%A4%E3%81%99%E3%82%8B/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blets-go-time-hell.github.io%5D%20%E3%82%A6%E3%83%BC%E3%83%87%E3%82%AA%E3%82%B7%E5%B0%8F%E5%AD%A6%E6%A0%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Biidxtool.kasacontent.com%5D%20%E3%82%AA%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdl.dropbox.com%5D%20%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdl.dropbox.com%5D%20%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnasashiki.web.fc2.com%5D%20%E3%82%AE%E3%83%9F%E3%83%83%E3%82%AF%E8%AD%9C%E9%9D%A2%E6%A1%88%E5%86%85%E6%89%80/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5B9domu46i.com%5D%20%E3%82%B4%E3%82%B1%E3%83%B3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%AA%E3%83%91%E3%83%BC%E3%82%AF/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blets-go-time-hell.github.io%5D%20%E3%83%87%E3%82%A3%E3%83%AC%E3%82%A4joy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%83%8D%E3%82%BFBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Broma11.site44.com%5D%20%E3%83%AD%E3%83%9E%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E4%B8%8D%E6%94%BE%E9%80%B8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Babo.nobody.jp%5D%20%E4%B8%AD%E7%B4%9A%E8%80%85%E7%94%A8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmpmsrndsz.nomaki.jp%5D%20%E5%80%8B%E4%BA%BA%E7%94%A8BMS%E5%82%99%E5%BF%98%E9%8C%B2%E3%81%BE%E3%81%A8%E3%82%81/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Boverchoi.web.fc2.com%5D%20%E5%80%8B%E4%BA%BA%E7%9A%84%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bskz.xxxxxxxx.jp%5D%20%E5%89%8A%E9%99%A4%28SKz%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bskz.xxxxxxxx.jp%5D%20%E5%89%8A%E9%99%A4%28SKz%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%287%E9%8D%B5%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmpmsrndsz.nomaki.jp%5D%20%E6%89%80%E6%8C%81%E5%B7%AE%E5%88%86%E4%B8%80%E8%A6%A7%E8%A1%A8%28pt%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E6%97%A7Gachimijoy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bcaptainbms.web.fc2.com%5D%20%E6%98%9F%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bcaptainbms.web.fc2.com%5D%20%E6%98%9F%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfezikedifficulty.futene.net%5D%20%E6%B1%A0%E7%94%B0%E7%9A%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bherumina.github.io%5D%20%E6%B8%9B%E3%82%8B%E6%9C%AA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E6%BA%96%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%99%96%E8%AD%9C%E9%9D%A2%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%28%E4%BB%AE%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20%E7%99%96%E8%AD%9C%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20%E7%99%96%E8%AD%9C%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC%28%E3%82%B5%E3%83%96%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwalkure.net%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwalkure.net%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20FC/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwalkure.net%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwalkure.net%5D%20%E7%99%BA%E7%8B%82BMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20NORMAL/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkginse.github.io%5D%20%E7%99%BA%E7%8B%82%E3%82%B1%E3%83%A2%E3%83%8EBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwww.firiex.com%5D%20%E7%99%BA%E7%8B%82%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%EF%BC%88%E4%BB%AE%EF%BC%89/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Broma11.site44.com%5D%20%E7%99%BA%E9%9B%A3%E5%85%AC%E5%BC%8F%E8%AD%9C%E9%9D%A2%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E7%A0%82%E5%A0%B4/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bcerqant.web.fc2.com%5D%20%E7%A9%B4%E6%8A%9C%E3%81%8D%E8%89%B2%E3%80%85/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bverticalsub.web.fc2.com%5D%20%E7%B8%A6%E9%80%A3%E6%89%93%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Birotsuka.web.fc2.com%5D%20%E8%A9%B0%E3%82%81%E8%BE%BC%E3%81%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkyoto306.github.io%5D%20%E8%BF%B7%E5%AD%90%E3%81%AE%E3%82%84%E3%81%A9%E3%82%8A%E3%81%8E%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkginse.github.io%5D%20%E9%80%9A%E5%B8%B8%E3%82%B1%E3%83%A2%E3%83%8EBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Binfinity.s60.xrea.com%5D%20%E9%80%A3%E6%89%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%20%28GLAssist%20ver%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Boneeighth.web.fc2.com%5D%20%E9%8A%80%E6%B2%B3%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20%E9%95%B7%E5%B0%BABMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsuikaikoubou.soragoto.net%5D%20%E9%9B%86%E3%81%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%204th/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bexturbow.github.io%5D%20%E9%9D%9E%E6%90%AD%E8%BC%89%E7%90%86%E7%94%B1/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E9%9F%B3%E9%A0%AD%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E5%B7%AE%E5%88%86%E6%A1%88%E5%86%85%E6%89%80/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Buetnosubarashikikusosabun.web.fc2.com%5D%20%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E5%B7%AE%E5%88%86%E6%A1%88%E5%86%85%E6%89%80%E6%94%B9/header.json"
 ]
 </code></pre>
 </td>
@@ -2314,13 +2278,11 @@ NASA式難易度表
 numuther renda sabun
 numuther sabun
 obj. w
-obj.1008
 obj.7zs
 obj.fhyu
 obj.Lucy
 obj.nov
 obj.R1N
-obj.seojoon
 obj.XYZ
 obj.スノート
 obj:slash SP
@@ -2341,7 +2303,6 @@ Snowzero難易度表
 SUZUKAZEΛonly難易度
 swa倉庫
 Thasyka
-th差分
 Triforce's Sabun
 Tristan97 Insane Sabun Table
 Tristan97 Normal Table
@@ -2436,13 +2397,11 @@ ZENSOQ difficulty table
   "https://numuther.web.fc2.com/table_tate.html",
   "https://numuther.web.fc2.com/table.html",
   "https://wcko87.github.io/bms-table/obj-w.html",
-  "https://bmsdb.hexlataia.xyz/hinanjoy?name=obj.1008&amp;symbol=%E2%88%9E&amp;filter=%7B%22a%22%3A%22a%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%221008%22%2C%22n%22%3Afalse%7D%5D%7D",
   "https://bms.hexlataia.xyz/tables/convert/obj.7zs/table.html",
   "https://bmsdb.hexlataia.xyz/hinanjoy?name=obj.fhyu&amp;symbol=fh&amp;filter=%7B%22a%22%3A%22o%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22fhyu%22%2C%22n%22%3Afalse%7D%5D%7D",
   "https://bms.hexlataia.xyz/tables/convert/obj.Lucy/table.html",
   "https://bms.hexlataia.xyz/tables/convert/obj.nov/table.html",
   "https://bmsdb.hexlataia.xyz/hinanjoy?name=obj.R1N&amp;symbol=R1N&amp;filter=%7B%22a%22%3A%22o%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22R1N%22%2C%22n%22%3Afalse%7D%5D%7D",
-  "https://bmsj.github.io/table.html",
   "https://xxyz.github.io/objxyz/",
   "https://bmsdb.hexlataia.xyz/hinanjoy?name=obj.%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88&amp;symbol=%E2%9D%85&amp;filter=%7B%22a%22%3A%22o%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88%22%2C%22n%22%3Afalse%7D%5D%7D",
   "https://darksabun.club/table/archive/slash-sp/",
@@ -2463,7 +2422,6 @@ ZENSOQ difficulty table
   "https://darksabun.club/table/archive/suzukaze-only/",
   "http://swamelo.web.fc2.com/01_HK.html",
   "https://bmsdb.hexlataia.xyz/hinanjoy?name=Thasyka&amp;symbol=Th&amp;filter=%7B%22a%22%3A%22a%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22Thasyka%22%2C%22n%22%3Afalse%7D%5D%7D",
-  "https://th-bms.github.io/table/",
   "https://trfce.github.io/",
   "https://tristandavis97.github.io/Tables/Insane_Sabun.html",
   "https://tristandavis97.github.io/Tables/Normal_Sabun.html",
@@ -2565,13 +2523,11 @@ NASA式難易度表
 numuther renda sabun
 numuther sabun
 obj. w
-obj.1008
 obj.7zs
 obj.fhyu
 obj.Lucy
 obj.nov
 obj.R1N
-obj.seojoon
 obj.XYZ
 obj.スノート
 obj:slash SP
@@ -2592,7 +2548,6 @@ Snowzero難易度表
 SUZUKAZEΛonly難易度
 swa倉庫
 Thasyka
-th差分
 Triforce's Sabun
 Tristan97 Insane Sabun Table
 Tristan97 Normal Table
@@ -2640,123 +2595,120 @@ ZENSOQ difficulty table
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E5%85%AB%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E2%99%AA/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/.WAS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/2RLZ/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/980%E5%86%86%E3%81%AE%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5BF%5D/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/AMERIA/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/ATOM%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28SP%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/azkiBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BAECON%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BKANOTHER/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BOKKI/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/C4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/chack%E2%99%AA/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Criyajuh%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Decimal%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DK%20INSANE/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/EGRETjoy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/ELIGOS/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/firi%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/FL%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/fukojoy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Hamstella%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/HexaJoy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Homerjoy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/hyuki%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/IBARAGI_YOSHIMI%20ChartTable/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/jakko%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/K-SPIN%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/krg/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Kumahige/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/L-Mys%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Lapis/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Lian%27s%20Overjoy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Lime/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Limite%20SP%E5%B7%AE%E5%88%86/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/LindBlum%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Mallow%E2%99%AA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Mary_Sue%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/mfmf/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/mn%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/MonstaJoy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/morio%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/mp%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/NASA%E5%BC%8F%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/numuther%20renda%20sabun/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/numuther%20sabun/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/obj.%20w/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/obj.1008/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/obj.7zs/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/obj.fhyu/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/obj.Lucy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/obj.nov/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/obj.R1N/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/obj.seojoon/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/obj.XYZ/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/obj.%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/obj%EF%BC%9Aslash%20SP/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Ondajoy%202nd%20Season/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/osagejoy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/PARKSU%27s%205K%20Insane%20BMS/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/po/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/polyform%20table/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/poprer%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/quad%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/rat%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/sagoo%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Samalite%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Seori%20%26%20%E5%A6%96%E5%A4%A2%20Chart%20Table/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/siokaze/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/skar%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Snowzero%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/SUZUKAZE%CE%9Bonly%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/swa%E5%80%89%E5%BA%AB/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Thasyka/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/th%E5%B7%AE%E5%88%86/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Triforce%27s%20Sabun/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Tristan97%20Insane%20Sabun%20Table/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Tristan97%20Normal%20Table/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/tyrcs%20Chart%20Table/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/vi%27s%20%E5%B7%AE%E5%88%86%20laboratory/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Youri%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/yuyuko%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/ZENSOQ%20difficulty%20table/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%D0%98%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%82%E3%81%BC%E3%80%82%E9%96%A2%E9%80%A3BMS%E3%83%AA%E3%82%B9%E3%83%88/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%82%E3%83%BC%E3%81%95%E3%82%93%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%84%E3%82%8D%E3%81%A4%E3%81%8B%E8%A3%BD%E4%BD%9C%E5%B7%AE%E5%88%86%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%8A%E4%B8%8B%E3%81%92/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%8A%E7%9A%BF%E3%81%8C%E6%9C%AA%E7%86%9F%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%8B%E3%81%AB%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%8D%E3%81%AE%E3%81%93%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%8F%E3%82%8C%E3%81%93%E3%81%A5%E3%81%8D%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%A1%E3%82%93%E3%81%BD%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%B2/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%B6%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%82%E3%81%AB%E3%82%82%E3%81%AB%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%86%E3%82%81%E3%82%8B%E3%81%95%E3%81%B6%E3%82%93%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%8F%E3%81%B6%E3%81%AB%E3%82%85%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%A8%E3%82%B4%E3%82%B5%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%AA%E3%83%B3%E3%83%9E%E3%82%B3%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%B4%E3%82%B9%E3%83%AD%E3%83%AA%E3%81%AE%E9%9B%86%E3%81%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%B5%E3%83%A9%E3%83%80%E6%B2%B9%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%83%9D%E3%83%86%E3%83%81%E3%83%A3%E3%82%B0joy/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E4%BA%AC%E9%83%BD%E3%81%95%E3%82%93%E5%AE%B6%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E4%BB%99%E4%BA%BA%E6%8E%8C%E3%81%AE%E4%BA%BABMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E5%8D%81%E5%85%AD%E5%A4%9C%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E5%B7%AE%E5%88%86%E7%BD%AE%E3%81%8D%E5%A0%B4/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E6%95%B5%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E6%9C%88%E5%85%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E6%B1%97BMS/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%B5%A8%E6%AF%AF%E3%81%AE%E8%87%AA%E4%BD%9C%E5%B7%AE%E5%88%86%E7%BD%AE%E3%81%8D%E5%A0%B4/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E8%82%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E8%96%84%E6%9D%8F/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E8%B5%A4%E3%81%84%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E9%A9%AB%E9%A9%AB%E9%A9%AB/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E9%BB%92%E7%8C%AB%E9%9B%A3%E6%98%93%E5%BA%A6/header.json"
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bmqppppp.neocities.org%5D%20%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E5%85%AB%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E2%99%AA/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20.WAS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5B2rlz.darksabun.club%5D%202RLZ/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20980%E5%86%86%E3%81%AE%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20%5BF%5D/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20AMERIA/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bonzonium.at-ninja.jp%5D%20ATOM%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28SP%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Byaritaihoudie.fr%5D%20azkiBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bakred.web.fc2.com%5D%20BAECON%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20BKANOTHER/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20BOKKI/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bc4nolab.web.fc2.com%5D%20C4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20chack%E2%99%AA/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bcriyajuh.github.io%5D%20Criyajuh%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bblackdisc143.github.io%5D%20Decimal%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bfrozensat.github.io%5D%20DK%20INSANE/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Begret0.github.io%5D%20EGRETjoy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20ELIGOS/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Byaritaihoudie.fr%5D%20firi%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bfsrs.darksabun.club%5D%20FL%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bfukobms.github.io%5D%20fukojoy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bhamstella.web.fc2.com%5D%20Hamstella%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20HexaJoy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bhomarebms.web.fc2.com%5D%20Homerjoy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bhyuki2684.github.io%5D%20hyuki%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bsiimamu.github.io%5D%20IBARAGI_YOSHIMI%20ChartTable/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bjakko.web.fc2.com%5D%20jakko%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Brawgit.com%5D%20K-SPIN%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20krg/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20Kumahige/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Brian-eimu.github.io%5D%20L-Mys%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20Lapis/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbmsoflian.web.fc2.com%5D%20Lian%27s%20Overjoy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20Lime/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.limiteknj.net%5D%20Limite%20SP%E5%B7%AE%E5%88%86/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Blllindblum.web.fc2.com%5D%20LindBlum%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bmallowtablekari.ninja-web.net%5D%20Mallow%E2%99%AA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20Mary_Sue%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20mfmf/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20mn%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20MonstaJoy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bmoriosabun.zouri.jp%5D%20morio%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Byaritaihoudie.fr%5D%20mp%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnasashiki.web.fc2.com%5D%20NASA%E5%BC%8F%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnumuther.web.fc2.com%5D%20numuther%20renda%20sabun/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnumuther.web.fc2.com%5D%20numuther%20sabun/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bwcko87.github.io%5D%20obj.%20w/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.7zs/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.fhyu/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.Lucy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.nov/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.R1N/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bxxyz.github.io%5D%20obj.XYZ/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20obj%EF%BC%9Aslash%20SP/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bonmac4.github.io%5D%20Ondajoy%202nd%20Season/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20osagejoy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bparksu.darksabun.club%5D%20PARKSU%27s%205K%20Insane%20BMS/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20po/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bplyfrm.github.io%5D%20polyform%20table/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpoprerbms.web.fc2.com%5D%20poprer%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bquad.ninja-web.net%5D%20quad%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Brattoto10.web.fc2.com%5D%20rat%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbmsagoo.web.fc2.com%5D%20sagoo%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bsamalite.fuma-kotaro.com%5D%20Samalite%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bseori-lee.github.io%5D%20Seori%20%26%20%E5%A6%96%E5%A4%A2%20Chart%20Table/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20siokaze/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bskar-wem.github.io%5D%20skar%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Byaritaihoudie.fr%5D%20Snowzero%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20SUZUKAZE%CE%9Bonly%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bswamelo.web.fc2.com%5D%20swa%E5%80%89%E5%BA%AB/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20Thasyka/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Btrfce.github.io%5D%20Triforce%27s%20Sabun/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Btristandavis97.github.io%5D%20Tristan97%20Insane%20Sabun%20Table/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Btristandavis97.github.io%5D%20Tristan97%20Normal%20Table/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Btyrcs.github.io%5D%20tyrcs%20Chart%20Table/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bvi2dx.github.io%5D%20vi%27s%20%E5%B7%AE%E5%88%86%20laboratory/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5B4uri.web.fc2.com%5D%20Youri%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Byaritaihoudie.fr%5D%20yuyuko%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20ZENSOQ%20difficulty%20table/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bparksu.darksabun.club%5D%20%D0%98%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Babo.nobody.jp%5D%20%E3%81%82%E3%81%BC%E3%80%82%E9%96%A2%E9%80%A3BMS%E3%83%AA%E3%82%B9%E3%83%88/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E3%81%82%E3%83%BC%E3%81%95%E3%82%93%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Birotsuka.web.fc2.com%5D%20%E3%81%84%E3%82%8D%E3%81%A4%E3%81%8B%E8%A3%BD%E4%BD%9C%E5%B7%AE%E5%88%86%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%81%8A%E4%B8%8B%E3%81%92/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Beinst-alfimi.github.io%5D%20%E3%81%8A%E7%9A%BF%E3%81%8C%E6%9C%AA%E7%86%9F%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bmuy4.github.io%5D%20%E3%81%8B%E3%81%AB%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkinokonohakkyounanido.web.fc2.com%5D%20%E3%81%8D%E3%81%AE%E3%81%93%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Brei0kisaragi.github.io%5D%20%E3%81%8F%E3%82%8C%E3%81%93%E3%81%A5%E3%81%8D%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bchimpodifficulty.web.fc2.com%5D%20%E3%81%A1%E3%82%93%E3%81%BD%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%81%B2/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%81%B6%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bmonibms.github.io%5D%20%E3%82%82%E3%81%AB%E3%82%82%E3%81%AB%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E3%82%86%E3%82%81%E3%82%8B%E3%81%95%E3%81%B6%E3%82%93%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstrangerxxx.web.fc2.com%5D%20%E3%82%8F%E3%81%B6%E3%81%AB%E3%82%85%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Begosa0424.github.io%5D%20%E3%82%A8%E3%82%B4%E3%82%B5%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bonmacodayo.web.fc2.com%5D%20%E3%82%AA%E3%83%B3%E3%83%9E%E3%82%B3%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bsayakaisbaka.github.io%5D%20%E3%82%B4%E3%82%B9%E3%83%AD%E3%83%AA%E3%81%AE%E9%9B%86%E3%81%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E3%82%B5%E3%83%A9%E3%83%80%E6%B2%B9%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpotechang.github.io%5D%20%E3%83%9D%E3%83%86%E3%83%81%E3%83%A3%E3%82%B0joy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkyoto306.github.io%5D%20%E4%BA%AC%E9%83%BD%E3%81%95%E3%82%93%E5%AE%B6%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E4%BB%99%E4%BA%BA%E6%8E%8C%E3%81%AE%E4%BA%BABMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bizayoi.tada-katsu.com%5D%20%E5%8D%81%E5%85%AD%E5%A4%9C%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bsiromarudaisuki.github.io%5D%20%E5%B7%AE%E5%88%86%E7%BD%AE%E3%81%8D%E5%A0%B4/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Byaritaihoudie.fr%5D%20%E6%95%B5%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbmsselene.web.fc2.com%5D%20%E6%9C%88%E5%85%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20%E7%99%BA%E6%B1%97BMS/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E7%B5%A8%E6%AF%AF%E3%81%AE%E8%87%AA%E4%BD%9C%E5%B7%AE%E5%88%86%E7%BD%AE%E3%81%8D%E5%A0%B4/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Byaritaihoudie.fr%5D%20%E8%82%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20%E8%96%84%E6%9D%8F/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bakred.web.fc2.com%5D%20%E8%B5%A4%E3%81%84%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Byaritaihoudie.fr%5D%20%E9%A9%AB%E9%A9%AB%E9%A9%AB/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E9%BB%92%E7%8C%AB%E9%9B%A3%E6%98%93%E5%BA%A6/header.json"
 ]
 </code></pre>
 </td>
@@ -2816,13 +2768,11 @@ NASA式難易度表
 numuther renda sabun
 numuther sabun
 obj. w
-obj.1008
 obj.7zs
 obj.fhyu
 obj.Lucy
 obj.nov
 obj.R1N
-obj.seojoon
 obj.XYZ
 obj.スノート
 obj:slash SP
@@ -2843,7 +2793,6 @@ Snowzero難易度表
 SUZUKAZEΛonly難易度
 swa倉庫
 Thasyka
-th差分
 Triforce's Sabun
 Tristan97 Insane Sabun Table
 Tristan97 Normal Table
@@ -2938,13 +2887,11 @@ ZENSOQ difficulty table
   "https://get.2sb.org/https://numuther.web.fc2.com/header_tate.json",
   "https://get.2sb.org/https://numuther.web.fc2.com/header.json",
   "https://get.2sb.org/https://wcko87.github.io/bms-table/header.json",
-  "https://get.2sb.org/https://bmsdb.hexlataia.xyz/hinanjoy/header.json?name=obj.1008&amp;symbol=%E2%88%9E&amp;filter=%7B%22a%22%3A%22a%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%221008%22%2C%22n%22%3Afalse%7D%5D%7D",
   "https://get.2sb.org/https://bms.hexlataia.xyz/tables/convert/obj.7zs/header.json",
   "https://get.2sb.org/https://bmsdb.hexlataia.xyz/hinanjoy/header.json?name=obj.fhyu&amp;symbol=fh&amp;filter=%7B%22a%22%3A%22o%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22fhyu%22%2C%22n%22%3Afalse%7D%5D%7D",
   "https://get.2sb.org/https://bms.hexlataia.xyz/tables/convert/obj.Lucy/header.json",
   "https://get.2sb.org/https://bms.hexlataia.xyz/tables/convert/obj.nov/header.json",
   "https://get.2sb.org/https://bmsdb.hexlataia.xyz/hinanjoy/header.json?name=obj.R1N&amp;symbol=R1N&amp;filter=%7B%22a%22%3A%22o%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22R1N%22%2C%22n%22%3Afalse%7D%5D%7D",
-  "https://get.2sb.org/https://bmsj.github.io/header.json",
   "https://get.2sb.org/https://xxyz.github.io/objxyz/data/header.json",
   "https://get.2sb.org/https://bmsdb.hexlataia.xyz/hinanjoy/header.json?name=obj.%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88&amp;symbol=%E2%9D%85&amp;filter=%7B%22a%22%3A%22o%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88%22%2C%22n%22%3Afalse%7D%5D%7D",
   "https://get.2sb.org/https://darksabun.club/table/archive/slash-sp/header.json",
@@ -2965,7 +2912,6 @@ ZENSOQ difficulty table
   "https://get.2sb.org/https://darksabun.club/table/archive/suzukaze-only/header.json",
   "https://get.2sb.org/http://swamelo.web.fc2.com/header.json",
   "https://get.2sb.org/https://bmsdb.hexlataia.xyz/hinanjoy/header.json?name=Thasyka&amp;symbol=Th&amp;filter=%7B%22a%22%3A%22a%22%2C%22f%22%3A%5B%7B%22c%22%3A%22noter%22%2C%22e%22%3A%22%3D%22%2C%22v%22%3A%22Thasyka%22%2C%22n%22%3Afalse%7D%5D%7D",
-  "https://get.2sb.org/https://th-bms.github.io/table/header.json",
   "https://get.2sb.org/https://trfce.github.io/assets/json/header.json",
   "https://get.2sb.org/https://tristandavis97.github.io/Tables/T97_Insane_Sabun_header.json",
   "https://get.2sb.org/https://tristandavis97.github.io/Tables/T97_Normal_Table_header.json",
@@ -3067,13 +3013,11 @@ NASA式難易度表
 numuther renda sabun
 numuther sabun
 obj. w
-obj.1008
 obj.7zs
 obj.fhyu
 obj.Lucy
 obj.nov
 obj.R1N
-obj.seojoon
 obj.XYZ
 obj.スノート
 obj:slash SP
@@ -3094,7 +3038,6 @@ Snowzero難易度表
 SUZUKAZEΛonly難易度
 swa倉庫
 Thasyka
-th差分
 Triforce's Sabun
 Tristan97 Insane Sabun Table
 Tristan97 Normal Table
@@ -3142,123 +3085,120 @@ ZENSOQ difficulty table
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E5%85%AB%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E2%99%AA/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/.WAS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/2RLZ/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/980%E5%86%86%E3%81%AE%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5BF%5D/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/AMERIA/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ATOM%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28SP%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/azkiBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BAECON%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BKANOTHER/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOKKI/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/C4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/chack%E2%99%AA/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Criyajuh%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Decimal%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DK%20INSANE/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/EGRETjoy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ELIGOS/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/firi%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/FL%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/fukojoy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Hamstella%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/HexaJoy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Homerjoy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/hyuki%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/IBARAGI_YOSHIMI%20ChartTable/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/jakko%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/K-SPIN%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/krg/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Kumahige/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/L-Mys%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Lapis/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Lian%27s%20Overjoy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Lime/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Limite%20SP%E5%B7%AE%E5%88%86/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LindBlum%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Mallow%E2%99%AA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Mary_Sue%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/mfmf/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/mn%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/MonstaJoy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/morio%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/mp%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/NASA%E5%BC%8F%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/numuther%20renda%20sabun/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/numuther%20sabun/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.%20w/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.1008/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.7zs/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.fhyu/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.Lucy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.nov/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.R1N/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.seojoon/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.XYZ/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj%EF%BC%9Aslash%20SP/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Ondajoy%202nd%20Season/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/osagejoy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PARKSU%27s%205K%20Insane%20BMS/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/po/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/polyform%20table/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/poprer%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/quad%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/rat%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/sagoo%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Samalite%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Seori%20%26%20%E5%A6%96%E5%A4%A2%20Chart%20Table/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/siokaze/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/skar%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Snowzero%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/SUZUKAZE%CE%9Bonly%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/swa%E5%80%89%E5%BA%AB/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Thasyka/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/th%E5%B7%AE%E5%88%86/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Triforce%27s%20Sabun/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Tristan97%20Insane%20Sabun%20Table/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Tristan97%20Normal%20Table/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/tyrcs%20Chart%20Table/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/vi%27s%20%E5%B7%AE%E5%88%86%20laboratory/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Youri%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/yuyuko%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ZENSOQ%20difficulty%20table/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%D0%98%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%82%E3%81%BC%E3%80%82%E9%96%A2%E9%80%A3BMS%E3%83%AA%E3%82%B9%E3%83%88/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%82%E3%83%BC%E3%81%95%E3%82%93%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%84%E3%82%8D%E3%81%A4%E3%81%8B%E8%A3%BD%E4%BD%9C%E5%B7%AE%E5%88%86%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8A%E4%B8%8B%E3%81%92/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8A%E7%9A%BF%E3%81%8C%E6%9C%AA%E7%86%9F%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8B%E3%81%AB%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8D%E3%81%AE%E3%81%93%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8F%E3%82%8C%E3%81%93%E3%81%A5%E3%81%8D%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%A1%E3%82%93%E3%81%BD%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%B2/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%B6%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%82%E3%81%AB%E3%82%82%E3%81%AB%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%86%E3%82%81%E3%82%8B%E3%81%95%E3%81%B6%E3%82%93%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%8F%E3%81%B6%E3%81%AB%E3%82%85%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%A8%E3%82%B4%E3%82%B5%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%AA%E3%83%B3%E3%83%9E%E3%82%B3%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%B4%E3%82%B9%E3%83%AD%E3%83%AA%E3%81%AE%E9%9B%86%E3%81%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%B5%E3%83%A9%E3%83%80%E6%B2%B9%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%83%9D%E3%83%86%E3%83%81%E3%83%A3%E3%82%B0joy/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E4%BA%AC%E9%83%BD%E3%81%95%E3%82%93%E5%AE%B6%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E4%BB%99%E4%BA%BA%E6%8E%8C%E3%81%AE%E4%BA%BABMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%8D%81%E5%85%AD%E5%A4%9C%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%B7%AE%E5%88%86%E7%BD%AE%E3%81%8D%E5%A0%B4/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%95%B5%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%9C%88%E5%85%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E6%B1%97BMS/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%B5%A8%E6%AF%AF%E3%81%AE%E8%87%AA%E4%BD%9C%E5%B7%AE%E5%88%86%E7%BD%AE%E3%81%8D%E5%A0%B4/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%82%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%96%84%E6%9D%8F/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%B5%A4%E3%81%84%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%A9%AB%E9%A9%AB%E9%A9%AB/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%BB%92%E7%8C%AB%E9%9B%A3%E6%98%93%E5%BA%A6/header.json"
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmqppppp.neocities.org%5D%20%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E5%85%AB%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E2%99%AA/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20.WAS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5B2rlz.darksabun.club%5D%202RLZ/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20980%E5%86%86%E3%81%AE%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%5BF%5D/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20AMERIA/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bonzonium.at-ninja.jp%5D%20ATOM%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28SP%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20azkiBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bakred.web.fc2.com%5D%20BAECON%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20BKANOTHER/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BOKKI/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bc4nolab.web.fc2.com%5D%20C4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20chack%E2%99%AA/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bcriyajuh.github.io%5D%20Criyajuh%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bblackdisc143.github.io%5D%20Decimal%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfrozensat.github.io%5D%20DK%20INSANE/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Begret0.github.io%5D%20EGRETjoy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20ELIGOS/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20firi%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfsrs.darksabun.club%5D%20FL%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfukobms.github.io%5D%20fukojoy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhamstella.web.fc2.com%5D%20Hamstella%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20HexaJoy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhomarebms.web.fc2.com%5D%20Homerjoy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhyuki2684.github.io%5D%20hyuki%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsiimamu.github.io%5D%20IBARAGI_YOSHIMI%20ChartTable/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bjakko.web.fc2.com%5D%20jakko%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brawgit.com%5D%20K-SPIN%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20krg/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Kumahige/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brian-eimu.github.io%5D%20L-Mys%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20Lapis/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsoflian.web.fc2.com%5D%20Lian%27s%20Overjoy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20Lime/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.limiteknj.net%5D%20Limite%20SP%E5%B7%AE%E5%88%86/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blllindblum.web.fc2.com%5D%20LindBlum%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmallowtablekari.ninja-web.net%5D%20Mallow%E2%99%AA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Mary_Sue%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20mfmf/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20mn%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20MonstaJoy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmoriosabun.zouri.jp%5D%20morio%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20mp%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnasashiki.web.fc2.com%5D%20NASA%E5%BC%8F%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnumuther.web.fc2.com%5D%20numuther%20renda%20sabun/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnumuther.web.fc2.com%5D%20numuther%20sabun/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwcko87.github.io%5D%20obj.%20w/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.7zs/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.fhyu/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.Lucy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.nov/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.R1N/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bxxyz.github.io%5D%20obj.XYZ/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20obj%EF%BC%9Aslash%20SP/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bonmac4.github.io%5D%20Ondajoy%202nd%20Season/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20osagejoy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bparksu.darksabun.club%5D%20PARKSU%27s%205K%20Insane%20BMS/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20po/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bplyfrm.github.io%5D%20polyform%20table/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpoprerbms.web.fc2.com%5D%20poprer%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bquad.ninja-web.net%5D%20quad%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20rat%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsagoo.web.fc2.com%5D%20sagoo%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsamalite.fuma-kotaro.com%5D%20Samalite%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bseori-lee.github.io%5D%20Seori%20%26%20%E5%A6%96%E5%A4%A2%20Chart%20Table/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20siokaze/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bskar-wem.github.io%5D%20skar%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20Snowzero%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20SUZUKAZE%CE%9Bonly%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bswamelo.web.fc2.com%5D%20swa%E5%80%89%E5%BA%AB/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20Thasyka/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btrfce.github.io%5D%20Triforce%27s%20Sabun/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btristandavis97.github.io%5D%20Tristan97%20Insane%20Sabun%20Table/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btristandavis97.github.io%5D%20Tristan97%20Normal%20Table/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btyrcs.github.io%5D%20tyrcs%20Chart%20Table/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bvi2dx.github.io%5D%20vi%27s%20%E5%B7%AE%E5%88%86%20laboratory/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5B4uri.web.fc2.com%5D%20Youri%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20yuyuko%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20ZENSOQ%20difficulty%20table/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bparksu.darksabun.club%5D%20%D0%98%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Babo.nobody.jp%5D%20%E3%81%82%E3%81%BC%E3%80%82%E9%96%A2%E9%80%A3BMS%E3%83%AA%E3%82%B9%E3%83%88/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%81%82%E3%83%BC%E3%81%95%E3%82%93%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Birotsuka.web.fc2.com%5D%20%E3%81%84%E3%82%8D%E3%81%A4%E3%81%8B%E8%A3%BD%E4%BD%9C%E5%B7%AE%E5%88%86%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%81%8A%E4%B8%8B%E3%81%92/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Beinst-alfimi.github.io%5D%20%E3%81%8A%E7%9A%BF%E3%81%8C%E6%9C%AA%E7%86%9F%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmuy4.github.io%5D%20%E3%81%8B%E3%81%AB%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkinokonohakkyounanido.web.fc2.com%5D%20%E3%81%8D%E3%81%AE%E3%81%93%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brei0kisaragi.github.io%5D%20%E3%81%8F%E3%82%8C%E3%81%93%E3%81%A5%E3%81%8D%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bchimpodifficulty.web.fc2.com%5D%20%E3%81%A1%E3%82%93%E3%81%BD%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%81%B2/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%81%B6%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmonibms.github.io%5D%20%E3%82%82%E3%81%AB%E3%82%82%E3%81%AB%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%82%86%E3%82%81%E3%82%8B%E3%81%95%E3%81%B6%E3%82%93%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstrangerxxx.web.fc2.com%5D%20%E3%82%8F%E3%81%B6%E3%81%AB%E3%82%85%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Begosa0424.github.io%5D%20%E3%82%A8%E3%82%B4%E3%82%B5%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bonmacodayo.web.fc2.com%5D%20%E3%82%AA%E3%83%B3%E3%83%9E%E3%82%B3%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsayakaisbaka.github.io%5D%20%E3%82%B4%E3%82%B9%E3%83%AD%E3%83%AA%E3%81%AE%E9%9B%86%E3%81%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%82%B5%E3%83%A9%E3%83%80%E6%B2%B9%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpotechang.github.io%5D%20%E3%83%9D%E3%83%86%E3%83%81%E3%83%A3%E3%82%B0joy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkyoto306.github.io%5D%20%E4%BA%AC%E9%83%BD%E3%81%95%E3%82%93%E5%AE%B6%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E4%BB%99%E4%BA%BA%E6%8E%8C%E3%81%AE%E4%BA%BABMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bizayoi.tada-katsu.com%5D%20%E5%8D%81%E5%85%AD%E5%A4%9C%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsiromarudaisuki.github.io%5D%20%E5%B7%AE%E5%88%86%E7%BD%AE%E3%81%8D%E5%A0%B4/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20%E6%95%B5%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsselene.web.fc2.com%5D%20%E6%9C%88%E5%85%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E7%99%BA%E6%B1%97BMS/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%B5%A8%E6%AF%AF%E3%81%AE%E8%87%AA%E4%BD%9C%E5%B7%AE%E5%88%86%E7%BD%AE%E3%81%8D%E5%A0%B4/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20%E8%82%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E8%96%84%E6%9D%8F/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bakred.web.fc2.com%5D%20%E8%B5%A4%E3%81%84%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20%E9%A9%AB%E9%A9%AB%E9%A9%AB/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E9%BB%92%E7%8C%AB%E9%9B%A3%E6%98%93%E5%BA%A6/header.json"
 ]
 </code></pre>
 </td>
@@ -3318,13 +3258,11 @@ NASA式難易度表
 numuther renda sabun
 numuther sabun
 obj. w
-obj.1008
 obj.7zs
 obj.fhyu
 obj.Lucy
 obj.nov
 obj.R1N
-obj.seojoon
 obj.XYZ
 obj.スノート
 obj:slash SP
@@ -3345,7 +3283,6 @@ Snowzero難易度表
 SUZUKAZEΛonly難易度
 swa倉庫
 Thasyka
-th差分
 Triforce's Sabun
 Tristan97 Insane Sabun Table
 Tristan97 Normal Table
@@ -3393,123 +3330,120 @@ ZENSOQ difficulty table
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E5%85%AB%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E2%99%AA/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/.WAS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/2RLZ/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/980%E5%86%86%E3%81%AE%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5BF%5D/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/AMERIA/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ATOM%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28SP%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/azkiBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BAECON%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BKANOTHER/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOKKI/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/C4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/chack%E2%99%AA/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Criyajuh%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Decimal%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DK%20INSANE/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/EGRETjoy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ELIGOS/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/firi%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/FL%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/fukojoy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Hamstella%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/HexaJoy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Homerjoy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/hyuki%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/IBARAGI_YOSHIMI%20ChartTable/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/jakko%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/K-SPIN%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/krg/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Kumahige/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/L-Mys%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Lapis/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Lian%27s%20Overjoy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Lime/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Limite%20SP%E5%B7%AE%E5%88%86/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LindBlum%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Mallow%E2%99%AA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Mary_Sue%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/mfmf/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/mn%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/MonstaJoy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/morio%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/mp%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/NASA%E5%BC%8F%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/numuther%20renda%20sabun/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/numuther%20sabun/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.%20w/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.1008/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.7zs/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.fhyu/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.Lucy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.nov/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.R1N/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.seojoon/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.XYZ/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj%EF%BC%9Aslash%20SP/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Ondajoy%202nd%20Season/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/osagejoy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PARKSU%27s%205K%20Insane%20BMS/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/po/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/polyform%20table/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/poprer%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/quad%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/rat%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/sagoo%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Samalite%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Seori%20%26%20%E5%A6%96%E5%A4%A2%20Chart%20Table/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/siokaze/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/skar%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Snowzero%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/SUZUKAZE%CE%9Bonly%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/swa%E5%80%89%E5%BA%AB/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Thasyka/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/th%E5%B7%AE%E5%88%86/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Triforce%27s%20Sabun/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Tristan97%20Insane%20Sabun%20Table/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Tristan97%20Normal%20Table/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/tyrcs%20Chart%20Table/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/vi%27s%20%E5%B7%AE%E5%88%86%20laboratory/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Youri%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/yuyuko%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ZENSOQ%20difficulty%20table/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%D0%98%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%82%E3%81%BC%E3%80%82%E9%96%A2%E9%80%A3BMS%E3%83%AA%E3%82%B9%E3%83%88/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%82%E3%83%BC%E3%81%95%E3%82%93%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%84%E3%82%8D%E3%81%A4%E3%81%8B%E8%A3%BD%E4%BD%9C%E5%B7%AE%E5%88%86%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8A%E4%B8%8B%E3%81%92/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8A%E7%9A%BF%E3%81%8C%E6%9C%AA%E7%86%9F%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8B%E3%81%AB%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8D%E3%81%AE%E3%81%93%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8F%E3%82%8C%E3%81%93%E3%81%A5%E3%81%8D%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%A1%E3%82%93%E3%81%BD%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%B2/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%B6%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%82%E3%81%AB%E3%82%82%E3%81%AB%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%86%E3%82%81%E3%82%8B%E3%81%95%E3%81%B6%E3%82%93%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%8F%E3%81%B6%E3%81%AB%E3%82%85%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%A8%E3%82%B4%E3%82%B5%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%AA%E3%83%B3%E3%83%9E%E3%82%B3%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%B4%E3%82%B9%E3%83%AD%E3%83%AA%E3%81%AE%E9%9B%86%E3%81%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%B5%E3%83%A9%E3%83%80%E6%B2%B9%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%83%9D%E3%83%86%E3%83%81%E3%83%A3%E3%82%B0joy/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E4%BA%AC%E9%83%BD%E3%81%95%E3%82%93%E5%AE%B6%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E4%BB%99%E4%BA%BA%E6%8E%8C%E3%81%AE%E4%BA%BABMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%8D%81%E5%85%AD%E5%A4%9C%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%B7%AE%E5%88%86%E7%BD%AE%E3%81%8D%E5%A0%B4/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%95%B5%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%9C%88%E5%85%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E6%B1%97BMS/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%B5%A8%E6%AF%AF%E3%81%AE%E8%87%AA%E4%BD%9C%E5%B7%AE%E5%88%86%E7%BD%AE%E3%81%8D%E5%A0%B4/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%82%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%96%84%E6%9D%8F/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%B5%A4%E3%81%84%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%A9%AB%E9%A9%AB%E9%A9%AB/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%BB%92%E7%8C%AB%E9%9B%A3%E6%98%93%E5%BA%A6/header.json"
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmqppppp.neocities.org%5D%20%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E5%85%AB%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E2%99%AA/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20.WAS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5B2rlz.darksabun.club%5D%202RLZ/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20980%E5%86%86%E3%81%AE%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%5BF%5D/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20AMERIA/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bonzonium.at-ninja.jp%5D%20ATOM%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28SP%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20azkiBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bakred.web.fc2.com%5D%20BAECON%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20BKANOTHER/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BOKKI/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bc4nolab.web.fc2.com%5D%20C4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20chack%E2%99%AA/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bcriyajuh.github.io%5D%20Criyajuh%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bblackdisc143.github.io%5D%20Decimal%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfrozensat.github.io%5D%20DK%20INSANE/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Begret0.github.io%5D%20EGRETjoy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20ELIGOS/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20firi%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfsrs.darksabun.club%5D%20FL%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfukobms.github.io%5D%20fukojoy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhamstella.web.fc2.com%5D%20Hamstella%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20HexaJoy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhomarebms.web.fc2.com%5D%20Homerjoy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhyuki2684.github.io%5D%20hyuki%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsiimamu.github.io%5D%20IBARAGI_YOSHIMI%20ChartTable/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bjakko.web.fc2.com%5D%20jakko%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brawgit.com%5D%20K-SPIN%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20krg/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Kumahige/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brian-eimu.github.io%5D%20L-Mys%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20Lapis/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsoflian.web.fc2.com%5D%20Lian%27s%20Overjoy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20Lime/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.limiteknj.net%5D%20Limite%20SP%E5%B7%AE%E5%88%86/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blllindblum.web.fc2.com%5D%20LindBlum%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmallowtablekari.ninja-web.net%5D%20Mallow%E2%99%AA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Mary_Sue%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20mfmf/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20mn%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20MonstaJoy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmoriosabun.zouri.jp%5D%20morio%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20mp%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnasashiki.web.fc2.com%5D%20NASA%E5%BC%8F%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnumuther.web.fc2.com%5D%20numuther%20renda%20sabun/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnumuther.web.fc2.com%5D%20numuther%20sabun/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwcko87.github.io%5D%20obj.%20w/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.7zs/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.fhyu/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.Lucy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.nov/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.R1N/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bxxyz.github.io%5D%20obj.XYZ/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20obj%EF%BC%9Aslash%20SP/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bonmac4.github.io%5D%20Ondajoy%202nd%20Season/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20osagejoy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bparksu.darksabun.club%5D%20PARKSU%27s%205K%20Insane%20BMS/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20po/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bplyfrm.github.io%5D%20polyform%20table/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpoprerbms.web.fc2.com%5D%20poprer%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bquad.ninja-web.net%5D%20quad%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20rat%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsagoo.web.fc2.com%5D%20sagoo%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsamalite.fuma-kotaro.com%5D%20Samalite%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bseori-lee.github.io%5D%20Seori%20%26%20%E5%A6%96%E5%A4%A2%20Chart%20Table/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20siokaze/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bskar-wem.github.io%5D%20skar%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20Snowzero%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20SUZUKAZE%CE%9Bonly%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bswamelo.web.fc2.com%5D%20swa%E5%80%89%E5%BA%AB/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20Thasyka/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btrfce.github.io%5D%20Triforce%27s%20Sabun/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btristandavis97.github.io%5D%20Tristan97%20Insane%20Sabun%20Table/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btristandavis97.github.io%5D%20Tristan97%20Normal%20Table/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btyrcs.github.io%5D%20tyrcs%20Chart%20Table/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bvi2dx.github.io%5D%20vi%27s%20%E5%B7%AE%E5%88%86%20laboratory/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5B4uri.web.fc2.com%5D%20Youri%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20yuyuko%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20ZENSOQ%20difficulty%20table/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bparksu.darksabun.club%5D%20%D0%98%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Babo.nobody.jp%5D%20%E3%81%82%E3%81%BC%E3%80%82%E9%96%A2%E9%80%A3BMS%E3%83%AA%E3%82%B9%E3%83%88/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%81%82%E3%83%BC%E3%81%95%E3%82%93%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Birotsuka.web.fc2.com%5D%20%E3%81%84%E3%82%8D%E3%81%A4%E3%81%8B%E8%A3%BD%E4%BD%9C%E5%B7%AE%E5%88%86%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%81%8A%E4%B8%8B%E3%81%92/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Beinst-alfimi.github.io%5D%20%E3%81%8A%E7%9A%BF%E3%81%8C%E6%9C%AA%E7%86%9F%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmuy4.github.io%5D%20%E3%81%8B%E3%81%AB%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkinokonohakkyounanido.web.fc2.com%5D%20%E3%81%8D%E3%81%AE%E3%81%93%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brei0kisaragi.github.io%5D%20%E3%81%8F%E3%82%8C%E3%81%93%E3%81%A5%E3%81%8D%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bchimpodifficulty.web.fc2.com%5D%20%E3%81%A1%E3%82%93%E3%81%BD%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%81%B2/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%81%B6%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmonibms.github.io%5D%20%E3%82%82%E3%81%AB%E3%82%82%E3%81%AB%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%82%86%E3%82%81%E3%82%8B%E3%81%95%E3%81%B6%E3%82%93%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstrangerxxx.web.fc2.com%5D%20%E3%82%8F%E3%81%B6%E3%81%AB%E3%82%85%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Begosa0424.github.io%5D%20%E3%82%A8%E3%82%B4%E3%82%B5%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bonmacodayo.web.fc2.com%5D%20%E3%82%AA%E3%83%B3%E3%83%9E%E3%82%B3%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsayakaisbaka.github.io%5D%20%E3%82%B4%E3%82%B9%E3%83%AD%E3%83%AA%E3%81%AE%E9%9B%86%E3%81%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%82%B5%E3%83%A9%E3%83%80%E6%B2%B9%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpotechang.github.io%5D%20%E3%83%9D%E3%83%86%E3%83%81%E3%83%A3%E3%82%B0joy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkyoto306.github.io%5D%20%E4%BA%AC%E9%83%BD%E3%81%95%E3%82%93%E5%AE%B6%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E4%BB%99%E4%BA%BA%E6%8E%8C%E3%81%AE%E4%BA%BABMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bizayoi.tada-katsu.com%5D%20%E5%8D%81%E5%85%AD%E5%A4%9C%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsiromarudaisuki.github.io%5D%20%E5%B7%AE%E5%88%86%E7%BD%AE%E3%81%8D%E5%A0%B4/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20%E6%95%B5%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsselene.web.fc2.com%5D%20%E6%9C%88%E5%85%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E7%99%BA%E6%B1%97BMS/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%B5%A8%E6%AF%AF%E3%81%AE%E8%87%AA%E4%BD%9C%E5%B7%AE%E5%88%86%E7%BD%AE%E3%81%8D%E5%A0%B4/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20%E8%82%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E8%96%84%E6%9D%8F/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bakred.web.fc2.com%5D%20%E8%B5%A4%E3%81%84%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20%E9%A9%AB%E9%A9%AB%E9%A9%AB/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E9%BB%92%E7%8C%AB%E9%9B%A3%E6%98%93%E5%BA%A6/header.json"
 ]
 </code></pre>
 </td>
@@ -3569,13 +3503,11 @@ NASA式難易度表
 numuther renda sabun
 numuther sabun
 obj. w
-obj.1008
 obj.7zs
 obj.fhyu
 obj.Lucy
 obj.nov
 obj.R1N
-obj.seojoon
 obj.XYZ
 obj.スノート
 obj:slash SP
@@ -3596,7 +3528,6 @@ Snowzero難易度表
 SUZUKAZEΛonly難易度
 swa倉庫
 Thasyka
-th差分
 Triforce's Sabun
 Tristan97 Insane Sabun Table
 Tristan97 Normal Table
@@ -3644,123 +3575,120 @@ ZENSOQ difficulty table
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E5%85%AB%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E2%99%AA/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/.WAS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/2RLZ/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/980%E5%86%86%E3%81%AE%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5BF%5D/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/AMERIA/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ATOM%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28SP%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/azkiBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BAECON%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BKANOTHER/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOKKI/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/C4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/chack%E2%99%AA/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Criyajuh%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Decimal%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DK%20INSANE/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/EGRETjoy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ELIGOS/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/firi%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/FL%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/fukojoy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Hamstella%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/HexaJoy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Homerjoy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/hyuki%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/IBARAGI_YOSHIMI%20ChartTable/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/jakko%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/K-SPIN%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/krg/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Kumahige/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/L-Mys%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Lapis/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Lian%27s%20Overjoy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Lime/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Limite%20SP%E5%B7%AE%E5%88%86/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LindBlum%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Mallow%E2%99%AA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Mary_Sue%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/mfmf/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/mn%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/MonstaJoy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/morio%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/mp%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/NASA%E5%BC%8F%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/numuther%20renda%20sabun/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/numuther%20sabun/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.%20w/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.1008/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.7zs/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.fhyu/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.Lucy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.nov/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.R1N/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.seojoon/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.XYZ/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj%EF%BC%9Aslash%20SP/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Ondajoy%202nd%20Season/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/osagejoy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PARKSU%27s%205K%20Insane%20BMS/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/po/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/polyform%20table/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/poprer%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/quad%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/rat%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/sagoo%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Samalite%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Seori%20%26%20%E5%A6%96%E5%A4%A2%20Chart%20Table/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/siokaze/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/skar%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Snowzero%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/SUZUKAZE%CE%9Bonly%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/swa%E5%80%89%E5%BA%AB/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Thasyka/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/th%E5%B7%AE%E5%88%86/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Triforce%27s%20Sabun/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Tristan97%20Insane%20Sabun%20Table/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Tristan97%20Normal%20Table/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/tyrcs%20Chart%20Table/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/vi%27s%20%E5%B7%AE%E5%88%86%20laboratory/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Youri%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/yuyuko%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ZENSOQ%20difficulty%20table/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%D0%98%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%82%E3%81%BC%E3%80%82%E9%96%A2%E9%80%A3BMS%E3%83%AA%E3%82%B9%E3%83%88/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%82%E3%83%BC%E3%81%95%E3%82%93%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%84%E3%82%8D%E3%81%A4%E3%81%8B%E8%A3%BD%E4%BD%9C%E5%B7%AE%E5%88%86%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8A%E4%B8%8B%E3%81%92/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8A%E7%9A%BF%E3%81%8C%E6%9C%AA%E7%86%9F%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8B%E3%81%AB%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8D%E3%81%AE%E3%81%93%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8F%E3%82%8C%E3%81%93%E3%81%A5%E3%81%8D%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%A1%E3%82%93%E3%81%BD%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%B2/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%B6%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%82%E3%81%AB%E3%82%82%E3%81%AB%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%86%E3%82%81%E3%82%8B%E3%81%95%E3%81%B6%E3%82%93%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%8F%E3%81%B6%E3%81%AB%E3%82%85%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%A8%E3%82%B4%E3%82%B5%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%AA%E3%83%B3%E3%83%9E%E3%82%B3%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%B4%E3%82%B9%E3%83%AD%E3%83%AA%E3%81%AE%E9%9B%86%E3%81%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%B5%E3%83%A9%E3%83%80%E6%B2%B9%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%83%9D%E3%83%86%E3%83%81%E3%83%A3%E3%82%B0joy/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E4%BA%AC%E9%83%BD%E3%81%95%E3%82%93%E5%AE%B6%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E4%BB%99%E4%BA%BA%E6%8E%8C%E3%81%AE%E4%BA%BABMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%8D%81%E5%85%AD%E5%A4%9C%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%B7%AE%E5%88%86%E7%BD%AE%E3%81%8D%E5%A0%B4/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%95%B5%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%9C%88%E5%85%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E6%B1%97BMS/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%B5%A8%E6%AF%AF%E3%81%AE%E8%87%AA%E4%BD%9C%E5%B7%AE%E5%88%86%E7%BD%AE%E3%81%8D%E5%A0%B4/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%82%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%96%84%E6%9D%8F/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%B5%A4%E3%81%84%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%A9%AB%E9%A9%AB%E9%A9%AB/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%BB%92%E7%8C%AB%E9%9B%A3%E6%98%93%E5%BA%A6/header.json"
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmqppppp.neocities.org%5D%20%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E5%85%AB%28%EF%BC%8A%C2%B0%E2%96%BD%C2%B0%EF%BC%8A%29%E2%99%AA/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20.WAS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5B2rlz.darksabun.club%5D%202RLZ/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20980%E5%86%86%E3%81%AE%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%5BF%5D/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20AMERIA/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bonzonium.at-ninja.jp%5D%20ATOM%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28SP%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20azkiBMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bakred.web.fc2.com%5D%20BAECON%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20BKANOTHER/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BOKKI/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bc4nolab.web.fc2.com%5D%20C4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20chack%E2%99%AA/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bcriyajuh.github.io%5D%20Criyajuh%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bblackdisc143.github.io%5D%20Decimal%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfrozensat.github.io%5D%20DK%20INSANE/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Begret0.github.io%5D%20EGRETjoy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20ELIGOS/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20firi%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfsrs.darksabun.club%5D%20FL%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bfukobms.github.io%5D%20fukojoy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhamstella.web.fc2.com%5D%20Hamstella%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20HexaJoy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhomarebms.web.fc2.com%5D%20Homerjoy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhyuki2684.github.io%5D%20hyuki%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsiimamu.github.io%5D%20IBARAGI_YOSHIMI%20ChartTable/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bjakko.web.fc2.com%5D%20jakko%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brawgit.com%5D%20K-SPIN%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20krg/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Kumahige/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brian-eimu.github.io%5D%20L-Mys%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20Lapis/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsoflian.web.fc2.com%5D%20Lian%27s%20Overjoy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20Lime/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.limiteknj.net%5D%20Limite%20SP%E5%B7%AE%E5%88%86/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Blllindblum.web.fc2.com%5D%20LindBlum%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmallowtablekari.ninja-web.net%5D%20Mallow%E2%99%AA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Mary_Sue%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20mfmf/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20mn%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20MonstaJoy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmoriosabun.zouri.jp%5D%20morio%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20mp%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnasashiki.web.fc2.com%5D%20NASA%E5%BC%8F%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnumuther.web.fc2.com%5D%20numuther%20renda%20sabun/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnumuther.web.fc2.com%5D%20numuther%20sabun/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwcko87.github.io%5D%20obj.%20w/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.7zs/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.fhyu/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.Lucy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20obj.nov/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.R1N/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bxxyz.github.io%5D%20obj.XYZ/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20obj.%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20obj%EF%BC%9Aslash%20SP/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bonmac4.github.io%5D%20Ondajoy%202nd%20Season/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20osagejoy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bparksu.darksabun.club%5D%20PARKSU%27s%205K%20Insane%20BMS/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20po/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bplyfrm.github.io%5D%20polyform%20table/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpoprerbms.web.fc2.com%5D%20poprer%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bquad.ninja-web.net%5D%20quad%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20rat%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsagoo.web.fc2.com%5D%20sagoo%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsamalite.fuma-kotaro.com%5D%20Samalite%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bseori-lee.github.io%5D%20Seori%20%26%20%E5%A6%96%E5%A4%A2%20Chart%20Table/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20siokaze/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bskar-wem.github.io%5D%20skar%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20Snowzero%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20SUZUKAZE%CE%9Bonly%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bswamelo.web.fc2.com%5D%20swa%E5%80%89%E5%BA%AB/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsdb.hexlataia.xyz%5D%20Thasyka/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btrfce.github.io%5D%20Triforce%27s%20Sabun/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btristandavis97.github.io%5D%20Tristan97%20Insane%20Sabun%20Table/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btristandavis97.github.io%5D%20Tristan97%20Normal%20Table/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Btyrcs.github.io%5D%20tyrcs%20Chart%20Table/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bvi2dx.github.io%5D%20vi%27s%20%E5%B7%AE%E5%88%86%20laboratory/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5B4uri.web.fc2.com%5D%20Youri%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20yuyuko%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20ZENSOQ%20difficulty%20table/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bparksu.darksabun.club%5D%20%D0%98%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Babo.nobody.jp%5D%20%E3%81%82%E3%81%BC%E3%80%82%E9%96%A2%E9%80%A3BMS%E3%83%AA%E3%82%B9%E3%83%88/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%81%82%E3%83%BC%E3%81%95%E3%82%93%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Birotsuka.web.fc2.com%5D%20%E3%81%84%E3%82%8D%E3%81%A4%E3%81%8B%E8%A3%BD%E4%BD%9C%E5%B7%AE%E5%88%86%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%81%8A%E4%B8%8B%E3%81%92/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Beinst-alfimi.github.io%5D%20%E3%81%8A%E7%9A%BF%E3%81%8C%E6%9C%AA%E7%86%9F%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmuy4.github.io%5D%20%E3%81%8B%E3%81%AB%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkinokonohakkyounanido.web.fc2.com%5D%20%E3%81%8D%E3%81%AE%E3%81%93%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brei0kisaragi.github.io%5D%20%E3%81%8F%E3%82%8C%E3%81%93%E3%81%A5%E3%81%8D%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bchimpodifficulty.web.fc2.com%5D%20%E3%81%A1%E3%82%93%E3%81%BD%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%81%B2/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%81%B6%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmonibms.github.io%5D%20%E3%82%82%E3%81%AB%E3%82%82%E3%81%AB%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%82%86%E3%82%81%E3%82%8B%E3%81%95%E3%81%B6%E3%82%93%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstrangerxxx.web.fc2.com%5D%20%E3%82%8F%E3%81%B6%E3%81%AB%E3%82%85%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Begosa0424.github.io%5D%20%E3%82%A8%E3%82%B4%E3%82%B5%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bonmacodayo.web.fc2.com%5D%20%E3%82%AA%E3%83%B3%E3%83%9E%E3%82%B3%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsayakaisbaka.github.io%5D%20%E3%82%B4%E3%82%B9%E3%83%AD%E3%83%AA%E3%81%AE%E9%9B%86%E3%81%84%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%82%B5%E3%83%A9%E3%83%80%E6%B2%B9%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpotechang.github.io%5D%20%E3%83%9D%E3%83%86%E3%83%81%E3%83%A3%E3%82%B0joy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkyoto306.github.io%5D%20%E4%BA%AC%E9%83%BD%E3%81%95%E3%82%93%E5%AE%B6%E3%81%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E4%BB%99%E4%BA%BA%E6%8E%8C%E3%81%AE%E4%BA%BABMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bizayoi.tada-katsu.com%5D%20%E5%8D%81%E5%85%AD%E5%A4%9C%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bsiromarudaisuki.github.io%5D%20%E5%B7%AE%E5%88%86%E7%BD%AE%E3%81%8D%E5%A0%B4/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20%E6%95%B5%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsselene.web.fc2.com%5D%20%E6%9C%88%E5%85%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E7%99%BA%E6%B1%97BMS/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E7%B5%A8%E6%AF%AF%E3%81%AE%E8%87%AA%E4%BD%9C%E5%B7%AE%E5%88%86%E7%BD%AE%E3%81%8D%E5%A0%B4/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20%E8%82%89%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E8%96%84%E6%9D%8F/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bakred.web.fc2.com%5D%20%E8%B5%A4%E3%81%84%E4%BA%BA%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20%E9%A9%AB%E9%A9%AB%E9%A9%AB/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E9%BB%92%E7%8C%AB%E9%9B%A3%E6%98%93%E5%BA%A6/header.json"
 ]
 </code></pre>
 </td>
@@ -3850,23 +3778,23 @@ DPBMS黒難易度表(発狂)
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%20Satellite/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%20Satellite%20%28Voting%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%20Satellite%20Recommend/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%20Satellite%20Recommend%20%28Voting%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%20Satellite%20Sub/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%20Stella/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%20Stella%20%28Voting%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%20Stella%20Recommend/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%20Stella%20Recommend%20%28Voting%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%20Stella%20Sub/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DPBMS%E7%99%BD%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E9%80%9A%E5%B8%B8%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DPBMS%E9%BB%92%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E7%99%BA%E7%8B%82%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%CE%94x%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%CE%B4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%CE%B4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%EF%BC%88%E6%8A%95%E7%A5%A8%E6%9B%B2%EF%BC%89/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%82DPBMS%E3%81%94%E3%81%A3%E3%81%9F%E7%85%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%82DP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite%20%28Voting%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite%20Recommend/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite%20Recommend%20%28Voting%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite%20Sub/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella%20%28Voting%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella%20Recommend/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella%20Recommend%20%28Voting%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella%20Sub/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdpbmschart.web.fc2.com%5D%20DPBMS%E7%99%BD%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E9%80%9A%E5%B8%B8%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdpbmschart.web.fc2.com%5D%20DPBMS%E9%BB%92%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E7%99%BA%E7%8B%82%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdeltabms.yaruki0.net%5D%20%CE%94x%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdeltabms.yaruki0.net%5D%20%CE%B4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdeltabms.yaruki0.net%5D%20%CE%B4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%EF%BC%88%E6%8A%95%E7%A5%A8%E6%9B%B2%EF%BC%89/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Byuyuyu.soudesune.net%5D%20%E7%99%BA%E7%8B%82DPBMS%E3%81%94%E3%81%A3%E3%81%9F%E7%85%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdeltabms.yaruki0.net%5D%20%E7%99%BA%E7%8B%82DP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -3952,23 +3880,23 @@ DPBMS黒難易度表(発狂)
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20%28Voting%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20Recommend/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20Recommend%20%28Voting%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20Sub/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Stella/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Stella%20%28Voting%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Stella%20Recommend/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Stella%20Recommend%20%28Voting%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Stella%20Sub/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DPBMS%E7%99%BD%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E9%80%9A%E5%B8%B8%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DPBMS%E9%BB%92%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E7%99%BA%E7%8B%82%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%CE%94x%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%CE%B4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%CE%B4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%EF%BC%88%E6%8A%95%E7%A5%A8%E6%9B%B2%EF%BC%89/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82DPBMS%E3%81%94%E3%81%A3%E3%81%9F%E7%85%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82DP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite%20%28Voting%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite%20Recommend/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite%20Recommend%20%28Voting%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite%20Sub/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella%20%28Voting%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella%20Recommend/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella%20Recommend%20%28Voting%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella%20Sub/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdpbmschart.web.fc2.com%5D%20DPBMS%E7%99%BD%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E9%80%9A%E5%B8%B8%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdpbmschart.web.fc2.com%5D%20DPBMS%E9%BB%92%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E7%99%BA%E7%8B%82%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdeltabms.yaruki0.net%5D%20%CE%94x%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdeltabms.yaruki0.net%5D%20%CE%B4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdeltabms.yaruki0.net%5D%20%CE%B4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%EF%BC%88%E6%8A%95%E7%A5%A8%E6%9B%B2%EF%BC%89/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byuyuyu.soudesune.net%5D%20%E7%99%BA%E7%8B%82DPBMS%E3%81%94%E3%81%A3%E3%81%9F%E7%85%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdeltabms.yaruki0.net%5D%20%E7%99%BA%E7%8B%82DP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -4003,23 +3931,23 @@ DPBMS黒難易度表(発狂)
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20%28Voting%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20Recommend/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20Recommend%20%28Voting%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20Sub/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Stella/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Stella%20%28Voting%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Stella%20Recommend/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Stella%20Recommend%20%28Voting%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Stella%20Sub/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DPBMS%E7%99%BD%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E9%80%9A%E5%B8%B8%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DPBMS%E9%BB%92%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E7%99%BA%E7%8B%82%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%CE%94x%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%CE%B4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%CE%B4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%EF%BC%88%E6%8A%95%E7%A5%A8%E6%9B%B2%EF%BC%89/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82DPBMS%E3%81%94%E3%81%A3%E3%81%9F%E7%85%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82DP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite%20%28Voting%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite%20Recommend/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite%20Recommend%20%28Voting%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite%20Sub/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella%20%28Voting%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella%20Recommend/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella%20Recommend%20%28Voting%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella%20Sub/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdpbmschart.web.fc2.com%5D%20DPBMS%E7%99%BD%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E9%80%9A%E5%B8%B8%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdpbmschart.web.fc2.com%5D%20DPBMS%E9%BB%92%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E7%99%BA%E7%8B%82%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdeltabms.yaruki0.net%5D%20%CE%94x%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdeltabms.yaruki0.net%5D%20%CE%B4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdeltabms.yaruki0.net%5D%20%CE%B4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%EF%BC%88%E6%8A%95%E7%A5%A8%E6%9B%B2%EF%BC%89/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byuyuyu.soudesune.net%5D%20%E7%99%BA%E7%8B%82DPBMS%E3%81%94%E3%81%A3%E3%81%9F%E7%85%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdeltabms.yaruki0.net%5D%20%E7%99%BA%E7%8B%82DP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -4054,23 +3982,23 @@ DPBMS黒難易度表(発狂)
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20%28Voting%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20Recommend/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20Recommend%20%28Voting%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20Sub/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Stella/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Stella%20%28Voting%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Stella%20Recommend/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Stella%20Recommend%20%28Voting%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Stella%20Sub/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DPBMS%E7%99%BD%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E9%80%9A%E5%B8%B8%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DPBMS%E9%BB%92%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E7%99%BA%E7%8B%82%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%CE%94x%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%CE%B4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%CE%B4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%EF%BC%88%E6%8A%95%E7%A5%A8%E6%9B%B2%EF%BC%89/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82DPBMS%E3%81%94%E3%81%A3%E3%81%9F%E7%85%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82DP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite%20%28Voting%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite%20Recommend/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite%20Recommend%20%28Voting%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Satellite%20Sub/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella%20%28Voting%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella%20Recommend/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella%20Recommend%20%28Voting%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20DP%20Stella%20Sub/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdpbmschart.web.fc2.com%5D%20DPBMS%E7%99%BD%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E9%80%9A%E5%B8%B8%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdpbmschart.web.fc2.com%5D%20DPBMS%E9%BB%92%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E7%99%BA%E7%8B%82%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdeltabms.yaruki0.net%5D%20%CE%94x%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdeltabms.yaruki0.net%5D%20%CE%B4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdeltabms.yaruki0.net%5D%20%CE%B4%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%EF%BC%88%E6%8A%95%E7%A5%A8%E6%9B%B2%EF%BC%89/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byuyuyu.soudesune.net%5D%20%E7%99%BA%E7%8B%82DPBMS%E3%81%94%E3%81%A3%E3%81%9F%E7%85%AE%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdeltabms.yaruki0.net%5D%20%E7%99%BA%E7%8B%82DP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -4085,6 +4013,7 @@ DPBMS黒難易度表(発狂)
 <tr>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-text">
+DP Overjoy
 DP Satellite EASY
 DP Satellite FULLCOMBO
 DP Satellite HARD
@@ -4100,12 +4029,12 @@ NY4M難易度表(仮)
 発狂14keyBMS闇鍋難易度表
 発狂DPBMS難度推定表 EASY
 発狂DPBMS難度推定表 HARD
-自分で楽しむためのDP譜面集(仮)
 </code></pre>
 </td>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
+  "https://ereter.net/static/analyzer/json/header.json",
   "https://notmichaelchen.github.io/stella-table-extensions/dp-satellite-easy.html",
   "https://notmichaelchen.github.io/stella-table-extensions/dp-satellite-fullcombo.html",
   "https://notmichaelchen.github.io/stella-table-extensions/dp-satellite-hard.html",
@@ -4120,8 +4049,7 @@ NY4M難易度表(仮)
   "https://kenpel.github.io/objeCraft/table10/",
   "https://kenpel.github.io/objeCraft/table14/",
   "https://kenpel.github.io/objeCraft/estimate/easy.html",
-  "https://kenpel.github.io/objeCraft/estimate/hard.html",
-  "https://nyamdxy.web.fc2.com/table_dpfav.html"
+  "https://kenpel.github.io/objeCraft/estimate/hard.html"
 ]
 </code></pre>
 </td>
@@ -4134,6 +4062,7 @@ NY4M難易度表(仮)
 <tr>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-text">
+DP Overjoy
 DP Satellite EASY
 DP Satellite FULLCOMBO
 DP Satellite HARD
@@ -4149,28 +4078,27 @@ NY4M難易度表(仮)
 発狂14keyBMS闇鍋難易度表
 発狂DPBMS難度推定表 EASY
 発狂DPBMS難度推定表 HARD
-自分で楽しむためのDP譜面集(仮)
 </code></pre>
 </td>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%20Satellite%20EASY/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%20Satellite%20FULLCOMBO/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%20Satellite%20HARD/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%20Satellite%20NORMAL/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DPBMS%E3%81%A8%E8%AB%B8%E6%84%9F/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%E7%99%BA%E7%8B%82%E3%81%BE%E3%81%A3%E3%81%8F%E3%82%8D%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/DP%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/NY4M%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%9C%E3%81%8F%E3%82%8C%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%A1%E3%82%8B%E3%81%AEDP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E5%8A%A0%E5%8F%A4%E5%B7%9DDP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%8210keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%8214keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E8%87%AA%E5%88%86%E3%81%A7%E6%A5%BD%E3%81%97%E3%82%80%E3%81%9F%E3%82%81%E3%81%AEDP%E8%AD%9C%E9%9D%A2%E9%9B%86%28%E4%BB%AE%29/header.json"
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bereter.net%5D%20DP%20Overjoy/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnotmichaelchen.github.io%5D%20DP%20Satellite%20EASY/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnotmichaelchen.github.io%5D%20DP%20Satellite%20FULLCOMBO/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnotmichaelchen.github.io%5D%20DP%20Satellite%20HARD/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnotmichaelchen.github.io%5D%20DP%20Satellite%20NORMAL/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Byaruki0.net%5D%20DPBMS%E3%81%A8%E8%AB%B8%E6%84%9F/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bmakkuro.at-ninja.jp%5D%20DP%E7%99%BA%E7%8B%82%E3%81%BE%E3%81%A3%E3%81%8F%E3%82%8D%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20DP%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnyamdxy.web.fc2.com%5D%20NY4M%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bzkle.web.fc2.com%5D%20%E3%81%9C%E3%81%8F%E3%82%8C%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E3%81%A1%E3%82%8B%E3%81%AEDP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E5%8A%A0%E5%8F%A4%E5%B7%9DDP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%8210keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%8214keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json"
 ]
 </code></pre>
 </td>
@@ -4183,6 +4111,7 @@ NY4M難易度表(仮)
 <tr>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-text">
+DP Overjoy
 DP Satellite EASY
 DP Satellite FULLCOMBO
 DP Satellite HARD
@@ -4198,12 +4127,12 @@ NY4M難易度表(仮)
 発狂14keyBMS闇鍋難易度表
 発狂DPBMS難度推定表 EASY
 発狂DPBMS難度推定表 HARD
-自分で楽しむためのDP譜面集(仮)
 </code></pre>
 </td>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
+  "https://get.2sb.org/https://ereter.net/static/analyzer/json/header.json",
   "https://get.2sb.org/https://notmichaelchen.github.io/stella-table-extensions/data/DP-Satellite-EASY-header.json",
   "https://get.2sb.org/https://notmichaelchen.github.io/stella-table-extensions/data/DP-Satellite-FULLCOMBO-header.json",
   "https://get.2sb.org/https://notmichaelchen.github.io/stella-table-extensions/data/DP-Satellite-HARD-header.json",
@@ -4218,8 +4147,7 @@ NY4M難易度表(仮)
   "https://get.2sb.org/https://kenpel.github.io/objeCraft/table10/head10.json",
   "https://get.2sb.org/https://kenpel.github.io/objeCraft/table14/head14.json",
   "https://get.2sb.org/https://kenpel.github.io/objeCraft/estimate/easyhead.json",
-  "https://get.2sb.org/https://kenpel.github.io/objeCraft/estimate/hardhead.json",
-  "https://get.2sb.org/https://nyamdxy.web.fc2.com/header_dpfav.json"
+  "https://get.2sb.org/https://kenpel.github.io/objeCraft/estimate/hardhead.json"
 ]
 </code></pre>
 </td>
@@ -4232,6 +4160,7 @@ NY4M難易度表(仮)
 <tr>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-text">
+DP Overjoy
 DP Satellite EASY
 DP Satellite FULLCOMBO
 DP Satellite HARD
@@ -4247,28 +4176,27 @@ NY4M難易度表(仮)
 発狂14keyBMS闇鍋難易度表
 発狂DPBMS難度推定表 EASY
 発狂DPBMS難度推定表 HARD
-自分で楽しむためのDP譜面集(仮)
 </code></pre>
 </td>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20EASY/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20FULLCOMBO/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20HARD/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20NORMAL/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DPBMS%E3%81%A8%E8%AB%B8%E6%84%9F/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%E7%99%BA%E7%8B%82%E3%81%BE%E3%81%A3%E3%81%8F%E3%82%8D%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/NY4M%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%9C%E3%81%8F%E3%82%8C%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%A1%E3%82%8B%E3%81%AEDP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%8A%A0%E5%8F%A4%E5%B7%9DDP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%8210keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%8214keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%87%AA%E5%88%86%E3%81%A7%E6%A5%BD%E3%81%97%E3%82%80%E3%81%9F%E3%82%81%E3%81%AEDP%E8%AD%9C%E9%9D%A2%E9%9B%86%28%E4%BB%AE%29/header.json"
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bereter.net%5D%20DP%20Overjoy/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20DP%20Satellite%20EASY/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20DP%20Satellite%20FULLCOMBO/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20DP%20Satellite%20HARD/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20DP%20Satellite%20NORMAL/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaruki0.net%5D%20DPBMS%E3%81%A8%E8%AB%B8%E6%84%9F/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmakkuro.at-ninja.jp%5D%20DP%E7%99%BA%E7%8B%82%E3%81%BE%E3%81%A3%E3%81%8F%E3%82%8D%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20DP%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnyamdxy.web.fc2.com%5D%20NY4M%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bzkle.web.fc2.com%5D%20%E3%81%9C%E3%81%8F%E3%82%8C%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%81%A1%E3%82%8B%E3%81%AEDP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E5%8A%A0%E5%8F%A4%E5%B7%9DDP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%8210keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%8214keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json"
 ]
 </code></pre>
 </td>
@@ -4281,6 +4209,7 @@ NY4M難易度表(仮)
 <tr>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-text">
+DP Overjoy
 DP Satellite EASY
 DP Satellite FULLCOMBO
 DP Satellite HARD
@@ -4296,28 +4225,27 @@ NY4M難易度表(仮)
 発狂14keyBMS闇鍋難易度表
 発狂DPBMS難度推定表 EASY
 発狂DPBMS難度推定表 HARD
-自分で楽しむためのDP譜面集(仮)
 </code></pre>
 </td>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20EASY/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20FULLCOMBO/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20HARD/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20NORMAL/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DPBMS%E3%81%A8%E8%AB%B8%E6%84%9F/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%E7%99%BA%E7%8B%82%E3%81%BE%E3%81%A3%E3%81%8F%E3%82%8D%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/NY4M%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%9C%E3%81%8F%E3%82%8C%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%A1%E3%82%8B%E3%81%AEDP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%8A%A0%E5%8F%A4%E5%B7%9DDP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%8210keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%8214keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%87%AA%E5%88%86%E3%81%A7%E6%A5%BD%E3%81%97%E3%82%80%E3%81%9F%E3%82%81%E3%81%AEDP%E8%AD%9C%E9%9D%A2%E9%9B%86%28%E4%BB%AE%29/header.json"
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bereter.net%5D%20DP%20Overjoy/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20DP%20Satellite%20EASY/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20DP%20Satellite%20FULLCOMBO/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20DP%20Satellite%20HARD/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20DP%20Satellite%20NORMAL/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaruki0.net%5D%20DPBMS%E3%81%A8%E8%AB%B8%E6%84%9F/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmakkuro.at-ninja.jp%5D%20DP%E7%99%BA%E7%8B%82%E3%81%BE%E3%81%A3%E3%81%8F%E3%82%8D%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20DP%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnyamdxy.web.fc2.com%5D%20NY4M%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bzkle.web.fc2.com%5D%20%E3%81%9C%E3%81%8F%E3%82%8C%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%81%A1%E3%82%8B%E3%81%AEDP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E5%8A%A0%E5%8F%A4%E5%B7%9DDP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%8210keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%8214keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json"
 ]
 </code></pre>
 </td>
@@ -4330,6 +4258,7 @@ NY4M難易度表(仮)
 <tr>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-text">
+DP Overjoy
 DP Satellite EASY
 DP Satellite FULLCOMBO
 DP Satellite HARD
@@ -4345,28 +4274,27 @@ NY4M難易度表(仮)
 発狂14keyBMS闇鍋難易度表
 発狂DPBMS難度推定表 EASY
 発狂DPBMS難度推定表 HARD
-自分で楽しむためのDP譜面集(仮)
 </code></pre>
 </td>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20EASY/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20FULLCOMBO/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20HARD/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%20Satellite%20NORMAL/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DPBMS%E3%81%A8%E8%AB%B8%E6%84%9F/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%E7%99%BA%E7%8B%82%E3%81%BE%E3%81%A3%E3%81%8F%E3%82%8D%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/DP%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/NY4M%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%9C%E3%81%8F%E3%82%8C%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%A1%E3%82%8B%E3%81%AEDP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%8A%A0%E5%8F%A4%E5%B7%9DDP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%8210keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%8214keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%87%AA%E5%88%86%E3%81%A7%E6%A5%BD%E3%81%97%E3%82%80%E3%81%9F%E3%82%81%E3%81%AEDP%E8%AD%9C%E9%9D%A2%E9%9B%86%28%E4%BB%AE%29/header.json"
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bereter.net%5D%20DP%20Overjoy/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20DP%20Satellite%20EASY/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20DP%20Satellite%20FULLCOMBO/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20DP%20Satellite%20HARD/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnotmichaelchen.github.io%5D%20DP%20Satellite%20NORMAL/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaruki0.net%5D%20DPBMS%E3%81%A8%E8%AB%B8%E6%84%9F/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmakkuro.at-ninja.jp%5D%20DP%E7%99%BA%E7%8B%82%E3%81%BE%E3%81%A3%E3%81%8F%E3%82%8D%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20DP%E7%9A%BF%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnyamdxy.web.fc2.com%5D%20NY4M%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28%E4%BB%AE%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bzkle.web.fc2.com%5D%20%E3%81%9C%E3%81%8F%E3%82%8C%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%81%A1%E3%82%8B%E3%81%AEDP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E5%8A%A0%E5%8F%A4%E5%B7%9DDP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%8210keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%8214keyBMS%E9%97%87%E9%8D%8B%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20EASY/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkenpel.github.io%5D%20%E7%99%BA%E7%8B%82DPBMS%E9%9B%A3%E5%BA%A6%E6%8E%A8%E5%AE%9A%E8%A1%A8%20HARD/header.json"
 ]
 </code></pre>
 </td>
@@ -4427,14 +4355,14 @@ obj:slash DP
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/ATOM%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28DP%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Limite%20DP%E5%B7%AE%E5%88%86/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/obj.%E3%81%AB%E3%82%83%E3%82%80DP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/obj%EF%BC%9Alichtr%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/obj%EF%BC%9Aslash%20DP/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E8%87%AA%E4%BD%9C%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E9%9C%A7%E4%B8%AD%E3%81%AE%E8%92%BC%E9%B3%A5%20-%20DP%E9%80%9A%E5%B8%B8BMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%EF%BC%A4%EF%BC%B0%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bonzonium.at-ninja.jp%5D%20ATOM%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28DP%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.limiteknj.net%5D%20Limite%20DP%E5%B7%AE%E5%88%86/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnyamdxy.web.fc2.com%5D%20obj.%E3%81%AB%E3%82%83%E3%82%80DP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20obj%EF%BC%9Alichtr%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20obj%EF%BC%9Aslash%20DP/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Byaruki0.net%5D%20%E8%87%AA%E4%BD%9C%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bmistyblue.info%5D%20%E9%9C%A7%E4%B8%AD%E3%81%AE%E8%92%BC%E9%B3%A5%20-%20DP%E9%80%9A%E5%B8%B8BMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bwakaba-shirasu.info%5D%20%EF%BC%A4%EF%BC%B0%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -4493,14 +4421,14 @@ obj:slash DP
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ATOM%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28DP%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Limite%20DP%E5%B7%AE%E5%88%86/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.%E3%81%AB%E3%82%83%E3%82%80DP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj%EF%BC%9Alichtr%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj%EF%BC%9Aslash%20DP/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%87%AA%E4%BD%9C%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%9C%A7%E4%B8%AD%E3%81%AE%E8%92%BC%E9%B3%A5%20-%20DP%E9%80%9A%E5%B8%B8BMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%EF%BC%A4%EF%BC%B0%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bonzonium.at-ninja.jp%5D%20ATOM%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28DP%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.limiteknj.net%5D%20Limite%20DP%E5%B7%AE%E5%88%86/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnyamdxy.web.fc2.com%5D%20obj.%E3%81%AB%E3%82%83%E3%82%80DP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20obj%EF%BC%9Alichtr%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20obj%EF%BC%9Aslash%20DP/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaruki0.net%5D%20%E8%87%AA%E4%BD%9C%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmistyblue.info%5D%20%E9%9C%A7%E4%B8%AD%E3%81%AE%E8%92%BC%E9%B3%A5%20-%20DP%E9%80%9A%E5%B8%B8BMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwakaba-shirasu.info%5D%20%EF%BC%A4%EF%BC%B0%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -4526,14 +4454,14 @@ obj:slash DP
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ATOM%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28DP%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Limite%20DP%E5%B7%AE%E5%88%86/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.%E3%81%AB%E3%82%83%E3%82%80DP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj%EF%BC%9Alichtr%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj%EF%BC%9Aslash%20DP/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%87%AA%E4%BD%9C%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%9C%A7%E4%B8%AD%E3%81%AE%E8%92%BC%E9%B3%A5%20-%20DP%E9%80%9A%E5%B8%B8BMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%EF%BC%A4%EF%BC%B0%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bonzonium.at-ninja.jp%5D%20ATOM%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28DP%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.limiteknj.net%5D%20Limite%20DP%E5%B7%AE%E5%88%86/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnyamdxy.web.fc2.com%5D%20obj.%E3%81%AB%E3%82%83%E3%82%80DP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20obj%EF%BC%9Alichtr%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20obj%EF%BC%9Aslash%20DP/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaruki0.net%5D%20%E8%87%AA%E4%BD%9C%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmistyblue.info%5D%20%E9%9C%A7%E4%B8%AD%E3%81%AE%E8%92%BC%E9%B3%A5%20-%20DP%E9%80%9A%E5%B8%B8BMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwakaba-shirasu.info%5D%20%EF%BC%A4%EF%BC%B0%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -4559,14 +4487,14 @@ obj:slash DP
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ATOM%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28DP%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Limite%20DP%E5%B7%AE%E5%88%86/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj.%E3%81%AB%E3%82%83%E3%82%80DP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj%EF%BC%9Alichtr%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/obj%EF%BC%9Aslash%20DP/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%87%AA%E4%BD%9C%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%9C%A7%E4%B8%AD%E3%81%AE%E8%92%BC%E9%B3%A5%20-%20DP%E9%80%9A%E5%B8%B8BMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%EF%BC%A4%EF%BC%B0%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bonzonium.at-ninja.jp%5D%20ATOM%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8%28DP%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.limiteknj.net%5D%20Limite%20DP%E5%B7%AE%E5%88%86/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnyamdxy.web.fc2.com%5D%20obj.%E3%81%AB%E3%82%83%E3%82%80DP%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20obj%EF%BC%9Alichtr%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20obj%EF%BC%9Aslash%20DP/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaruki0.net%5D%20%E8%87%AA%E4%BD%9C%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmistyblue.info%5D%20%E9%9C%A7%E4%B8%AD%E3%81%AE%E8%92%BC%E9%B3%A5%20-%20DP%E9%80%9A%E5%B8%B8BMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bwakaba-shirasu.info%5D%20%EF%BC%A4%EF%BC%B0%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -4583,7 +4511,6 @@ obj:slash DP
 <tr>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-text">
-PMS Database お題箱
 PMS XG Overjoy (仮)
 PMSデータベース(Lv1~45)
 PMSデータベース隔離枠
@@ -4592,7 +4519,6 @@ PMS通常難易度表
 同梱PMS一覧表 (非発狂)
 新規登録譜面一覧表 (月別)
 準発狂PMS難易度表
-発狂PMSデータベース(lv46～)
 発狂PMS表外高難易度案内所
 発狂PMS表外高難易度案内所隔離枠
 発狂PMS難易度表
@@ -4601,7 +4527,6 @@ PMS通常難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://pmsdifficulty.xxxxxxxx.jp/subtable/randomselect/randomselect.html",
   "https://pmsdifficulty.xxxxxxxx.jp/overjoy/table.html",
   "https://pmsdifficulty.xxxxxxxx.jp/PMSdifficulty.html",
   "https://pmsdifficulty.xxxxxxxx.jp/excluded_PMSdifficulty.html",
@@ -4610,7 +4535,6 @@ PMS通常難易度表
   "https://pmsdifficulty.xxxxxxxx.jp/subtable/included/_normal_table.html",
   "https://pmsdifficulty.xxxxxxxx.jp/monthly.html",
   "http://stellawingroad.web.fc2.com/new4/pms.html",
-  "https://pmsdifficulty.xxxxxxxx.jp/insane_PMSdifficulty.html",
   "http://stellawingroad.web.fc2.com/new2/pms.html",
   "http://stellawingroad.web.fc2.com/new3/pms.html",
   "http://stellawingroad.web.fc2.com/new/pms.html"
@@ -4626,7 +4550,6 @@ PMS通常難易度表
 <tr>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-text">
-PMS Database お題箱
 PMS XG Overjoy (仮)
 PMSデータベース(Lv1~45)
 PMSデータベース隔離枠
@@ -4635,7 +4558,6 @@ PMS通常難易度表
 同梱PMS一覧表 (非発狂)
 新規登録譜面一覧表 (月別)
 準発狂PMS難易度表
-発狂PMSデータベース(lv46～)
 発狂PMS表外高難易度案内所
 発狂PMS表外高難易度案内所隔離枠
 発狂PMS難易度表
@@ -4644,19 +4566,17 @@ PMS通常難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/PMS%20Database%20%E3%81%8A%E9%A1%8C%E7%AE%B1/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/PMS%20XG%20Overjoy%20%28%E4%BB%AE%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%28Lv1~45%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/PMS%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E7%99%BA%E7%8B%82%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E9%9D%9E%E7%99%BA%E7%8B%82%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E6%96%B0%E8%A6%8F%E7%99%BB%E9%8C%B2%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E6%9C%88%E5%88%A5%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E6%BA%96%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%82PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%28lv46%EF%BD%9E%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20PMS%20XG%20Overjoy%20%28%E4%BB%AE%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%28Lv1~45%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bhiiiii.web.fc2.com%5D%20PMS%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E7%99%BA%E7%8B%82%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E9%9D%9E%E7%99%BA%E7%8B%82%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20%E6%96%B0%E8%A6%8F%E7%99%BB%E9%8C%B2%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E6%9C%88%E5%88%A5%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E6%BA%96%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -4677,7 +4597,6 @@ PMS通常難易度表
 同梱PMS一覧表 (非発狂)
 新規登録譜面一覧表 (月別)
 準発狂PMS難易度表
-発狂PMSデータベース(lv46～)
 発狂PMS表外高難易度案内所
 発狂PMS表外高難易度案内所隔離枠
 発狂PMS難易度表
@@ -4694,7 +4613,6 @@ PMS通常難易度表
   "https://get.2sb.org/https://pmsdatabase.github.io/subtable/included/normal_header.json",
   "https://get.2sb.org/https://pmsdatabase.github.io/subtable/monthly/monthly_header.json",
   "https://get.2sb.org/http://stellawingroad.web.fc2.com/new4/header.json",
-  "https://get.2sb.org/https://pmsdatabase.github.io/insane_pmsdatabase/insane_pmsdatabase_header.json",
   "https://get.2sb.org/http://stellawingroad.web.fc2.com/new2/header.json",
   "https://get.2sb.org/http://stellawingroad.web.fc2.com/new3/header.json",
   "https://get.2sb.org/https://pmsdatabase.github.io/pastoral_insane/header.json"
@@ -4710,7 +4628,6 @@ PMS通常難易度表
 <tr>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-text">
-PMS Database お題箱
 PMS XG Overjoy (仮)
 PMSデータベース(Lv1~45)
 PMSデータベース隔離枠
@@ -4719,7 +4636,6 @@ PMS通常難易度表
 同梱PMS一覧表 (非発狂)
 新規登録譜面一覧表 (月別)
 準発狂PMS難易度表
-発狂PMSデータベース(lv46～)
 発狂PMS表外高難易度案内所
 発狂PMS表外高難易度案内所隔離枠
 発狂PMS難易度表
@@ -4728,19 +4644,17 @@ PMS通常難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%20Database%20%E3%81%8A%E9%A1%8C%E7%AE%B1/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%20XG%20Overjoy%20%28%E4%BB%AE%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%28Lv1~45%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E7%99%BA%E7%8B%82%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E9%9D%9E%E7%99%BA%E7%8B%82%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%96%B0%E8%A6%8F%E7%99%BB%E9%8C%B2%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E6%9C%88%E5%88%A5%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%BA%96%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%28lv46%EF%BD%9E%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20PMS%20XG%20Overjoy%20%28%E4%BB%AE%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%28Lv1~45%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhiiiii.web.fc2.com%5D%20PMS%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E7%99%BA%E7%8B%82%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E9%9D%9E%E7%99%BA%E7%8B%82%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E6%96%B0%E8%A6%8F%E7%99%BB%E9%8C%B2%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E6%9C%88%E5%88%A5%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E6%BA%96%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -4753,7 +4667,6 @@ PMS通常難易度表
 <tr>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-text">
-PMS Database お題箱
 PMS XG Overjoy (仮)
 PMSデータベース(Lv1~45)
 PMSデータベース隔離枠
@@ -4762,7 +4675,6 @@ PMS通常難易度表
 同梱PMS一覧表 (非発狂)
 新規登録譜面一覧表 (月別)
 準発狂PMS難易度表
-発狂PMSデータベース(lv46～)
 発狂PMS表外高難易度案内所
 発狂PMS表外高難易度案内所隔離枠
 発狂PMS難易度表
@@ -4771,19 +4683,17 @@ PMS通常難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%20Database%20%E3%81%8A%E9%A1%8C%E7%AE%B1/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%20XG%20Overjoy%20%28%E4%BB%AE%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%28Lv1~45%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E7%99%BA%E7%8B%82%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E9%9D%9E%E7%99%BA%E7%8B%82%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%96%B0%E8%A6%8F%E7%99%BB%E9%8C%B2%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E6%9C%88%E5%88%A5%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%BA%96%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%28lv46%EF%BD%9E%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20PMS%20XG%20Overjoy%20%28%E4%BB%AE%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%28Lv1~45%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhiiiii.web.fc2.com%5D%20PMS%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E7%99%BA%E7%8B%82%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E9%9D%9E%E7%99%BA%E7%8B%82%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E6%96%B0%E8%A6%8F%E7%99%BB%E9%8C%B2%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E6%9C%88%E5%88%A5%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E6%BA%96%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -4796,7 +4706,6 @@ PMS通常難易度表
 <tr>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-text">
-PMS Database お題箱
 PMS XG Overjoy (仮)
 PMSデータベース(Lv1~45)
 PMSデータベース隔離枠
@@ -4805,7 +4714,6 @@ PMS通常難易度表
 同梱PMS一覧表 (非発狂)
 新規登録譜面一覧表 (月別)
 準発狂PMS難易度表
-発狂PMSデータベース(lv46～)
 発狂PMS表外高難易度案内所
 発狂PMS表外高難易度案内所隔離枠
 発狂PMS難易度表
@@ -4814,19 +4722,17 @@ PMS通常難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%20Database%20%E3%81%8A%E9%A1%8C%E7%AE%B1/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%20XG%20Overjoy%20%28%E4%BB%AE%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%28Lv1~45%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E7%99%BA%E7%8B%82%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E9%9D%9E%E7%99%BA%E7%8B%82%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%96%B0%E8%A6%8F%E7%99%BB%E9%8C%B2%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E6%9C%88%E5%88%A5%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%BA%96%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%28lv46%EF%BD%9E%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20PMS%20XG%20Overjoy%20%28%E4%BB%AE%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%28Lv1~45%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20PMS%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhiiiii.web.fc2.com%5D%20PMS%E9%80%9A%E5%B8%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E7%99%BA%E7%8B%82%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E5%90%8C%E6%A2%B1PMS%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E9%9D%9E%E7%99%BA%E7%8B%82%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E6%96%B0%E8%A6%8F%E7%99%BB%E9%8C%B2%E8%AD%9C%E9%9D%A2%E4%B8%80%E8%A6%A7%E8%A1%A8%20%28%E6%9C%88%E5%88%A5%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E6%BA%96%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20%E7%99%BA%E7%8B%82PMS%E8%A1%A8%E5%A4%96%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6%E6%A1%88%E5%86%85%E6%89%80%E9%9A%94%E9%9B%A2%E6%9E%A0/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E7%99%BA%E7%8B%82PMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -4878,11 +4784,11 @@ PMS同梱譜面難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/G2R%20PMS/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/LNPMS%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/PMS%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%B5%E3%83%B3%E3%82%B4%E4%B8%89%E5%8F%B7%E3%81%95%E3%82%93%E3%81%AEPMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E8%A5%BF%E3%83%B6%E8%9C%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellawingroad.web.fc2.com%5D%20G2R%20PMS/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bmasshiroworld.web.fc2.com%5D%20LNPMS%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkhibine.tobiiro.jp%5D%20PMS%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5B35353.wa-sanbon.com%5D%20%E3%82%B5%E3%83%B3%E3%82%B4%E4%B8%89%E5%8F%B7%E3%81%95%E3%82%93%E3%81%AEPMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bnigo10sabun.web.fc2.com%5D%20%E8%A5%BF%E3%83%B6%E8%9C%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -4932,11 +4838,11 @@ PMS同梱譜面難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/G2R%20PMS/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LNPMS%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%B5%E3%83%B3%E3%82%B4%E4%B8%89%E5%8F%B7%E3%81%95%E3%82%93%E3%81%AEPMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%A5%BF%E3%83%B6%E8%9C%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20G2R%20PMS/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmasshiroworld.web.fc2.com%5D%20LNPMS%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkhibine.tobiiro.jp%5D%20PMS%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5B35353.wa-sanbon.com%5D%20%E3%82%B5%E3%83%B3%E3%82%B4%E4%B8%89%E5%8F%B7%E3%81%95%E3%82%93%E3%81%AEPMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnigo10sabun.web.fc2.com%5D%20%E8%A5%BF%E3%83%B6%E8%9C%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -4959,11 +4865,11 @@ PMS同梱譜面難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/G2R%20PMS/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LNPMS%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%B5%E3%83%B3%E3%82%B4%E4%B8%89%E5%8F%B7%E3%81%95%E3%82%93%E3%81%AEPMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%A5%BF%E3%83%B6%E8%9C%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20G2R%20PMS/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmasshiroworld.web.fc2.com%5D%20LNPMS%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkhibine.tobiiro.jp%5D%20PMS%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5B35353.wa-sanbon.com%5D%20%E3%82%B5%E3%83%B3%E3%82%B4%E4%B8%89%E5%8F%B7%E3%81%95%E3%82%93%E3%81%AEPMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnigo10sabun.web.fc2.com%5D%20%E8%A5%BF%E3%83%B6%E8%9C%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -4986,11 +4892,11 @@ PMS同梱譜面難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/G2R%20PMS/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LNPMS%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/PMS%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%B5%E3%83%B3%E3%82%B4%E4%B8%89%E5%8F%B7%E3%81%95%E3%82%93%E3%81%AEPMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E8%A5%BF%E3%83%B6%E8%9C%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellawingroad.web.fc2.com%5D%20G2R%20PMS/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmasshiroworld.web.fc2.com%5D%20LNPMS%E9%9B%A3%E6%98%93%E5%BA%A6/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkhibine.tobiiro.jp%5D%20PMS%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5B35353.wa-sanbon.com%5D%20%E3%82%B5%E3%83%B3%E3%82%B4%E4%B8%89%E5%8F%B7%E3%81%95%E3%82%93%E3%81%AEPMS%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bnigo10sabun.web.fc2.com%5D%20%E8%A5%BF%E3%83%B6%E8%9C%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -5036,9 +4942,9 @@ ymskぷむす難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/ymsk%E3%81%B7%E3%82%80%E3%81%99%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%81%8A%E3%81%95%E3%81%A8%E3%81%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E9%9C%A7%E4%B8%AD%E3%81%AE%E8%92%BC%E9%B3%A5%20-%20PMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Byumasuki.yumenogotoshi.com%5D%20ymsk%E3%81%B7%E3%82%80%E3%81%99%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bosatoudifficulty.yu-nagi.com%5D%20%E3%81%8A%E3%81%95%E3%81%A8%E3%81%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bmistyblue.info%5D%20%E9%9C%A7%E4%B8%AD%E3%81%AE%E8%92%BC%E9%B3%A5%20-%20PMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -5082,9 +4988,9 @@ ymskぷむす難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ymsk%E3%81%B7%E3%82%80%E3%81%99%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8A%E3%81%95%E3%81%A8%E3%81%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%9C%A7%E4%B8%AD%E3%81%AE%E8%92%BC%E9%B3%A5%20-%20PMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byumasuki.yumenogotoshi.com%5D%20ymsk%E3%81%B7%E3%82%80%E3%81%99%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bosatoudifficulty.yu-nagi.com%5D%20%E3%81%8A%E3%81%95%E3%81%A8%E3%81%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmistyblue.info%5D%20%E9%9C%A7%E4%B8%AD%E3%81%AE%E8%92%BC%E9%B3%A5%20-%20PMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -5105,9 +5011,9 @@ ymskぷむす難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ymsk%E3%81%B7%E3%82%80%E3%81%99%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8A%E3%81%95%E3%81%A8%E3%81%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%9C%A7%E4%B8%AD%E3%81%AE%E8%92%BC%E9%B3%A5%20-%20PMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byumasuki.yumenogotoshi.com%5D%20ymsk%E3%81%B7%E3%82%80%E3%81%99%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bosatoudifficulty.yu-nagi.com%5D%20%E3%81%8A%E3%81%95%E3%81%A8%E3%81%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmistyblue.info%5D%20%E9%9C%A7%E4%B8%AD%E3%81%AE%E8%92%BC%E9%B3%A5%20-%20PMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -5128,9 +5034,9 @@ ymskぷむす難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ymsk%E3%81%B7%E3%82%80%E3%81%99%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%81%8A%E3%81%95%E3%81%A8%E3%81%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%9C%A7%E4%B8%AD%E3%81%AE%E8%92%BC%E9%B3%A5%20-%20PMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byumasuki.yumenogotoshi.com%5D%20ymsk%E3%81%B7%E3%82%80%E3%81%99%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bosatoudifficulty.yu-nagi.com%5D%20%E3%81%8A%E3%81%95%E3%81%A8%E3%81%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bmistyblue.info%5D%20%E9%9C%A7%E4%B8%AD%E3%81%AE%E8%92%BC%E9%B3%A5%20-%20PMS%E5%B7%AE%E5%88%86%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -5196,15 +5102,15 @@ TRIDENT難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMS%20EVENT%202015/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMS%20EVENT%202016/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMS%E3%81%8B%E3%82%93%E5%AD%97%E3%83%89%E3%83%AA%E3%83%AB%202%E5%B9%B4%E7%94%9F/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BOFU2015%20%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BOFU2017%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BOFXVI%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/G2R2014%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/TRIDENT%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E6%B4%9E%E7%AA%9F%E7%89%A9%E8%AA%9EBMS%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20BMS%20EVENT%202015/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20BMS%20EVENT%202016/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bvenue.bmssearch.net%5D%20BMS%E3%81%8B%E3%82%93%E5%AD%97%E3%83%89%E3%83%AA%E3%83%AB%202%E5%B9%B4%E7%94%9F/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20BOFU2015%20%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20BOFU2017%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmpmsrndsz.nomaki.jp%5D%20BOFXVI%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20G2R2014%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20TRIDENT%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Byaritaihoudie.fr%5D%20%E6%B4%9E%E7%AA%9F%E7%89%A9%E8%AA%9EBMS%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -5266,15 +5172,15 @@ TRIDENT難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20EVENT%202015/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20EVENT%202016/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E3%81%8B%E3%82%93%E5%AD%97%E3%83%89%E3%83%AA%E3%83%AB%202%E5%B9%B4%E7%94%9F/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFU2015%20%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFU2017%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFXVI%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/G2R2014%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/TRIDENT%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%B4%9E%E7%AA%9F%E7%89%A9%E8%AA%9EBMS%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20BMS%20EVENT%202015/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20BMS%20EVENT%202016/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bvenue.bmssearch.net%5D%20BMS%E3%81%8B%E3%82%93%E5%AD%97%E3%83%89%E3%83%AA%E3%83%AB%202%E5%B9%B4%E7%94%9F/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20BOFU2015%20%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20BOFU2017%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmpmsrndsz.nomaki.jp%5D%20BOFXVI%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20G2R2014%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20TRIDENT%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20%E6%B4%9E%E7%AA%9F%E7%89%A9%E8%AA%9EBMS%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -5301,15 +5207,15 @@ TRIDENT難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20EVENT%202015/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20EVENT%202016/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E3%81%8B%E3%82%93%E5%AD%97%E3%83%89%E3%83%AA%E3%83%AB%202%E5%B9%B4%E7%94%9F/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFU2015%20%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFU2017%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFXVI%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/G2R2014%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/TRIDENT%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%B4%9E%E7%AA%9F%E7%89%A9%E8%AA%9EBMS%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20BMS%20EVENT%202015/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20BMS%20EVENT%202016/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bvenue.bmssearch.net%5D%20BMS%E3%81%8B%E3%82%93%E5%AD%97%E3%83%89%E3%83%AA%E3%83%AB%202%E5%B9%B4%E7%94%9F/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20BOFU2015%20%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20BOFU2017%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmpmsrndsz.nomaki.jp%5D%20BOFXVI%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20G2R2014%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20TRIDENT%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20%E6%B4%9E%E7%AA%9F%E7%89%A9%E8%AA%9EBMS%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -5336,15 +5242,15 @@ TRIDENT難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20EVENT%202015/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20EVENT%202016/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E3%81%8B%E3%82%93%E5%AD%97%E3%83%89%E3%83%AA%E3%83%AB%202%E5%B9%B4%E7%94%9F/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFU2015%20%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFU2017%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFXVI%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/G2R2014%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/TRIDENT%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%B4%9E%E7%AA%9F%E7%89%A9%E8%AA%9EBMS%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20BMS%20EVENT%202015/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20BMS%20EVENT%202016/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bvenue.bmssearch.net%5D%20BMS%E3%81%8B%E3%82%93%E5%AD%97%E3%83%89%E3%83%AA%E3%83%AB%202%E5%B9%B4%E7%94%9F/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20BOFU2015%20%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20BOFU2017%E7%99%BA%E7%8B%82%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmpmsrndsz.nomaki.jp%5D%20BOFXVI%E5%90%8C%E6%A2%B1%E8%AD%9C%E9%9D%A2%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20G2R2014%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Basaksaksmakm.web.fc2.com%5D%20TRIDENT%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Byaritaihoudie.fr%5D%20%E6%B4%9E%E7%AA%9F%E7%89%A9%E8%AA%9EBMS%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -5371,7 +5277,6 @@ BMSS 2022 Pattern Package
 BMSS 2023 Pattern Package
 BOFET(BOF2022)PMS
 BOFU2017PMS
-BOFXV19PMS
 BOFXVII(BOF2021)PMS
 BOFXVII差分企画
 BOFXVIPMS
@@ -5417,7 +5322,6 @@ SUPERVARIATION
   "https://hpx.getonpictochat.com/bmss/2023/table/",
   "https://pmsdifficulty.xxxxxxxx.jp/BOFETPMS.html",
   "https://pmsdifficulty.xxxxxxxx.jp/BOFU2017PMS.html",
-  "https://pmsdifficulty.xxxxxxxx.jp/BOFXV19PMS.html",
   "https://pmsdifficulty.xxxxxxxx.jp/BOFXVIIPMS.html",
   "https://darksabun.club/event/bofxvii/table.html",
   "https://pmsdifficulty.xxxxxxxx.jp/BOFXVIPMS.html",
@@ -5470,7 +5374,6 @@ BMSS 2022 Pattern Package
 BMSS 2023 Pattern Package
 BOFET(BOF2022)PMS
 BOFU2017PMS
-BOFXV19PMS
 BOFXVII(BOF2021)PMS
 BOFXVII差分企画
 BOFXVIPMS
@@ -5504,47 +5407,46 @@ SUPERVARIATION
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/100min%20Fumen%20Cooking%21%21/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/1998%20to%202020%20%28%E4%BB%AE%29/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/1998%20to%202024/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/29Another%20Respect/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMS%20BPM%20Battle%20Beta/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMS%20chart%20Editors%E2%80%99%20League/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMS%20OBJECT%20BATTLER%202015/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMSS%202021%20Pattern%20Package/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMSS%202022%20Pattern%20Package/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMSS%202023%20Pattern%20Package/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BOFET%28BOF2022%29PMS/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BOFU2017PMS/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BOFXV19PMS/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BOFXVII%28BOF2021%29PMS/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BOFXVII%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BOFXVIPMS/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BOFXV%E5%B7%AE%E5%88%86%E4%BA%8C%E6%AC%A1%E4%BC%9A%28%E4%BB%AE%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/G2R2018PMS/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/GENOCIDE%20Reinterpretation/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Initial%20A%20to%20Z%202019%20-26%20songs-/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Initial%20A%20to%20Z%202020%20-14%20Keys-%20-26%20songs-/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Initial%20A%20to%20Z%202020%20-26%20songs-/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/LR2IR%20Battle/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/M-SPIN%27s%20BOFXVI%20Diary/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/MELON%20CRASH/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Mutual%20Fumen/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Mutual%20Fumen%202/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Remilegi%20of%20Fighters%202022/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/SABUN%20in%20the%20DARK/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Sabun-Shuffle%20Summer%20Season/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Sunset%E5%B7%AE%E5%88%86/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/SUPERVARIATION/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E2%97%86LongNotes%20Festival%E2%97%86/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E2%98%851to%E2%98%8524/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%82%B5%E3%83%86%E3%83%A9%C3%97%E3%82%B9%E3%83%86%E3%83%A9/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E3%83%97%E3%83%8A%E3%82%A4%E3%83%97%E3%83%8A%E3%82%A4%E2%98%85%EF%BC%91%E3%81%9B%E3%82%93%E3%81%9D%E3%81%86/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E6%96%B0BOFPMS%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%95%B0%E5%B8%B8%E8%AD%9C%E9%9D%A2%E9%81%8A%E6%88%AF/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%99%96%E5%B7%AE%E5%88%86%E3%83%90%E3%83%88%E3%83%AB%E3%83%BB%E5%B7%AE%E5%88%86%E4%BD%9C%E5%AE%B6%E5%81%BD%E5%90%8D%E6%88%A6/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%AC%AC%E4%B8%89%E5%9B%9E%E7%99%96%E8%AD%9C%E9%9D%A2%E5%81%BD%E5%90%8D%E6%88%A6/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E7%AC%AC%E4%BA%8C%E5%9B%9E%E7%99%96%E8%AD%9C%E9%9D%A2%E5%81%BD%E5%90%8D%E6%88%A6/header.json"
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20100min%20Fumen%20Cooking%21%21/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%201998%20to%202020%20%28%E4%BB%AE%29/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%201998%20to%202024/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%2029Another%20Respect/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20BMS%20BPM%20Battle%20Beta/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20BMS%20chart%20Editors%E2%80%99%20League/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Biroirokiba.web.fc2.com%5D%20BMS%20OBJECT%20BATTLER%202015/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bhpx.getonpictochat.com%5D%20BMSS%202021%20Pattern%20Package/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bhpx.getonpictochat.com%5D%20BMSS%202022%20Pattern%20Package/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bhpx.getonpictochat.com%5D%20BMSS%202023%20Pattern%20Package/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20BOFET%28BOF2022%29PMS/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20BOFU2017PMS/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXVII%28BOF2021%29PMS/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20BOFXVII%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXVIPMS/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20BOFXV%E5%B7%AE%E5%88%86%E4%BA%8C%E6%AC%A1%E4%BC%9A%28%E4%BB%AE%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdifficulty.xxxxxxxx.jp%5D%20G2R2018PMS/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20GENOCIDE%20Reinterpretation/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20Initial%20A%20to%20Z%202019%20-26%20songs-/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20Initial%20A%20to%20Z%202020%20-14%20Keys-%20-26%20songs-/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20Initial%20A%20to%20Z%202020%20-26%20songs-/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20LR2IR%20Battle/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20M-SPIN%27s%20BOFXVI%20Diary/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bverticalsub.web.fc2.com%5D%20MELON%20CRASH/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20Mutual%20Fumen/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20Mutual%20Fumen%202/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20Remilegi%20of%20Fighters%202022/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20SABUN%20in%20the%20DARK/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20Sabun-Shuffle%20Summer%20Season/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20Sunset%E5%B7%AE%E5%88%86/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Brattoto10.web.fc2.com%5D%20SUPERVARIATION/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E2%97%86LongNotes%20Festival%E2%97%86/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E2%98%851to%E2%98%8524/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E3%82%B5%E3%83%86%E3%83%A9%C3%97%E3%82%B9%E3%83%86%E3%83%A9/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E3%83%97%E3%83%8A%E3%82%A4%E3%83%97%E3%83%8A%E3%82%A4%E2%98%85%EF%BC%91%E3%81%9B%E3%82%93%E3%81%9D%E3%81%86/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bpmsdatabase.github.io%5D%20%E6%96%B0BOFPMS%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bokunigon.github.io%5D%20%E7%95%B0%E5%B8%B8%E8%AD%9C%E9%9D%A2%E9%81%8A%E6%88%AF/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Boneeighth.web.fc2.com%5D%20%E7%99%96%E5%B7%AE%E5%88%86%E3%83%90%E3%83%88%E3%83%AB%E3%83%BB%E5%B7%AE%E5%88%86%E4%BD%9C%E5%AE%B6%E5%81%BD%E5%90%8D%E6%88%A6/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Boneeighth.web.fc2.com%5D%20%E7%AC%AC%E4%B8%89%E5%9B%9E%E7%99%96%E8%AD%9C%E9%9D%A2%E5%81%BD%E5%90%8D%E6%88%A6/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Boneeighth.web.fc2.com%5D%20%E7%AC%AC%E4%BA%8C%E5%9B%9E%E7%99%96%E8%AD%9C%E9%9D%A2%E5%81%BD%E5%90%8D%E6%88%A6/header.json"
 ]
 </code></pre>
 </td>
@@ -5569,7 +5471,6 @@ BMSS 2022 Pattern Package
 BMSS 2023 Pattern Package
 BOFET(BOF2022)PMS
 BOFU2017PMS
-BOFXV19PMS
 BOFXVII(BOF2021)PMS
 BOFXVII差分企画
 BOFXVIPMS
@@ -5615,7 +5516,6 @@ SUPERVARIATION
   "https://get.2sb.org/https://hpx.getonpictochat.com/bmss/2023/table/header.json",
   "https://get.2sb.org/https://pmsdatabase.github.io/BOFETPMS/BOFETPMS_header.json",
   "https://get.2sb.org/https://pmsdatabase.github.io/BOFU2017PMS/BOFU2017PMS_header.json",
-  "https://get.2sb.org/https://pmsdatabase.github.io/BOFXV19PMS/BOFXV19PMS_header.json",
   "https://get.2sb.org/https://pmsdatabase.github.io/BOFXVIIPMS/BOFXVIIPMS_header.json",
   "https://get.2sb.org/https://darksabun.club/event/bofxvii/header.json",
   "https://get.2sb.org/https://pmsdatabase.github.io/BOFXVIPMS/BOFXVIPMS_header.json",
@@ -5668,7 +5568,6 @@ BMSS 2022 Pattern Package
 BMSS 2023 Pattern Package
 BOFET(BOF2022)PMS
 BOFU2017PMS
-BOFXV19PMS
 BOFXVII(BOF2021)PMS
 BOFXVII差分企画
 BOFXVIPMS
@@ -5702,47 +5601,46 @@ SUPERVARIATION
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/100min%20Fumen%20Cooking%21%21/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/1998%20to%202020%20%28%E4%BB%AE%29/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/1998%20to%202024/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/29Another%20Respect/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20BPM%20Battle%20Beta/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20chart%20Editors%E2%80%99%20League/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20OBJECT%20BATTLER%202015/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMSS%202021%20Pattern%20Package/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMSS%202022%20Pattern%20Package/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMSS%202023%20Pattern%20Package/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFET%28BOF2022%29PMS/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFU2017PMS/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFXV19PMS/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFXVII%28BOF2021%29PMS/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFXVII%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFXVIPMS/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFXV%E5%B7%AE%E5%88%86%E4%BA%8C%E6%AC%A1%E4%BC%9A%28%E4%BB%AE%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/G2R2018PMS/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/GENOCIDE%20Reinterpretation/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Initial%20A%20to%20Z%202019%20-26%20songs-/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Initial%20A%20to%20Z%202020%20-14%20Keys-%20-26%20songs-/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Initial%20A%20to%20Z%202020%20-26%20songs-/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LR2IR%20Battle/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/M-SPIN%27s%20BOFXVI%20Diary/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/MELON%20CRASH/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Mutual%20Fumen/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Mutual%20Fumen%202/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Remilegi%20of%20Fighters%202022/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/SABUN%20in%20the%20DARK/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Sabun-Shuffle%20Summer%20Season/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Sunset%E5%B7%AE%E5%88%86/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/SUPERVARIATION/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E2%97%86LongNotes%20Festival%E2%97%86/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E2%98%851to%E2%98%8524/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%B5%E3%83%86%E3%83%A9%C3%97%E3%82%B9%E3%83%86%E3%83%A9/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%83%97%E3%83%8A%E3%82%A4%E3%83%97%E3%83%8A%E3%82%A4%E2%98%85%EF%BC%91%E3%81%9B%E3%82%93%E3%81%9D%E3%81%86/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%96%B0BOFPMS%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%95%B0%E5%B8%B8%E8%AD%9C%E9%9D%A2%E9%81%8A%E6%88%AF/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%96%E5%B7%AE%E5%88%86%E3%83%90%E3%83%88%E3%83%AB%E3%83%BB%E5%B7%AE%E5%88%86%E4%BD%9C%E5%AE%B6%E5%81%BD%E5%90%8D%E6%88%A6/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%AC%AC%E4%B8%89%E5%9B%9E%E7%99%96%E8%AD%9C%E9%9D%A2%E5%81%BD%E5%90%8D%E6%88%A6/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%AC%AC%E4%BA%8C%E5%9B%9E%E7%99%96%E8%AD%9C%E9%9D%A2%E5%81%BD%E5%90%8D%E6%88%A6/header.json"
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20100min%20Fumen%20Cooking%21%21/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%201998%20to%202020%20%28%E4%BB%AE%29/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%201998%20to%202024/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%2029Another%20Respect/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BMS%20BPM%20Battle%20Beta/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BMS%20chart%20Editors%E2%80%99%20League/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Biroirokiba.web.fc2.com%5D%20BMS%20OBJECT%20BATTLER%202015/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhpx.getonpictochat.com%5D%20BMSS%202021%20Pattern%20Package/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhpx.getonpictochat.com%5D%20BMSS%202022%20Pattern%20Package/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhpx.getonpictochat.com%5D%20BMSS%202023%20Pattern%20Package/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFET%28BOF2022%29PMS/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFU2017PMS/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXVII%28BOF2021%29PMS/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BOFXVII%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXVIPMS/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BOFXV%E5%B7%AE%E5%88%86%E4%BA%8C%E6%AC%A1%E4%BC%9A%28%E4%BB%AE%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdifficulty.xxxxxxxx.jp%5D%20G2R2018PMS/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20GENOCIDE%20Reinterpretation/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Initial%20A%20to%20Z%202019%20-26%20songs-/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Initial%20A%20to%20Z%202020%20-14%20Keys-%20-26%20songs-/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Initial%20A%20to%20Z%202020%20-26%20songs-/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20LR2IR%20Battle/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20M-SPIN%27s%20BOFXVI%20Diary/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bverticalsub.web.fc2.com%5D%20MELON%20CRASH/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Mutual%20Fumen/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Mutual%20Fumen%202/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Remilegi%20of%20Fighters%202022/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20SABUN%20in%20the%20DARK/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Sabun-Shuffle%20Summer%20Season/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Sunset%E5%B7%AE%E5%88%86/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20SUPERVARIATION/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E2%97%86LongNotes%20Festival%E2%97%86/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E2%98%851to%E2%98%8524/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%82%B5%E3%83%86%E3%83%A9%C3%97%E3%82%B9%E3%83%86%E3%83%A9/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%83%97%E3%83%8A%E3%82%A4%E3%83%97%E3%83%8A%E3%82%A4%E2%98%85%EF%BC%91%E3%81%9B%E3%82%93%E3%81%9D%E3%81%86/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E6%96%B0BOFPMS%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bokunigon.github.io%5D%20%E7%95%B0%E5%B8%B8%E8%AD%9C%E9%9D%A2%E9%81%8A%E6%88%AF/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Boneeighth.web.fc2.com%5D%20%E7%99%96%E5%B7%AE%E5%88%86%E3%83%90%E3%83%88%E3%83%AB%E3%83%BB%E5%B7%AE%E5%88%86%E4%BD%9C%E5%AE%B6%E5%81%BD%E5%90%8D%E6%88%A6/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Boneeighth.web.fc2.com%5D%20%E7%AC%AC%E4%B8%89%E5%9B%9E%E7%99%96%E8%AD%9C%E9%9D%A2%E5%81%BD%E5%90%8D%E6%88%A6/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Boneeighth.web.fc2.com%5D%20%E7%AC%AC%E4%BA%8C%E5%9B%9E%E7%99%96%E8%AD%9C%E9%9D%A2%E5%81%BD%E5%90%8D%E6%88%A6/header.json"
 ]
 </code></pre>
 </td>
@@ -5767,7 +5665,6 @@ BMSS 2022 Pattern Package
 BMSS 2023 Pattern Package
 BOFET(BOF2022)PMS
 BOFU2017PMS
-BOFXV19PMS
 BOFXVII(BOF2021)PMS
 BOFXVII差分企画
 BOFXVIPMS
@@ -5801,47 +5698,46 @@ SUPERVARIATION
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/100min%20Fumen%20Cooking%21%21/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/1998%20to%202020%20%28%E4%BB%AE%29/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/1998%20to%202024/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/29Another%20Respect/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20BPM%20Battle%20Beta/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20chart%20Editors%E2%80%99%20League/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20OBJECT%20BATTLER%202015/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMSS%202021%20Pattern%20Package/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMSS%202022%20Pattern%20Package/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMSS%202023%20Pattern%20Package/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFET%28BOF2022%29PMS/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFU2017PMS/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFXV19PMS/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFXVII%28BOF2021%29PMS/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFXVII%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFXVIPMS/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFXV%E5%B7%AE%E5%88%86%E4%BA%8C%E6%AC%A1%E4%BC%9A%28%E4%BB%AE%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/G2R2018PMS/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/GENOCIDE%20Reinterpretation/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Initial%20A%20to%20Z%202019%20-26%20songs-/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Initial%20A%20to%20Z%202020%20-14%20Keys-%20-26%20songs-/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Initial%20A%20to%20Z%202020%20-26%20songs-/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LR2IR%20Battle/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/M-SPIN%27s%20BOFXVI%20Diary/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/MELON%20CRASH/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Mutual%20Fumen/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Mutual%20Fumen%202/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Remilegi%20of%20Fighters%202022/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/SABUN%20in%20the%20DARK/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Sabun-Shuffle%20Summer%20Season/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Sunset%E5%B7%AE%E5%88%86/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/SUPERVARIATION/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E2%97%86LongNotes%20Festival%E2%97%86/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E2%98%851to%E2%98%8524/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%B5%E3%83%86%E3%83%A9%C3%97%E3%82%B9%E3%83%86%E3%83%A9/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%83%97%E3%83%8A%E3%82%A4%E3%83%97%E3%83%8A%E3%82%A4%E2%98%85%EF%BC%91%E3%81%9B%E3%82%93%E3%81%9D%E3%81%86/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%96%B0BOFPMS%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%95%B0%E5%B8%B8%E8%AD%9C%E9%9D%A2%E9%81%8A%E6%88%AF/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%96%E5%B7%AE%E5%88%86%E3%83%90%E3%83%88%E3%83%AB%E3%83%BB%E5%B7%AE%E5%88%86%E4%BD%9C%E5%AE%B6%E5%81%BD%E5%90%8D%E6%88%A6/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%AC%AC%E4%B8%89%E5%9B%9E%E7%99%96%E8%AD%9C%E9%9D%A2%E5%81%BD%E5%90%8D%E6%88%A6/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%AC%AC%E4%BA%8C%E5%9B%9E%E7%99%96%E8%AD%9C%E9%9D%A2%E5%81%BD%E5%90%8D%E6%88%A6/header.json"
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20100min%20Fumen%20Cooking%21%21/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%201998%20to%202020%20%28%E4%BB%AE%29/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%201998%20to%202024/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%2029Another%20Respect/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BMS%20BPM%20Battle%20Beta/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BMS%20chart%20Editors%E2%80%99%20League/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Biroirokiba.web.fc2.com%5D%20BMS%20OBJECT%20BATTLER%202015/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhpx.getonpictochat.com%5D%20BMSS%202021%20Pattern%20Package/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhpx.getonpictochat.com%5D%20BMSS%202022%20Pattern%20Package/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhpx.getonpictochat.com%5D%20BMSS%202023%20Pattern%20Package/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFET%28BOF2022%29PMS/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFU2017PMS/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXVII%28BOF2021%29PMS/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BOFXVII%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXVIPMS/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BOFXV%E5%B7%AE%E5%88%86%E4%BA%8C%E6%AC%A1%E4%BC%9A%28%E4%BB%AE%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdifficulty.xxxxxxxx.jp%5D%20G2R2018PMS/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20GENOCIDE%20Reinterpretation/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Initial%20A%20to%20Z%202019%20-26%20songs-/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Initial%20A%20to%20Z%202020%20-14%20Keys-%20-26%20songs-/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Initial%20A%20to%20Z%202020%20-26%20songs-/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20LR2IR%20Battle/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20M-SPIN%27s%20BOFXVI%20Diary/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bverticalsub.web.fc2.com%5D%20MELON%20CRASH/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Mutual%20Fumen/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Mutual%20Fumen%202/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Remilegi%20of%20Fighters%202022/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20SABUN%20in%20the%20DARK/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Sabun-Shuffle%20Summer%20Season/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Sunset%E5%B7%AE%E5%88%86/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20SUPERVARIATION/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E2%97%86LongNotes%20Festival%E2%97%86/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E2%98%851to%E2%98%8524/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%82%B5%E3%83%86%E3%83%A9%C3%97%E3%82%B9%E3%83%86%E3%83%A9/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%83%97%E3%83%8A%E3%82%A4%E3%83%97%E3%83%8A%E3%82%A4%E2%98%85%EF%BC%91%E3%81%9B%E3%82%93%E3%81%9D%E3%81%86/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E6%96%B0BOFPMS%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bokunigon.github.io%5D%20%E7%95%B0%E5%B8%B8%E8%AD%9C%E9%9D%A2%E9%81%8A%E6%88%AF/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Boneeighth.web.fc2.com%5D%20%E7%99%96%E5%B7%AE%E5%88%86%E3%83%90%E3%83%88%E3%83%AB%E3%83%BB%E5%B7%AE%E5%88%86%E4%BD%9C%E5%AE%B6%E5%81%BD%E5%90%8D%E6%88%A6/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Boneeighth.web.fc2.com%5D%20%E7%AC%AC%E4%B8%89%E5%9B%9E%E7%99%96%E8%AD%9C%E9%9D%A2%E5%81%BD%E5%90%8D%E6%88%A6/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Boneeighth.web.fc2.com%5D%20%E7%AC%AC%E4%BA%8C%E5%9B%9E%E7%99%96%E8%AD%9C%E9%9D%A2%E5%81%BD%E5%90%8D%E6%88%A6/header.json"
 ]
 </code></pre>
 </td>
@@ -5866,7 +5762,6 @@ BMSS 2022 Pattern Package
 BMSS 2023 Pattern Package
 BOFET(BOF2022)PMS
 BOFU2017PMS
-BOFXV19PMS
 BOFXVII(BOF2021)PMS
 BOFXVII差分企画
 BOFXVIPMS
@@ -5900,47 +5795,46 @@ SUPERVARIATION
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/100min%20Fumen%20Cooking%21%21/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/1998%20to%202020%20%28%E4%BB%AE%29/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/1998%20to%202024/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/29Another%20Respect/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20BPM%20Battle%20Beta/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20chart%20Editors%E2%80%99%20League/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%20OBJECT%20BATTLER%202015/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMSS%202021%20Pattern%20Package/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMSS%202022%20Pattern%20Package/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMSS%202023%20Pattern%20Package/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFET%28BOF2022%29PMS/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFU2017PMS/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFXV19PMS/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFXVII%28BOF2021%29PMS/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFXVII%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFXVIPMS/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BOFXV%E5%B7%AE%E5%88%86%E4%BA%8C%E6%AC%A1%E4%BC%9A%28%E4%BB%AE%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/G2R2018PMS/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/GENOCIDE%20Reinterpretation/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Initial%20A%20to%20Z%202019%20-26%20songs-/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Initial%20A%20to%20Z%202020%20-14%20Keys-%20-26%20songs-/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Initial%20A%20to%20Z%202020%20-26%20songs-/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/LR2IR%20Battle/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/M-SPIN%27s%20BOFXVI%20Diary/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/MELON%20CRASH/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Mutual%20Fumen/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Mutual%20Fumen%202/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Remilegi%20of%20Fighters%202022/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/SABUN%20in%20the%20DARK/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Sabun-Shuffle%20Summer%20Season/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Sunset%E5%B7%AE%E5%88%86/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/SUPERVARIATION/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E2%97%86LongNotes%20Festival%E2%97%86/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E2%98%851to%E2%98%8524/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%82%B5%E3%83%86%E3%83%A9%C3%97%E3%82%B9%E3%83%86%E3%83%A9/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E3%83%97%E3%83%8A%E3%82%A4%E3%83%97%E3%83%8A%E3%82%A4%E2%98%85%EF%BC%91%E3%81%9B%E3%82%93%E3%81%9D%E3%81%86/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%96%B0BOFPMS%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%95%B0%E5%B8%B8%E8%AD%9C%E9%9D%A2%E9%81%8A%E6%88%AF/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%99%96%E5%B7%AE%E5%88%86%E3%83%90%E3%83%88%E3%83%AB%E3%83%BB%E5%B7%AE%E5%88%86%E4%BD%9C%E5%AE%B6%E5%81%BD%E5%90%8D%E6%88%A6/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%AC%AC%E4%B8%89%E5%9B%9E%E7%99%96%E8%AD%9C%E9%9D%A2%E5%81%BD%E5%90%8D%E6%88%A6/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E7%AC%AC%E4%BA%8C%E5%9B%9E%E7%99%96%E8%AD%9C%E9%9D%A2%E5%81%BD%E5%90%8D%E6%88%A6/header.json"
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20100min%20Fumen%20Cooking%21%21/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%201998%20to%202020%20%28%E4%BB%AE%29/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%201998%20to%202024/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%2029Another%20Respect/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BMS%20BPM%20Battle%20Beta/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BMS%20chart%20Editors%E2%80%99%20League/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Biroirokiba.web.fc2.com%5D%20BMS%20OBJECT%20BATTLER%202015/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhpx.getonpictochat.com%5D%20BMSS%202021%20Pattern%20Package/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhpx.getonpictochat.com%5D%20BMSS%202022%20Pattern%20Package/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bhpx.getonpictochat.com%5D%20BMSS%202023%20Pattern%20Package/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFET%28BOF2022%29PMS/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFU2017PMS/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXVII%28BOF2021%29PMS/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BOFXVII%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20BOFXVIPMS/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BOFXV%E5%B7%AE%E5%88%86%E4%BA%8C%E6%AC%A1%E4%BC%9A%28%E4%BB%AE%29%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdifficulty.xxxxxxxx.jp%5D%20G2R2018PMS/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20GENOCIDE%20Reinterpretation/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Initial%20A%20to%20Z%202019%20-26%20songs-/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Initial%20A%20to%20Z%202020%20-14%20Keys-%20-26%20songs-/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Initial%20A%20to%20Z%202020%20-26%20songs-/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20LR2IR%20Battle/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20M-SPIN%27s%20BOFXVI%20Diary/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bverticalsub.web.fc2.com%5D%20MELON%20CRASH/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Mutual%20Fumen/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Mutual%20Fumen%202/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Remilegi%20of%20Fighters%202022/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20SABUN%20in%20the%20DARK/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Sabun-Shuffle%20Summer%20Season/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20Sunset%E5%B7%AE%E5%88%86/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Brattoto10.web.fc2.com%5D%20SUPERVARIATION/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E2%97%86LongNotes%20Festival%E2%97%86/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E2%98%851to%E2%98%8524/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%82%B5%E3%83%86%E3%83%A9%C3%97%E3%82%B9%E3%83%86%E3%83%A9/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E3%83%97%E3%83%8A%E3%82%A4%E3%83%97%E3%83%8A%E3%82%A4%E2%98%85%EF%BC%91%E3%81%9B%E3%82%93%E3%81%9D%E3%81%86/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bpmsdatabase.github.io%5D%20%E6%96%B0BOFPMS%E5%B7%AE%E5%88%86%E4%BC%81%E7%94%BB%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bokunigon.github.io%5D%20%E7%95%B0%E5%B8%B8%E8%AD%9C%E9%9D%A2%E9%81%8A%E6%88%AF/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Boneeighth.web.fc2.com%5D%20%E7%99%96%E5%B7%AE%E5%88%86%E3%83%90%E3%83%88%E3%83%AB%E3%83%BB%E5%B7%AE%E5%88%86%E4%BD%9C%E5%AE%B6%E5%81%BD%E5%90%8D%E6%88%A6/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Boneeighth.web.fc2.com%5D%20%E7%AC%AC%E4%B8%89%E5%9B%9E%E7%99%96%E8%AD%9C%E9%9D%A2%E5%81%BD%E5%90%8D%E6%88%A6/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Boneeighth.web.fc2.com%5D%20%E7%AC%AC%E4%BA%8C%E5%9B%9E%E7%99%96%E8%AD%9C%E9%9D%A2%E5%81%BD%E5%90%8D%E6%88%A6/header.json"
 ]
 </code></pre>
 </td>
@@ -5985,8 +5879,8 @@ SUPERVARIATION
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E6%8F%90%E6%A1%88%E8%90%BD%E3%81%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E6%9D%B1%E6%96%B9BMS%E3%81%BE%E3%81%A8%E3%82%81%E8%A1%A8/header.json"
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbmsagoo.web.fc2.com%5D%20%E6%8F%90%E6%A1%88%E8%90%BD%E3%81%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bkaguyasystem.web.fc2.com%5D%20%E6%9D%B1%E6%96%B9BMS%E3%81%BE%E3%81%A8%E3%82%81%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -6027,8 +5921,8 @@ SUPERVARIATION
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%8F%90%E6%A1%88%E8%90%BD%E3%81%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%9D%B1%E6%96%B9BMS%E3%81%BE%E3%81%A8%E3%82%81%E8%A1%A8/header.json"
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsagoo.web.fc2.com%5D%20%E6%8F%90%E6%A1%88%E8%90%BD%E3%81%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkaguyasystem.web.fc2.com%5D%20%E6%9D%B1%E6%96%B9BMS%E3%81%BE%E3%81%A8%E3%82%81%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -6048,8 +5942,8 @@ SUPERVARIATION
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%8F%90%E6%A1%88%E8%90%BD%E3%81%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%9D%B1%E6%96%B9BMS%E3%81%BE%E3%81%A8%E3%82%81%E8%A1%A8/header.json"
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsagoo.web.fc2.com%5D%20%E6%8F%90%E6%A1%88%E8%90%BD%E3%81%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkaguyasystem.web.fc2.com%5D%20%E6%9D%B1%E6%96%B9BMS%E3%81%BE%E3%81%A8%E3%82%81%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -6069,8 +5963,8 @@ SUPERVARIATION
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%8F%90%E6%A1%88%E8%90%BD%E3%81%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%9D%B1%E6%96%B9BMS%E3%81%BE%E3%81%A8%E3%82%81%E8%A1%A8/header.json"
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmsagoo.web.fc2.com%5D%20%E6%8F%90%E6%A1%88%E8%90%BD%E3%81%A1%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkaguyasystem.web.fc2.com%5D%20%E6%9D%B1%E6%96%B9BMS%E3%81%BE%E3%81%A8%E3%82%81%E8%A1%A8/header.json"
 ]
 </code></pre>
 </td>
@@ -6125,12 +6019,12 @@ Stella Uploader 難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Stella%20Uploader/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/Stella%20Uploader%20%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E6%97%A7%E3%82%A2%E3%83%97%E3%83%AD%E3%83%80%E8%A1%A8/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6BMS%E5%B7%AE%E5%88%86Uploader/header.json"
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bstellabms.xyz%5D%20Stella%20Uploader/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20Stella%20Uploader%20%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20%E6%97%A7%E3%82%A2%E3%83%97%E3%83%AD%E3%83%80%E8%A1%A8/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bdarksabun.club%5D%20%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6BMS%E5%B7%AE%E5%88%86Uploader/header.json"
 ]
 </code></pre>
 </td>
@@ -6183,12 +6077,12 @@ Stella Uploader 難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20Uploader/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20Uploader%20%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%97%A7%E3%82%A2%E3%83%97%E3%83%AD%E3%83%80%E8%A1%A8/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6BMS%E5%B7%AE%E5%88%86Uploader/header.json"
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Uploader/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20Stella%20Uploader%20%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E6%97%A7%E3%82%A2%E3%83%97%E3%83%AD%E3%83%80%E8%A1%A8/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6BMS%E5%B7%AE%E5%88%86Uploader/header.json"
 ]
 </code></pre>
 </td>
@@ -6212,12 +6106,12 @@ Stella Uploader 難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20Uploader/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20Uploader%20%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%97%A7%E3%82%A2%E3%83%97%E3%83%AD%E3%83%80%E8%A1%A8/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6BMS%E5%B7%AE%E5%88%86Uploader/header.json"
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Uploader/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20Stella%20Uploader%20%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E6%97%A7%E3%82%A2%E3%83%97%E3%83%AD%E3%83%80%E8%A1%A8/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6BMS%E5%B7%AE%E5%88%86Uploader/header.json"
 ]
 </code></pre>
 </td>
@@ -6241,12 +6135,12 @@ Stella Uploader 難易度表
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20Uploader/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/Stella%20Uploader%20%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E6%97%A7%E3%82%A2%E3%83%97%E3%83%AD%E3%83%80%E8%A1%A8/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6BMS%E5%B7%AE%E5%88%86Uploader/header.json"
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20BMS%E5%B7%AE%E5%88%86%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bstellabms.xyz%5D%20Stella%20Uploader/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20Stella%20Uploader%20%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20%E6%97%A7%E3%82%A2%E3%83%97%E3%83%AD%E3%83%80%E8%A1%A8/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bdarksabun.club%5D%20%E9%AB%98%E9%9B%A3%E6%98%93%E5%BA%A6BMS%E5%B7%AE%E5%88%86Uploader/header.json"
 ]
 </code></pre>
 </td>
@@ -6291,8 +6185,8 @@ ereter.net DP HARD CLEAR
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/ereter.net%20DP%20EASY%20CLEAR/header.json",
-  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/ereter.net%20DP%20HARD%20CLEAR/header.json"
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbmstable.iidx.org%5D%20ereter.net%20DP%20EASY%20CLEAR/header.json",
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbmstable.iidx.org%5D%20ereter.net%20DP%20HARD%20CLEAR/header.json"
 ]
 </code></pre>
 </td>
@@ -6333,8 +6227,8 @@ ereter.net DP HARD CLEAR
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ereter.net%20DP%20EASY%20CLEAR/header.json",
-  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ereter.net%20DP%20HARD%20CLEAR/header.json"
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmstable.iidx.org%5D%20ereter.net%20DP%20EASY%20CLEAR/header.json",
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmstable.iidx.org%5D%20ereter.net%20DP%20HARD%20CLEAR/header.json"
 ]
 </code></pre>
 </td>
@@ -6354,8 +6248,8 @@ ereter.net DP HARD CLEAR
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ereter.net%20DP%20EASY%20CLEAR/header.json",
-  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ereter.net%20DP%20HARD%20CLEAR/header.json"
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmstable.iidx.org%5D%20ereter.net%20DP%20EASY%20CLEAR/header.json",
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmstable.iidx.org%5D%20ereter.net%20DP%20HARD%20CLEAR/header.json"
 ]
 </code></pre>
 </td>
@@ -6375,8 +6269,8 @@ ereter.net DP HARD CLEAR
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ereter.net%20DP%20EASY%20CLEAR/header.json",
-  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/ereter.net%20DP%20HARD%20CLEAR/header.json"
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmstable.iidx.org%5D%20ereter.net%20DP%20EASY%20CLEAR/header.json",
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmstable.iidx.org%5D%20ereter.net%20DP%20HARD%20CLEAR/header.json"
 ]
 </code></pre>
 </td>
