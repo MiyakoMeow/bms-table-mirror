@@ -222,6 +222,19 @@
   },
   {
     "level": "1",
+    "md5": "85ae925b928726ebf5867c20cf1acff5",
+    "movie_link": "https://youtu.be/_6nynA3ifuU",
+    "title": "THE GAP -Hope-",
+    "artist": "G.G. Maeda obj:七海",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=245&event=123",
+    "url_diff": "https://egosa0424.github.io/sabun/thegap_nanami.zip",
+    "name_diff": "",
+    "comment": "",
+    "state": "1",
+    "date": "Thu Nov 13 2025 17:00:00 GMT+0900 (JST)"
+  },
+  {
+    "level": "1",
     "md5": "3bb3931d00cdb4cdd45900282976667c",
     "movie_link": "https://youtu.be/H7Y2nvquJR4",
     "title": "Ultimate Chivalry [Insane]",
@@ -2039,6 +2052,19 @@
     "comment": "",
     "state": "",
     "date": "Tue Nov 20 2018 17:00:00 GMT+0900 (JST)"
+  },
+  {
+    "level": "11",
+    "md5": "4cc2ec182ed4e844f650a23e0bc1b651",
+    "movie_link": "https://youtu.be/fUo6L_bB6GQ",
+    "title": "THE GAP -Despair-",
+    "artist": "G.G. Maeda obj:七海",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=245&event=123",
+    "url_diff": "https://egosa0424.github.io/sabun/thegap_nanami.zip",
+    "name_diff": "",
+    "comment": "",
+    "state": "1",
+    "date": "Thu Nov 13 2025 17:00:00 GMT+0900 (JST)"
   },
   {
     "level": "11",

@@ -4461,6 +4461,16 @@
   },
   {
     "level": "6",
+    "title": "cy:cle [cy:clone]",
+    "artist": "cy:cle obj:IBARAGI_YOSHIMI",
+    "url": "https://www.luzeria.net/music/bms.htm",
+    "url_diff": "https://stellabms.xyz/upload/6633",
+    "md5": "15d014d34bea3ddf8f353867d3ff159b",
+    "comment": "",
+    "打鍵速度": ""
+  },
+  {
+    "level": "6",
     "title": "Defeat awaken battle ship [STREAM]",
     "artist": "有賀 澪 BGA:しらたき Illust:Cleome obj:SNN",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=1&event=112",
@@ -5738,6 +5748,16 @@
     "md5": "77e44022c2657138da01df5d28f62431",
     "comment": "★★5",
     "打鍵速度": "380"
+  },
+  {
+    "level": "7",
+    "title": "夭 [Missing-Lunar]",
+    "artist": "DJ MossyStone feat. 可可Aletta BGA: JamSugar / obj:kurekoduki",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=330&event=149",
+    "url_diff": "https://stellabms.xyz/upload/6623",
+    "md5": "f2cfb8cfb11395b939010084aec50247",
+    "comment": "",
+    "打鍵速度": ""
   },
   {
     "level": "8",
