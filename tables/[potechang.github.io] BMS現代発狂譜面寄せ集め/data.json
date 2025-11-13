@@ -405,6 +405,15 @@
     "comment": "190BPMの多要素譜面。特に皿が多く、連皿は殆ど無いかわりに2分を通してずっと絡み続け、総数254枚。曲の落ち着き無さを分かりやすく視覚化してくれる譜面で、ちょっとした乱打や、ちょっとした連打/ディレイなどが予測不能で入ってくる。後半で若干難しくなりシンプルに密度があがり、その終わり際のちょうど辛いところにLNが絡んでくるのが、厄介な難しさがある。"
   },
   {
+    "level": "0",
+    "title": "Lapis [Lazhward]",
+    "artist": "SHIKI obj:sgn",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=35&event=54",
+    "url_diff": "https://stellabms.xyz/upload/6677",
+    "md5": "0aa575758ed0a02acf348730ab5660ec",
+    "comment": "146BPMの2連打譜面。たまに3連打がある。1レーンがほとんどキックだけになっていて連打が2～6レーンに多い正規系の配置をしているので、正規が得意だと押しやすめ。曲から想像しやすい素直なわかりやすい構成で体力要求も少なく遊びやすい。\r\n"
+  },
+  {
     "level": "1",
     "title": "Babel [NAGITHER]",
     "artist": "Nizikawa feat. nayuta Movie: Air 譜面: 久川凪",
@@ -3465,15 +3474,6 @@
     "comment": "192BPMの微縦譜面。2-2や3-1前後の密度で、密度はかなり薄い代わりに最初から最後までずっと2連打が付きまとい、休憩はほぼ無い。ディレイもそれなりに邪魔してくる。体感の難しさに対して密度が異様に低く、同難易度帯で類似譜面がほとんどない（多分）"
   },
   {
-    "level": "4",
-    "title": "モリオンの姫 [Fragment]",
-    "artist": "wa. / obj:potechang",
-    "url": "https://drive.usercontent.google.com/u/0/uc?id=19gubhZo7hzAAfyqow3UHMblvEeilLc7T&export=download",
-    "url_diff": "https://stellabms.xyz/upload/6673",
-    "md5": "6284c5a0eacf79d9aea8c978663f6415",
-    "comment": "166BPMの2連打主体乱打譜面。密度は4-2などで乱打風の中に連打がある形で、稀に3連打。モリオンの姫らしい局所的なキック部分は優しい回復になり、現代的な連打譜面になっている。前半は連打が1本ずつしか出てこないが、後半から表裏2連打複合などが出て来始めるため、密度は上がらなくても難易度は若干上がる。中盤の潔い2連打地帯が面白い"
-  },
-  {
     "level": "5",
     "title": "MooNatioN [BirthDie]",
     "artist": "287 a.k.a. EXAM.S obj by Nuclein",
@@ -4338,6 +4338,15 @@
     "comment": ""
   },
   {
+    "level": "5",
+    "title": "モリオンの姫 [Fragment]",
+    "artist": "wa. / obj:potechang",
+    "url": "https://drive.usercontent.google.com/u/0/uc?id=19gubhZo7hzAAfyqow3UHMblvEeilLc7T&export=download",
+    "url_diff": "https://stellabms.xyz/upload/6673",
+    "md5": "6284c5a0eacf79d9aea8c978663f6415",
+    "comment": "166BPMの2連打主体乱打譜面。密度は4-2などで乱打風の中に連打がある形で、稀に3連打。モリオンの姫らしい局所的なキック部分は優しい回復になり、現代的な連打譜面になっている。前半は連打が1本ずつしか出てこないが、後半から表裏2連打複合などが出て来始めるため、密度は上がらなくても難易度は若干上がる。中盤の潔い2連打地帯が面白い"
+  },
+  {
     "level": "6",
     "title": "縁[Eternity+]",
     "artist": "RB.H × Sinud.0 × nakotanmaru / mov: AiLANE illust: Silufer α bms: RB.H obj:tsukisaka",
@@ -4560,6 +4569,15 @@
     "url": "https://venue.bmssearch.net/bmstukuru2025/65",
     "url_diff": "https://stellabms.xyz/upload/4926",
     "md5": "ff2bdab728b7cda71c497f8cfdf75153",
+    "comment": ""
+  },
+  {
+    "level": "6",
+    "title": "GREMLIN [HURTLESS]",
+    "artist": "kanoryo BGA:Nectoroune obj:MISONO_MIKA",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=382&event=133",
+    "url_diff": "https://stellabms.xyz/upload/4936",
+    "md5": "9f9c441ee99ae1085a614685b119f98c",
     "comment": ""
   },
   {
@@ -5523,15 +5541,6 @@
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=251&event=142",
     "url_diff": "https://stellabms.xyz/upload/4916",
     "md5": "5278d53b410ff2b508ce21d790576a4d",
-    "comment": ""
-  },
-  {
-    "level": "7",
-    "title": "GREMLIN [HURTLESS]",
-    "artist": "kanoryo BGA:Nectoroune obj:MISONO_MIKA",
-    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=382&event=133",
-    "url_diff": "https://stellabms.xyz/upload/4936",
-    "md5": "9f9c441ee99ae1085a614685b119f98c",
     "comment": ""
   },
   {
