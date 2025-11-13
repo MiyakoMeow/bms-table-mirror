@@ -37,7 +37,7 @@ jobs:
 
       - name: Run
         run: cargo run --release
-      
+
       - name: Update Artifacts
         uses: actions/upload-artifact@v5
         with:
@@ -48,13 +48,21 @@ jobs:
         uses: astral-sh/setup-uv@v7
         with:
           enable-cache: true
-      
+
       - name: Sync dependencies
         run: uv sync
-      
+
       - name: Run gen_data_md
         run: uv run scripts/gen_data.py
-      
+
+      - name: Generate branch name
+        id: gen-branch-name
+        shell: bash
+        run: |
+          # 创建唯一分支名（可根据 group 优化命名，但此处保持兼容）
+          timestamp=$(date +%s)
+          printf '%s=%s\n' "branch_name" "update-tables-$timestamp" >> "$GITHUB_OUTPUT"
+
       - name: Create Pull Request
         id: create-pull-request
         uses: peter-evans/create-pull-request@v7
@@ -64,7 +72,7 @@ jobs:
           title: "automated: Update BMS Tables"
           body: |
             Auto Update BMS Tables
-          branch: update-tables
+          branch: ${{ steps.gen-branch-name.outputs.branch_name }}
           labels: |
             automated
             update-tables
