@@ -1489,6 +1489,18 @@
   },
   {
     "level": "7",
+    "title": "NS18 [fatal]",
+    "artist": "3034",
+    "md5": "f35f19807a3ad6054a5d461d98584a59",
+    "url_diff": "https://stellabms.xyz/upload/6680",
+    "name_diff": "DL",
+    "recommend": "★★★★★",
+    "bpm": "250",
+    "tn": "0.22",
+    "comment": "乱打"
+  },
+  {
+    "level": "7",
     "title": "P8107 -Paramount+-",
     "artist": "onoken",
     "md5": "a6974dfbd88c9ef46d55a1ea7a6b3569",
@@ -1737,18 +1749,6 @@
     "recommend": "★★★★☆",
     "bpm": "222",
     "tn": "0.24",
-    "comment": "乱打"
-  },
-  {
-    "level": "8",
-    "title": "NS18 [fatal]",
-    "artist": "3034",
-    "md5": "f35f19807a3ad6054a5d461d98584a59",
-    "url_diff": "https://stellabms.xyz/upload/6680",
-    "name_diff": "DL",
-    "recommend": "★★★★★",
-    "bpm": "250",
-    "tn": "0.22",
     "comment": "乱打"
   },
   {
