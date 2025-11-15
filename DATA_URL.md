@@ -6277,6 +6277,7 @@ Stella Uploader 難易度表
 <tr>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-text">
+AI難易度表
 ereter.net DP EASY CLEAR
 ereter.net DP HARD CLEAR
 </code></pre>
@@ -6284,6 +6285,7 @@ ereter.net DP HARD CLEAR
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
+  "https://bms.hexlataia.xyz/tables/ai.html",
   "https://bmstable.iidx.org/ereter-dpbms-easy-clear",
   "https://bmstable.iidx.org/ereter-dpbms-hard-clear"
 ]
@@ -6298,6 +6300,7 @@ ereter.net DP HARD CLEAR
 <tr>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-text">
+AI難易度表
 ereter.net DP EASY CLEAR
 ereter.net DP HARD CLEAR
 </code></pre>
@@ -6305,6 +6308,7 @@ ereter.net DP HARD CLEAR
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
+  "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbms.hexlataia.xyz%5D%20AI%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbmstable.iidx.org%5D%20ereter.net%20DP%20EASY%20CLEAR/header.json",
   "https://gitee.com/MiyakoMeow/bms-table-mirror/raw/main/tables/%5Bbmstable.iidx.org%5D%20ereter.net%20DP%20HARD%20CLEAR/header.json"
 ]
@@ -6319,6 +6323,7 @@ ereter.net DP HARD CLEAR
 <tr>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-text">
+AI難易度表
 ereter.net DP EASY CLEAR
 ereter.net DP HARD CLEAR
 </code></pre>
@@ -6326,6 +6331,7 @@ ereter.net DP HARD CLEAR
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
+  "https://get.2sb.org/https://bms.hexlataia.xyz/tables/header/ai.json",
   "https://get.2sb.org/https://bmstable.iidx.org/ereter_ec_head.json",
   "https://get.2sb.org/https://bmstable.iidx.org/ereter_hc_head.json"
 ]
@@ -6340,6 +6346,7 @@ ereter.net DP HARD CLEAR
 <tr>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-text">
+AI難易度表
 ereter.net DP EASY CLEAR
 ereter.net DP HARD CLEAR
 </code></pre>
@@ -6347,6 +6354,7 @@ ereter.net DP HARD CLEAR
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
+  "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20AI%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmstable.iidx.org%5D%20ereter.net%20DP%20EASY%20CLEAR/header.json",
   "https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmstable.iidx.org%5D%20ereter.net%20DP%20HARD%20CLEAR/header.json"
 ]
@@ -6361,6 +6369,7 @@ ereter.net DP HARD CLEAR
 <tr>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-text">
+AI難易度表
 ereter.net DP EASY CLEAR
 ereter.net DP HARD CLEAR
 </code></pre>
@@ -6368,6 +6377,7 @@ ereter.net DP HARD CLEAR
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
+  "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20AI%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmstable.iidx.org%5D%20ereter.net%20DP%20EASY%20CLEAR/header.json",
   "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmstable.iidx.org%5D%20ereter.net%20DP%20HARD%20CLEAR/header.json"
 ]
@@ -6382,6 +6392,7 @@ ereter.net DP HARD CLEAR
 <tr>
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-text">
+AI難易度表
 ereter.net DP EASY CLEAR
 ereter.net DP HARD CLEAR
 </code></pre>
@@ -6389,6 +6400,7 @@ ereter.net DP HARD CLEAR
 <td style="width:50%; vertical-align:top;">
 <pre><code class="language-json">
 [
+  "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20AI%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmstable.iidx.org%5D%20ereter.net%20DP%20EASY%20CLEAR/header.json",
   "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbmstable.iidx.org%5D%20ereter.net%20DP%20HARD%20CLEAR/header.json"
 ]
