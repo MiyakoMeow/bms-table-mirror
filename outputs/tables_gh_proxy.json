@@ -218,6 +218,22 @@
     "url_ori": "https://bms.hexlataia.xyz/tables/ai.html"
   },
   {
+    "name": "AI難易度表Full",
+    "symbol": "AI",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20AI%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8Full/header.json",
+    "url_data_json": "https://bms.hexlataia.xyz/tables/json/ai-full.json",
+    "url_header_json": "https://bms.hexlataia.xyz/tables/header/ai-full.json",
+    "url_ori": "https://bms.hexlataia.xyz/tables/ai-full.html"
+  },
+  {
+    "name": "AI難易度表lite",
+    "symbol": "AI",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20AI%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8lite/header.json",
+    "url_data_json": "https://bms.hexlataia.xyz/tables/json/ai-lite.json",
+    "url_header_json": "https://bms.hexlataia.xyz/tables/header/ai-lite.json",
+    "url_ori": "https://bms.hexlataia.xyz/tables/ai-lite.html"
+  },
+  {
     "name": "All-embracing Insane Charts",
     "symbol": "★",
     "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkju8.github.io%5D%20All-embracing%20Insane%20Charts/header.json",
