@@ -15,7 +15,9 @@ add_table_url = [
   "https://bmstable.iidx.org/ereter-dpbms-easy-clear",
   "https://bmstable.iidx.org/ereter-dpbms-hard-clear",
   # AI难易度表
-  "https://bms.hexlataia.xyz/tables/ai.html"
+  "https://bms.hexlataia.xyz/tables/ai-full.html",
+  "https://bms.hexlataia.xyz/tables/ai.html",
+  "https://bms.hexlataia.xyz/tables/ai-lite.html",
 ]
 
 disable_table_url = [
