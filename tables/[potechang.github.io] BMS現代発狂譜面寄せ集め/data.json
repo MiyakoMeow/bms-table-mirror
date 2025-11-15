@@ -411,7 +411,7 @@
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=35&event=54",
     "url_diff": "https://stellabms.xyz/upload/6677",
     "md5": "0aa575758ed0a02acf348730ab5660ec",
-    "comment": "146BPMの2連打譜面。たまに3連打がある。1レーンがほとんどキックだけになっていて連打が2～6レーンに多い正規系の配置をしているので、正規が得意だと押しやすめ。曲から想像しやすい素直なわかりやすい構成で体力要求も少なく遊びやすい。\r\n"
+    "comment": "146BPMの2連打譜面。たまに3連打がある。1レーンがほとんどキックだけになっていて連打が2～6レーンに多い正規系の配置をしているので、正規が得意だと押しやすめ。曲から想像しやすい素直なわかりやすい構成で体力要求も少なく遊びやすい。"
   },
   {
     "level": "1",
@@ -6001,6 +6001,15 @@
     "url_diff": "https://stellabms.xyz/upload/6672",
     "md5": "19d13155f6735aa93e3596449cac3906",
     "comment": "231BPMの正統派乱打譜面。BPMに配慮されてある程度均等に置かれている部分、あえて軸を作られている部分、両方とも混合してくる部分などがあり当然見て押しにいかないと残らない。231は早めでst7でもだいぶ難しめの乱打な分、最後のちょっとした回復が有難い。"
+  },
+  {
+    "level": "7",
+    "title": "NS18 [fatal]",
+    "artist": "3034 Anomie / IllusionRain / obj:IBARAGI_YOSHIMI",
+    "url": "https://drive.google.com/file/d/1OtK988sqOGIHinVKvE2eAQJpGoeCa1cW/view?usp=drive_link",
+    "url_diff": "https://stellabms.xyz/upload/6680",
+    "md5": "f35f19807a3ad6054a5d461d98584a59",
+    "comment": "250BPMの正統派乱打、ひとによってはディレイとも形容するような譜面。1曲を通して乱打地帯の密度は3-2-2-2でほぼずっと同じ分、軸のつけかたで難所や難所でない部分が区別されている。250の早さで軸の破壊力が高いため、大部分はそれほど長くないように置かれている。それでもディレイ譜面としてはほぼ出てこないような連なり方をするので、250の乱打として認識出来ると楽。"
   },
   {
     "level": "8",
