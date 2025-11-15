@@ -11,13 +11,17 @@ table_list = [
 add_table_url = [
   # 在此添加难度表 URL，例如：
   # "https://example.com/my-bms-table"
+  # Ereter DP推定表
   "https://bmstable.iidx.org/ereter-dpbms-easy-clear",
   "https://bmstable.iidx.org/ereter-dpbms-hard-clear",
+  # AI难易度表
+  "https://bms.hexlataia.xyz/tables/ai.html"
 ]
 
 disable_table_url = [
   # 在此禁用某些难度表 URL，例如：
   # "https://example.com/old-table"
+  # 发狂PMS随机抽选。目前暂不支持反向代理data.json
   "https://pmsdifficulty.xxxxxxxx.jp/subtable/randomselect/randomselect.html",
 ]
 
