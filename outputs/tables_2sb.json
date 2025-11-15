@@ -210,6 +210,14 @@
     "url_ori": "https://bms.hexlataia.xyz/tables/convert/%5BF%5D/table.html"
   },
   {
+    "name": "AI難易度表",
+    "symbol": "AI",
+    "url": "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bbms.hexlataia.xyz%5D%20AI%E9%9B%A3%E6%98%93%E5%BA%A6%E8%A1%A8/header.json",
+    "url_data_json": "https://bms.hexlataia.xyz/tables/json/ai.json",
+    "url_header_json": "https://bms.hexlataia.xyz/tables/header/ai.json",
+    "url_ori": "https://bms.hexlataia.xyz/tables/ai.html"
+  },
+  {
     "name": "All-embracing Insane Charts",
     "symbol": "★",
     "url": "https://get.2sb.org/https://raw.githubusercontent.com/MiyakoMeow/bms-table-mirror/main/tables/%5Bkju8.github.io%5D%20All-embracing%20Insane%20Charts/header.json",
