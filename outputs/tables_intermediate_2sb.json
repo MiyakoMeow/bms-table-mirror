@@ -218,6 +218,22 @@
     "url_ori": "https://bms.hexlataia.xyz/tables/ai.html"
   },
   {
+    "name": "AI難易度表Full",
+    "symbol": "AI",
+    "url": "https://get.2sb.org/https://bms.hexlataia.xyz/tables/header/ai-full.json",
+    "url_data_json": "https://bms.hexlataia.xyz/tables/json/ai-full.json",
+    "url_header_json": "https://bms.hexlataia.xyz/tables/header/ai-full.json",
+    "url_ori": "https://bms.hexlataia.xyz/tables/ai-full.html"
+  },
+  {
+    "name": "AI難易度表lite",
+    "symbol": "AI",
+    "url": "https://get.2sb.org/https://bms.hexlataia.xyz/tables/header/ai-lite.json",
+    "url_data_json": "https://bms.hexlataia.xyz/tables/json/ai-lite.json",
+    "url_header_json": "https://bms.hexlataia.xyz/tables/header/ai-lite.json",
+    "url_ori": "https://bms.hexlataia.xyz/tables/ai-lite.html"
+  },
+  {
     "name": "All-embracing Insane Charts",
     "symbol": "★",
     "url": "https://get.2sb.org/https://kju8.github.io/all-embracing-insane-charts/head.json",
