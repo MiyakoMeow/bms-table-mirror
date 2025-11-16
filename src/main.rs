@@ -48,12 +48,7 @@ async fn main() -> Result<()> {
         fs::write(list_file_path, original_json).await?;
         // Yield into table_info_map
         for info in infos {
-            let url_str = info.url.to_string();
-            let Ok(url) = Url::parse(&url_str) else {
-                warn!("Invalid URL in fetched index: {}", url_str);
-                continue;
-            };
-            table_info_map.insert(url.clone(), info);
+            table_info_map.insert(info.url.clone(), info);
         }
     }
 
@@ -67,11 +62,7 @@ async fn main() -> Result<()> {
             symbol: "-".to_string(),
             extra: Default::default(),
         };
-        let Ok(k) = Url::parse(item.url.as_ref()) else {
-            warn!("Invalid URL in add_table_url: {}", url);
-            continue;
-        };
-        table_info_map.insert(k, item);
+        table_info_map.insert(item.url.clone(), item);
     }
 
     // Replace specified table URLs (before disabling)
@@ -143,7 +134,7 @@ fn spawn_fetch(
     info: BmsTableInfo,
     base_dir: &Path,
 ) -> Result<()> {
-    let url = info.url.to_string();
+    let url = info.url.clone();
     let name = info.name.clone();
     // JoinSet 需要 'static future，捕获一个拥有所有权的 PathBuf
     let base_dir_owned = base_dir.to_path_buf();
