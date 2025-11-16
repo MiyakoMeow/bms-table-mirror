@@ -1,5 +1,9 @@
 # bms-table-mirror
 
+[<img alt="github" src="https://img.shields.io/badge/github-MiyakoMeow/bms_table_mirror-8da0cb?logo=github" height="20">](https://github.com/MiyakoMeow/bms-table-mirror)
+[<img alt="gitee" src="https://img.shields.io/badge/gitee-MiyakoMeow/bms_table_mirror-8da0cb?logo=gitee" height="20">](https://gitee.com/MiyakoMeow/bms-table-mirror)
+[<img alt="update status" src="https://img.shields.io/github/actions/workflow/status/MiyakoMeow/bms-table-mirror/update-tables.yml?branch=main" height="20">](https://github.com/MiyakoMeow/bms-table-mirror/actions?query=branch%3Amain)
+
 - **[难度表镜像列表](DATA.md)**
 - **[难度表镜像URL列表](DATA_URL.md)**
 

@@ -9,6 +9,10 @@ from urllib.parse import quote, unquote, urlparse
 
 TIPS_DATA_MD = """# BMS难度表镜像
 
+[<img alt="github" src="https://img.shields.io/badge/github-MiyakoMeow/bms_table_mirror-8da0cb?logo=github" height="20">](https://github.com/MiyakoMeow/bms-table-mirror)
+[<img alt="gitee" src="https://img.shields.io/badge/gitee-MiyakoMeow/bms_table_mirror-8da0cb?logo=gitee" height="20">](https://gitee.com/MiyakoMeow/bms-table-mirror)
+[<img alt="update status" src="https://img.shields.io/github/actions/workflow/status/MiyakoMeow/bms-table-mirror/update-tables.yml?branch=main" height="20">](https://github.com/MiyakoMeow/bms-table-mirror/actions?query=branch%3Amain)
+
 ## 使用方式
 
 1. 选择对应难度表的对应链接。
@@ -42,6 +46,10 @@ TIPS_DATA_MD = """# BMS难度表镜像
 
 # URL 版页面的提示内容
 TIPS_DATA_URL_MD = """# BMS难度表镜像链接（URL 数组版）
+
+[<img alt="github" src="https://img.shields.io/badge/github-MiyakoMeow/bms_table_mirror-8da0cb?logo=github" height="20">](https://github.com/MiyakoMeow/bms-table-mirror)
+[<img alt="gitee" src="https://img.shields.io/badge/gitee-MiyakoMeow/bms_table_mirror-8da0cb?logo=gitee" height="20">](https://gitee.com/MiyakoMeow/bms-table-mirror)
+[<img alt="update status" src="https://img.shields.io/github/actions/workflow/status/MiyakoMeow/bms-table-mirror/update-tables.yml?branch=main" height="20">](https://github.com/MiyakoMeow/bms-table-mirror/actions?query=branch%3Amain)
 
 - 更详细的链接说明见：[镜像表格](DATA.md)
 
