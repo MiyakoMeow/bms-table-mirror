@@ -1,5 +1,9 @@
 # BMS难度表镜像链接（URL 数组版）
 
+[<img alt="github" src="https://img.shields.io/badge/github-MiyakoMeow/bms_table_mirror-8da0cb?logo=github" height="20">](https://github.com/MiyakoMeow/bms-table-mirror)
+[<img alt="gitee" src="https://img.shields.io/badge/gitee-MiyakoMeow/bms_table_mirror-8da0cb?logo=gitee" height="20">](https://gitee.com/MiyakoMeow/bms-table-mirror)
+[<img alt="update status" src="https://img.shields.io/github/actions/workflow/status/MiyakoMeow/bms-table-mirror/update-tables.yml?branch=main" height="20">](https://github.com/MiyakoMeow/bms-table-mirror/actions?query=branch%3Amain)
+
 - 更详细的链接说明见：[镜像表格](DATA.md)
 
 本页按照原有分组（tag_order > tag1 > tag2）组织内容，但不再使用表格。
