@@ -87,9 +87,9 @@ checksum = "812e12b5285cc515a9c72a5c1d3b6d46a19dac5acfef5265968c166106e31dd3"
 
 [[package]]
 name = "bms-table"
-version = "0.10.4"
+version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c2b43dfbc99dc52d6ebfb51e0ef7039f477b1dc24af24edf4eea3d115ee65c94"
+checksum = "e3bdf4c4c33bfcbfd945feb8fd2bf00e9d0a6fb4efbfa1c1c21c79db60712f31"
 dependencies = [
  "anyhow",
  "reqwest",
