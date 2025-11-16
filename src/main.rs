@@ -144,7 +144,15 @@ fn spawn_fetch(
     join_set.spawn(async move {
         let idx = info;
         if let Err(e) = fetch_and_save_table(&client, idx, base_dir_owned.as_path()).await {
-            warn!("Failed to fetch {} from {}: {}", name, url, e);
+            warn!(
+                "Failed to fetch {} from {}: {}",
+                name,
+                url,
+                e.chain()
+                    .map(|e| e.to_string())
+                    .collect::<Vec<_>>()
+                    .join(" -> ")
+            );
         } else {
             info!("Saved table {} from {}", name, url);
         }
