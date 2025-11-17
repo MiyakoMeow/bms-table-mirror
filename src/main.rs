@@ -145,7 +145,7 @@ fn spawn_fetch(
         let idx = info;
         if let Err(e) = fetch_and_save_table(&client, idx, base_dir_owned.as_path()).await {
             warn!(
-                "Failed to fetch {} from {}: {}",
+                "Failed to fetch {} from {} -> {}",
                 name,
                 url,
                 e.chain()
