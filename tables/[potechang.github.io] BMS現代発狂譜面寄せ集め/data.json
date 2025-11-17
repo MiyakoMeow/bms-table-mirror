@@ -1878,7 +1878,7 @@
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=65&event=149",
     "url_diff": "https://stellabms.xyz/upload/6686",
     "md5": "e7d77bb94ec9297e4ce139bb82479720",
-    "comment": ""
+    "comment": "181BPMの乱打譜面。ある程度乱打をして叩いて隙間、ちょっとした皿などが混じってきたり、長めではない乱打を繰り返す譜面。なによりobj:DOANOB名物で正規がありえないくらいハズレているので、終始苦しい配置が延々降ってくる。多分12トリルと67トリルが異様に多い…気がする。そうでなくとも乱打の密度が普通に高い。もちろん正規でプレイすべき。"
   },
   {
     "level": "3",
@@ -2751,7 +2751,7 @@
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=181&event=149",
     "url_diff": "https://stellabms.xyz/upload/6687",
     "md5": "933feb7c38cb5b096ea1994f1ea8845f",
-    "comment": ""
+    "comment": "200BPMの乱打譜面。譜面でメインになっている乱打はあまり長くなく演出的なLNやディレイ風味の箇所が多い。といっても前半後半でしっかり難しい部分があるので地力的な譜面。200の乱打でも密度は少し控えめでそれほど長くなく、ラストで回復出来るならst2かもしれない。"
   },
   {
     "level": "4",
@@ -6661,15 +6661,6 @@
   },
   {
     "level": "8",
-    "title": "Acacia [Kaguya]",
-    "artist": "Snowyplane",
-    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=80&event=135",
-    "url_diff": "https://stellabms.xyz/upload/5966",
-    "md5": "461f91be99f7d0d6d3d23c56ee46210a",
-    "comment": ""
-  },
-  {
-    "level": "8",
     "title": "Dark Candy [HEARTLESS]",
     "artist": "Aspid Cat (BGA Kusanegi & Cattohato / obj:魔女 / BMS Aspid Cat)",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=29&event=146",
@@ -7467,6 +7458,15 @@
     "url": "https://venue.bmssearch.net/bms-classic/13",
     "url_diff": "https://stellabms.xyz/upload/5921",
     "md5": "fc08a9740930a7c7883b65da1f3ec8d0",
+    "comment": ""
+  },
+  {
+    "level": "9",
+    "title": "Acacia [Kaguya]",
+    "artist": "Snowyplane",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=80&event=135",
+    "url_diff": "https://stellabms.xyz/upload/5966",
+    "md5": "461f91be99f7d0d6d3d23c56ee46210a",
     "comment": ""
   },
   {
