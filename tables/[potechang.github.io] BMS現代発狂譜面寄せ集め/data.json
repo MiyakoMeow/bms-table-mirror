@@ -1872,6 +1872,15 @@
     "comment": "181BPMの乱打譜面で、時々あるスネア連打に合わせた2連打複合ラッシュが来る。何度か来るので局所難的な要素もありながらメインは乱打で、乱打でゲージ維持出来るなら十分クリア出来る。乱打は癖が無くそれほど長くなく、トータルがやや高め（0.234）。ラストはかなり餡蜜が入りやすい配置になっているのでなんとか残しやすいか。"
   },
   {
+    "level": "2",
+    "title": "Poppi'n Eater [DOATHER]",
+    "artist": "Tiv / BGI:蒼流リダ obj:DOANOB",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=65&event=149",
+    "url_diff": "https://stellabms.xyz/upload/6686",
+    "md5": "e7d77bb94ec9297e4ce139bb82479720",
+    "comment": ""
+  },
+  {
     "level": "3",
     "title": "heterogeneous complementarity [QUANTUM]",
     "artist": "lixound obj:Leirion",
@@ -2733,6 +2742,15 @@
     "url": "https://mega-mor-fest.netlify.app/",
     "url_diff": "",
     "md5": "05f8ecf232233c4cf61df095d9031992",
+    "comment": ""
+  },
+  {
+    "level": "3",
+    "title": "ZERO [Missing-Lunar]",
+    "artist": "Notorious(Nota & TRIAL) BGA：出前 / obj:kurekoduki",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=181&event=149",
+    "url_diff": "https://stellabms.xyz/upload/6687",
+    "md5": "933feb7c38cb5b096ea1994f1ea8845f",
     "comment": ""
   },
   {
