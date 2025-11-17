@@ -3,10 +3,15 @@ use std::{fs, io::Write, sync::Mutex};
 pub struct DualLogger {
     inner: env_logger::Logger,
     warn_file: Option<Mutex<fs::File>>, // 仅记录 warn 级别到文件
+    crate_prefix: String,
 }
 
 impl log::Log for DualLogger {
     fn enabled(&self, metadata: &log::Metadata) -> bool {
+        let target = metadata.target();
+        if !target.starts_with(&self.crate_prefix) {
+            return false;
+        }
         self.inner.enabled(metadata)
     }
 
@@ -47,7 +52,12 @@ pub fn init_logger() {
         .ok()
         .map(Mutex::new);
 
-    let dual = DualLogger { inner, warn_file };
+    let crate_prefix = env!("CARGO_PKG_NAME").replace('-', "_");
+    let dual = DualLogger {
+        inner,
+        warn_file,
+        crate_prefix,
+    };
     let _ = log::set_boxed_logger(Box::new(dual));
     // 放开最大级别，具体过滤由 inner.enabled 控制
     log::set_max_level(log::LevelFilter::Trace);
