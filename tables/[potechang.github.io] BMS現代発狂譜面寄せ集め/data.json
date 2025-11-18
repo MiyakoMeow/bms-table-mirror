@@ -3492,6 +3492,15 @@
     "comment": "192BPMの微縦譜面。2-2や3-1前後の密度で、密度はかなり薄い代わりに最初から最後までずっと2連打が付きまとい、休憩はほぼ無い。ディレイもそれなりに邪魔してくる。体感の難しさに対して密度が異様に低く、同難易度帯で類似譜面がほとんどない（多分）"
   },
   {
+    "level": "4",
+    "title": "未来エポック [深淵]",
+    "artist": "うしろぎよあ (dawn-system) Movie: 自動車 原付 / うまるつふり obj:でっていう99",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=451&event=140",
+    "url_diff": "https://stellabms.xyz/upload/6695",
+    "md5": "c915531f2afbca89ca81231401e3bccb",
+    "comment": ""
+  },
+  {
     "level": "5",
     "title": "MooNatioN [BirthDie]",
     "artist": "287 a.k.a. EXAM.S obj by Nuclein",
