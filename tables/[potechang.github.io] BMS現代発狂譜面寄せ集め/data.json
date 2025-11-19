@@ -3498,7 +3498,7 @@
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=451&event=140",
     "url_diff": "https://stellabms.xyz/upload/6695",
     "md5": "c915531f2afbca89ca81231401e3bccb",
-    "comment": ""
+    "comment": "127BPMのガチ押し譜面。殆ど休憩が無く密度やや控えめで抑揚のついたガチ押し。力む必要があるところも瞬間的に来てすぐ治まる形が多いので、脱力が求められる。長い分密度はst2～3程度で耐えやすい…と思わせてから最後付近で急に密度が上がり、綺麗な対称発狂が来るので殺意が高い。長さもあってst4でもだいぶ苦しい譜面。もちろん正規は押しづらい。"
   },
   {
     "level": "5",
@@ -5364,6 +5364,15 @@
     "comment": "133BPMの正統派ガチ押し譜面。色々な形で降ってきてどれも癖が無く、軸が薄くも濃くもない上、ずっと続かずにある程度の長さで隙間をくれるため、個人差が出にくい正統派なガチ押し譜面になっている。確かに密度が高いところは高いが、一瞬で終わったり何かと一呼吸くれるのが良心的でオススメ。"
   },
   {
+    "level": "6",
+    "title": "Xerynth Zorok [Stiila]",
+    "artist": "wbr obj:1mi",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=309&event=149",
+    "url_diff": "https://stellabms.xyz/upload/6696",
+    "md5": "c873e16f8799bc2aee552edc351701ac",
+    "comment": "227BPMの正統派乱打譜面。3-2/4-1、均等気味/均等でない、を地帯ごとに組み合わせられているような形。前半は区切りが多く優しめで、後半が区切りがなくなるので本番。しっかり押しに行かないと残らない上BPMが早いのでst6でもやや強めのst6。正統派乱打なので練習にはオススメ。個人的には正規が難しめな配置をしている。"
+  },
+  {
     "level": "7",
     "title": "Primo Magic[OneStepForward!]",
     "artist": "kooridori Feat.猫柳なぎ BGA:MUSH.T ILLUST:コトバッチ obj:tsukisaka",
@@ -6964,6 +6973,15 @@
     "url_diff": "https://stellabms.xyz/upload/6663",
     "md5": "18ce43b3d981fb08613292b1bd50da69",
     "comment": "220BPMの乱打がメインで、連打やディレイなども顔を出す譜面。乱打の密度は控えめな3-2前後で程よく軸がついていて、しっかり押しに行かないと残らない。乱打自体はそれほど長いわけではなく何度も休憩をくれたりする。その分時々ディレイや連打で殺意の高い配置が来るので、乱打では維持できないと厳しい。st7～st8"
+  },
+  {
+    "level": "8",
+    "title": "Gnome [HEARTLESS]",
+    "artist": "utah obj:魔女",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=228&event=137",
+    "url_diff": "https://stellabms.xyz/upload/6698",
+    "md5": "f8577f50620155fccd569f7b67795264",
+    "comment": "128BPMの軸系ガチ押し譜面。一見わかりにくい押しづらい配置で、具体的には1小節に16連打の軸が多い上、それに付随するように2レーンで16分の遅いトリルがどこかしらにあり、軸を必死に押すと濃くないトリルがハマってしまうので、見た目以上に押しづらい。ラストはじわじわ終わる形で終わるのでトータルが低め（0.173）でも体感はそれほど低くない。正規がハズレ気味。"
   },
   {
     "level": "9",
