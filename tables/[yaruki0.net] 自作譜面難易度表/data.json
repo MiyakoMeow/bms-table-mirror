@@ -744,6 +744,18 @@
     "misc": ""
   },
   {
+    "md5": "df7dae9949608310dd3070a345d3c67d",
+    "sha256": "49b900bf734de7aa5db887195a1480002da37ad84c04faef157b232bee4ef1ab",
+    "title": "諦胆/Teitan (Dying World Mix) [DP]",
+    "genre": "AMBIENT BLACK METAL / POETRY READING",
+    "artist": "Takuya Namba illust:morph / obj:nor",
+    "level": "☆3",
+    "comment": "",
+    "url": "https://mega-mor-fest.netlify.app",
+    "url_diff": "同梱",
+    "misc": ""
+  },
+  {
     "md5": "0044f98815993d6fdfd175f3f8ec81d3",
     "sha256": "ef10f8e791a9c82862dcd566d2732c7b9eaae923a5d9fbaa9bcc261a8ae9d712",
     "title": "雨色 [DP Normal]",
@@ -4284,6 +4296,18 @@
     "misc": ""
   },
   {
+    "md5": "23bce9e2c7ed02447e522bc47cb30c1f",
+    "sha256": "dfc21c4f921ae3e69d963e3ea76c367c4a0fe0dbbb37d6fdcc06ecb589cfc95d",
+    "title": "諦胆/Teitan (Self-Deception Mix) [DP NORMAL]",
+    "genre": "BREAKCORE / FRENCHCORE / AVANT-GARDE BLACK METAL",
+    "artist": "Takuya Namba illust:morph / obj:nor",
+    "level": "☆7",
+    "comment": "",
+    "url": "https://mega-mor-fest.netlify.app",
+    "url_diff": "同梱",
+    "misc": ""
+  },
+  {
     "md5": "d6a39020e3f0b79ebba2dfd746d1a034",
     "sha256": "28fa8176a7d21332001e0c9c48ab40dad970a894d70bfd98c3a2abf0afbb2056",
     "title": "遠い春を告げるあの娘の足音",
@@ -7464,6 +7488,18 @@
     "misc": ""
   },
   {
+    "md5": "5b8d8cd00889a7305fd361463ed7fbf9",
+    "sha256": "a751a49bdb87bb0f9706cdfe2b7394d8994bdaa51e74b5c7f69d6820cd96b442",
+    "title": "stairway to the universe",
+    "genre": "synth beat",
+    "artist": "maki obj.nor",
+    "level": "☆11弱",
+    "comment": "低速と地雷の競演。地雷を抜けてから全繋ぎすればノマゲできるが、徐々に加速するので厳しい",
+    "url": "http://aquaseeds.net/",
+    "url_diff": "https://yaruki0.net/sabun/stairway_14.zip",
+    "misc": ""
+  },
+  {
     "md5": "91f03ef86046d86999a1eedbb900c6df",
     "sha256": "948ed58973e6a41e60ba998bb519366e39e6993d1b5021b78e4b6d10c47c4d19",
     "title": "The Bass Kills You",
@@ -8072,6 +8108,18 @@
     "level": "☆11中",
     "comment": "",
     "url": "https://venue.bmssearch.net/bmsshuin2/48",
+    "url_diff": "同梱",
+    "misc": ""
+  },
+  {
+    "md5": "e82b7bef9d0cdbc310845a16c40e35ba",
+    "sha256": "0bb518ad4cdcff841bccbad1efd0cfe9b242f9159063a152e905fdfa954ebe87",
+    "title": "諦胆/Teitan (Self-Deception Mix) [DP HYPER]",
+    "genre": "BREAKCORE / FRENCHCORE / AVANT-GARDE BLACK METAL",
+    "artist": "Takuya Namba illust:morph / obj:nor",
+    "level": "☆11中",
+    "comment": "",
+    "url": "https://mega-mor-fest.netlify.app",
     "url_diff": "同梱",
     "misc": ""
   },
@@ -8838,6 +8886,30 @@
     "genre": "Footwork",
     "artist": "maru / BGA:Johnny obj.nor",
     "level": "★5~",
+    "comment": "",
+    "url": "",
+    "url_diff": "",
+    "misc": ""
+  },
+  {
+    "md5": "52c661544822f71c7e5188ca90997fcc",
+    "sha256": "8aec650e7d6fbfe263d17533bf9eab0b9930942ebc4cc8ad1a966867845c9f18",
+    "title": "[DP New period]",
+    "genre": "Footwork",
+    "artist": "maru BGA:8 to 7 obj.nor",
+    "level": "★5~",
+    "comment": "",
+    "url": "",
+    "url_diff": "",
+    "misc": ""
+  },
+  {
+    "md5": "6917fb268e7c1dc59575f7e4d75db129",
+    "sha256": "fe9250acfa26a77870bc2949d14f0c5ab99737cf0ec3f3fc16d888f95e02a01c",
+    "title": "[DP New period]",
+    "genre": "Footwork",
+    "artist": "maru / BGA:Johnny obj.nor",
+    "level": "★5~",
     "comment": "新時代の人間用譜面。引っ越し",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=449&event=110",
     "url_diff": "同梱",
@@ -8877,6 +8949,18 @@
     "comment": "数十回停止する印象が強いが、物量的にも結構ひどい",
     "url": "https://yaruki0.net/musics/",
     "url_diff": "同梱",
+    "misc": ""
+  },
+  {
+    "md5": "0441daa4a6514f051deadd16db5beed0",
+    "sha256": "23c7d0282d84641739c8d03e78e98ea36be8947968650afcf1a9e50dce40e7e1",
+    "title": "BlackCity [14EXTRA]",
+    "genre": "Breakbeats",
+    "artist": "Telno VS 流菜 / BGA:Johnny",
+    "level": "★5~",
+    "comment": "",
+    "url": "",
+    "url_diff": "",
     "misc": ""
   },
   {
@@ -9272,6 +9356,18 @@
     "level": "★5~",
     "comment": "",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=2&event=139",
+    "url_diff": "同梱",
+    "misc": ""
+  },
+  {
+    "md5": "3b79f89cdc44420f3334b2427f65b9da",
+    "sha256": "31c64586b725af93376e80437dbda7db63c135c48815f80b6f9a6c652eeba148",
+    "title": "諦胆/Teitan (Witch Mix) [DP]",
+    "genre": "BREAKCORE",
+    "artist": "Takuya Namba illust:morph / arr:魔女 / obj:nor",
+    "level": "★5~",
+    "comment": "",
+    "url": "https://mega-mor-fest.netlify.app",
     "url_diff": "同梱",
     "misc": ""
   },
