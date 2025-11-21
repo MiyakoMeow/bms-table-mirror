@@ -414,6 +414,15 @@
     "comment": "146BPMの2連打譜面。たまに3連打がある。1レーンがほとんどキックだけになっていて連打が2～6レーンに多い正規系の配置をしているので、正規が得意だと押しやすめ。曲から想像しやすい素直なわかりやすい構成で体力要求も少なく遊びやすい。"
   },
   {
+    "level": "0",
+    "title": "★So SweeT LittlE HearT★ [★OveR HeaT★]",
+    "artist": "kbwnk max obj:sgn",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=31&event=80",
+    "url_diff": "https://stellabms.xyz/upload/6708",
+    "md5": "5bfe874f6995dd945b85612e109888df",
+    "comment": ""
+  },
+  {
     "level": "1",
     "title": "Babel [NAGITHER]",
     "artist": "Nizikawa feat. nayuta Movie: Air 譜面: 久川凪",
@@ -1015,6 +1024,15 @@
     "url_diff": "https://stellabms.xyz/upload/6656",
     "md5": "0313052174b599b7347bc27af15e3cf3",
     "comment": "215BPMの乱打譜面。2-2や、3-2-2-2の密度で、特に正規が二重階段/桂馬二重階段やその折り返しがかなり多い乱打。★17 Inherited Worldを強化したような配置なので、あれで苦戦したひとは破壊される。逆に言えば乱で当たりやすい譜面でもあるのでそれ込みでst1くらいの難易度。譜面自体は楽しいのでオススメ。"
+  },
+  {
+    "level": "1",
+    "title": "E reviver -imaging you- (新月)",
+    "artist": "美月 正 / 雪凛 ♪ +",
+    "url": "http://web.archive.org/web/20120616084603/http://tsubu.ath.cx/~electrogic/bms/e_rev_m.zip",
+    "url_diff": "https://stellabms.xyz/upload/6707",
+    "md5": "e590bac25b70d172da82848776495f72",
+    "comment": ""
   },
   {
     "level": "2",
