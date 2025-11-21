@@ -1026,15 +1026,6 @@
     "comment": "215BPMの乱打譜面。2-2や、3-2-2-2の密度で、特に正規が二重階段/桂馬二重階段やその折り返しがかなり多い乱打。★17 Inherited Worldを強化したような配置なので、あれで苦戦したひとは破壊される。逆に言えば乱で当たりやすい譜面でもあるのでそれ込みでst1くらいの難易度。譜面自体は楽しいのでオススメ。"
   },
   {
-    "level": "1",
-    "title": "E reviver -imaging you- (新月)",
-    "artist": "美月 正 / 雪凛 ♪ +",
-    "url": "http://web.archive.org/web/20120616084603/http://tsubu.ath.cx/~electrogic/bms/e_rev_m.zip",
-    "url_diff": "https://stellabms.xyz/upload/6707",
-    "md5": "e590bac25b70d172da82848776495f72",
-    "comment": ""
-  },
-  {
     "level": "2",
     "title": "Little Guardian [Kvama]",
     "artist": "69 de 74 obj:1mi",
@@ -1897,6 +1888,15 @@
     "url_diff": "https://stellabms.xyz/upload/6686",
     "md5": "e7d77bb94ec9297e4ce139bb82479720",
     "comment": "181BPMの乱打譜面。ある程度乱打をして叩いて隙間、ちょっとした皿などが混じってきたり、長めではない乱打を繰り返す譜面。なによりobj:DOANOB名物で正規がありえないくらいハズレているので、終始苦しい配置が延々降ってくる。多分12トリルと67トリルが異様に多い…気がする。そうでなくとも乱打の密度が普通に高い。もちろん正規でプレイすべき。"
+  },
+  {
+    "level": "2",
+    "title": "E reviver -imaging you- (新月)",
+    "artist": "美月 正 / 雪凛 ♪ +",
+    "url": "http://web.archive.org/web/20120616084603/http://tsubu.ath.cx/~electrogic/bms/e_rev_m.zip",
+    "url_diff": "https://stellabms.xyz/upload/6707",
+    "md5": "e590bac25b70d172da82848776495f72",
+    "comment": ""
   },
   {
     "level": "3",
