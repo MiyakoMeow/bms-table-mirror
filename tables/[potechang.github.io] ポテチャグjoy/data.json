@@ -1621,21 +1621,6 @@
   },
   {
     "level": "11",
-    "title": "EX-AID [ダークネスピーチ]",
-    "artist": "Black201",
-    "BPM": "160",
-    "Notes": "2914",
-    "TOTAL": "610",
-    "TN": "0.209",
-    "md5": "f3fb2e58f6c7f13d56a6856d0703aba7",
-    "sha256": "5a4f8a652454c5064e8b0af214e8ef633860e0af7436150e743ba5dfb6cafc89",
-    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=63&event=144",
-    "url_diff": "https://drive.usercontent.google.com/u/0/uc?id=1Ss2bzNtI82tpg2Clx1nfIohkXo6M0T8l&export=download",
-    "comment": "320乱打 かなり均等",
-    "tn": "0.20933424845573095"
-  },
-  {
-    "level": "11",
     "title": "墓守少女 [Ruinous Love]",
     "artist": "Utuka",
     "BPM": "160",
