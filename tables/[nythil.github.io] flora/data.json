@@ -324,6 +324,41 @@
     "adddate": "9\/24\/2025"
   },
   {
+    "md5": "b8416c9ac52871f62c66942bbe2f2b55",
+    "org_level": 11,
+    "title": "Disco☆Girl -踊る少女-",
+    "artist": "T2o Feat 盧静",
+    "folder": "花0",
+    "level": "0",
+    "lr2_bmsid": null,
+    "url": "",
+    "url_diff": "",
+    "name_diff": null,
+    "org_md5s": [
+      "2120dbb8640934319e45eae49b6b7c95",
+      "6534665b0d3ab59022fb04c16810d057",
+      "b24c13682ca5800506330bb8dfb9cc14",
+      "d320e6768039a38ead6881192c266cf6",
+      "5981eab410a4e22c160333b4a458af35",
+      "03f869a02e23df8234545aee70f05222",
+      "b8416c9ac52871f62c66942bbe2f2b55",
+      "0b518dd7b6e46c147245a7b9d4a6dcc7",
+      "87dceba058d279b5c7f6a6a1bc5b9e28",
+      "6a68946a21fcb27dc9495e60a8954f07",
+      "c35467eb479a288a443eba42d231770e",
+      "42c076ca9d04b6eff1055234266d16fc",
+      "3ae8df303c29a607ffee6f84810ede86",
+      "9e2225b17f6d7650d0c7812a82e79a0e",
+      "0b9f4c8c62f8c3823352211579cf1c1a",
+      "7a557df95dbd501966cf160fdc86b4d7",
+      "969b347204d526bb73e1c504e7343e6f",
+      "52c471f7736c044b9295eae40364b254"
+    ],
+    "org_md5": "2120dbb8640934319e45eae49b6b7c95",
+    "comment": "",
+    "adddate": "11\/22\/2025"
+  },
+  {
     "md5": "d0da1409ade5cd53d7e664fa27297c2e",
     "org_level": 0,
     "title": "IN",
@@ -1276,6 +1311,27 @@
     "org_md5": "",
     "comment": "★1\/128",
     "adddate": "9\/30\/2025"
+  },
+  {
+    "md5": "d4f1765da19391191beafc264e1472a6",
+    "org_level": 11,
+    "title": "There's a lot we don't know [7another]",
+    "artist": "Sobrem",
+    "folder": "花1",
+    "level": "1",
+    "lr2_bmsid": null,
+    "url": "",
+    "url_diff": "",
+    "name_diff": null,
+    "org_md5s": [
+      "387a51f112c07c1a504a1bb2a466b610",
+      "bff3c119f31d92ac980b8a9c9d54b72b",
+      "7f16ba7b8a249345eb796be609c2544d",
+      "d4f1765da19391191beafc264e1472a6"
+    ],
+    "org_md5": "387a51f112c07c1a504a1bb2a466b610",
+    "comment": "",
+    "adddate": "11\/22\/2025"
   },
   {
     "md5": "bdd4a277a0296bde5807c6980681af21",
@@ -4250,6 +4306,32 @@
     "adddate": "8\/28\/2025"
   },
   {
+    "md5": "41528078b793f7cebf5ca905a3031134",
+    "org_level": 12,
+    "title": "auf Wiedersehen [Qual]",
+    "artist": "adamthix",
+    "folder": "花9",
+    "level": "9",
+    "lr2_bmsid": null,
+    "url": "",
+    "url_diff": "",
+    "name_diff": null,
+    "org_md5s": [
+      "41a8e2796563e809851fda03bc1c4940",
+      "c2563ba82d06656e387cc974e3f5d65b",
+      "03186b419909985fe57d766c482816ba",
+      "9505b0b5913061886a7087eb86924a4a",
+      "cfe95ebd00bfac8906171295ce0e4541",
+      "98c9303878240de1c56295f8f6e8c6af",
+      "2b5f4d6bfa3db308be65d60d703aafe4",
+      "41528078b793f7cebf5ca905a3031134",
+      "e23544b7a4a99791e3953d6a23730f18"
+    ],
+    "org_md5": "41a8e2796563e809851fda03bc1c4940",
+    "comment": "",
+    "adddate": "11\/22\/2025"
+  },
+  {
     "md5": "5fae30bee9c1eac274eb919d2c94aac0",
     "org_level": 9,
     "title": "Bloody Malie -Ex-",
@@ -4280,6 +4362,34 @@
     "org_md5": "",
     "comment": "",
     "adddate": "9\/24\/2025"
+  },
+  {
+    "md5": "6158aab419e178c113883daacd6b6902",
+    "org_level": 8,
+    "title": "God-free (eden)",
+    "artist": "Zris feat. Kri & Ifeanyi \/ nbunnyuwu",
+    "folder": "花9",
+    "level": "9",
+    "lr2_bmsid": null,
+    "url": "",
+    "url_diff": "",
+    "name_diff": null,
+    "org_md5s": [
+      "71a500f053a65a89bbc4fa3147c3c0b9",
+      "0a07431f9cefc637e4004bc5fffb1b19",
+      "67c315cfe27f162f9797e195f511444d",
+      "f58429422162ee9e5e3e887e85f901ba",
+      "16ddacba80e6bd35123b580759e114b9",
+      "b41855b3da84cf7cf3285e2011ea853f",
+      "2156f5d13527f370ef80938b19c6feaa",
+      "ffb33b3cecc18e17950d376eb20a9640",
+      "29cb02ce647c46424aef35835f33536a",
+      "6158aab419e178c113883daacd6b6902",
+      "50549a4704f56c42a94fa3e93a3b49f8"
+    ],
+    "org_md5": "71a500f053a65a89bbc4fa3147c3c0b9",
+    "comment": "",
+    "adddate": "11\/22\/2025"
   },
   {
     "md5": "447a0f246986d7173bec5392e63207f8",
@@ -12413,6 +12523,34 @@
     "org_md5": "",
     "comment": "",
     "adddate": "8\/28\/2025"
+  },
+  {
+    "md5": "29cb02ce647c46424aef35835f33536a",
+    "org_level": 24,
+    "title": "God-free [pangram]",
+    "artist": "Zris feat. Kri & Ifeanyi \/ obj:Criyajuh",
+    "folder": "花23",
+    "level": "23",
+    "lr2_bmsid": null,
+    "url": "",
+    "url_diff": "",
+    "name_diff": null,
+    "org_md5s": [
+      "71a500f053a65a89bbc4fa3147c3c0b9",
+      "0a07431f9cefc637e4004bc5fffb1b19",
+      "67c315cfe27f162f9797e195f511444d",
+      "f58429422162ee9e5e3e887e85f901ba",
+      "16ddacba80e6bd35123b580759e114b9",
+      "b41855b3da84cf7cf3285e2011ea853f",
+      "2156f5d13527f370ef80938b19c6feaa",
+      "ffb33b3cecc18e17950d376eb20a9640",
+      "29cb02ce647c46424aef35835f33536a",
+      "6158aab419e178c113883daacd6b6902",
+      "50549a4704f56c42a94fa3e93a3b49f8"
+    ],
+    "org_md5": "71a500f053a65a89bbc4fa3147c3c0b9",
+    "comment": "",
+    "adddate": "11\/22\/2025"
   },
   {
     "md5": "7e4313871af7914a8f969910a9bc45a0",
