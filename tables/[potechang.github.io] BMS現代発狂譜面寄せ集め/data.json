@@ -420,7 +420,7 @@
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=31&event=80",
     "url_diff": "https://stellabms.xyz/upload/6708",
     "md5": "5bfe874f6995dd945b85612e109888df",
-    "comment": ""
+    "comment": "168BPMの乱打譜面。168の★LittlE HearTs★(GOD)のような乱打譜面で、構成がやや似ていて、中盤に熱暴走地帯がある。でも熱暴走地帯はそれほど難しくなく、普通に後半で密度が上がりやや難しめ、前半中盤も油断は出来ないくらいのバランス正統派乱打。正規がだいぶハズれているので正規では若干難易度が上がる。"
   },
   {
     "level": "1",
@@ -1896,7 +1896,7 @@
     "url": "http://web.archive.org/web/20120616084603/http://tsubu.ath.cx/~electrogic/bms/e_rev_m.zip",
     "url_diff": "https://stellabms.xyz/upload/6707",
     "md5": "e590bac25b70d172da82848776495f72",
-    "comment": ""
+    "comment": "176BPMの乱打譜面。前半と後半の2回の乱打が本体で、普通に密度が高く配置が難しめ、軸がそれなりに濃いこととディレイが混ざってくるのが凶悪で、押しそびれるとハマる。4-3の密度も多々ある上さらに正規がかなり押しづらく、st2かそれ以上の難易度の難しさ。譜面自体は真っ当な地力譜面なので正統派。"
   },
   {
     "level": "3",
@@ -2770,6 +2770,15 @@
     "url_diff": "https://stellabms.xyz/upload/6687",
     "md5": "933feb7c38cb5b096ea1994f1ea8845f",
     "comment": "200BPMの乱打譜面。譜面でメインになっている乱打はあまり長くなく演出的なLNやディレイ風味の箇所が多い。といっても前半後半でしっかり難しい部分があるので地力的な譜面。200の乱打でも密度は少し控えめでそれほど長くなく、ラストで回復出来るならst2かもしれない。"
+  },
+  {
+    "level": "3",
+    "title": "inurned nature [Providence]",
+    "artist": "Lidelle feat. eili + AKA Movie: あるし Obj: И",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=357&event=149",
+    "url_diff": "https://stellabms.xyz/upload/6714",
+    "md5": "5d8058ec76ef534409518ff811fce093",
+    "comment": "140BPMのガチ押し譜面。2連打主体のガチ押しで、中盤は皿やLNなども少し顔を出す。ガチ押しの配置の個性が強く、1レーンがキックでスカスカ、2～7レーンにガチ押しがびっしりという形が多く、正規では右手側の負担が大きい偏り方をしている。地力でなんとかなる範疇で、乱をかけても大きな差が出るわけではないので、正統派なガチ押しとしてもオススメ。"
   },
   {
     "level": "4",
@@ -7000,6 +7009,15 @@
     "url_diff": "https://stellabms.xyz/upload/6698",
     "md5": "f8577f50620155fccd569f7b67795264",
     "comment": "128BPMの軸系ガチ押し譜面。一見わかりにくい押しづらい配置で、具体的には1小節に16連打の軸が多い上、それに付随するように2レーンで16分の遅いトリルがどこかしらにあり、軸を必死に押すと濃くないトリルがハマってしまうので、見た目以上に押しづらい。ラストはじわじわ終わる形で終わるのでトータルが低め（0.173）でも体感はそれほど低くない。正規がハズレ気味。"
+  },
+  {
+    "level": "8",
+    "title": "spila [11010]",
+    "artist": "lufm obj:SNN",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=41&event=137",
+    "url_diff": "https://stellabms.xyz/upload/6717",
+    "md5": "f5e25984b813dc25417eff048e9c7924",
+    "comment": "234BPMの乱打譜面。BPMがかなり早く234な分、長さはかなり遠慮されていて、回復しやすい箇所がそれなりに多いこともあってst8くらいの難易度。密度は高めでも程よく薄かったり、どちらにしても早めに休憩をくれるので体に優しい。ラス殺し的な配置があり抜きんでて難しいというわけではないが、ちょうど80%を切って沼りそうな怖さがある。"
   },
   {
     "level": "9",
